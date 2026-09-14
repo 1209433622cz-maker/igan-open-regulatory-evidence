@@ -1,0 +1,5 @@
+"file"	"url"	"ftp_declared_size"	"bytes"	"md5"	"sha256"	"status"
+"QTD000584.all.tsv.gz"	"https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000035/QTD000584/QTD000584.all.tsv.gz"	"698M"	"731621677"	"b84f58fc430eed2e0171901ec17731de"	"46f0ea73118adcfbb45c04ae1685d27d6c6471b08654b0b89e38bcab7f91b2c2"	"PASS"
+"QTD000584.all.tsv.gz.tbi"	"https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000035/QTD000584/QTD000584.all.tsv.gz.tbi"	"1.2M"	"1304240"	"01d840c02f7b8cef4d82ba493d50166b"	"f4943818b6130075cdcb515b608d7416932ab1a3761779b6a28d5b73aaa9c273"	"PASS"
+"QTD000584.lbf_variable.txt.gz"	"https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000035/QTD000584/QTD000584.lbf_variable.txt.gz"	"438M"	"459588570"	"4adf7945a81ae802d5626e047a11b57a"	"9b852c0b8565901af67d52302b7875de13c849d3be265cec5b04eebaf3acbd5a"	"PASS"
+"hg19ToHg38.over.chain"	"https://hgdownload.soe.ucsc.edu/goldenPath/hg19/liftOver/hg19ToHg38.over.chain.gz"	"NA"	"606773"	"9267c9fef79b54962da8efadd0ddf6b6"	"a073d8914233b5542d29761ab8ec4b3815052b13964919c12a1efb2e311fbf39"	"PASS"

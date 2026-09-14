@@ -1,0 +1,3 @@
+"file"	"url"	"bytes"	"sha256"	"status"
+"GSE127136_project_IgA_nephropathy_counts.csv.gz"	"https://ftp.ncbi.nlm.nih.gov/geo/series/GSE127nnn/GSE127136/suppl/GSE127136_project_IgA_nephropathy_counts.csv.gz"	"15703242"	"89c3580ad550ae5df9e736bba97101f0ae02e724201b61d2e1f5fa4247dbce40"	"PASS"
+"GSE127136_family.soft.gz"	"https://ftp.ncbi.nlm.nih.gov/geo/series/GSE127nnn/GSE127136/soft/GSE127136_family.soft.gz"	"265591"	"8f7a347ea166c6bed6695107f0225d71f47d5dd3efe63d99b646803c0ada7642"	"PASS"

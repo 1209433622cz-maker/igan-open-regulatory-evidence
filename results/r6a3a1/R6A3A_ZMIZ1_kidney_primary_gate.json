@@ -1,0 +1,16 @@
+{
+  "cases": 13,
+  "paracancer_controls": 6,
+  "donor_detection_fraction": 1.0,
+  "mean_log2CPM_difference_case_minus_control": -0.2563662202045158,
+  "bootstrap95CI": [
+    -0.8353183175590152,
+    0.3326615576720427
+  ],
+  "exact_permutation_p": 0.4827878519828984,
+  "welch_p": 0.4377749773900722,
+  "mannwhitney_p": 0.4670499778858912,
+  "direction": "CASE_LOWER",
+  "status": "INTERPRETABLE_DONOR_LEVEL",
+  "interpretation_boundary": "aggregate kidney pseudobulk; cell-composition sensitive; paracancer controls are not healthy kidney"
+}
