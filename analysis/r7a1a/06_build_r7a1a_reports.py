@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import hashlib, json, shutil
+import hashlib, json, os, shutil
 from pathlib import Path
 import pandas as pd
 
 HERE=Path(__file__).resolve()
-ROOT=HERE.parents[2] if (HERE.parents[2]/".git").exists() else HERE.parents[3]
+DEFAULT_ROOT=HERE.parents[2] if (HERE.parents[2]/".git").exists() else HERE.parents[3]
+ROOT=Path(os.environ.get("R7_PROJECT_ROOT",DEFAULT_ROOT))
 ROUND=ROOT/"7.Report/rounds/R7A1A"
 CURRENT=ROOT/"7.Report/current/R7A1A"
 PROTO=ROOT/"0_admin/protocol/current"

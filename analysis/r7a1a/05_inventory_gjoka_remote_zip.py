@@ -7,14 +7,15 @@ small summary-statistics members are read to recover locus coordinate ranges;
 the large covariance matrices remain remote until a frozen locus is triggered.
 """
 from __future__ import annotations
-import csv, io, json, re
+import csv, io, json, os, re
 from pathlib import Path
 import requests
 from remotezip import RemoteZip
 
 URL="https://www.staff.ncl.ac.uk/heather.cordell/GJOKA_SUMSTATS.zip"
 HERE=Path(__file__).resolve()
-ROOT=HERE.parents[2] if (HERE.parents[2]/".git").exists() else HERE.parents[3]
+DEFAULT_ROOT=HERE.parents[2] if (HERE.parents[2]/".git").exists() else HERE.parents[3]
+ROOT=Path(os.environ.get("R7_PROJECT_ROOT",DEFAULT_ROOT))
 OUT=ROOT/"3_results/01_intake/R7A1A"
 OUT.mkdir(parents=True,exist_ok=True)
 

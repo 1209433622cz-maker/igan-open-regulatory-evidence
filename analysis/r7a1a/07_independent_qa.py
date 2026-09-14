@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import csv, hashlib, json, zipfile
+import csv, hashlib, json, os, zipfile
 from pathlib import Path
 
 HERE=Path(__file__).resolve()
-ROOT=HERE.parents[2] if (HERE.parents[2]/".git").exists() else HERE.parents[3]
+DEFAULT_ROOT=HERE.parents[2] if (HERE.parents[2]/".git").exists() else HERE.parents[3]
+ROOT=Path(os.environ.get("R7_PROJECT_ROOT",DEFAULT_ROOT))
 I=ROOT/"3_results/01_intake/R7A1A"; Q=ROOT/"3_results/03_qtl/R7A1A"
 OUT=ROOT/"3_results/00_audit/R7A1A"; OUT.mkdir(parents=True,exist_ok=True)
 checks=[]
