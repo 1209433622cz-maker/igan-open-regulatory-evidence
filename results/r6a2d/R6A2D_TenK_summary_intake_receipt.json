@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "gene": "REEP3",
+  "gene_ensembl": "ENSG00000165476",
+  "frozen_cells": [
+    "CD4_Naive",
+    "CD4_TCM"
+  ],
+  "auxiliary_cell": "Treg",
+  "gene_level_rows": 3,
+  "source_credible_member_rows": 105,
+  "rows_by_cell_gene_level": {
+    "CD4_Naive": 1,
+    "CD4_TCM": 1,
+    "Treg": 1
+  },
+  "rows_by_cell_susie": {
+    "CD4_Naive": 44,
+    "CD4_TCM": 61,
+    "Treg": 0
+  },
+  "source_archives": {
+    "1_data\\qtl\\eqtl\\tenk10k\\raw\\common_variant_gene_level_results_with_annotated_fails.zip": {
+      "bytes": 10137272,
+      "sha256": "fcb99a4454a2a5f0feb11c56bcedad667400ebbeead2b39f256a25f48b71ae74"
+    },
+    "1_data\\qtl\\eqtl\\tenk10k\\raw\\susie_summary.zip": {
+      "bytes": 59669579,
+      "sha256": "0a2e2cb0dec4b76d18e42b29c36b243a9ccd67b8761f17d20a83ae51f656e7ff"
+    }
+  },
+  "schemas": {
+    "gene_level:CD4_Naive": [
+      "gene",
+      "ACAT_p",
+      "top_MarkerID",
+      "top_pval"
+    ],
+    "gene_level:CD4_TCM": [
+      "gene",
+      "ACAT_p",
+      "top_MarkerID",
+      "top_pval"
+    ],
+    "gene_level:Treg": [
+      "gene",
+      "ACAT_p",
+      "top_MarkerID",
+      "top_pval"
+    ],
+    "susie:CD4_Naive": [
+      "SNP",
+      "Index",
+      "PIP",
+      "Credible_Set",
+      "gene",
+      "celltype"
+    ],
+    "susie:CD4_TCM": [
+      "SNP",
+      "Index",
+      "PIP",
+      "Credible_Set",
+      "gene",
+      "celltype"
+    ],
+    "susie:Treg": [
+      "SNP",
+      "Index",
+      "PIP",
+      "Credible_Set",
+      "gene",
+      "celltype"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+cell_type	source_member	gene	ACAT_p	top_MarkerID	top_pval
+CD4_Naive	gene_level_results_with_annotated_fails/CD4_Naive_all_cis_cv_gene_level_results.tsv	ENSG00000165476	3.21487281240707e-12	10:63521234:C:A	6.11825e-14
+CD4_TCM	gene_level_results_with_annotated_fails/CD4_TCM_all_cis_cv_gene_level_results.tsv	ENSG00000165476	7.81938227389922e-07	10:63511728:A:T	4.03488e-09
+Treg	gene_level_results_with_annotated_fails/Treg_all_cis_cv_gene_level_results.tsv	ENSG00000165476	0.00480617699026942	10:63579041:T:TG	9.59317e-05
