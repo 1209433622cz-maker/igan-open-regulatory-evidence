@@ -1,0 +1,45 @@
+{
+  "trigger_combinations": 3,
+  "trigger_loci": 2,
+  "signal_specific_robust_loci": 0,
+  "unresolved_combinations": 0,
+  "decision": "HOLD_FULL24_REASSESS_DESIGN",
+  "results": [
+    {
+      "locus": "OVOL1/RELA",
+      "gene": "SIPA1",
+      "cell_type": "CD8_ET",
+      "status": "FAIL_NO_STABLE_QTL_CREDIBLE_SIGNAL",
+      "all_configs_converged": true,
+      "primary_credible_sets_95": 0,
+      "primary_max_PIP": 0.0338223543594496,
+      "disease_lead_PIP": 0.00378313203207,
+      "best_signal_PP_H4": null,
+      "best_signal_H4_ratio": null
+    },
+    {
+      "locus": "TNFSF12/13",
+      "gene": "EIF4A1",
+      "cell_type": "CD4_NC",
+      "status": "FAIL_NO_STABLE_QTL_CREDIBLE_SIGNAL",
+      "all_configs_converged": true,
+      "primary_credible_sets_95": 0,
+      "primary_max_PIP": 0.116185706063193,
+      "disease_lead_PIP": 0.0006577193206941,
+      "best_signal_PP_H4": null,
+      "best_signal_H4_ratio": null
+    },
+    {
+      "locus": "TNFSF12/13",
+      "gene": "SAT2",
+      "cell_type": "B_IN",
+      "status": "FAIL_NO_STABLE_QTL_CREDIBLE_SIGNAL",
+      "all_configs_converged": true,
+      "primary_credible_sets_95": 0,
+      "primary_max_PIP": 0.324906525540454,
+      "disease_lead_PIP": 0.0002006598665328,
+      "best_signal_PP_H4": null,
+      "best_signal_H4_ratio": null
+    }
+  ]
+}

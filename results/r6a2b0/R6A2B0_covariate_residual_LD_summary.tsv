@@ -1,0 +1,4 @@
+locus	gene	cell	active_donors	variants	gate_pass
+OVOL1/RELA	SIPA1	CD8_ET	980	2258	True
+TNFSF12/13	EIF4A1	CD4_NC	980	3519	True
+TNFSF12/13	SAT2	B_IN	975	3428	True
