@@ -2,6 +2,8 @@
 
 日期：2026-09-14
 
+公开复现仓库：<https://github.com/1209433622cz-maker/igan-open-regulatory-evidence>
+
 ## 最终判定
 
 ```text
@@ -71,3 +73,4 @@ R6A2C 只允许：
 
 如果 REEP3 不能通过 signal-specific 与跨资源门，则停止继续扩 IgAN 免疫细胞 cis-expression 位点。届时应重构问题或换用公开 pQTL/kidney-layer 设计，而不是继续增加第 9、10 个位点。
 
+本轮代码、协议、小型结果、图、报告和大文件 manifest 已推送至上述公共仓库。远端已验证 `visibility=PUBLIC`、默认分支为 `main`，README 可直接读取。
