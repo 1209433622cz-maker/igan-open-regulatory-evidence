@@ -1,0 +1,19 @@
+{
+  "stage": "R7A1A",
+  "status": "COMPLETE",
+  "new_primary_project": "NOT_YET_APPROVED",
+  "pbc": "GO_R7A1B_BOUNDED_SIGNAL_GATE",
+  "ced": "HOLD_NOT_SELECTED",
+  "excluded_ced_source": "GCST90014442_UK_BIOBANK_DERIVED",
+  "pbc_controls": {
+    "IL12RB2": "SOURCE_POSITIVE",
+    "FCRL3": "SOURCE_POSITIVE",
+    "INAVA": "TESTABLE_ONEK_WEAK"
+  },
+  "ced_controls": {
+    "CSK": "TESTABLE_ONEK_WEAK",
+    "TRAFD1": "TESTABLE_ONEK_WEAK",
+    "UBASH3A": "SOURCE_POSITIVE"
+  },
+  "next_stage": "R7A1B_PBC_3CONTROL_SIGNAL_GATE"
+}

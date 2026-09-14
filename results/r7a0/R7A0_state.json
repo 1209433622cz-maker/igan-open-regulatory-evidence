@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-15",
+  "stage": "R7A0",
+  "status": "COMPLETE_PORTFOLIO_GATE0_SOURCE_AUDIT",
+  "upstream_R6A3A1_integrity": "PASS",
+  "old_projects": {
+    "SSc": "FROZEN_ARCHIVE",
+    "MG": "FROZEN_ARCHIVE",
+    "IgAN": "FROZEN_ARCHIVE"
+  },
+  "ranking": [
+    {
+      "candidate": "PBC",
+      "rank": 1,
+      "status": "ADVANCE_R7A1A",
+      "byte_identity": "NOT_TESTED_CURRENT_CHAT"
+    },
+    {
+      "candidate": "CeD",
+      "rank": 2,
+      "status": "ADVANCE_R7A1A",
+      "byte_identity": "NOT_TESTED_CURRENT_CHAT"
+    },
+    {
+      "candidate": "AA",
+      "rank": 3,
+      "status": "FAIL_GATE0_CORE_GWAS"
+    }
+  ],
+  "new_primary_project": "NOT_YET_APPROVED",
+  "next_stage": "R7A1A_PBC_CeD_TRUE_BYTE_QTL_PREFLIGHT",
+  "github_read_verification": "PASS",
+  "github_last_verified_head": "5be29034298192b1772dbf75696294ec8e276529",
+  "github_r7a0_remote_sync": "PENDING_LOCAL_SYNC_CONNECTOR_403"
+}

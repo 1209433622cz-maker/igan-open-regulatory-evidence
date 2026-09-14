@@ -1,0 +1,7 @@
+candidate	gene	cytoband	OneK_observed_cells	OneK_source_sig_cells	OneK_cells	TenK_observed_cells	TenK_source_sig_cells	TenK_cells	TenK_SuSiE_cells	TenK_SuSiE_cell_names	cross_resource_byte_testable	cross_resource_source_positive
+PBC	IL12RB2	1p31.3	7	1	NK	26	15	B_intermediate;CD4_CTL;CD4_Naive;CD4_TCM;CD4_TEM;CD8_Naive;CD8_TCM;CD8_TEM;HSPC;MAIT;NK;NK_CD56bright;NK_Proliferating;Treg;gdT	11	CD4_CTL;CD4_TCM;CD4_TEM;CD8_TCM;CD8_TEM;MAIT;NK;NK_CD56bright;NK_Proliferating;Treg;gdT	True	True
+PBC	FCRL3	1q23.1	12	7	B_IN;B_MEM;CD4_NC;CD8_ET;CD8_NC;NK;NK_R	18	17	B_intermediate;B_memory;B_naive;CD4_CTL;CD4_Proliferating;CD4_TEM;CD8_Proliferating;CD8_TCM;CD8_TEM;ILC;MAIT;NK;NK_CD56bright;NK_Proliferating;Treg;dnT;gdT	14	B_intermediate;B_memory;B_naive;CD4_CTL;CD4_TEM;CD8_TCM;CD8_TEM;ILC;MAIT;NK;NK_CD56bright;NK_Proliferating;Treg;gdT	True	True
+PBC	INAVA	1q32.1	1	0		1	1	CD4_Proliferating	1	CD4_Proliferating	True	False
+CeD	CSK	15q24	14	0		28	5	B_intermediate;B_memory;B_naive;CD14_Mono;pDC	3	B_memory;B_naive;pDC	True	False
+CeD	TRAFD1	12q24	14	0		28	1	B_naive	0		True	False
+CeD	UBASH3A	21q22	11	4	CD4_ET;CD4_NC;CD8_ET;CD8_NC	19	13	CD4_CTL;CD4_Naive;CD4_TCM;CD4_TEM;CD8_Naive;CD8_TCM;CD8_TEM;MAIT;NK;NK_CD56bright;Treg;dnT;gdT	11	CD4_CTL;CD4_Naive;CD4_TCM;CD4_TEM;CD8_Naive;CD8_TCM;CD8_TEM;MAIT;NK_CD56bright;Treg;gdT	True	True

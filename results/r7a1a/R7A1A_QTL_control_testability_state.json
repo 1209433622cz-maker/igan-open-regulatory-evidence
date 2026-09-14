@@ -1,0 +1,20 @@
+{
+  "CeD": {
+    "controls": 3,
+    "cross_resource_byte_testable": 3,
+    "OneK_source_supported": 1,
+    "TenK_source_or_CS_supported": 3,
+    "cross_resource_source_positive": 1,
+    "gate_3_controls_byte_testable": "PASS",
+    "strict_positive_gate_3_of_3": "FAIL"
+  },
+  "PBC": {
+    "controls": 3,
+    "cross_resource_byte_testable": 3,
+    "OneK_source_supported": 2,
+    "TenK_source_or_CS_supported": 3,
+    "cross_resource_source_positive": 2,
+    "gate_3_controls_byte_testable": "PASS",
+    "strict_positive_gate_3_of_3": "FAIL"
+  }
+}

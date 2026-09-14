@@ -19,6 +19,10 @@ R6A3A1 has now completed the public pQTL and kidney gate on real bytes. Of 11 pr
 
 The final state is `IGAN_REGULATORY_MAIN = FROZEN_ARCHIVE`. The next protocol is R7A0, an open-data completion-first portfolio preflight across celiac disease, primary biliary cholangitis and alopecia areata.
 
+R7A1A has now completed the true-byte portfolio gate. PBC `GCST90061440` passed its 5,054,572-row schema audit and exposes 56 matched locus summary-statistics/LD pairs in the GJOKA archive. All three frozen PBC controls are cross-resource testable; IL12RB2 and FCRL3 are source-positive in both OneK1K and TenK10K, while INAVA/C1orf106 is weak in OneK1K. CeD was held because only UBASH3A was source-positive in both resources, its 2020 Immunochip file lacks SE, and the larger `GCST90014442` source is UK Biobank-derived and therefore excluded by the frozen data rule.
+
+The current state is `NEW_PRIMARY_PROJECT = NOT_YET_APPROVED`; only a bounded PBC three-control signal gate may proceed. Raw PBC/CeD files and the 1.18 GB GJOKA archive are not mirrored here; URLs, byte counts and hashes are recorded in the large-data manifest.
+
 ![REEP3 discovery and replication result](figures/R6A2C1D_REEP3_falsification_summary.png)
 
 ## Repository layout
@@ -28,6 +32,7 @@ analysis/r6a2b0/   frozen Python, R and PowerShell workflow
 analysis/r6a2c/    REEP3 OneK source-LD and signal-specific falsification
 analysis/r6a2d/    targeted TenK summary/coloc intake and cross-build adjudication
 analysis/r6a3a/    public Sun 2018 pQTL and GSE127136 kidney gate
+analysis/r7a1a/    PBC/CeD byte intake, source audit and frozen-control screen
 data/              large-file manifest and data availability rules
 environment/       Python and R package requirements
 figures/           decision figures
@@ -38,6 +43,7 @@ results/r6a2b0/    549-test and targeted multi-signal outputs
 results/r6a2c/     REEP3 OneK signal-level outputs and gates
 results/r6a2d/     TenK replication, liftover overlap and final adjudication
 results/r6a3a1/    pQTL source-component, kidney and final freeze outputs
+results/r7a1a/     PBC/CeD schema, GJOKA inventory, QTL controls and gate state
 ```
 
 ## Reproduction
@@ -69,6 +75,13 @@ The final pQTL/kidney gate can be reproduced after the R6A3A inputs in the large
 ```powershell
 $env:IGAN_PROJECT_ROOT = (Get-Location).Path
 pwsh -File .\analysis\r6a3a\RUN_R6A3A_COMPLETION_DESIGN_GATE.ps1
+```
+
+The R7A1A portfolio intake is self-contained apart from the OneK1K/TenK10K files listed in the manifest. It intentionally stops before disease–QTL colocalization:
+
+```powershell
+$env:R7_PROJECT_ROOT = (Get-Location).Path
+pwsh -File .\analysis\r7a1a\RUN_R7A1A_TRUE_BYTE_QTL_PREFLIGHT.ps1
 ```
 
 ## Evidence and licensing

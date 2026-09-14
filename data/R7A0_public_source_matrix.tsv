@@ -1,0 +1,10 @@
+candidate	resource_role	accession	url	access_state	build	notes
+PBC	core_GWAS	GCST90061440	https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90061001-GCST90062000/GCST90061440/GCST90061440_buildGRCh37.tsv	DIRECT_PUBLIC	GRCh37	8021 cases / 16489 controls
+PBC	study_summary_LD	Gjoka/Cordell 2024	https://www.staff.ncl.ac.uk/heather.cordell/GjokaPaper.html	DIRECT_PUBLIC_SOURCE_PAGE	European	PLINK-derived summary statistics and LD matrices stated public
+PBC	study_input_zip	GJOKA_SUMSTATS	https://www.staff.ncl.ac.uk/heather.cordell/GJOKA_SUMSTATS.zip	DIRECT_PUBLIC_BINARY	European	Archive inventory must determine whether LD matrices are included or separately linked
+PBC	disease_tissue	HRA008003	https://ngdc.cncb.ac.cn/gsa-human/browse/HRA008003	OPEN_ACCESS	NA	5 PBC + 5 liver controls in published liver scRNA; PBMC 5+5
+CeD	core_GWAS	GCST90014442	https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90014001-GCST90015000/GCST90014442/	DIRECT_PUBLIC_DIRECTORY	TO_VERIFY	Exact file/schema/sample metadata frozen by R7A1A byte audit
+CeD	historical_locus_benchmark	Trynka 2011 Immunochip	https://pmc.ncbi.nlm.nih.gov/articles/PMC3242065/	PUBLIC_PAPER	GRCh37-era	12041 cases / 12228 controls; 39 non-HLA risk loci / 57 independent signals in later summary
+CeD	disease_tissue	GSE315138	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE315138	PUBLIC_GEO	NA	4 active CeD + 2 normal duodenal biopsies
+AA	core_GWAS	GCST004866	https://www.ebi.ac.uk/gwas/	NOT_ACCEPTED	NA	Full summary statistics not available in current audit
+AA	disease_tissue	GSE212447	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE212447	PUBLIC_GEO	NA	5 active AA + 3 healthy punch controls + 7 normal surgical scalp

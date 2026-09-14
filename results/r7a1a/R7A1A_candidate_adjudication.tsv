@@ -1,0 +1,3 @@
+candidate	eligible_core	core_schema	rows	provisional_nonMHC_regions	cross_resource_byte_testable	cross_resource_source_positive	study_matched_LD	R7A1A	portfolio_decision
+PBC	GCST90061440	PASS	5054572	45	3/3	2/3	56 paired matrices verified	PASS_LITERAL_GATE	GO_R7A1B_PBC_ONLY
+CeD	GCST000612	PASS	523390	12	3/3	1/3	not verified	PASS_LITERAL_GATE	HOLD_NOT_SELECTED

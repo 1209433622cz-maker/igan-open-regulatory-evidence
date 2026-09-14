@@ -1,0 +1,33 @@
+{
+  "candidate": "PBC",
+  "file": "1_data/gwas/R7A1A/PBC/GCST90061440_buildGRCh37.tsv",
+  "bytes": 373673109,
+  "columns": [
+    "variant_id",
+    "chromosome",
+    "base_pair_location",
+    "effect_allele",
+    "other_allele",
+    "p_value",
+    "beta",
+    "standard_error"
+  ],
+  "resolved_schema": {
+    "chr": "chromosome",
+    "pos": "base_pair_location",
+    "ea": "effect_allele",
+    "oa": "other_allele",
+    "beta": "beta",
+    "or": null,
+    "se": "standard_error",
+    "p": "p_value",
+    "rsid": "variant_id"
+  },
+  "rows": 5054572,
+  "valid_numeric_rows": 5054572,
+  "nonMHC_GWS_variant_rows": 5522,
+  "provisional_1Mb_distance_pruned_GWS_leads": 45,
+  "interpretation_limit": "1Mb distance-pruned lead count is intake QC only; do not call LD-independent signals without study/public LD.",
+  "gate_schema": "PASS",
+  "gate_at_least_5_GWS_regions": "PASS"
+}

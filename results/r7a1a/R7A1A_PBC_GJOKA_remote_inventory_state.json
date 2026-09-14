@@ -1,0 +1,13 @@
+{
+  "url": "https://www.staff.ncl.ac.uk/heather.cordell/GJOKA_SUMSTATS.zip",
+  "http_content_length": 1184054519,
+  "last_modified": "Mon, 08 Apr 2024 16:04:09 GMT",
+  "accept_ranges": "bytes",
+  "members": 112,
+  "sumstats_members": 56,
+  "ld_members": 56,
+  "matched_locus_pairs": 56,
+  "central_directory_all_members_have_crc": true,
+  "full_archive_downloaded": false,
+  "interpretation": "HTTP-range central directory plus all small sumstats members inspected; large LD members were not downloaded because no R7A1B locus is yet triggered."
+}
