@@ -1,0 +1,32 @@
+{
+  "file": "H:\\SCI2\\YR1\\1_data\\scrna\\PBC\\HRA008003\\paper_supplements\\41467_2024_53104_MOESM3_ESM.xlsx",
+  "bytes": 2585688,
+  "sheets": [
+    "Supplementary Data 1",
+    "Supplementary Data 2",
+    "Supplementary Data 3",
+    "Supplementary Data 4",
+    "Supplementary Data 5",
+    "Supplementary Data 6",
+    "Supplementary Data 7",
+    "Supplementary Data 8",
+    "Supplementary Data 9",
+    "Supplementary Data 10",
+    "Supplementary Data 11",
+    "Supplementary Data 12",
+    "Supplementary Data 13",
+    "Supplementary Data 14",
+    "Supplementary Data 15",
+    "Supplementary Data 16",
+    "Supplementary Data 17",
+    "Supplementary Data 18"
+  ],
+  "hit_count": 2343,
+  "target_hits": 3,
+  "human_target_hits": 2,
+  "mouse_target_hits": 1,
+  "donor_id_hits": 0,
+  "frozen_donor_target_matrix_reconstructable": false,
+  "gate_status": "NO_DONOR_TARGET_MATRIX",
+  "boundary": "Search-only. PASS requires donor \u00d7 lineage \u00d7 target evidence satisfying frozen >=3/5 rule."
+}

@@ -1,0 +1,117 @@
+{
+  "schema_version": "CMM_R7A1C1B0R_QA_1.0",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "input_sidecar_sha256",
+      "status": "PASS",
+      "evidence": "1f83ea190bd053a457a50e652c45ebdec3d4dde316a67190ffdf5b6b219f64b0"
+    },
+    {
+      "name": "input_zip_crc",
+      "status": "PASS",
+      "evidence": 18
+    },
+    {
+      "name": "input_internal_checksums",
+      "status": "PASS",
+      "evidence": "17/17"
+    },
+    {
+      "name": "original_final_adjudicator_runtime_defect_reproduced",
+      "status": "PASS",
+      "evidence": "unexpected three-path assignment present in input v3"
+    },
+    {
+      "name": "v3_1_final_adjudicator_assignment_fixed",
+      "status": "PASS",
+      "evidence": "single adjudicator path"
+    },
+    {
+      "name": "v3_1_resume_requires_receipt_identity",
+      "status": "PASS",
+      "evidence": "summary reuse requires bytes, provider MD5 and matching SHA-256 receipt"
+    },
+    {
+      "name": "v3_1_runtime_preflight",
+      "status": "PASS",
+      "evidence": "PASS"
+    },
+    {
+      "name": "lightweight_download_endpoint_fixed",
+      "status": "PASS",
+      "evidence": "binary XLSX endpoints plus exact byte/SHA-256 gates"
+    },
+    {
+      "name": "adaptive_schema_gate_real_BAM_prefix",
+      "status": "PASS",
+      "evidence": {
+        "status": "PASS",
+        "records": 649995,
+        "xf8": 1000
+      }
+    },
+    {
+      "name": "adaptive_schema_tag_fractions",
+      "status": "PASS",
+      "evidence": {
+        "CB_among_xf8": 1.0,
+        "GN_among_xf8": 1.0,
+        "UB_among_xf8": 1.0,
+        "unambiguous_GN_among_xf8": 1.0
+      }
+    },
+    {
+      "name": "supplement_marker_evidence_classified",
+      "status": "PASS",
+      "evidence": {
+        "human": 2,
+        "mouse": 1,
+        "donor": 0
+      }
+    },
+    {
+      "name": "source_data_no_target_donor_matrix",
+      "status": "PASS",
+      "evidence": "NO_DONOR_TARGET_MATRIX"
+    },
+    {
+      "name": "lightweight_bypass_fails_closed",
+      "status": "PASS",
+      "evidence": "BAM execution remains required"
+    },
+    {
+      "name": "five_donor_manifest",
+      "status": "PASS",
+      "evidence": {
+        "schema": "R7A1C1B0_MANIFEST_PREFLIGHT_1.0",
+        "rows": 5,
+        "runs": [
+          "HRR1849459",
+          "HRR1849460",
+          "HRR1849461",
+          "HRR1849462",
+          "HRR1849463"
+        ],
+        "total_expected_bytes": 152488497199,
+        "total_expected_GiB": 142.01597981061786,
+        "errors": [],
+        "status": "PASS"
+      }
+    },
+    {
+      "name": "real_five_donor_outcome_absent",
+      "status": "PASS",
+      "evidence": "NOT_TESTED"
+    },
+    {
+      "name": "python_compile",
+      "status": "PASS",
+      "evidence": "4/4"
+    }
+  ],
+  "biological_threshold_changed": false,
+  "lightweight_bypass": "FAIL_NO_DONOR_TARGET_MATRIX",
+  "real_five_donor_result": "NOT_TESTED",
+  "next_stage": "R7A1C1B_FIVE_DONOR_BYTE_EXECUTION_V3_1"
+}
