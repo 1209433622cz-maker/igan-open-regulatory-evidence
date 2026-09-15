@@ -38,4 +38,3 @@ ALLELE_BUILD_LD_QC = PASS
 ## FAIL 门
 
 任一核心门失败，冻结 `REEP3_ASIAN_EXPRESSION_MEDIATION = NOT_SUPPORTED_OR_UNRESOLVED`，不再扩展 IgAN 免疫细胞 cis-eQTL 位点。项目进入 design reassessment：比较 ZMIZ1 单位点机制稿、公开 pQTL/肾脏层、或换题，按“可完成性和真实阳性证据”排序。
-

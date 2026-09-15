@@ -1,0 +1,11 @@
+{
+  "gene": "FCRL3",
+  "cell": "B_MEM",
+  "n_samples": 970,
+  "n_variants": 2687,
+  "finite": true,
+  "max_asymmetry": 0.0,
+  "max_diag_dev": 0.0,
+  "min_eigenvalue": -3.965903056783865e-05,
+  "status": "PASS"
+}

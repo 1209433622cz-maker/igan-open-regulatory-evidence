@@ -1,0 +1,11 @@
+{
+  "gene": "FCRL3",
+  "cell": "CD8_ET",
+  "n_samples": 980,
+  "n_variants": 2684,
+  "finite": true,
+  "max_asymmetry": 0.0,
+  "max_diag_dev": 0.0,
+  "min_eigenvalue": -3.8146086941994894e-05,
+  "status": "PASS"
+}

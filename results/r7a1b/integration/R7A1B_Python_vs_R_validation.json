@@ -1,0 +1,15 @@
+{
+  "merged_comparisons": 9,
+  "python_comparisons": 9,
+  "R_default_prior_comparisons": 9,
+  "posterior_abs_diff_by_H": {
+    "PP_H0": 4.870439446712227e-21,
+    "PP_H1": 7.115076756936123e-20,
+    "PP_H2": 3.9979955110402976e-19,
+    "PP_H3": 1.4432899320127035e-15,
+    "PP_H4": 5.551115123125783e-16
+  },
+  "max_posterior_abs_diff": 1.4432899320127035e-15,
+  "tolerance": 1e-10,
+  "gate": "PASS"
+}

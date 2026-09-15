@@ -1,0 +1,28 @@
+{
+  "stage": "R7A1B1",
+  "single_signal_smoke_tests": 9,
+  "single_signal_robust": 7,
+  "multisignal_trigger_combinations": 7,
+  "multisignal_trigger_genes": [
+    "FCRL3",
+    "IL12RB2"
+  ],
+  "signal_specific_pass_genes": [
+    "FCRL3",
+    "IL12RB2"
+  ],
+  "stable_cells": {
+    "FCRL3": [
+      "B_IN",
+      "B_MEM",
+      "CD4_NC",
+      "NK",
+      "NK_R"
+    ],
+    "IL12RB2": [
+      "NK"
+    ],
+    "INAVA": []
+  },
+  "decision": "GO_R7A1C_TENK_REPLICATION_AND_PBC_LIVER_DETECTABILITY"
+}

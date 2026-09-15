@@ -73,4 +73,3 @@ HOSTILE_NOVELTY = PASS_OR_MANAGEABLE
 - 同构论文 hostile audit；
 - 排名前两项的最小真实字节执行脚本；
 - 单一主项目 GO/HOLD/FAIL 判定，或全体 FAIL。
-

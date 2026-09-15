@@ -1,0 +1,34 @@
+{
+  "signal_specific_pass_genes": 2,
+  "gene_results": [
+    {
+      "gene": "FCRL3",
+      "status": "PASS_SIGNAL_SPECIFIC_SHARED_GENE",
+      "stable_pass_cells": "B_IN;B_MEM;CD4_NC;NK;NK_R",
+      "best_cell": "B_IN",
+      "best_signal_PP_H4": 0.993775121042679,
+      "best_signal_H4_ratio": 0.993775204095388,
+      "required_sensitivity_configs": "PF10_L5;PF10_L10;PF10_L20;PF50_L10"
+    },
+    {
+      "gene": "IL12RB2",
+      "status": "PASS_SIGNAL_SPECIFIC_SHARED_GENE",
+      "stable_pass_cells": "NK",
+      "best_cell": "NK",
+      "best_signal_PP_H4": 0.998031322132253,
+      "best_signal_H4_ratio": 0.998031338291084,
+      "required_sensitivity_configs": "PF10_L5;PF10_L10;PF10_L20;PF50_L10"
+    },
+    {
+      "gene": "INAVA",
+      "status": "UNINFORMATIVE_WEAK_ONEK_QTL",
+      "stable_pass_cells": "",
+      "best_cell": "",
+      "best_signal_PP_H4": null,
+      "best_signal_H4_ratio": null,
+      "required_sensitivity_configs": "PF10_L5;PF10_L10;PF10_L20;PF50_L10"
+    }
+  ],
+  "decision": "GO_R7A1C_TENK_REPLICATION_AND_PBC_LIVER_DETECTABILITY",
+  "pass_definition": "same cell robust in PF10_L5/PF10_L10/PF10_L20/PF50_L10; both SuSiE fits converged; >=1 disease and QTL CS in each config"
+}

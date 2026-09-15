@@ -1,0 +1,84 @@
+{
+  "stage": "R7A1B1",
+  "overall_gate": "PASS",
+  "checks": {
+    "onek_archive_gate": true,
+    "onek_archive_exact_bytes": true,
+    "onek_archive_expected_md5": true,
+    "nine_frozen_smoke_tests": true,
+    "python_R_abf_match": true,
+    "exact_trigger_set": true,
+    "only_expected_trigger_genes": true,
+    "all_four_configurations": true,
+    "all_28_fits_converged": true,
+    "all_fits_have_CS": true,
+    "expected_signal_rows": true,
+    "credible_set_members_exported": true,
+    "stable_FCRL3_cells": true,
+    "stable_IL12RB2_cell": true,
+    "final_two_gene_gate": true,
+    "next_stage_exact": true,
+    "seven_source_LD_gates": true,
+    "seven_residual_LD_gates": true,
+    "gjoka_rounding_gate": true,
+    "input_package_identity": true,
+    "input_package_crc": true
+  },
+  "gjoka_effect_field_qc": {
+    "2": {
+      "rows": 2324,
+      "max_abs_beta_over_se_minus_stat": 0.006107660455484165,
+      "q99_abs_delta": 0.0021973236204757716,
+      "correlation": 0.9999999776140022,
+      "summary_bytes": 274517,
+      "summary_sha256": "a381929557351c2b05624d0e7085a536cb2112abd0bd6f518361e529891d8e12",
+      "ld_bytes": 57496850,
+      "ld_sha256": "fd1781aea429af71b036c6c419c9b458a1406da786e997a3f79882f0e508e041"
+    },
+    "4": {
+      "rows": 2587,
+      "max_abs_beta_over_se_minus_stat": 0.0033760683760677423,
+      "q99_abs_delta": 0.001714395270692587,
+      "correlation": 0.9999999686061896,
+      "summary_bytes": 308142,
+      "summary_sha256": "f935a3f52f8049051c29a36086ca66f48f7352e43da52ec94bb3cee3e9edf369",
+      "ld_bytes": 72084475,
+      "ld_sha256": "147ef015a93c2f602b2c67e5ef26c55f4d8215a9cc1ae552c6a56de9a1c6add4"
+    }
+  },
+  "input_R7A1B0_package": {
+    "bytes": 77006,
+    "sha256": "3345fa585ccd57d2b36c529ee4c6335169328cda168635d3ee29148565fe1dd0",
+    "zip_crc": "PASS"
+  },
+  "output_files": {
+    "3_results/04_integration/R7A1B/multisignal/R7A1B_signal_coloc_susie.tsv": {
+      "bytes": 21714,
+      "sha256": "a9777791d0046625613293b3aea740337b8d5300976752ba20b475d5346d65cc"
+    },
+    "3_results/04_integration/R7A1B/multisignal/R7A1B_susie_credible_set_members.tsv.gz": {
+      "bytes": 4721,
+      "sha256": "807d7cec1ed93ddde8c79c5020d473cd454c97f32cc7cd60e6873ea8655f7d2b"
+    },
+    "3_results/04_integration/R7A1B/multisignal/R7A1B_susie_fit_summary.tsv": {
+      "bytes": 1190,
+      "sha256": "6ec52b5309e73333b934fdd4bc9f644246bbef82476369297ee729a526816a9b"
+    },
+    "3_results/04_integration/R7A1B/R7A1B_coloc_smoke.tsv": {
+      "bytes": 3023,
+      "sha256": "7e210327f339f9159977ec0e9f496750f38a070c8561e5a440780dc647c86e3d"
+    },
+    "3_results/04_integration/R7A1B/R7A1B_final_adjudication.json": {
+      "bytes": 1250,
+      "sha256": "ff0899f3b31584f3eff8a4f757e4e0d172639eef1ca3e4c6928ff9f4e572d5cc"
+    },
+    "3_results/04_integration/R7A1B/R7A1B_gene_adjudication.tsv": {
+      "bytes": 444,
+      "sha256": "558f12e8b10727d02da13ed1022c2600316534f4347fd64d6ed587d6f1d13f5a"
+    },
+    "3_results/04_integration/R7A1B/R7A1B_multisignal_triggers.tsv": {
+      "bytes": 2602,
+      "sha256": "2e06a59dc6e92272de7e1e8b589b05f6c5853d7403263782e1696f4814fa1e55"
+    }
+  }
+}

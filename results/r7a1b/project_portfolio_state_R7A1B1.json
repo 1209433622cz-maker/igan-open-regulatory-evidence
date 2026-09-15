@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-15",
+  "stage": "R7A1B_COMPLETE",
+  "open_data_only": true,
+  "archived_projects": {
+    "SSc_sex_specific_main": "FROZEN_ARCHIVE",
+    "MG_regulatory_main": "NO_GO_ARCHIVED",
+    "IgAN_regulatory_main": "FROZEN_ARCHIVE"
+  },
+  "candidate_project": "primary_biliary_cholangitis",
+  "new_primary_project": "NOT_YET_APPROVED",
+  "R7A1B": {
+    "frozen_genes": 3,
+    "single_signal_tests": 9,
+    "multisignal_trigger_combinations": 7,
+    "signal_specific_pass_genes": 2,
+    "pass_genes": ["FCRL3", "IL12RB2"],
+    "uninformative_genes": ["INAVA"],
+    "decision": "GO_R7A1C_TENK_REPLICATION_AND_PBC_LIVER_DETECTABILITY"
+  },
+  "next_stage": "R7A1C",
+  "next_protocol": "0_admin/protocol/current/R7A1C_TenK_replication_and_PBC_liver_gate_v1.md",
+  "promotion_gate": {
+    "TenK_same_gene_compatible_cell_signal_replication_min": 1,
+    "PBC_liver_target_detectability": "PASS",
+    "permission_required_core_data": false
+  },
+  "CeD_auto_resume": false
+}

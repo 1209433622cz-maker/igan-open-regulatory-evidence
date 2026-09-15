@@ -1,0 +1,11 @@
+{
+  "smoke_tests": 9,
+  "robust_smoke": 7,
+  "ambiguities": 0,
+  "forced_multisignal": 1,
+  "trigger_combinations": 7,
+  "trigger_genes": [
+    "FCRL3",
+    "IL12RB2"
+  ]
+}
