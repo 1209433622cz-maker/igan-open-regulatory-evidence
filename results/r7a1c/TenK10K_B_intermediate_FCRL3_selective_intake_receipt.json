@@ -1,0 +1,551 @@
+{
+  "schema_version": "CMM_TENK10K_FCRL3_B_INTERMEDIATE_INTAKE_1.0",
+  "created_at_utc": "2026-09-15T03:14:08.608080+00:00",
+  "status": "PASS_FCRL3_B_INTERMEDIATE_MEMBER_INTAKE",
+  "source": {
+    "record": "https://zenodo.org/records/18221260",
+    "url": "https://zenodo.org/api/records/18221260/files/common_all_cis_pvalues_100kb.zip/content",
+    "archive_size": 16559137990,
+    "provider_md5": "dd54714b2effb91160ac171ccb941534",
+    "provider_md5_verification": "NOT_RUN_SELECTIVE_MEMBERS_ONLY"
+  },
+  "target": {
+    "gene_id": "ENSG00000160856",
+    "cells": [
+      "B_intermediate"
+    ]
+  },
+  "members": [
+    {
+      "member_header": {
+        "name": "B_intermediate_common_all_cis_raw_pvalues.tsv",
+        "version_needed": 20,
+        "flag_bits": 2,
+        "method": 8,
+        "crc32": "3c73842b",
+        "compressed_size": 591715279,
+        "uncompressed_size": 2392868507,
+        "local_header_offset": 605710861,
+        "data_offset": 605710964
+      },
+      "transfer": {
+        "chunk_bytes": 8388608,
+        "chunk_count": 71,
+        "workers": 12,
+        "network_bytes_this_run": 0,
+        "elapsed_seconds": 0.0,
+        "chunks": [
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 605710964,
+            "end": 614099571,
+            "bytes": 8388608,
+            "sha256": "0efab592be208791afc3a8d587c5e81b6b595d807fc99ae0f2ce5b491c0f97a4"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 614099572,
+            "end": 622488179,
+            "bytes": 8388608,
+            "sha256": "3ee7e71406b065eead79b20b4e28a1752dee0205c630fbb2f685672a29cfdacc"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 622488180,
+            "end": 630876787,
+            "bytes": 8388608,
+            "sha256": "dbaaaf92ae3cceed62485cc2f9d457d0d5d1fc159d76dd1bd80e1018cb9fd0a4"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 630876788,
+            "end": 639265395,
+            "bytes": 8388608,
+            "sha256": "b7d459ad8176fd239f0483782816026e3b1358c4d56cf079c1cb22cddefbb079"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 639265396,
+            "end": 647654003,
+            "bytes": 8388608,
+            "sha256": "42780333df1725b634581f4c0ebfff607191bc895ad2a7b471f805bf26f0d114"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 647654004,
+            "end": 656042611,
+            "bytes": 8388608,
+            "sha256": "fec8ca6e71025fdf47c9401ab81ea5da7873d8a1d0b8151ffeb298732259dfc5"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 656042612,
+            "end": 664431219,
+            "bytes": 8388608,
+            "sha256": "b048dc5bfd523470fde702987b102c9b9c7ba7af6bee9ef7dd3b69c204d2acd7"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 664431220,
+            "end": 672819827,
+            "bytes": 8388608,
+            "sha256": "f650c8d8fcc63d9b08b8da52fb930c1acb7bbb2680e7b63a2c67fb499ead86a7"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 672819828,
+            "end": 681208435,
+            "bytes": 8388608,
+            "sha256": "4270f51a533a418e2685409b1dd5a01d6f986cfb0911fcf7b766ca635d80aacb"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 681208436,
+            "end": 689597043,
+            "bytes": 8388608,
+            "sha256": "2d8b7e693ba27777dad17b0a23bae2b787dc859dabef5bc0c8d148c8402eb19a"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 689597044,
+            "end": 697985651,
+            "bytes": 8388608,
+            "sha256": "4c98e31bd425bc66adeee79ea43e48d73367a2975d8db48e97254ec71ad4205e"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 697985652,
+            "end": 706374259,
+            "bytes": 8388608,
+            "sha256": "eaa5ebd9fa75630df8786ef0fe0d0650d1a80b3fbfef4bb913e45786c0d5cbef"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 706374260,
+            "end": 714762867,
+            "bytes": 8388608,
+            "sha256": "d518847bbc4c769a68d3fbbe0d868ac5a4b8d1d9f81ece402652d2dddd5bcbb9"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 714762868,
+            "end": 723151475,
+            "bytes": 8388608,
+            "sha256": "6b21b806a1934a9e25a9a8fd39a55cf51cee5400c17d5ac2e74aff093acb6907"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 723151476,
+            "end": 731540083,
+            "bytes": 8388608,
+            "sha256": "c6fa6722172d80f1c06670d9de67f42f1fa9ddd771464254877012df2ba43fb9"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 731540084,
+            "end": 739928691,
+            "bytes": 8388608,
+            "sha256": "4b32d483a535c3ebea8aeff6cd26ea853c418d65ab04cb64ff14bc2e531e4ecc"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 739928692,
+            "end": 748317299,
+            "bytes": 8388608,
+            "sha256": "62efbf72732d7dda22fcf167be975e96b7467700c83eec3c9acd068eef1a3489"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 748317300,
+            "end": 756705907,
+            "bytes": 8388608,
+            "sha256": "af76258f697af55fe1f9054a32c1c7d44e68d47cc29deb42433df309fc1e4e55"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 756705908,
+            "end": 765094515,
+            "bytes": 8388608,
+            "sha256": "e5850dbb242bfba6b3b0ffdfee923a23f7c61815b5f807ad1c918c21a51b8194"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 765094516,
+            "end": 773483123,
+            "bytes": 8388608,
+            "sha256": "0224775fb87582fd9d451cf6e403205f71f7ee93acf06f5644cd91233f44c111"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 773483124,
+            "end": 781871731,
+            "bytes": 8388608,
+            "sha256": "2a432846284796f6ff16bbf88f92012395ff685c5d2b1201dcd9ec03a96b8202"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 781871732,
+            "end": 790260339,
+            "bytes": 8388608,
+            "sha256": "313dd096cd68fa571e97b6ef0fcb1a74903f4345c99f1facc978647f742d8316"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 790260340,
+            "end": 798648947,
+            "bytes": 8388608,
+            "sha256": "2e7aa34529540225c84989e25163c4da76b6278fa85e33a9b78e15e5f9eafb64"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 798648948,
+            "end": 807037555,
+            "bytes": 8388608,
+            "sha256": "08f3be79e4b5fb11276669690deb1381029bc252d319727610e8942cb9cde568"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 807037556,
+            "end": 815426163,
+            "bytes": 8388608,
+            "sha256": "a7a0922cfeac8dd71737e4bdbff5791635e3be3695cbb62fa775eac8047c435d"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 815426164,
+            "end": 823814771,
+            "bytes": 8388608,
+            "sha256": "59a349eaef9a0111dcbed64505690ca52ef7f021613b3d37b008d65eafe49e92"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 823814772,
+            "end": 832203379,
+            "bytes": 8388608,
+            "sha256": "7943b6d34f11fb97f4c12943dc752089b52d25bcc4b275952a8cd8813e2515c8"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 832203380,
+            "end": 840591987,
+            "bytes": 8388608,
+            "sha256": "3e3b00986b1f9d26f7cc54ec97709f281c3d5939e182ed89a42534d3be1b00b9"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 840591988,
+            "end": 848980595,
+            "bytes": 8388608,
+            "sha256": "9841613dae8fc29e740a1b7868ad5164616bfa2750425c397e1ffd5c56fff33a"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 848980596,
+            "end": 857369203,
+            "bytes": 8388608,
+            "sha256": "e11ec05ce1f4a4f4239e79ad557699d3ca4d75feb432a7f40dc291d1f4d3ff3b"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 857369204,
+            "end": 865757811,
+            "bytes": 8388608,
+            "sha256": "e3a42ad342e429a6060672800fc5b65f8b940b27e9283a9eef00f652fa9f2138"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 865757812,
+            "end": 874146419,
+            "bytes": 8388608,
+            "sha256": "fbf8071cf83728cf5b93c901b46505820227b0b6068434c9ad63e4dac0c39625"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 874146420,
+            "end": 882535027,
+            "bytes": 8388608,
+            "sha256": "5256667327ce66d7371b6d814eebb172bae496a6c5ea49d5a816a8e593b12a31"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 882535028,
+            "end": 890923635,
+            "bytes": 8388608,
+            "sha256": "cc69f6c438d84b2a51849e4f9a79303fdf3407c0b932d2f5ff6eaf4e931609c6"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 890923636,
+            "end": 899312243,
+            "bytes": 8388608,
+            "sha256": "bff1bc82a80e5f61f9102d74b1745c4a895f753c3e19ada3ecd4ad0bde14d006"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 899312244,
+            "end": 907700851,
+            "bytes": 8388608,
+            "sha256": "64f444ddb75a4a74543bd34521b6db9a21f666a95354325733514f6856686cd4"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 907700852,
+            "end": 916089459,
+            "bytes": 8388608,
+            "sha256": "97173ea14afc351506f9654a86810a8655b87447411432bd02879b1b01bc539d"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 916089460,
+            "end": 924478067,
+            "bytes": 8388608,
+            "sha256": "3bb14953ff8282e09ce77efe984a8a12a4432a229f585199651516b800da47b8"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 924478068,
+            "end": 932866675,
+            "bytes": 8388608,
+            "sha256": "cb4b911885e884590ec3be05b520e812e70446ddae7502b1849183b70d8db607"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 932866676,
+            "end": 941255283,
+            "bytes": 8388608,
+            "sha256": "223da3a2d27ab01e158b048c7e3b9ed48ed36f0b811bec5febcb834d58ba4812"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 941255284,
+            "end": 949643891,
+            "bytes": 8388608,
+            "sha256": "82e1d7eeb3195f4b1a69c696ad072d065ea94908767c3d4ae276a5b510038dbd"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 949643892,
+            "end": 958032499,
+            "bytes": 8388608,
+            "sha256": "19bc4a81f66a761f9c2c661c4ee6be409b98733e915a68644ad42777cd941bcf"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 958032500,
+            "end": 966421107,
+            "bytes": 8388608,
+            "sha256": "b8c2e581d529c994bc376fa844ef2d2142531d93bba9110e363c467ad3f29569"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 966421108,
+            "end": 974809715,
+            "bytes": 8388608,
+            "sha256": "2e1c0f195285a64715799fab841c3201c63e84bc917eb76d3f45f3efffdd6ce5"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 974809716,
+            "end": 983198323,
+            "bytes": 8388608,
+            "sha256": "2600c87fa73470ebc6e42ab2d211ac8670bd2bcd7f166caad1a181b1c78d0014"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 983198324,
+            "end": 991586931,
+            "bytes": 8388608,
+            "sha256": "03232d434662d28454165637f8aba70a36cce9f080283901cfb6728642e2cb10"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 991586932,
+            "end": 999975539,
+            "bytes": 8388608,
+            "sha256": "e61b6d66af7247ff73e6a7dbafdffd363687f370b091bab89b57295166c6bb40"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 999975540,
+            "end": 1008364147,
+            "bytes": 8388608,
+            "sha256": "9a6819a3dac3eb87c0f5e82031adf557513c107be83a3cf916b4ac0dcb2122ad"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 1008364148,
+            "end": 1016752755,
+            "bytes": 8388608,
+            "sha256": "62147ca95f9a0fb31df5cefba0a6d7938c3a4760454ec11a0423ad9555b189be"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 1016752756,
+            "end": 1025141363,
+            "bytes": 8388608,
+            "sha256": "5346434e5e8a34649284977e137fa174a9828fbbdd20251e251823fee7425a0b"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 1025141364,
+            "end": 1033529971,
+            "bytes": 8388608,
+            "sha256": "6ed4dd2be3cd51fceab77ed0f95d16c5b9a95c1233d20cd819e64e0f21333cd0"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 1033529972,
+            "end": 1041918579,
+            "bytes": 8388608,
+            "sha256": "4e2ceeb05edb6b8e276e66411ce15ca6ca1d3bef0fdf403c264bd925cfe3f13f"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 1041918580,
+            "end": 1050307187,
+            "bytes": 8388608,
+            "sha256": "2ecab3a4f99a8cc8dc96bde550e74810b59d032258e248b137fa234b99b59493"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 1050307188,
+            "end": 1058695795,
+            "bytes": 8388608,
+            "sha256": "e7a59f18332d0cee4809ef0e982c6c7a787250f6fbb98433da626637d77d8e7e"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 1058695796,
+            "end": 1067084403,
+            "bytes": 8388608,
+            "sha256": "c6986001066b42ea98a2a8cc70fff1ab543a5cf2ae9637362c1c55fab59f757f"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 1067084404,
+            "end": 1075473011,
+            "bytes": 8388608,
+            "sha256": "93b467880e4f28f817ec7bcb91eaf85eb29e8ae6044da91d846bf072fa27a543"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 1075473012,
+            "end": 1083861619,
+            "bytes": 8388608,
+            "sha256": "bb715beafff7e485bf7cb30a7e6591cc07062fea3e86e23a8a13c11f875ae7a4"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 1083861620,
+            "end": 1092250227,
+            "bytes": 8388608,
+            "sha256": "8f069179d05f573ef2bb202d02fc7a1a692709620378a036df2d459236d62465"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 1092250228,
+            "end": 1100638835,
+            "bytes": 8388608,
+            "sha256": "24ae52b88879bd7fb1520780f7d56f4ea196174c8dcdeb056fbfe01ec91eba4f"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 1100638836,
+            "end": 1109027443,
+            "bytes": 8388608,
+            "sha256": "0f1ce6666303265fb42194a15803907b7a973fe90a7e1760e4f5fe61e983529d"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 1109027444,
+            "end": 1117416051,
+            "bytes": 8388608,
+            "sha256": "e7a3aef3fd3b06ed762e0a6cca95b8ecee629ac3ba7027492f36b09672ed0024"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 1117416052,
+            "end": 1125804659,
+            "bytes": 8388608,
+            "sha256": "9479fcb5b5c8787e265d8bb4a8cb573aeabe408266b52cbe81caeb0a5487903a"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 1125804660,
+            "end": 1134193267,
+            "bytes": 8388608,
+            "sha256": "76b2c2f8f711f7c72d8fedebb99c1aa0c060f017b4a0e703dff47acfcc24cb17"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 1134193268,
+            "end": 1142581875,
+            "bytes": 8388608,
+            "sha256": "d80b247107afe30179f212c747a6f1f6e80dc1bdeb2f80df52d94d4862fa1263"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 1142581876,
+            "end": 1150970483,
+            "bytes": 8388608,
+            "sha256": "a4964a4a4e7e5647ec3c47b1d06a1a937987913055c111577ae52fe8dc9c691e"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 1150970484,
+            "end": 1159359091,
+            "bytes": 8388608,
+            "sha256": "dc9a8891202be1c15ada419de7c5f64bb24998c3b62b3076b14a22b6b4b3ca0e"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 1159359092,
+            "end": 1167747699,
+            "bytes": 8388608,
+            "sha256": "371086cb1f092e543225526c09ff3a23001bf28ea181b0d874daf466b719d516"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 1167747700,
+            "end": 1176136307,
+            "bytes": 8388608,
+            "sha256": "894b9b3f33d1f6a4695624c75894df7d69ec8827111a63d2def89ab1966c7267"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 1176136308,
+            "end": 1184524915,
+            "bytes": 8388608,
+            "sha256": "7ea503bee4a6a4aed102cc8ccb2e7c00b6bbe140f6ee6426d26313f9b0af4ab9"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 1184524916,
+            "end": 1192913523,
+            "bytes": 8388608,
+            "sha256": "601ddb59074bd16ccb57884274821d6f79a2a23a5e23c8552537b2b4cfd6a374"
+          },
+          {
+            "status": "REUSED_BY_EXACT_SIZE",
+            "start": 1192913524,
+            "end": 1197426242,
+            "bytes": 4512719,
+            "sha256": "4800cbdb8623dae0dfd159f0929d0401ada72a62c65a3e3d49fd80e99ef4a792"
+          }
+        ]
+      },
+      "extract": {
+        "status": "PASS_MEMBER_CRC_AND_EXACT_GENE_EXTRACT",
+        "cell": "B_intermediate",
+        "target_rows": 843,
+        "source_lines_including_header": 16543537,
+        "uncompressed_bytes": 2392868507,
+        "crc32": "3c73842b",
+        "extract_path": "H:\\SCI2\\YR1\\1_data\\qtl\\eqtl\\tenk10k\\derived\\FCRL3_full\\B_intermediate\\B_intermediate_FCRL3_full_variant_eqtl.tsv",
+        "extract_bytes": 169820,
+        "extract_sha256": "2858979a854e5f59e6bd60b018c12ec0661e79b4effaa044118c190e08b3f4e1"
+      }
+    }
+  ],
+  "elapsed_seconds": 32.286
+}

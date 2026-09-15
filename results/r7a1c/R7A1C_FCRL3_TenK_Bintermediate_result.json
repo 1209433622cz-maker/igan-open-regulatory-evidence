@@ -1,0 +1,47 @@
+{
+  "schema_version": "CMM_R7A1C1_FCRL3_TENK_ABF_1.0",
+  "status": "PASS_ROBUST_SINGLE_CAUSAL_ABF_SMOKE",
+  "gene": "FCRL3",
+  "gene_id": "ENSG00000160856",
+  "cell": "B_intermediate",
+  "exact_overlap_n": 343,
+  "tenk_n": 1918,
+  "estimated_sdY": 0.3438562776843842,
+  "posterior": [
+    {
+      "p12": 1e-06,
+      "n": 343,
+      "PP_H0": 1.0371230250564626e-66,
+      "PP_H1": 6.051481502175564e-64,
+      "PP_H2": 0.00014994330738499315,
+      "PP_H3": 0.07827426292712206,
+      "PP_H4": 0.9215757937655054,
+      "H4_over_H3H4": 0.9217139986109087
+    },
+    {
+      "p12": 1e-05,
+      "n": 343,
+      "PP_H0": 1.1158841186885117e-67,
+      "PP_H1": 6.51104250862368e-65,
+      "PP_H2": 1.6133028712329914e-05,
+      "PP_H3": 0.008421855921834273,
+      "PP_H4": 0.9915620110494514,
+      "H4_over_H3H4": 0.9915780082059302
+    },
+    {
+      "p12": 0.0001,
+      "n": 343,
+      "PP_H0": 1.124423202188721e-68,
+      "PP_H1": 6.560866979393901e-66,
+      "PP_H2": 1.6256483537950847e-06,
+      "PP_H3": 0.0008486302516009119,
+      "PP_H4": 0.9991497441000473,
+      "H4_over_H3H4": 0.9991513683688226
+    }
+  ],
+  "source_cs_rows": 45,
+  "source_cs_in_exact_overlap": 24,
+  "frozen_shared_variant_in_source_cs": true,
+  "frozen_shared_variant_in_exact_overlap": true,
+  "interpretation_ceiling": "single-causal coloc.abf smoke; source SuSiE table reported separately"
+}

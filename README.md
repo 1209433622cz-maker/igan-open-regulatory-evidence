@@ -23,7 +23,9 @@ R7A1A has now completed the true-byte portfolio gate. PBC `GCST90061440` passed 
 
 R7A1B has now executed that bounded PBC gate on real bytes. Nine frozen OneK cell–gene tests produced seven trigger combinations. Source-matched disease and QTL LD, four PF/L sensitivity configurations and 28 converged SuSiE fits support signal-specific shared genes at `FCRL3` and `IL12RB2`; `INAVA` remains uninformative because its OneK QTL is weak. `FCRL3 × CD8_ET` illustrates the required multi-signal correction: single-signal PP.H4 ≈ 0.941 fell to ≈ 0.004 after source-LD decomposition.
 
-The current state remains `NEW_PRIMARY_PROJECT = NOT_YET_APPROVED`. The authorized next stage is R7A1C: same-gene compatible-cell TenK10K signal replication for FCRL3/IL12RB2 and PBC liver target detectability. Large local inputs and generated LD matrices are not mirrored; exact local sizes and SHA-256 values are recorded in [`data/R7A1B1_LARGE_FILE_MANIFEST.tsv`](data/R7A1B1_LARGE_FILE_MANIFEST.tsv).
+R7A1C1A has now closed the compatible-cell TenK10K replication gate for both eligible genes. IL12RB2 × NK retains robust H4 on 396 full PBC/TenK allele-matched variants (default PP.H4 ≈ 0.998). FCRL3 × B intermediate now has 343 exact variants, default PP.H4 ≈ 0.992 and low-prior H4/(H3+H4) ≈ 0.922; the four leading shared-weight variants are exactly TenK source CS1. The original HRA runner was invalidated because `CB` is not a called-cell flag. The outcome-blind v2 runner uses `xf` bit 8 molecule representatives, reconstructed called cells and stricter per-donor target thresholds.
+
+The current state is `NEW_PRIMARY_PROJECT = HOLD_PENDING_FIVE_DONOR_HRA_V2`. The only authorized next stage is the five-PBC-donor HRA008003 byte execution. Large third-party inputs are not mirrored; exact HRA URLs, bytes and provider MD5 values are recorded in [`data/R7A1C1A_LARGE_ASSET_MANIFEST.tsv`](data/R7A1C1A_LARGE_ASSET_MANIFEST.tsv).
 
 ![REEP3 discovery and replication result](figures/R6A2C1D_REEP3_falsification_summary.png)
 
@@ -38,6 +40,7 @@ analysis/r6a2d/    targeted TenK summary/coloc intake and cross-build adjudicati
 analysis/r6a3a/    public Sun 2018 pQTL and GSE127136 kidney gate
 analysis/r7a1a/    PBC/CeD byte intake, source audit and frozen-control screen
 analysis/r7a1b/    bounded PBC ABF, source-LD, SuSiE and signal adjudication
+analysis/r7a1c1/   TenK full-window replication and hardened HRA donor gate
 data/              large-file manifest and data availability rules
 environment/       Python and R package requirements
 figures/           decision figures
@@ -50,6 +53,7 @@ results/r6a2d/     TenK replication, liftover overlap and final adjudication
 results/r6a3a1/    pQTL source-component, kidney and final freeze outputs
 results/r7a1a/     PBC/CeD schema, GJOKA inventory, QTL controls and gate state
 results/r7a1b/     PBC smoke, source-LD QC, credible sets and final adjudication
+results/r7a1c/     TenK replication, source-CS tables and outcome-blind QA
 ```
 
 ## Reproduction
@@ -95,6 +99,13 @@ The R7A1B runner reads the full OneK1K archive, but downloads only the triggered
 ```powershell
 $env:R7_PROJECT_ROOT = (Get-Location).Path
 pwsh -File .\analysis\r7a1b\RUN_R7A1B_PBC_3CONTROL_SIGNAL_GATE.ps1
+```
+
+The R7A1C1 HRA runner processes one official PBC liver BAM at a time and deletes it only after validated compact output. It is resumable:
+
+```powershell
+$env:R7_PROJECT_ROOT = (Get-Location).Path
+pwsh -File .\analysis\r7a1c1\RUN_R7A1C1_HRA008003_TARGET_PANEL_v2.ps1
 ```
 
 ## Evidence and licensing

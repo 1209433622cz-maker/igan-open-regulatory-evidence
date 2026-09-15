@@ -1,0 +1,81 @@
+{
+  "schema_version": "CMM_R7A1C1A_QA_1.0",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "input_sidecar_sha256",
+      "status": "PASS",
+      "evidence": "f1241b7b68a7f924d0e0625329c5f549aa0bf1f66ab80e93ead61ef357cc135b"
+    },
+    {
+      "name": "input_zip_crc",
+      "status": "PASS",
+      "evidence": 27
+    },
+    {
+      "name": "input_internal_checksums",
+      "status": "PASS",
+      "evidence": "26/26"
+    },
+    {
+      "name": "IL12RB2_full_PBC_exact_overlap",
+      "status": "PASS",
+      "evidence": 396
+    },
+    {
+      "name": "IL12RB2_TenK_robust_replication",
+      "status": "PASS",
+      "evidence": {
+        "default_H4": 0.9975442349979932,
+        "low_prior_ratio": 0.9759733834955112
+      }
+    },
+    {
+      "name": "FCRL3_selective_intake",
+      "status": "PASS",
+      "evidence": 343
+    },
+    {
+      "name": "FCRL3_TenK_robust_ABF",
+      "status": "PASS",
+      "evidence": "PASS_ROBUST_SINGLE_CAUSAL_ABF_SMOKE"
+    },
+    {
+      "name": "FCRL3_exact_source_signal_identity",
+      "status": "PASS",
+      "evidence": "1:157699488:C:T"
+    },
+    {
+      "name": "FCRL3_TenK_member_byte_integrity",
+      "status": "PASS",
+      "evidence": {
+        "status": "PASS_FCRL3_B_INTERMEDIATE_MEMBER_INTAKE",
+        "bytes": 2392868507,
+        "crc32": "3c73842b",
+        "rows": 843
+      }
+    },
+    {
+      "name": "HRA_exact_five_PBC_runs",
+      "status": "PASS",
+      "evidence": [
+        "HRR1849459",
+        "HRR1849460",
+        "HRR1849461",
+        "HRR1849462",
+        "HRR1849463"
+      ]
+    },
+    {
+      "name": "HRA_official_MD5_manifest_match",
+      "status": "PASS",
+      "evidence": "5/5"
+    },
+    {
+      "name": "HRA_outcome_blind_protocol_state",
+      "status": "PASS",
+      "evidence": "NOT_TESTED; no final adjudication present"
+    }
+  ],
+  "project_decision": "HOLD_PENDING_FIVE_DONOR_HRA_V2"
+}

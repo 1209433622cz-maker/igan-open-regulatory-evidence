@@ -1,0 +1,8 @@
+asset	bytes_or_size	authority_or_sha256	local_or_remote_location	status
+TenK10K_common_all_cis_pvalues_100kb.zip	16559137990	provider_MD5_dd54714b2effb91160ac171ccb941534	https://zenodo.org/api/records/18221260/files/common_all_cis_pvalues_100kb.zip/content	selective_B_intermediate_member_only
+TenK10K_B_intermediate_member_uncompressed	2392868507	CRC32_3c73842b	1_data/qtl/eqtl/tenk10k/derived/FCRL3_full/cache/B_intermediate	validated_exact_FCRL3_extract
+HRR1849459.bam	26041030352	MD5_18555d257e844d10b40f13788830a49b	https://download.cncb.ac.cn/gsa-human/HRA008003/HRR1849459/HRR1849459.bam	pending_R7A1C1B
+HRR1849460.bam	33332591265	MD5_978529c1f0dde9a98194bac6310b1446	https://download.cncb.ac.cn/gsa-human/HRA008003/HRR1849460/HRR1849460.bam	pending_R7A1C1B
+HRR1849461.bam	28873594843	MD5_cb76945428f220d4618f12dfe924a88b	https://download.cncb.ac.cn/gsa-human/HRA008003/HRR1849461/HRR1849461.bam	pending_R7A1C1B
+HRR1849462.bam	28323326606	MD5_79de18396f58543f649f2931d4a067eb	https://download.cncb.ac.cn/gsa-human/HRA008003/HRR1849462/HRR1849462.bam	pending_R7A1C1B
+HRR1849463.bam	35917954133	MD5_08cfac6a2824567d1e5f88cea3e4e3bf	https://download.cncb.ac.cn/gsa-human/HRA008003/HRR1849463/HRR1849463.bam	pending_R7A1C1B
