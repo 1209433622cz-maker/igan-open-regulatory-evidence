@@ -1,0 +1,48 @@
+{
+  "schema_version": "CMM_R7A1C1_TARGET_PANEL_2.0",
+  "run": "HRR1849459",
+  "bam": "/mnt/h/SCI2/YR1/1_data/scrna/PBC/HRA008003/bam/HRR1849459.bam",
+  "bam_bytes": 26041030352,
+  "bam_sha256": "fab7a10a5e40525b2199bfec190a8892bd23233311ca0ba6a11aafd9b011e722",
+  "software": {
+    "python": "3.10.12",
+    "pysam": "0.23.3",
+    "htslib": "1.21"
+  },
+  "scan_qc": {
+    "all_alignment_records": 348739207,
+    "molecule_records": 46169764,
+    "barcodes_with_unambiguous_gene_molecules": 1065242,
+    "panel_molecules_in_called_cells": 524263,
+    "tag_qc": {
+      "excluded_not_xf_bit8_molecule_representative": 302569443
+    },
+    "cell_call": {
+      "method": "ordmag_10pct_of_99th_percentile_with_expected_cells",
+      "expected_cells": 6000,
+      "baseline_99th_percentile_UMI": 33361.0,
+      "called_cell_UMI_threshold": 3337,
+      "called_cells": 5447,
+      "called_cell_total_UMI_min": 3337,
+      "called_cell_total_UMI_median": 5409.0,
+      "called_cell_total_UMI_max": 107429
+    },
+    "molecule_filter": "direct_pysam_xf_bit8_single_pass"
+  },
+  "B_gate_cells": 472,
+  "NK_gate_cells": 1910,
+  "B_lineage_adequacy": true,
+  "NK_lineage_adequacy": true,
+  "FCRL3_B_positive_cells": 12,
+  "FCRL3_B_UMI": 17,
+  "IL12RB2_NK_positive_cells": 68,
+  "IL12RB2_NK_UMI": 70,
+  "primary_FCRL3_B_detectable": true,
+  "primary_IL12RB2_NK_detectable": true,
+  "sensitivity_FCRL3_B": true,
+  "sensitivity_IL12RB2_NK": true,
+  "promotion_eligible_FCRL3_B": true,
+  "promotion_eligible_IL12RB2_NK": true,
+  "technical_QC": "PASS",
+  "boundary": "called-cell donor target detectability only; final analysis requires full QC/reclustering and donor-by-cell-type pseudobulk"
+}

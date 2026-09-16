@@ -1,0 +1,24 @@
+{
+  "schema": "R7A1C1B0_MANIFEST_PREFLIGHT_1.0",
+  "rows": 5,
+  "runs": [
+    "HRR1849459",
+    "HRR1849460",
+    "HRR1849461",
+    "HRR1849462",
+    "HRR1849463"
+  ],
+  "total_expected_bytes": 152488497199,
+  "total_expected_GiB": 142.01597981061786,
+  "errors": [],
+  "status": "PASS"
+}
+wsl: Failed to start the systemd user session for 'chenzhi'. See journalctl for more details.
+0.23.3
+{
+  "status": "PASS_R7A1C1B1R_PREFLIGHT_ONLY",
+  "manifest_runs": 5,
+  "total_expected_bytes": 152488497199.0,
+  "runner": "v3.2",
+  "biological_threshold_changed": false
+}

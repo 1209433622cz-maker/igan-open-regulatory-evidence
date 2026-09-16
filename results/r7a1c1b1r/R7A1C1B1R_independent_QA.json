@@ -1,0 +1,162 @@
+{
+  "schema": "R7A1C1B1R_INDEPENDENT_QA_1.0",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "manifest_exact_five",
+      "status": "PASS",
+      "evidence": [
+        "HRR1849459",
+        "HRR1849460",
+        "HRR1849461",
+        "HRR1849462",
+        "HRR1849463"
+      ]
+    },
+    {
+      "name": "v3_1_and_biological_code_unchanged",
+      "status": "PASS",
+      "evidence": {
+        "02_hra_bam_target_panel_v2.py": "a88a8d061332322e3182dc259bf4a47b5bb507a30047d278a370932654d9a7a2",
+        "03_adjudicate_HRA008003_liver_gate_v2.py": "9a7bc06111e945296911b44cbd6d10e065a83ca475b6456a4c425eaad5b04eae",
+        "08_check_HRA008003_bam_schema.py": "11002e6de9624a606a8907abe44acb2110c7d2a07e17b9e9f47a94cd7ba73bbe",
+        "RUN_R7A1C1_HRA008003_TARGET_PANEL_v3_1.ps1": "5906a2750b3603ed9e84d3c69ab9a0371afa21c02c5a51b0ff45ee498462f454"
+      }
+    },
+    {
+      "name": "v3_2_regression_suite",
+      "status": "PASS",
+      "evidence": {
+        "passed": 6,
+        "total": 6
+      }
+    },
+    {
+      "name": "completed_three_donors_reusable",
+      "status": "PASS",
+      "evidence": {
+        "HRR1849459": {
+          "pass": true,
+          "FCRL3_B_positive_cells": 12,
+          "IL12RB2_NK_positive_cells": 68,
+          "receipt_status": "PASS_TARGET_PANEL_V2",
+          "resume": "PASS_VALID_SUMMARY_AND_RECEIPT"
+        },
+        "HRR1849460": {
+          "pass": true,
+          "FCRL3_B_positive_cells": 81,
+          "IL12RB2_NK_positive_cells": 25,
+          "receipt_status": "PASS_TARGET_PANEL_V2",
+          "resume": "PASS_VALID_SUMMARY_AND_RECEIPT"
+        },
+        "HRR1849461": {
+          "pass": true,
+          "FCRL3_B_positive_cells": 33,
+          "IL12RB2_NK_positive_cells": 49,
+          "receipt_status": "PASS_TARGET_PANEL_V2",
+          "resume": "PASS_VALID_SUMMARY_AND_RECEIPT"
+        }
+      }
+    },
+    {
+      "name": "receipt_table_has_only_completed_three",
+      "status": "PASS",
+      "evidence": [
+        "HRR1849459",
+        "HRR1849460",
+        "HRR1849461"
+      ]
+    },
+    {
+      "name": "HRR1849462_cached_byte_identity",
+      "status": "PASS",
+      "evidence": {
+        "path": "H:\\SCI2\\YR1\\1_data\\scrna\\PBC\\HRA008003\\bam\\HRR1849462.bam",
+        "bytes": 28323326606,
+        "md5": "79de18396f58543f649f2931d4a067eb",
+        "sha256": "42ab19a8fc22ae0d4ce180f08ebc6361989c60ce9227ce601e21718d48cdb3ce"
+      }
+    },
+    {
+      "name": "v1_1_false_failure_reproduced",
+      "status": "PASS",
+      "evidence": {
+        "status": "FAIL",
+        "counts": {
+          "records": 5000000,
+          "has_xf": 1474475,
+          "xf8": 25,
+          "xf8_CB": 25,
+          "xf8_GN": 25,
+          "xf8_unambiguous_GN": 25,
+          "xf8_UB": 25
+        },
+        "fractions": {
+          "CB_among_xf8": 1.0,
+          "GN_among_xf8": 1.0,
+          "UB_among_xf8": 1.0,
+          "unambiguous_GN_among_xf8": 1.0
+        }
+      }
+    },
+    {
+      "name": "v1_2_real_HRR1849462_schema",
+      "status": "PASS",
+      "evidence": {
+        "status": "PASS_WITH_WARNING",
+        "counts": {
+          "records": 5000000,
+          "has_xf": 1474475,
+          "xf8": 25,
+          "xf8_CB": 25,
+          "xf8_GN": 25,
+          "xf8_UB": 25,
+          "xf8_unambiguous_GN": 25
+        },
+        "fractions": {
+          "CB_among_xf8": 1.0,
+          "GN_among_xf8": 1.0,
+          "UB_among_xf8": 1.0,
+          "unambiguous_GN_among_xf8": 1.0
+        },
+        "warnings": [
+          "LOW_PREFIX_XF8_DENSITY:25 observed before 5000000 records; quantitative adequacy is deferred to the full-file scan"
+        ]
+      }
+    },
+    {
+      "name": "v3_2_runner_static_contract",
+      "status": "PASS",
+      "evidence": {
+        "uses_schema_v1_2": true,
+        "uses_resume_validator": true,
+        "uses_frozen_full_scan": true,
+        "uses_frozen_final_adjudicator": true,
+        "new_schema_output_is_versioned": true,
+        "receipt_validated_before_delete": true
+      }
+    },
+    {
+      "name": "v3_2_runtime_preflight",
+      "status": "PASS",
+      "evidence": "PASS"
+    },
+    {
+      "name": "five_donor_final_not_yet_claimed",
+      "status": "PASS",
+      "evidence": "NOT_TESTED"
+    },
+    {
+      "name": "HRR1849463_not_yet_tested",
+      "status": "PASS",
+      "evidence": "NOT_TESTED"
+    }
+  ],
+  "passed": 12,
+  "total": 12,
+  "biological_threshold_changed": false,
+  "completed_donors": 3,
+  "HRR1849462_schema": "PASS_WITH_WARNING_FULL_SCAN_REQUIRED",
+  "five_donor_final_result": "NOT_TESTED",
+  "next_stage": "R7A1C1B2_FIVE_DONOR_COMPLETION_AND_FINAL_ADJUDICATION"
+}

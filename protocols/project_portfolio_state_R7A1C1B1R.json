@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-16",
+  "stage": "R7A1C1B1R_V3_2_PREFLIGHT_HOTFIX",
+  "open_data_only": true,
+  "candidate_project": "primary_biliary_cholangitis",
+  "new_primary_project": "HOLD_PENDING_COMPLETE_5_OF_5_ADJUDICATION",
+  "upstream": {
+    "TenK_replication": "PASS_2_OF_2",
+    "lightweight_bypass": "FAIL_NO_DONOR_TARGET_MATRIX"
+  },
+  "donors": {
+    "HRR1849459": "PASS_TARGET_PANEL_V2_REVALIDATED",
+    "HRR1849460": "PASS_TARGET_PANEL_V2_REVALIDATED",
+    "HRR1849461": "PASS_TARGET_PANEL_V2_REVALIDATED",
+    "HRR1849462_download": "PASS_BYTES_MD5_SHA256_QUICKCHECK",
+    "HRR1849462_schema": "PASS_WITH_WARNING_LOW_PREFIX_XF8_DENSITY",
+    "HRR1849462_biology": "NOT_TESTED",
+    "HRR1849463": "NOT_TESTED"
+  },
+  "completed_positive_donors": {
+    "FCRL3_B": 3,
+    "IL12RB2_NK": 3
+  },
+  "runner": {
+    "v3_1": "HOLD_SUPERSEDED_BY_SCHEMA_ABUNDANCE_DECOUPLING",
+    "v3_2": "PASS_PREFLIGHT_REAL_BAM_SCHEMA_AND_6_OF_6_REGRESSION",
+    "biological_threshold_changed": false
+  },
+  "five_donor_final_result": "NOT_TESTED",
+  "next_stage": "R7A1C1B2_FIVE_DONOR_COMPLETION_AND_FINAL_ADJUDICATION",
+  "next_protocol": "0_admin/protocol/current/R7A1C1B1R_five_donor_execution_v3_2.md",
+  "CeD_auto_resume": false
+}

@@ -1,0 +1,367 @@
+{
+  "schema": "R7A1C1B1R_V3_2_REGRESSION_1.0",
+  "checks": [
+    {
+      "name": "prefix_at_least_1000_xf8",
+      "status": "PASS",
+      "evidence": {
+        "schema": "R7A1C1B1R_BAM_SCHEMA_PREFLIGHT_1.2",
+        "run": "high",
+        "bam": "/tmp/tmps4iab_pi/high.bam",
+        "records_inspected": 1000,
+        "sampling_rule": {
+          "min_records": 1000,
+          "max_records": 1000,
+          "stop_after_target_xf8": 1000,
+          "coordinate_sorted_adaptive_prefix": true,
+          "prefix_xf8_abundance_is_not_a_hard_gate": true
+        },
+        "counts": {
+          "records": 1000,
+          "has_xf": 1000,
+          "xf8": 1000,
+          "xf8_CB": 1000,
+          "xf8_GN": 1000,
+          "xf8_UB": 1000,
+          "xf8_unambiguous_GN": 1000
+        },
+        "fractions": {
+          "CB_among_xf8": 1.0,
+          "GN_among_xf8": 1.0,
+          "UB_among_xf8": 1.0,
+          "unambiguous_GN_among_xf8": 1.0
+        },
+        "xf8_density_per_million_records": 1000000.0,
+        "program_header": [
+          {
+            "PN": "STAR",
+            "ID": "STAR"
+          },
+          {
+            "ID": "annotate_reads"
+          }
+        ],
+        "bam_sort_order": "coordinate",
+        "examples": [
+          {
+            "CB": "CELL00000-1",
+            "GN": "GENE1",
+            "UB": "UMI00000",
+            "xf": 25
+          },
+          {
+            "CB": "CELL00001-1",
+            "GN": "GENE1",
+            "UB": "UMI00001",
+            "xf": 25
+          },
+          {
+            "CB": "CELL00002-1",
+            "GN": "GENE1",
+            "UB": "UMI00002",
+            "xf": 25
+          },
+          {
+            "CB": "CELL00003-1",
+            "GN": "GENE1",
+            "UB": "UMI00003",
+            "xf": 25
+          },
+          {
+            "CB": "CELL00004-1",
+            "GN": "GENE1",
+            "UB": "UMI00004",
+            "xf": 25
+          }
+        ],
+        "warnings": [],
+        "errors": [],
+        "schema_valid": true,
+        "quantitative_adequacy": "DEFERRED_TO_FULL_TARGET_PANEL_SCAN",
+        "status": "PASS"
+      }
+    },
+    {
+      "name": "low_prefix_xf8_valid_schema",
+      "status": "PASS",
+      "evidence": {
+        "schema": "R7A1C1B1R_BAM_SCHEMA_PREFLIGHT_1.2",
+        "run": "low",
+        "bam": "/tmp/tmps4iab_pi/low.bam",
+        "records_inspected": 1000,
+        "sampling_rule": {
+          "min_records": 1000,
+          "max_records": 1000,
+          "stop_after_target_xf8": 1000,
+          "coordinate_sorted_adaptive_prefix": true,
+          "prefix_xf8_abundance_is_not_a_hard_gate": true
+        },
+        "counts": {
+          "records": 1000,
+          "has_xf": 1000,
+          "xf8": 25,
+          "xf8_CB": 25,
+          "xf8_GN": 25,
+          "xf8_UB": 25,
+          "xf8_unambiguous_GN": 25
+        },
+        "fractions": {
+          "CB_among_xf8": 1.0,
+          "GN_among_xf8": 1.0,
+          "UB_among_xf8": 1.0,
+          "unambiguous_GN_among_xf8": 1.0
+        },
+        "xf8_density_per_million_records": 25000.0,
+        "program_header": [
+          {
+            "PN": "STAR",
+            "ID": "STAR"
+          },
+          {
+            "ID": "annotate_reads"
+          }
+        ],
+        "bam_sort_order": "coordinate",
+        "examples": [
+          {
+            "CB": "CELL00000-1",
+            "GN": "GENE1",
+            "UB": "UMI00000",
+            "xf": 25
+          },
+          {
+            "CB": "CELL00001-1",
+            "GN": "GENE1",
+            "UB": "UMI00001",
+            "xf": 25
+          },
+          {
+            "CB": "CELL00002-1",
+            "GN": "GENE1",
+            "UB": "UMI00002",
+            "xf": 25
+          },
+          {
+            "CB": "CELL00003-1",
+            "GN": "GENE1",
+            "UB": "UMI00003",
+            "xf": 25
+          },
+          {
+            "CB": "CELL00004-1",
+            "GN": "GENE1",
+            "UB": "UMI00004",
+            "xf": 25
+          }
+        ],
+        "warnings": [
+          "LOW_PREFIX_XF8_DENSITY:25 observed before 1000 records; quantitative adequacy is deferred to the full-file scan"
+        ],
+        "errors": [],
+        "schema_valid": true,
+        "quantitative_adequacy": "DEFERRED_TO_FULL_TARGET_PANEL_SCAN",
+        "status": "PASS_WITH_WARNING"
+      }
+    },
+    {
+      "name": "zero_xf8_fails",
+      "status": "PASS",
+      "evidence": {
+        "schema": "R7A1C1B1R_BAM_SCHEMA_PREFLIGHT_1.2",
+        "run": "zero",
+        "bam": "/tmp/tmps4iab_pi/zero.bam",
+        "records_inspected": 1000,
+        "sampling_rule": {
+          "min_records": 1000,
+          "max_records": 1000,
+          "stop_after_target_xf8": 1000,
+          "coordinate_sorted_adaptive_prefix": true,
+          "prefix_xf8_abundance_is_not_a_hard_gate": true
+        },
+        "counts": {
+          "records": 1000,
+          "has_xf": 1000
+        },
+        "fractions": {
+          "CB_among_xf8": 0,
+          "GN_among_xf8": 0,
+          "UB_among_xf8": 0,
+          "unambiguous_GN_among_xf8": 0
+        },
+        "xf8_density_per_million_records": 0.0,
+        "program_header": [
+          {
+            "PN": "STAR",
+            "ID": "STAR"
+          },
+          {
+            "ID": "annotate_reads"
+          }
+        ],
+        "bam_sort_order": "coordinate",
+        "examples": [],
+        "warnings": [],
+        "errors": [
+          "zero xf bit8 molecule representatives observed"
+        ],
+        "schema_valid": false,
+        "quantitative_adequacy": "DEFERRED_TO_FULL_TARGET_PANEL_SCAN",
+        "status": "FAIL"
+      }
+    },
+    {
+      "name": "missing_required_tags_fail",
+      "status": "PASS",
+      "evidence": {
+        "schema": "R7A1C1B1R_BAM_SCHEMA_PREFLIGHT_1.2",
+        "run": "missing",
+        "bam": "/tmp/tmps4iab_pi/missing.bam",
+        "records_inspected": 1000,
+        "sampling_rule": {
+          "min_records": 1000,
+          "max_records": 1000,
+          "stop_after_target_xf8": 1000,
+          "coordinate_sorted_adaptive_prefix": true,
+          "prefix_xf8_abundance_is_not_a_hard_gate": true
+        },
+        "counts": {
+          "records": 1000,
+          "has_xf": 1000,
+          "xf8": 25,
+          "xf8_missing_or_empty_CB": 1,
+          "xf8_GN": 24,
+          "xf8_UB": 24,
+          "xf8_unambiguous_GN": 24,
+          "xf8_CB": 24,
+          "xf8_missing_or_empty_GN": 1,
+          "xf8_missing_or_empty_UB": 1
+        },
+        "fractions": {
+          "CB_among_xf8": 0.96,
+          "GN_among_xf8": 0.96,
+          "UB_among_xf8": 0.96,
+          "unambiguous_GN_among_xf8": 0.96
+        },
+        "xf8_density_per_million_records": 25000.0,
+        "program_header": [
+          {
+            "PN": "STAR",
+            "ID": "STAR"
+          },
+          {
+            "ID": "annotate_reads"
+          }
+        ],
+        "bam_sort_order": "coordinate",
+        "examples": [
+          {
+            "CB": null,
+            "GN": "GENE1",
+            "UB": "UMI00000",
+            "xf": 25
+          },
+          {
+            "CB": "CELL00001-1",
+            "GN": null,
+            "UB": "UMI00001",
+            "xf": 25
+          },
+          {
+            "CB": "CELL00002-1",
+            "GN": "GENE1",
+            "UB": null,
+            "xf": 25
+          },
+          {
+            "CB": "CELL00003-1",
+            "GN": "GENE1",
+            "UB": "UMI00003",
+            "xf": 25
+          },
+          {
+            "CB": "CELL00004-1",
+            "GN": "GENE1",
+            "UB": "UMI00004",
+            "xf": 25
+          }
+        ],
+        "warnings": [
+          "LOW_PREFIX_XF8_DENSITY:25 observed before 1000 records; quantitative adequacy is deferred to the full-file scan"
+        ],
+        "errors": [
+          "1/25 xf bit8 records lack a non-empty CB tag",
+          "1/25 xf bit8 records lack a non-empty GN tag",
+          "1/25 xf bit8 records lack a non-empty UB tag"
+        ],
+        "schema_valid": false,
+        "quantitative_adequacy": "DEFERRED_TO_FULL_TARGET_PANEL_SCAN",
+        "status": "FAIL"
+      }
+    },
+    {
+      "name": "corrupt_or_incomplete_bam_fails",
+      "status": "PASS",
+      "evidence": {
+        "schema": "R7A1C1B1R_BAM_SCHEMA_PREFLIGHT_1.2",
+        "run": "corrupt",
+        "bam": "/tmp/tmps4iab_pi/corrupt.bam",
+        "records_inspected": 0,
+        "sampling_rule": {
+          "min_records": 1000,
+          "max_records": 1000,
+          "stop_after_target_xf8": 1000,
+          "coordinate_sorted_adaptive_prefix": true,
+          "prefix_xf8_abundance_is_not_a_hard_gate": true
+        },
+        "counts": {},
+        "fractions": {
+          "CB_among_xf8": 0,
+          "GN_among_xf8": 0,
+          "UB_among_xf8": 0,
+          "unambiguous_GN_among_xf8": 0
+        },
+        "xf8_density_per_million_records": 0,
+        "program_header": [],
+        "bam_sort_order": "",
+        "examples": [],
+        "warnings": [],
+        "errors": [
+          "input_read_error:OSError:no BGZF EOF marker; file may be truncated",
+          "too few records inspected: 0 < 1000",
+          "STAR program header is absent",
+          "annotate_reads program header is absent",
+          "expected coordinate-sorted BAM header; observed SO=''",
+          "zero xf bit8 molecule representatives observed"
+        ],
+        "schema_valid": false,
+        "quantitative_adequacy": "DEFERRED_TO_FULL_TARGET_PANEL_SCAN",
+        "status": "FAIL"
+      }
+    },
+    {
+      "name": "rerun_valid_summary_and_receipt",
+      "status": "PASS",
+      "evidence": {
+        "schema": "R7A1C1B1R_RESUME_VALIDATOR_1.0",
+        "run": "HRRTEST",
+        "checks": {
+          "summary_schema": true,
+          "summary_technical_QC": true,
+          "summary_run": true,
+          "summary_bytes": true,
+          "summary_sha256": true,
+          "receipt_status": true,
+          "receipt_bytes": true,
+          "receipt_official_md5": true,
+          "receipt_observed_md5": true,
+          "receipt_sha256": true
+        },
+        "errors": [],
+        "status": "PASS_VALID_SUMMARY_AND_RECEIPT"
+      }
+    }
+  ],
+  "passed": 6,
+  "total": 6,
+  "status": "PASS"
+}

@@ -19,4 +19,6 @@ R7A1B generated matrices and targeted GJOKA member hashes are listed separately 
 
 The five HRA008003 BAMs and two audited paper workbooks are listed in [`data/R7A1C1B0R_LARGE_ASSET_MANIFEST.tsv`](data/R7A1C1B0R_LARGE_ASSET_MANIFEST.tsv). The manifest distinguishes provider MD5 values from SHA-256 values computed after download.
 
+The real-execution checkpoint is recorded in [`data/R7A1C1B1R_LARGE_ASSET_MANIFEST.tsv`](data/R7A1C1B1R_LARGE_ASSET_MANIFEST.tsv): HRR1849459–61 have validated compact outputs and deleted local BAMs, HRR1849462 is cached and byte-validated pending its full scan, and HRR1849463 remains pending. Only compact donor-level aggregate summaries, schema audits and byte receipts are published. Called-cell tables and BAMs remain excluded.
+
 The published result tables contain summary-level or aggregate statistics only. Active-donor lists, standardized dosage matrices, source-LD matrices, SuSiE RDS fits, raw pQTL tables, raw single-cell objects and donor-level expression tables are deliberately excluded from GitHub. R6A2D retrieves only three CRC-verified members of the TenK10K precomputed-coloc archive; its member receipt is published under `results/r6a2d/`. R6A3A1 publishes file receipts, component-level coloc results and aggregate kidney summaries while leaving third-party source bytes at their original repositories.

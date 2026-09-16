@@ -1,0 +1,18 @@
+{
+  "schema": "R7A1C1B1R_RESUME_VALIDATOR_1.0",
+  "run": "HRR1849461",
+  "checks": {
+    "summary_schema": true,
+    "summary_technical_QC": true,
+    "summary_run": true,
+    "summary_bytes": true,
+    "summary_sha256": true,
+    "receipt_status": true,
+    "receipt_bytes": true,
+    "receipt_official_md5": true,
+    "receipt_observed_md5": true,
+    "receipt_sha256": true
+  },
+  "errors": [],
+  "status": "PASS_VALID_SUMMARY_AND_RECEIPT"
+}
