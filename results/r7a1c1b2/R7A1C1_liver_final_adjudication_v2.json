@@ -1,0 +1,13 @@
+{
+  "schema_version": "CMM_R7A1C1_LIVER_ADJUDICATION_2.0",
+  "PBC_donors": 5,
+  "technical_QC_donors": 5,
+  "FCRL3_B_primary_positive_donors": 5,
+  "IL12RB2_NK_primary_positive_donors": 5,
+  "FCRL3_B_promotion_eligible_donors": 5,
+  "IL12RB2_NK_promotion_eligible_donors": 5,
+  "primary_gate": "PASS",
+  "promotion_gate": "PASS",
+  "rule": "At least one target passes lineage adequacy and >=3 UMIs across >=2 target-positive called cells in >=3/5 PBC donors.",
+  "next_stage": "GO_R7A2_PBC_MANUSCRIPT_SCALE"
+}

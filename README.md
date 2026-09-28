@@ -27,9 +27,13 @@ R7A1C1A has now closed the compatible-cell TenK10K replication gate for both eli
 
 R7A1C1B0R then completed a hostile pre-execution audit of the five-donor tissue gate. The received v3 runner had a malformed final-adjudicator assignment, accepted an orphan compact summary without a matching byte-verification receipt, and could falsely reject coordinate-sorted BAMs after a fixed 500,000-record prefix. The corrected v3.1 runner uses `xf` bit 8 molecule representatives, reconstructed called cells, an adaptive 0.5–5 million-record schema check and exact summary/receipt identity. Its manifest, parser and runtime preflight pass. Testing the public supplementary workbooks found pooled human FCRL3 B-cell marker evidence but no donor-by-lineage-by-target matrix; their only IL12RB2 hit is from a mouse sheet, so they cannot replace the human BAM gate.
 
-R7A1C1B1R now records the first real execution checkpoint. HRR1849459–61 all passed technical QC and both FCRL3-B and IL12RB2-NK promotion thresholds. Their summary/receipt identities were independently revalidated. HRR1849462 is byte-complete (28,323,326,606 bytes), matches the provider MD5 and local SHA-256, and passes `samtools quickcheck`. Its first five million coordinate-sorted records contain only 25 `xf` bit-8 representatives, but all 25 carry valid CB/GN/UB and unambiguous GN tags. v3.2 therefore separates schema validity from prefix abundance: low prefix density is a warning, while the unchanged full-file target scan remains the quantitative gate. Six synthetic regression cases and 12 independent QA checks pass.
+R7A1C1B1R recorded the first real execution checkpoint and fixed a coordinate-sorted-prefix false failure without changing the full-scan biological thresholds.
 
-The current state is `NEW_PRIMARY_PROJECT = HOLD_PENDING_COMPLETE_5_OF_5_ADJUDICATION`. The only authorized next stage uses v3.2 to scan the cached HRR1849462 BAM, process HRR1849463 and generate the exact five-donor adjudication. Large third-party inputs are not mirrored; updated per-run byte, MD5, SHA-256 and state records are in [`data/R7A1C1B1R_LARGE_ASSET_MANIFEST.tsv`](data/R7A1C1B1R_LARGE_ASSET_MANIFEST.tsv).
+R7A1C1B2 has now completed the exact five-donor PBC liver adjudication. All five donors pass technical QC; FCRL3 in the frozen B-cell gate and IL12RB2 in the frozen NK-cell gate are promotion-eligible in 5/5 donors. The five scans cover 2,024,279,500 alignment records, 284,941,671 molecule-representative records and 23,809 called cells. The official adjudication and a separately generated adjudication are byte-for-byte equivalent at the parsed JSON level; eight independent closeout checks pass. Each BAM was deleted only after its compact summary and byte-verification receipt were validated.
+
+PBC is therefore promoted to the primary manuscript-scale project. The current claim is deliberately bounded to replicated disease–eQTL sharing plus target detectability in prespecified PBC liver immune lineages; it does not claim PBC-versus-control differential expression or tissue mediation.
+
+R7A2A0 has frozen the next executable gate. Official HRA008003 metadata identify HRR1849454–58 as five hepatic-hemangioma non-lesion liver controls (134,657,112,757 bytes total). Their byte/MD5 manifest, resumable runner, exact 5-vs-5 donor-level comparison and synthetic regression tests are included. The next stage is `R7A2A1_HRA008003_EXACT_5_VS_5_CONTROL_TARGET_PANEL`.
 
 ![REEP3 discovery and replication result](figures/R6A2C1D_REEP3_falsification_summary.png)
 
@@ -45,6 +49,7 @@ analysis/r6a3a/    public Sun 2018 pQTL and GSE127136 kidney gate
 analysis/r7a1a/    PBC/CeD byte intake, source audit and frozen-control screen
 analysis/r7a1b/    bounded PBC ABF, source-LD, SuSiE and signal adjudication
 analysis/r7a1c1/   TenK full-window replication and hardened HRA donor gate
+analysis/r7a2/     frozen five-control HRA runner and exact donor comparison
 data/              large-file manifest and data availability rules
 environment/       Python and R package requirements
 figures/           decision figures
@@ -60,6 +65,8 @@ results/r7a1b/     PBC smoke, source-LD QC, credible sets and final adjudication
 results/r7a1c/     TenK replication, source-CS tables and outcome-blind QA
 results/r7a1c1b0r/ five-donor runner QA, BAM-prefix schema test and supplement audit
 results/r7a1c1b1r/ real three-donor checkpoint, donor-4 schema hotfix and v3.2 QA
+results/r7a1c1b2/  completed five-PBC-donor summaries, receipts and final adjudication
+results/r7a2a0/    control-source audit, manifest preflight and execution-pack tests
 ```
 
 ## Reproduction
@@ -112,6 +119,13 @@ The corrected R7A1C1 HRA runner processes one official PBC liver BAM at a time a
 ```powershell
 $env:R7_PROJECT_ROOT = (Get-Location).Path
 pwsh -File .\analysis\r7a1c1\RUN_R7A1C1_HRA008003_TARGET_PANEL_v3_2.ps1
+```
+
+The R7A2A1 runner applies the same frozen target-panel algorithm to the exact five HRA008003 non-lesion liver controls, then performs the prespecified 5-vs-5 donor comparison. It is also resumable and deletes each control BAM only after validated compact output:
+
+```powershell
+$env:R7_PROJECT_ROOT = (Get-Location).Path
+pwsh -File .\analysis\r7a2\RUN_R7A2A1_HRA008003_CONTROL_TARGET_PANEL.ps1
 ```
 
 ## Evidence and licensing

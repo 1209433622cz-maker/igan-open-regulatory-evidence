@@ -1,0 +1,6 @@
+run	called_cells	B_gate_cells	NK_gate_cells	FCRL3_B_positive_cells	FCRL3_B_UMI	IL12RB2_NK_positive_cells	IL12RB2_NK_UMI	promotion_eligible_FCRL3_B	promotion_eligible_IL12RB2_NK	technical_QC
+HRR1849459	5447	472	1910	12	17	68	70	True	True	PASS
+HRR1849460	3468	1280	806	81	148	25	26	True	True	PASS
+HRR1849461	5666	782	2661	33	45	49	53	True	True	PASS
+HRR1849462	2981	829	682	39	89	30	31	True	True	PASS
+HRR1849463	6247	698	2860	34	58	183	209	True	True	PASS

@@ -1,0 +1,198 @@
+{
+  "schema": "R7A1C1B2_INDEPENDENT_QA_1.0",
+  "status": "PASS",
+  "passed": 8,
+  "total": 8,
+  "checks": [
+    {
+      "name": "manifest_exact_five",
+      "status": "PASS",
+      "evidence": [
+        "HRR1849459",
+        "HRR1849460",
+        "HRR1849461",
+        "HRR1849462",
+        "HRR1849463"
+      ]
+    },
+    {
+      "name": "frozen_biological_and_runner_code",
+      "status": "PASS",
+      "evidence": {
+        "02_hra_bam_target_panel_v2.py": "a88a8d061332322e3182dc259bf4a47b5bb507a30047d278a370932654d9a7a2",
+        "03_adjudicate_HRA008003_liver_gate_v2.py": "9a7bc06111e945296911b44cbd6d10e065a83ca475b6456a4c425eaad5b04eae",
+        "08_check_HRA008003_bam_schema_v1_2.py": "495f699e6d457f22bd406787b046917962349208e831de4c56e65acea02f0418",
+        "RUN_R7A1C1_HRA008003_TARGET_PANEL_v3_2.ps1": "1b072dc93ca9354211eee155809e33edd36766c0366d5353113c386d03a6b071"
+      }
+    },
+    {
+      "name": "receipt_exact_five_unique",
+      "status": "PASS",
+      "evidence": [
+        "HRR1849459",
+        "HRR1849460",
+        "HRR1849461",
+        "HRR1849462",
+        "HRR1849463"
+      ]
+    },
+    {
+      "name": "five_donor_compact_artifact_identity",
+      "status": "PASS",
+      "evidence": {
+        "HRR1849459": {
+          "pass": true,
+          "called_cells": 5447,
+          "B_gate_cells": 472,
+          "NK_gate_cells": 1910,
+          "FCRL3_B_positive_cells": 12,
+          "FCRL3_B_UMI": 17,
+          "IL12RB2_NK_positive_cells": 68,
+          "IL12RB2_NK_UMI": 70,
+          "sha256": "fab7a10a5e40525b2199bfec190a8892bd23233311ca0ba6a11aafd9b011e722",
+          "resume": "PASS_VALID_SUMMARY_AND_RECEIPT",
+          "bam_deleted": "True"
+        },
+        "HRR1849460": {
+          "pass": true,
+          "called_cells": 3468,
+          "B_gate_cells": 1280,
+          "NK_gate_cells": 806,
+          "FCRL3_B_positive_cells": 81,
+          "FCRL3_B_UMI": 148,
+          "IL12RB2_NK_positive_cells": 25,
+          "IL12RB2_NK_UMI": 26,
+          "sha256": "963b23cdbafb098b0a6069dcc18ad5545ed822aee494cdc9cc4eeff044756bc6",
+          "resume": "PASS_VALID_SUMMARY_AND_RECEIPT",
+          "bam_deleted": "True"
+        },
+        "HRR1849461": {
+          "pass": true,
+          "called_cells": 5666,
+          "B_gate_cells": 782,
+          "NK_gate_cells": 2661,
+          "FCRL3_B_positive_cells": 33,
+          "FCRL3_B_UMI": 45,
+          "IL12RB2_NK_positive_cells": 49,
+          "IL12RB2_NK_UMI": 53,
+          "sha256": "6d9e0560ed11375d80a2901bd12c23170afe3c2b22c53c943aef13be20374f7d",
+          "resume": "PASS_VALID_SUMMARY_AND_RECEIPT",
+          "bam_deleted": "True"
+        },
+        "HRR1849462": {
+          "pass": true,
+          "called_cells": 2981,
+          "B_gate_cells": 829,
+          "NK_gate_cells": 682,
+          "FCRL3_B_positive_cells": 39,
+          "FCRL3_B_UMI": 89,
+          "IL12RB2_NK_positive_cells": 30,
+          "IL12RB2_NK_UMI": 31,
+          "sha256": "42ab19a8fc22ae0d4ce180f08ebc6361989c60ce9227ce601e21718d48cdb3ce",
+          "resume": "PASS_VALID_SUMMARY_AND_RECEIPT",
+          "bam_deleted": "True"
+        },
+        "HRR1849463": {
+          "pass": true,
+          "called_cells": 6247,
+          "B_gate_cells": 698,
+          "NK_gate_cells": 2860,
+          "FCRL3_B_positive_cells": 34,
+          "FCRL3_B_UMI": 58,
+          "IL12RB2_NK_positive_cells": 183,
+          "IL12RB2_NK_UMI": 209,
+          "sha256": "8e30c76d2db5a15f6240219d8c0932fb35c4c26e944fcf91dad11f32c956c293",
+          "resume": "PASS_VALID_SUMMARY_AND_RECEIPT",
+          "bam_deleted": "True"
+        }
+      }
+    },
+    {
+      "name": "v3_2_schema_gate_donor4_and_5",
+      "status": "PASS",
+      "evidence": {
+        "HRR1849462": {
+          "status": "PASS_WITH_WARNING",
+          "schema_valid": true,
+          "records": 5000000,
+          "xf8": 25,
+          "tag_fractions": {
+            "CB_among_xf8": 1.0,
+            "GN_among_xf8": 1.0,
+            "UB_among_xf8": 1.0,
+            "unambiguous_GN_among_xf8": 1.0
+          }
+        },
+        "HRR1849463": {
+          "status": "PASS",
+          "schema_valid": true,
+          "records": 2078203,
+          "xf8": 1000,
+          "tag_fractions": {
+            "CB_among_xf8": 1.0,
+            "GN_among_xf8": 1.0,
+            "UB_among_xf8": 1.0,
+            "unambiguous_GN_among_xf8": 1.0
+          }
+        }
+      }
+    },
+    {
+      "name": "independent_adjudication_exact_match",
+      "status": "PASS",
+      "evidence": {
+        "official": {
+          "schema_version": "CMM_R7A1C1_LIVER_ADJUDICATION_2.0",
+          "PBC_donors": 5,
+          "technical_QC_donors": 5,
+          "FCRL3_B_primary_positive_donors": 5,
+          "IL12RB2_NK_primary_positive_donors": 5,
+          "FCRL3_B_promotion_eligible_donors": 5,
+          "IL12RB2_NK_promotion_eligible_donors": 5,
+          "primary_gate": "PASS",
+          "promotion_gate": "PASS",
+          "rule": "At least one target passes lineage adequacy and >=3 UMIs across >=2 target-positive called cells in >=3/5 PBC donors.",
+          "next_stage": "GO_R7A2_PBC_MANUSCRIPT_SCALE"
+        },
+        "independent": {
+          "schema_version": "CMM_R7A1C1_LIVER_ADJUDICATION_2.0",
+          "PBC_donors": 5,
+          "technical_QC_donors": 5,
+          "FCRL3_B_primary_positive_donors": 5,
+          "IL12RB2_NK_primary_positive_donors": 5,
+          "FCRL3_B_promotion_eligible_donors": 5,
+          "IL12RB2_NK_promotion_eligible_donors": 5,
+          "primary_gate": "PASS",
+          "promotion_gate": "PASS",
+          "rule": "At least one target passes lineage adequacy and >=3 UMIs across >=2 target-positive called cells in >=3/5 PBC donors.",
+          "next_stage": "GO_R7A2_PBC_MANUSCRIPT_SCALE"
+        }
+      }
+    },
+    {
+      "name": "five_of_five_dual_target_gate",
+      "status": "PASS",
+      "evidence": {
+        "schema_version": "CMM_R7A1C1_LIVER_ADJUDICATION_2.0",
+        "PBC_donors": 5,
+        "technical_QC_donors": 5,
+        "FCRL3_B_primary_positive_donors": 5,
+        "IL12RB2_NK_primary_positive_donors": 5,
+        "FCRL3_B_promotion_eligible_donors": 5,
+        "IL12RB2_NK_promotion_eligible_donors": 5,
+        "primary_gate": "PASS",
+        "promotion_gate": "PASS",
+        "rule": "At least one target passes lineage adequacy and >=3 UMIs across >=2 target-positive called cells in >=3/5 PBC donors.",
+        "next_stage": "GO_R7A2_PBC_MANUSCRIPT_SCALE"
+      }
+    },
+    {
+      "name": "bam_cache_empty_after_validated_deletion",
+      "status": "PASS",
+      "evidence": []
+    }
+  ],
+  "conclusion": "PBC five-donor liver gate closed at 5/5 for both prespecified target-lineage pairs.",
+  "claim_boundary": "Target detectability in marker-defined lineages; not case-control differential expression or causal mediation.",
+  "next_stage": "R7A2A1_HRA008003_EXACT_5_VS_5_CONTROL_TARGET_PANEL"
+}

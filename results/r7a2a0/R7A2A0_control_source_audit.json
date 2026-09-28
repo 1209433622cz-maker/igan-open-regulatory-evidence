@@ -1,0 +1,94 @@
+{
+  "schema": "R7A2A0_HRA008003_CONTROL_SOURCE_AUDIT_1.0",
+  "source": "HRA008003 official run/sample pages and public directory",
+  "runs": [
+    {
+      "run": "HRR1849454",
+      "sample": "HRS1314463",
+      "sample_name": "control_liver1",
+      "sample_title": "Normal peritumoral tissue from hepatic  hemangioma patient1",
+      "tissue": "liver",
+      "expected_bytes": 26515099225,
+      "official_md5": "ba42572e65c05569bc7d4c0f45b8e5c6",
+      "checks": {
+        "run_accession": true,
+        "sample_accession": true,
+        "sample_name": true,
+        "tissue": true,
+        "control_title": true,
+        "file_name": true
+      }
+    },
+    {
+      "run": "HRR1849455",
+      "sample": "HRS1314464",
+      "sample_name": "control_liver2",
+      "sample_title": "Normal peritumoral tissue from hepatic  hemangioma patient2",
+      "tissue": "liver",
+      "expected_bytes": 33941473553,
+      "official_md5": "a016781d9530fb626a85db91ab1ee0d4",
+      "checks": {
+        "run_accession": true,
+        "sample_accession": true,
+        "sample_name": true,
+        "tissue": true,
+        "control_title": true,
+        "file_name": true
+      }
+    },
+    {
+      "run": "HRR1849456",
+      "sample": "HRS1314465",
+      "sample_name": "control_liver3",
+      "sample_title": "Normal peritumoral tissue from hepatic  hemangioma patient3",
+      "tissue": "liver",
+      "expected_bytes": 27185713400,
+      "official_md5": "b302a7760c7ba4022798b436339d2e4a",
+      "checks": {
+        "run_accession": true,
+        "sample_accession": true,
+        "sample_name": true,
+        "tissue": true,
+        "control_title": true,
+        "file_name": true
+      }
+    },
+    {
+      "run": "HRR1849457",
+      "sample": "HRS1314466",
+      "sample_name": "control_liver4",
+      "sample_title": "Normal peritumoral tissue from hepatic  hemangioma patient4",
+      "tissue": "liver",
+      "expected_bytes": 27590017244,
+      "official_md5": "ad560efc933a038e931ad9aae460188f",
+      "checks": {
+        "run_accession": true,
+        "sample_accession": true,
+        "sample_name": true,
+        "tissue": true,
+        "control_title": true,
+        "file_name": true
+      }
+    },
+    {
+      "run": "HRR1849458",
+      "sample": "HRS1314467",
+      "sample_name": "control_liver5",
+      "sample_title": "Normal peritumoral tissue from hepatic  hemangioma patient5",
+      "tissue": "liver",
+      "expected_bytes": 19424809335,
+      "official_md5": "28f6af252496d28f88cf251265466aa4",
+      "checks": {
+        "run_accession": true,
+        "sample_accession": true,
+        "sample_name": true,
+        "tissue": true,
+        "control_title": true,
+        "file_name": true
+      }
+    }
+  ],
+  "total_expected_bytes": 134657112757,
+  "errors": [],
+  "status": "PASS"
+}
