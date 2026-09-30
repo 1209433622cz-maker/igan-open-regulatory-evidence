@@ -41,7 +41,7 @@ PBC remains the primary project because the core disease-eQTL signal-sharing evi
 
 R7A2A2 subsequently froze the claim–evidence matrix, novelty boundary, manuscript skeleton, Figure 1–6 source manifest and supplementary-item plan. R7A2A3 has now converted that evidence into a complete English scientific draft using the QiTeng v0.3.24.2 guarded manuscript workflow. The draft contains all Methods and Results modules, retains FCRL3/CD8_ET and INAVA boundary-changing negatives, and keeps the 5-vs-5 tissue result in the main evidence hierarchy. Deterministic manuscript QA passes 22/22 checks, including numerical tokens reconstructed from upstream tables, reference continuity and first-appearance order, required boundary sentences, and an 11/11 Methods–Results mirror.
 
-The current stage is `R7A2A4_HOSTILE_MANUSCRIPT_AUDIT`. It is restricted to clause-level claim/source review, current novelty checking, two hostile reviewer simulations, numerical/reference verification and repair of Figure 1/3 semantics. No new locus, gene or cell type is opened by default. The manuscript remains below submission state until authorship, affiliations, CRediT, funding, competing interests, target-journal compliance and the two figure repairs are complete.
+R7A2A4 subsequently completed the hostile manuscript audit, including claim/source repair, 34/34 numeric checks, 17/17 reader-facing checks and repaired Figure 1–4/6 semantics. R7A2A5 has now selected **Human Genomics / Research** as the primary submission route and assembled the journal-format manuscript, graphical abstract, six main figures, four supplementary figures and a ten-table supplementary workbook. Final machine QA passes 55 checks with no technical failures. The submission state is `AWAITING_AUTHOR_METADATA`: author order, affiliations, correspondence, CRediT, funding, competing interests, local ethics/waiver wording and all-author approval must be supplied by the authors before submission. No new biological analysis is required by default.
 
 ![REEP3 discovery and replication result](figures/R6A2C1D_REEP3_falsification_summary.png)
 
@@ -61,11 +61,13 @@ analysis/r7a1b/    bounded PBC ABF, source-LD, SuSiE and signal adjudication
 analysis/r7a1c1/   TenK full-window replication and hardened HRA donor gate
 analysis/r7a2/     frozen five-control HRA runner and exact donor comparison
 analysis/r7a2a3/   deterministic manuscript structure, reference and numeric QA
+analysis/r7a2a5/   Human Genomics asset builders, WPS export and final QA
 data/              large-file manifest and data availability rules
 environment/       Python and R package requirements
 figures/           decision figures
 figures/r7a2a3_draft/ R7A2A2-frozen Figure 1–4/6 review assets with known repair notes
-manuscript/        R7A2A3 full English scientific draft v1
+figures/r7a2a5_submission/ Human Genomics main, supplementary and graphical-abstract assets
+manuscript/r7a2a5/ Human Genomics-formatted manuscript v3 in MD, DOCX and WPS PDF
 protocols/         frozen analysis and next-stage protocols
 reports/           detailed Chinese-language audit records
 results/r6a2a1/    positive benchmark tables
@@ -82,6 +84,7 @@ results/r7a1c1b2/  completed five-PBC-donor summaries, receipts and final adjudi
 results/r7a2a0/    control-source audit, manifest preflight and execution-pack tests
 results/r7a2a1/    exact 5-vs-5 donor metrics, independent QA and final adjudication
 results/r7a2a3/    claim/reference/risk ledgers, Methods–Results mirror and manuscript QA
+results/r7a2a5/    journal matrix, supplementary workbook, state and 55-check final QA
 ```
 
 ## Reproduction

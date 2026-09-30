@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="300" viewBox="0 0 920 300">
+<rect width="920" height="300" fill="#ffffff"/><rect width="920" height="8" fill="#164E63"/>
+<text x="24" y="47" font-family="Arial" font-size="25" font-weight="700" fill="#123047">Resolving PBC regulatory signals with source-matched LD</text>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#5B677A"/></marker></defs>
+<g font-family="Arial" font-size="17" font-weight="700" text-anchor="middle" fill="#172033">
+<rect x="24" y="78" width="150" height="123" rx="18" fill="#E8F3F8" stroke="#D2D9E3" stroke-width="2"/><text x="99" y="128"><tspan x="99">PBC GWAS</tspan><tspan x="99" dy="24">+ study-derived LD</tspan></text>
+<rect x="205" y="78" width="150" height="123" rx="18" fill="#EDF8F2" stroke="#D2D9E3" stroke-width="2"/><text x="280" y="128"><tspan x="280">OneK1K eQTL</tspan><tspan x="280" dy="24">+ donor/cell LD</tspan></text>
+<rect x="386" y="78" width="150" height="123" rx="18" fill="#FFF5DF" stroke="#D2D9E3" stroke-width="2"/><text x="461" y="128"><tspan x="461">Multi-signal</tspan><tspan x="461" dy="24">SuSiE-coloc gate</tspan></text>
+<rect x="567" y="62" width="183" height="155" rx="18" fill="#F1ECFA" stroke="#D2D9E3" stroke-width="2"/><text x="658.5" y="109"><tspan x="658.5">Cross-resource support</tspan><tspan x="658.5" dy="26">IL12RB2 - NK</tspan><tspan x="658.5" dy="26">FCRL3 - B</tspan></text>
+<rect x="781" y="78" width="115" height="123" rx="18" fill="#FCECEC" stroke="#D2D9E3" stroke-width="2"/><text x="838.5" y="116"><tspan x="838.5">Liver:</tspan><tspan x="838.5" dy="23">detectable</tspan><tspan x="838.5" dy="23">No corrected</tspan><tspan x="838.5" dy="23">enrichment</tspan></text>
+</g>
+<g stroke="#5B677A" stroke-width="3" marker-end="url(#a)"><line x1="184" y1="140" x2="198" y2="140"/><line x1="365" y1="140" x2="379" y2="140"/><line x1="546" y1="140" x2="560" y2="140"/><line x1="760" y1="140" x2="774" y2="140"/></g>
+<rect x="160" y="239" width="600" height="43" rx="17" fill="#F4F6F8" stroke="#BCC6D1" stroke-width="2"/>
+<text x="460" y="266" font-family="Arial" font-size="15" font-weight="700" text-anchor="middle" fill="#172033">Claim ceiling: replicated association / signal sharing; no mediation or causality claim</text>
+</svg>

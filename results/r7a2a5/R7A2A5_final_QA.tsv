@@ -1,0 +1,57 @@
+check	status	detail
+file exists: R7A2A5_HumanGenomics_manuscript_v3.md	PASS	50871 bytes
+file exists: R7A2A5_HumanGenomics_manuscript_v3.docx	PASS	55661 bytes
+file exists: R7A2A5_HumanGenomics_manuscript_v3_WPS.pdf	PASS	303033 bytes
+file exists: R7A2A5_HumanGenomics_cover_letter_DRAFT.docx	PASS	38315 bytes
+file exists: R7A2A5_HumanGenomics_cover_letter_DRAFT_WPS.pdf	PASS	117258 bytes
+file exists: Additional_file_1_R7A2A5_Supplementary_Tables.xlsx	PASS	71360 bytes
+R7A2A4 input identity	PASS	c7c50a3637068d13d593f10b182fc0f26c715d8ef53e9d6fdf228c34dd3daaf9
+title <=20 words	PASS	13 words
+structured abstract <=350 words	PASS	292 words
+abstract heading Background	PASS	### Background
+abstract heading Results	PASS	### Results
+abstract heading Conclusions	PASS	### Conclusions
+section Background	PASS	## Background
+section Methods	PASS	## Methods
+section Results	PASS	## Results
+section Discussion	PASS	## Discussion
+section Conclusions	PASS	## Conclusions
+section List of abbreviations	PASS	## List of abbreviations
+section Declarations	PASS	## Declarations
+section References	PASS	## References
+section Figure legends	PASS	## Figure legends
+declaration Ethics approval and consent to participate	PASS	### Ethics approval and consent to participate
+declaration Consent for publication	PASS	### Consent for publication
+declaration Availability of data and materials	PASS	### Availability of data and materials
+declaration Competing interests	PASS	### Competing interests
+declaration Funding	PASS	### Funding
+declaration Authors' contributions	PASS	### Authors' contributions
+declaration Acknowledgements	PASS	### Acknowledgements
+declaration Authors' information	PASS	### Authors' information
+claim ceiling retained	PASS	explicit association/signal-sharing ceiling
+tissue null boundary retained	PASS	detectability separated from enrichment
+TenK disease-replication boundary retained	PASS	same PBC GWAS explicitly disclosed
+external preregistration not claimed	PASS	prespecified/protocol-frozen wording
+QiTeng disclosure present	PASS	supervised writing disclosure
+reference continuity	PASS	references=[1, 2, 3]...[17, 18, 19]
+citation first-appearance order	PASS	first appearances=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+continuous line numbering	PASS	DOCX section properties
+page numbering field	PASS	DOCX footer field
+double-spaced normal style	PASS	line spacing=2.0
+WPS manuscript PDF	PASS	27 pages; creator=WPS 文字
+one-page WPS cover letter	PASS	1 page; creator=WPS 文字
+PDF text extraction	PASS	51866 characters
+graphical abstract 920x300	PASS	920x300
+Figure 1 technical gate	PASS	2760x2538, 300.0 dpi, 313105 bytes
+Figure 2 technical gate	PASS	2271x1311, 300.0 dpi, 147038 bytes
+Figure 3 technical gate	PASS	2247x1684, 300.0 dpi, 184419 bytes
+Figure 4 technical gate	PASS	2054x1288, 300.0 dpi, 116917 bytes
+Figure 5 technical gate	PASS	2618x1436, 320.0 dpi, 156311 bytes
+Figure 6 technical gate	PASS	2760x2220, 300.0 dpi, 273272 bytes
+Supplementary Figure S1	PASS	2400x1500, 300.0 dpi
+Supplementary Figure S2	PASS	2400x1500, 300.0 dpi
+Supplementary Figure S3	PASS	2400x1500, 300.0 dpi
+Supplementary Figure S4	PASS	2400x1500, 300.0 dpi
+supplement workbook sheet set	PASS	11 sheets
+supplement formula/error scan	PASS	formulas=0; errors=0
+human metadata complete	BLOCKED_HUMAN_INPUT	3 explicit manuscript placeholders remain

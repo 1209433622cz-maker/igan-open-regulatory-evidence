@@ -1,0 +1,5 @@
+journal	rank	article_type	scope_fit	official_metric	official_first_decision	official_APC_or_note	main_risk	decision
+Human Genomics	PRIMARY	Research	Direct fit: GWAS, statistical/regulatory genomics, single-cell and integrative omics	4.1 (2025)	6 days	$3390	Moderate: novelty must be framed as source-matched multi-signal inference, not gene discovery	GO
+BMC Medical Genomics	BACKUP_1_COMPLETION_FIRST	Research article	Strong immunogenomics and bioinformatics fit; validity rather than perceived impact	2.6 (2025)	3 days	$3290	Lower novelty pressure; strongest completion-first fallback	READY_AFTER_MINOR_REFORMAT
+Scientific Reports	BACKUP_2	Article	Broad genetics/immunology fit; technically sound open-data study	4.9 (2025)	First decision target reported by journal; exact median not used	Check at submission	Moderate: 200-word unstructured abstract and 4500-word main text require reformatting	READY_AFTER_REFORMAT
+Genes & Immunity	ASPIRATIONAL_NOT_PRIMARY	Article	Excellent immune-genetics readership	4.2 (2025)	15 days	$3860 OA option	High: 4000-word body and functional/novelty expectations; 227-day median to acceptance	HOLD
