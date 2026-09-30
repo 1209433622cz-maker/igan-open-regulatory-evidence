@@ -23,5 +23,8 @@
     "TARGET_JOURNAL_COMPLIANCE"
   ],
   "new_biological_analysis_default": "NO",
+  "github_sync": "PASS",
+  "github_artifact_commit": "a3757e5da0179f5c40e0ebb4b819398fc5e2c5b7",
+  "github_remote": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence",
   "next_stage": "R7A2A4_HOSTILE_MANUSCRIPT_AUDIT"
 }
