@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-30",
+  "stage": "R7A2A1_COMPLETE_R7A2A2_GO",
+  "open_data_only": true,
+  "primary_project": "primary_biliary_cholangitis",
+  "primary_project_status": "GO_MANUSCRIPT_EVIDENCE_FREEZE",
+  "R7A2A1": {
+    "design": "exact 5 PBC versus 5 hepatic-hemangioma non-lesion liver donors",
+    "control_bytes": 134657112757,
+    "control_technical_QC": "PASS_5_OF_5",
+    "independent_QA": "PASS_19_OF_19",
+    "FCRL3_B": {
+      "PBC_median_CPM": 5.48227951703951,
+      "control_median_CPM": 12.45182477934477,
+      "PBC_minus_control_mean_log1p_difference": -0.7863352116597311,
+      "exact_permutation_p": 0.1111111111111111,
+      "BH_q": 0.1111111111111111,
+      "decision": "NO_PBC_SPECIFIC_ENRICHMENT"
+    },
+    "IL12RB2_NK": {
+      "PBC_median_CPM": 6.656948156353453,
+      "control_median_CPM": 4.2370080621789405,
+      "PBC_minus_control_mean_log1p_difference": 0.3299675359429739,
+      "exact_permutation_p": 0.06349206349206349,
+      "BH_q": 0.1111111111111111,
+      "decision": "DIRECTIONAL_SUPPORT_ONLY_NOT_SIGNIFICANT"
+    },
+    "disease_specific_expression_claim": "NOT_SUPPORTED",
+    "lineage_localization_claim": "SUPPORTED_AS_BOUNDED_MARKER_PANEL",
+    "control_bam_cache": "EMPTY_AFTER_VALIDATED_COMPACT_OUTPUT"
+  },
+  "upstream_evidence": {
+    "OneK_signal_specific_shared_genes": ["FCRL3", "IL12RB2"],
+    "TenK_compatible_cell_replication": "PASS_2_OF_2",
+    "PBC_liver_target_detectability": "PASS_5_OF_5_BOTH_TARGET_LINEAGE_PAIRS"
+  },
+  "claim_boundary": {
+    "allowed": "Replicated disease-eQTL signal sharing plus detection in prespecified PBC liver immune-lineage gates.",
+    "not_allowed": [
+      "PBC-specific upregulation of FCRL3 or IL12RB2",
+      "causal liver-tissue mediation",
+      "cell-state differential expression from the marker panel"
+    ]
+  },
+  "full_ten_donor_reclustering": "DEFERRED_OPTIONAL_NOT_REQUIRED_FOR_CORE_CLAIM",
+  "next_stage": "R7A2A2_MANUSCRIPT_EVIDENCE_FREEZE_AND_FIGURE_ASSEMBLY",
+  "CeD_auto_resume": false
+}
+

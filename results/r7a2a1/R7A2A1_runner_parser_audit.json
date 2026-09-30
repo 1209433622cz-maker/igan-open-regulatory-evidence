@@ -1,0 +1,32 @@
+{
+  "schema": "R7A2A1_RUNNER_PARSER_AUDIT_1.0",
+  "files": [
+    {
+      "file": "H:\\SCI2\\YR1\\2_code\\06_intake\\r7a2\\RUN_R7A2A1_HRA008003_CONTROL_TARGET_PANEL.ps1",
+      "sha256": "5a552f658a689da7e8f80aadeaa82a71bd05dfe771f1888bc897914b0c43d4b9",
+      "parse_errors": 0,
+      "messages": [
+        null
+      ]
+    },
+    {
+      "file": "H:\\SCI2\\YR1\\2_code\\06_intake\\r7a2\\RUN_R7A2A1_HRA008003_CONTROL_TARGET_PANEL_HARDENED.ps1",
+      "sha256": "b0b2335d00ab782715c7ee7d0c82d0b684c78cdae554dfe22403ddf566ca041f",
+      "parse_errors": 0,
+      "messages": [
+        null
+      ]
+    },
+    {
+      "file": "C:\\Users\\Administrator\\Downloads\\RUN_R7A2A1_HRA008003_CONTROL_TARGET_PANEL_HARDENED.ps1",
+      "sha256": "b966e5edb810c750e7993bbff03adffb2845dc269f7f0d260976f3a4955f5098",
+      "parse_errors": 1,
+      "messages": [
+        "Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name."
+      ]
+    }
+  ],
+  "downloaded_copy_requires_fix": true,
+  "workspace_hardened_copy_status": "PASS",
+  "fix": "Use ${run} before a colon in the oversize error message; UTF-8 BOM is immaterial."
+}

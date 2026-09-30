@@ -35,9 +35,15 @@ PBC is therefore promoted to the primary manuscript-scale project. The current c
 
 R7A2A0 has frozen the next executable gate. Official HRA008003 metadata identify HRR1849454–58 as five hepatic-hemangioma non-lesion liver controls (134,657,112,757 bytes total). Their byte/MD5 manifest, resumable runner, exact 5-vs-5 donor-level comparison and synthetic regression tests are included. The next stage is `R7A2A1_HRA008003_EXACT_5_VS_5_CONTROL_TARGET_PANEL`.
 
+R7A2A1 has now completed that exact 5-vs-5 gate. All five control BAM identities, schemas, compact summaries and deletion receipts pass; an independent closeout audit passes 19/19 checks and reproduces the frozen JSON and TSV exactly. Both target-lineage pairs were detected in 5/5 PBC and 5/5 control donors. FCRL3-B was directionally lower in PBC (mean log1p CPM difference -0.786; exact P=0.111), while IL12RB2-NK was directionally higher (+0.330; exact P=0.0635); both have BH q=0.111. The tissue layer therefore supports bounded lineage localization but not PBC-specific upregulation.
+
+PBC remains the primary project because the core disease-eQTL signal-sharing evidence and 2/2 TenK10K replication remain intact. The next stage is `R7A2A2_MANUSCRIPT_EVIDENCE_FREEZE_AND_FIGURE_ASSEMBLY`. Full ten-donor reclustering is deferred because it would not increase the donor count and is not required for the bounded core claim.
+
 ![REEP3 discovery and replication result](figures/R6A2C1D_REEP3_falsification_summary.png)
 
 ![PBC three-control signal gate](figures/R7A1B_PBC_signal_gate_summary.png)
+
+![PBC exact five-versus-five liver target panel](figures/R7A2A1_PBC_vs_control_target_panel.png)
 
 ## Repository layout
 
@@ -67,6 +73,7 @@ results/r7a1c1b0r/ five-donor runner QA, BAM-prefix schema test and supplement a
 results/r7a1c1b1r/ real three-donor checkpoint, donor-4 schema hotfix and v3.2 QA
 results/r7a1c1b2/  completed five-PBC-donor summaries, receipts and final adjudication
 results/r7a2a0/    control-source audit, manifest preflight and execution-pack tests
+results/r7a2a1/    exact 5-vs-5 donor metrics, independent QA and final adjudication
 ```
 
 ## Reproduction
@@ -125,7 +132,7 @@ The R7A2A1 runner applies the same frozen target-panel algorithm to the exact fi
 
 ```powershell
 $env:R7_PROJECT_ROOT = (Get-Location).Path
-pwsh -File .\analysis\r7a2\RUN_R7A2A1_HRA008003_CONTROL_TARGET_PANEL.ps1
+pwsh -File .\analysis\r7a2\RUN_R7A2A1_HRA008003_CONTROL_TARGET_PANEL_HARDENED.ps1
 ```
 
 ## Evidence and licensing
