@@ -1,0 +1,214 @@
+{
+  "stage": "R7A2A3",
+  "qa_scope": "deterministic_structure_numeric_reference_and_wording_invariants",
+  "semantic_review_required_next": "R7A2A4_HOSTILE_MANUSCRIPT_AUDIT",
+  "checks": [
+    {
+      "name": "required_headings",
+      "pass": true,
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "required_frozen_sentences",
+      "pass": true,
+      "observed": 2,
+      "expected": 2
+    },
+    {
+      "name": "reference_list_continuity",
+      "pass": true,
+      "observed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "expected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "name": "citation_range",
+      "pass": true,
+      "observed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "expected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "name": "citation_first_appearance",
+      "pass": true,
+      "observed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "expected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "name": "forbidden_positive_assertions",
+      "pass": true,
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "numeric_token_OneK_IL12RB2_default",
+      "pass": true,
+      "observed": "0.9980",
+      "expected": "0.9980"
+    },
+    {
+      "name": "numeric_token_OneK_IL12RB2_low_prior",
+      "pass": true,
+      "observed": "0.9806",
+      "expected": "0.9806"
+    },
+    {
+      "name": "numeric_token_OneK_FCRL3_CD8ET_smoke",
+      "pass": true,
+      "observed": "0.9413",
+      "expected": "0.9413"
+    },
+    {
+      "name": "numeric_token_OneK_FCRL3_CD8ET_multi",
+      "pass": true,
+      "observed": "0.0036",
+      "expected": "0.0036"
+    },
+    {
+      "name": "numeric_token_TenK_IL12RB2_default",
+      "pass": true,
+      "observed": "0.9975",
+      "expected": "0.9975"
+    },
+    {
+      "name": "numeric_token_TenK_IL12RB2_low",
+      "pass": true,
+      "observed": "0.9760",
+      "expected": "0.9760"
+    },
+    {
+      "name": "numeric_token_TenK_FCRL3_default",
+      "pass": true,
+      "observed": "0.9916",
+      "expected": "0.9916"
+    },
+    {
+      "name": "numeric_token_TenK_FCRL3_low",
+      "pass": true,
+      "observed": "0.9217",
+      "expected": "0.9217"
+    },
+    {
+      "name": "numeric_token_Tissue_FCRL3_diff",
+      "pass": true,
+      "observed": "-0.7863",
+      "expected": "-0.7863"
+    },
+    {
+      "name": "numeric_token_Tissue_IL12RB2_diff",
+      "pass": true,
+      "observed": "0.3300",
+      "expected": "0.3300"
+    },
+    {
+      "name": "frozen_universe_visible",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "negative_controls_propagated",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "tenk_caveat_visible",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "author_metadata_placeholders",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "methods_results_mirror",
+      "pass": true,
+      "observed": 11,
+      "expected": 11
+    },
+    {
+      "name": "manuscript_word_count_floor",
+      "pass": true,
+      "observed": 6181,
+      "expected": ">=4500"
+    }
+  ],
+  "passed": 22,
+  "total": 22,
+  "status": "PASS"
+}

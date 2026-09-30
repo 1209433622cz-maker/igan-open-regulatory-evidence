@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-30",
+  "stage": "R7A2A3",
+  "status": "COMPLETE_MANUSCRIPT_DRAFT_V1",
+  "writing_skill": "QiTeng Academic Writing Skill v0.3.24.2",
+  "writing_mode": ["QITENG_Q1_GUARDED", "FULL_MANUSCRIPT"],
+  "PBC_primary_project": "GO",
+  "central_evidence_tier": "E2_ROBUST_ASSOCIATION",
+  "central_axes": ["FCRL3_B", "IL12RB2_NK"],
+  "OneK_sourceLD_multisignal": "PASS_WITH_CONTEXT_DEPENDENCE",
+  "TenK_replication": "PASS_2_OF_2_AS_INDEPENDENT_MOLECULAR_QTL_REPLICATION",
+  "FCRL3_CD8_ET": "DISTINCT_SIGNALS_AFTER_MULTISIGNAL",
+  "INAVA": "UNINFORMATIVE_WEAK_QTL",
+  "tissue_detectability": "PASS_5_OF_5_PBC_AND_5_OF_5_CONTROL_FOR_BOTH_TARGETS",
+  "tissue_case_control_enrichment": "NOT_SUPPORTED_AFTER_TWO_TARGET_CORRECTION",
+  "novelty_position": "SOURCE_MATCHED_MULTISIGNAL_AND_CROSS_RESOURCE_REPLICATION",
+  "submission_ready": false,
+  "submission_blockers": [
+    "AUTHOR_AND_AFFILIATION_METADATA",
+    "CRediT_FUNDING_COI",
+    "FIGURE1_AND_FIGURE3_REPAIR",
+    "HOSTILE_CLAIM_SOURCE_AUDIT",
+    "TARGET_JOURNAL_COMPLIANCE"
+  ],
+  "new_biological_analysis_default": "NO",
+  "next_stage": "R7A2A4_HOSTILE_MANUSCRIPT_AUDIT"
+}

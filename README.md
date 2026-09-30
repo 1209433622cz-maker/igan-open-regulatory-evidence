@@ -1,6 +1,6 @@
 # Open regulatory evidence: completion-first immune-disease signal gates
 
-This repository contains the reproducible, open-data workflow used to test whether immune-disease GWAS signals share cell-specific cis-eQTL signals in OneK1K and TenK10K. It retains the completed IgAN work and the current primary biliary cholangitis (PBC) candidate gate.
+This repository contains the reproducible, open-data workflow used to test whether immune-disease GWAS signals share cell-specific cis-eQTL signals in OneK1K and TenK10K. It retains the completed IgAN work and the current primary biliary cholangitis (PBC) manuscript evidence chain.
 
 The repository is evidence-first: frozen candidate universes, all tested comparisons, negative and ambiguous results, software cross-checks, and gate decisions are retained together. Raw third-party datasets and donor-level genotype/LD matrices are not mirrored here; exact URLs, sizes, hashes, and expected local locations are recorded in [`data/LARGE_DATA_MANIFEST.tsv`](data/LARGE_DATA_MANIFEST.tsv).
 
@@ -39,6 +39,10 @@ R7A2A1 has now completed that exact 5-vs-5 gate. All five control BAM identities
 
 PBC remains the primary project because the core disease-eQTL signal-sharing evidence and 2/2 TenK10K replication remain intact. The next stage is `R7A2A2_MANUSCRIPT_EVIDENCE_FREEZE_AND_FIGURE_ASSEMBLY`. Full ten-donor reclustering is deferred because it would not increase the donor count and is not required for the bounded core claim.
 
+R7A2A2 subsequently froze the claim–evidence matrix, novelty boundary, manuscript skeleton, Figure 1–6 source manifest and supplementary-item plan. R7A2A3 has now converted that evidence into a complete English scientific draft using the QiTeng v0.3.24.2 guarded manuscript workflow. The draft contains all Methods and Results modules, retains FCRL3/CD8_ET and INAVA boundary-changing negatives, and keeps the 5-vs-5 tissue result in the main evidence hierarchy. Deterministic manuscript QA passes 22/22 checks, including numerical tokens reconstructed from upstream tables, reference continuity and first-appearance order, required boundary sentences, and an 11/11 Methods–Results mirror.
+
+The current stage is `R7A2A4_HOSTILE_MANUSCRIPT_AUDIT`. It is restricted to clause-level claim/source review, current novelty checking, two hostile reviewer simulations, numerical/reference verification and repair of Figure 1/3 semantics. No new locus, gene or cell type is opened by default. The manuscript remains below submission state until authorship, affiliations, CRediT, funding, competing interests, target-journal compliance and the two figure repairs are complete.
+
 ![REEP3 discovery and replication result](figures/R6A2C1D_REEP3_falsification_summary.png)
 
 ![PBC three-control signal gate](figures/R7A1B_PBC_signal_gate_summary.png)
@@ -56,9 +60,12 @@ analysis/r7a1a/    PBC/CeD byte intake, source audit and frozen-control screen
 analysis/r7a1b/    bounded PBC ABF, source-LD, SuSiE and signal adjudication
 analysis/r7a1c1/   TenK full-window replication and hardened HRA donor gate
 analysis/r7a2/     frozen five-control HRA runner and exact donor comparison
+analysis/r7a2a3/   deterministic manuscript structure, reference and numeric QA
 data/              large-file manifest and data availability rules
 environment/       Python and R package requirements
 figures/           decision figures
+figures/r7a2a3_draft/ R7A2A2-frozen Figure 1–4/6 review assets with known repair notes
+manuscript/        R7A2A3 full English scientific draft v1
 protocols/         frozen analysis and next-stage protocols
 reports/           detailed Chinese-language audit records
 results/r6a2a1/    positive benchmark tables
@@ -74,6 +81,7 @@ results/r7a1c1b1r/ real three-donor checkpoint, donor-4 schema hotfix and v3.2 Q
 results/r7a1c1b2/  completed five-PBC-donor summaries, receipts and final adjudication
 results/r7a2a0/    control-source audit, manifest preflight and execution-pack tests
 results/r7a2a1/    exact 5-vs-5 donor metrics, independent QA and final adjudication
+results/r7a2a3/    claim/reference/risk ledgers, Methods–Results mirror and manuscript QA
 ```
 
 ## Reproduction

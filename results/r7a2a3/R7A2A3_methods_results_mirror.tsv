@@ -1,0 +1,12 @@
+module	methods_owner	results_owner	input_unit	primary_output	mirror_status
+Design freeze	Study design and frozen evidence gate	A bounded, source-aware workflow…	3 loci; 9 gene–cell comparisons	Frozen universe and no post-hoc rescue	PASS
+Disease data	PBC GWAS and disease LD	A bounded, source-aware workflow…	8,021 cases; 16,489 controls; 56 paired loci	Rows, target loci and source LD	PASS
+OneK extraction	OneK1K inputs and frozen comparisons	A bounded, source-aware workflow…	9 comparisons; 24,001 rows	All testable; 7 triggers	PASS
+Harmonization	Variant identity and allele harmonization	A bounded, source-aware workflow…	GRCh37 variant/allele records	Eligible regional rows and exact intersections	PASS
+ABF screen	Single-causal-variant colocalization screen	IL12RB2 and FCRL3 context subsections	9 comparisons; three p12 values	Screening posteriors and triggers	PASS
+Source LD	Source-matched QTL LD	A bounded, source-aware workflow…	Cell-specific donors/genotypes	7 matrices with donor and variant counts	PASS
+Multi-signal	Multi-signal fine-mapping and signal-pair colocalization	IL12RB2 and FCRL3 context subsections	28 disease/QTL fit pairs	Stability, CS counts, CD8_ET reversal	PASS
+TenK replication	TenK10K replication	TenK10K independently replicated…	2 compatible-cell axes	Exact overlap and prior sensitivity	PASS
+Liver processing	HRA008003 liver target-panel analysis	Liver tissue supported detectability…	10 donor BAMs	Called cells, lineage adequacy, detectability	PASS
+Tissue statistics	Tissue statistical analysis	Liver tissue supported detectability…	5 PBC vs 5 controls	Exact P, BH q, LODO directions	PASS
+Reproducibility	Reproducibility and quality control	Integrated evidence + availability	Receipts, hashes, validation checks	Convergence and QA counts	PASS

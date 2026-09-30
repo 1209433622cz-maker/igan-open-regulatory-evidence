@@ -1,0 +1,12 @@
+ref_id	short_citation	role	claim_supported	primary_url	status
+1	Gulamhusein & Hirschfield 2020	Disease background	PBC is autoimmune cholestatic disease; IL12/immune context	https://pubmed.ncbi.nlm.nih.gov/31819247/	VERIFIED_PRIMARY_RECORD
+2	Cordell et al. 2021	Disease GWAS source and prior novelty	PBC sample sizes, established loci, prior molecular colocalization	https://pubmed.ncbi.nlm.nih.gov/34033851/	VERIFIED_PRIMARY_RECORD
+3	Yazar et al. 2022	OneK1K source	1.27M PBMCs, 982 donors, cell-specific eQTL	https://doi.org/10.1126/science.abf3041	VERIFIED_DOI
+4	Cuomo et al. 2025/2026	TenK10K source	5.44M cells, 1,925 donors, 28 cell types, ±100 kb common cis-eQTL	https://www.medrxiv.org/content/10.1101/2025.03.20.25324352v2	VERIFIED_PRIMARY_RECORD
+5	Gjoka & Cordell 2025	Disease fine-mapping and novelty boundary	SuSiE-RSS/h2-D2 applied to 56 PBC non-HLA loci, European N=24,510	https://pmc.ncbi.nlm.nih.gov/articles/PMC11656035/	VERIFIED_PRIMARY_RECORD
+6	Jin et al. 2024	HRA008003 source	Five treatment-naïve PBC and five hemangioma non-lesion liver controls	https://www.nature.com/articles/s41467-024-53104-9	VERIFIED_PRIMARY_RECORD
+7	Han et al. 2026	FCRL3 overlap threat	Prior FCRL3 PBC multiomics, B-cell localization, Raji experiments	https://pubmed.ncbi.nlm.nih.gov/41526821/	VERIFIED_PRIMARY_RECORD
+8	Wang et al. 2026	Broad PBC multiomics overlap threat	GWAS, immune traits, blood and liver transcriptomic integration	https://www.nature.com/articles/s41540-026-00817-w	VERIFIED_PRIMARY_RECORD
+9	Giambartolomei et al. 2014	ABF coloc method	Single-causal Bayesian colocalization	https://pubmed.ncbi.nlm.nih.gov/24830394/	VERIFIED_PRIMARY_RECORD
+10	Wang et al. 2020	SuSiE method	Sum of Single Effects fine-mapping	https://doi.org/10.1111/rssb.12388	VERIFIED_DOI
+11	Wallace 2021	Multi-signal coloc method	Coloc with SuSiE for multiple causal variants	https://pubmed.ncbi.nlm.nih.gov/34587156/	VERIFIED_PRIMARY_RECORD

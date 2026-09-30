@@ -1,0 +1,11 @@
+figure	decision_question	claim_owner	role	main_or_supplement	source_data	known_risk	action
+Figure 1	Was the analysis bounded and source aware?	C9	Architecture and selection-control figure	MAIN	R7A2A2 state/protocol/manifest	Existing SVG has an overlap near TenK→HRA	REPAIR_R7A2A4
+Figure 2	Is IL12RB2–NK stable and replicated?	C1	Primary signal chain	MAIN	R7A1B stability + R7A1C TenK table	Must separate OneK multi-signal from TenK single-causal replication	LEGEND_FIXED; VERIFY_RENDER
+Figure 3	Does FCRL3 depend on cell context and multi-signal resolution?	C2/C3/C4	Context and falsification figure	MAIN	R7A1B smoke + signal stability	Orange/low-prior semantics may be mistaken for a stable threshold pass	REPAIR_R7A2A4
+Figure 4	Do both axes reproduce in TenK10K?	C1/C2	Independent molecular replication	MAIN	R7A1C exact-overlap tables	Must not imply independent disease replication	LEGEND_FIXED; VERIFY_RENDER
+Figure 5	Are the targets detectable and enriched in PBC liver?	C6/C7/C8	Orthogonal tissue localization and null boundary	MAIN	R7A2A1 donor results	Small n and targeted lineage gate	FROZEN_ASSET; KEEP_NULL_VISIBLE
+Figure 6	What is the strongest defensible claim?	C9	Integrated evidence hierarchy and claim ceiling	MAIN	Claim ledger	Arrows may imply causality	VERIFY_NO_CAUSAL_ARROW
+Figure S1	Was INAVA silently dropped?	C5	Weak-QTL negative control	SUPPLEMENT	R7A1B smoke	Could be misread as gene-level exclusion	ADD_BOUNDARY_LABEL
+Figure S2	Is the ABF implementation reproducible?	C4	Numerical QA	SUPPLEMENT	Python-vs-R validation	None material	ASSEMBLE
+Figure S3	Are source-LD matrices technically credible?	C1/C2/C4	LD QC	SUPPLEMENT	Raw/PF10/PF50 QC	Density/legibility	ASSEMBLE_SELECTIVE
+Figure S4	Are tissue directions driven by one donor?	C8	Sensitivity	SUPPLEMENT	LODO results	Direction stability may be confused with significance	LABEL_NON_SIGNIFICANT
