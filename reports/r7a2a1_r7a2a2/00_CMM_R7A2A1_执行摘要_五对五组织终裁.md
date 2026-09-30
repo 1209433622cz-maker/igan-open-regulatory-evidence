@@ -36,4 +36,3 @@ NEXT = R7A2A2_MANUSCRIPT_EVIDENCE_FREEZE_AND_FIGURE_ASSEMBLY
 - PBC 肝组织中预设 target-lineage pair 的 5/5 可检测性。
 
 因此组织层的阴性病例对照结果收紧了表述，不会推翻遗传/QTL 主链。
-

@@ -19,4 +19,3 @@ R7A2A1 使用冻结 marker gate，价值是验证相应免疫谱系中的 target
 ## 项目影响
 
 本轮结果收紧了组织层叙事，但保留 PBC 主项目：FCRL3 与 IL12RB2 的主要阳性证据来自 disease–eQTL signal sharing 和跨 QTL 资源复制。组织层承担定位与外部可观察性，不承担主要因果证明。
-

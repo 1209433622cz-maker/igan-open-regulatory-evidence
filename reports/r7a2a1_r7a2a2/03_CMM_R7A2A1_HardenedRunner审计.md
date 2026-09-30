@@ -20,4 +20,3 @@ manifest、MD5/SHA、samtools、schema、target-panel、called-cell、B/NK gate�
 工作区版本改为 `${run}:`，SHA-256 为 `b0b2335d00ab782715c7ee7d0c82d0b684c78cdae554dfe22403ddf566ca041f`，PowerShell parser 为 0 error。除 UTF-8 BOM 与该插值修复外，两份 hardened 文件一致。
 
 该修复只影响异常分支的字符串语法，不改变任何科学结果。R7A2A1 已有的 summaries、receipts、called-cell tables 与比较输出均已独立重算通过，因此科学 closure 不依赖对执行过程的推测。
-

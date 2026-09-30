@@ -31,4 +31,3 @@ R7A2A2 完成后进入：
 ```text
 R7A2A3_MANUSCRIPT_DRAFT_V1
 ```
-
