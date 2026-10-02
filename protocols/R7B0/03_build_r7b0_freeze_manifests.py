@@ -68,4 +68,4 @@ def build_sim():
  (AUD/'R7B0_simulation_freeze.json').write_text(json.dumps({"status":"PROTOCOL_FROZEN_BEFORE_RESULTS","core_replicates":1000,"secondary_replicates":500,"scenarios":[x[0] for x in scenarios],"random_seed_base":20261002,"no_result_adaptation":True,"decision_outputs":["signal_classification","H4_bias_under_LD_mismatch","coverage","convergence","false_stability_rate"]},ensure_ascii=False,indent=2),encoding='utf-8')
 
 if __name__=='__main__':
- build_universe(); build_finngen(); build_sim(); print(json.dumps({"universe":"FROZEN_SCAFFOLD","finngen":"PASS_MOLECULAR_PRECHECK_HOLD_DISEASE_COLOC","simulation":"PROTOCOL_FROZEN"},ensure_ascii=False,indent=2))
+ build_universe(); build_finngen(); build_sim(); print(json.dumps({"universe":"FROZEN_SCAFFOLD","finngen":"IL12RB2_PUBLIC_PBC_COLOC_SUPPORT__FCRL3_NO_DIRECT_PBC_PAIR","simulation":"PROTOCOL_FROZEN"},ensure_ascii=False,indent=2))
