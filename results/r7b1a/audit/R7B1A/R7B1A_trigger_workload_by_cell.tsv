@@ -1,0 +1,15 @@
+cell_type	trigger_comparisons	trigger_loci	trigger_genes	robust_H4	H3_H4_ambiguity
+B_IN	16	10	16	10	6
+B_MEM	16	12	16	11	5
+CD4_ET	16	10	16	12	4
+CD4_NC	32	16	32	16	16
+CD4_SOX4	2	2	2	1	1
+CD8_ET	21	13	21	14	7
+CD8_NC	21	12	21	12	9
+CD8_S100B	14	10	14	10	4
+DC	6	6	6	4	2
+Mono_C	4	4	4	3	1
+Mono_NC	6	5	6	3	3
+NK	19	12	19	10	9
+NK_R	10	7	10	6	4
+Plasma	1	1	1	0	1

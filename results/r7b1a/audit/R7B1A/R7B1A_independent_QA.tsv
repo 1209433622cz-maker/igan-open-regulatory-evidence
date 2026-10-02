@@ -1,0 +1,13 @@
+check	pass	detail
+exact_frozen_key_set	True	"{""frozen"": 6923, ""observed"": 6923}"
+unique_result_keys	True	0
+trigger_logic_exact	True	"{""expected"": 184, ""observed"": 184}"
+insufficient_overlap_class_exact	True	"{""rows"": 1463}"
+eligible_numeric_finite	True	"{""rows"": 5460}"
+posterior_sums_one	True	"{""max_abs_error"": 6.905587213168474e-14}"
+trigger_qtl_file_set_exact	True	"{""expected"": 184, ""observed"": 184}"
+trigger_qtl_content_qc	True	[]
+historical_anchor_consistency	True	"[{""gene"": ""IL12RB2"", ""cell"": ""NK"", ""observed_rows"": 1, ""observed_class"": ""ROBUST_H4_TRIGGER"", ""observed_H4"": 0.998156470770289, ""pass"": true}, {""gene"": ""FCRL3"", ""cell"": ""B_IN"", ""observed_rows"": 1, ""observed_class"": ""ROBUST_H4_TRIGGER"", ""observed_H4"": 0.9928286812305126, ""pass"": true}, {""gene"": ""FCRL3"", ""cell"": ""B_MEM"", ""observed_rows"": 1, ""observed_class"": ""ROBUST_H4_TRIGGER"", ""observed_H4"": 0.989716841753719, ""pass"": true}, {""gene"": ""FCRL3"", ""cell"": ""CD8_ET"", ""observed_rows"": 1, ""observed_class"": ""ROBUST_H4_TRIGGER"", ""observed_H4"": 0.9413346826861388, ""pass"": true}]"
+historical_weak_qtl_control_excluded_by_frozen_source_q_rule	True	"{""R7B1_rows"": 0, ""reason"": ""no source q<0.05 in any frozen cell; historical R7A1B control remains archived""}"
+state_output_hashes	True	"{""all_comparisons_sha256"": ""0e07e325262f77bb30180efda0201284912709d27f73bc6652877c7837b7f8a4"", ""trigger_set_sha256"": ""bac35fe7572a336ceedcf60a19a3d4f7f8c3cd97337ebd34a2d08e5360cb1f0e""}"
+posterior_not_used_for_freeze	True	false

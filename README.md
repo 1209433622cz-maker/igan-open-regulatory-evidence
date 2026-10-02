@@ -43,6 +43,10 @@ R7A2A2 subsequently froze the claim–evidence matrix, novelty boundary, manuscr
 
 R7A2A4 subsequently completed the hostile manuscript audit, including claim/source repair, 34/34 numeric checks, 17/17 reader-facing checks and repaired Figure 1–4/6 semantics. R7A2A5 has now selected **Human Genomics / Research** as the primary submission route and assembled the journal-format manuscript, graphical abstract, six main figures, four supplementary figures and a ten-table supplementary workbook. Final machine QA passes 55 checks with no technical failures. The submission state is `AWAITING_AUTHOR_METADATA`: author order, affiliations, correspondence, CRediT, funding, competing interests, local ethics/waiver wording and all-author approval must be supplied by the authors before submission. No new biological analysis is required by default.
 
+The R7A submission route is now archived while the project follows the R7B0 v2 major redesign. R7B0A recovered a fully auditable current-release OneK model even though the historical PF10 input bytes remain unresolved: 14/14 PF10/PF50 model-identity rows and 28/28 SuSiE fits passed. R7B1A then froze a result-blind PBC-wide universe of 6,923 locus–gene–cell comparisons and regenerated current PF10 QTL statistics from public pseudobulk, donor genotype and covariates. Of 5,460 comparisons with at least 200 variants, the single-causal screen produced 112 default robust-H4 triggers and 72 prespecified H3/H4 ambiguities; 455 favored distinct signals, 4,821 did not trigger, and 1,463 lacked sufficient variant overlap. Independent QA passes 12/12 checks.
+
+These 184 screen triggers are not treated as biological positives. They define the exact R7B1B source-matched multi-signal workload: 25 disease loci, 49 genes, 14 cells and 120 unique cell–locus LD blocks. All 184 must be adjudicated as stable, weakened, reversed, uninformative or QC-failed before the PBC-wide benchmark is interpreted.
+
 ![REEP3 discovery and replication result](figures/R6A2C1D_REEP3_falsification_summary.png)
 
 ![PBC three-control signal gate](figures/R7A1B_PBC_signal_gate_summary.png)
@@ -62,6 +66,7 @@ analysis/r7a1c1/   TenK full-window replication and hardened HRA donor gate
 analysis/r7a2/     frozen five-control HRA runner and exact donor comparison
 analysis/r7a2a3/   deterministic manuscript structure, reference and numeric QA
 analysis/r7a2a5/   Human Genomics asset builders, WPS export and final QA
+analysis/r7b1/     PBC-wide eligibility, harmonization, PF10 ABF screen and R7B1B intake
 data/              large-file manifest and data availability rules
 environment/       Python and R package requirements
 figures/           decision figures
@@ -85,6 +90,7 @@ results/r7a2a0/    control-source audit, manifest preflight and execution-pack t
 results/r7a2a1/    exact 5-vs-5 donor metrics, independent QA and final adjudication
 results/r7a2a3/    claim/reference/risk ledgers, Methods–Results mirror and manuscript QA
 results/r7a2a5/    journal matrix, supplementary workbook, state and 55-check final QA
+results/r7b1a/     6,923-test ABF registry, exact 184-trigger set and independent QA
 ```
 
 ## Reproduction
@@ -144,6 +150,20 @@ The R7A2A1 runner applies the same frozen target-panel algorithm to the exact fi
 ```powershell
 $env:R7_PROJECT_ROOT = (Get-Location).Path
 pwsh -File .\analysis\r7a2\RUN_R7A2A1_HRA008003_CONTROL_TARGET_PANEL_HARDENED.ps1
+```
+
+The R7B1A runner rebuilds the result-blind PBC-wide universe, GWAS harmonization, current-release PF10 QTL statistics, all 6,923 ABF records and the independently checked exact trigger set:
+
+```powershell
+$env:R7_PROJECT_ROOT = (Get-Location).Path
+pwsh -File .\analysis\r7b1\RUN_R7B1A_PBCWIDE_ABF.ps1
+```
+
+The subsequent intake runner range-fetches only the 50 GJOKA members required by the frozen 25-locus R7B1B workload:
+
+```powershell
+$env:R7_PROJECT_ROOT = (Get-Location).Path
+pwsh -File .\analysis\r7b1\DOWNLOAD_R7B1B_GJOKA_TRIGGER_MEMBERS.ps1
 ```
 
 ## Evidence and licensing

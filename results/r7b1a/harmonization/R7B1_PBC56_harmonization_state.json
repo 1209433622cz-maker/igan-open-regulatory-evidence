@@ -1,0 +1,13 @@
+{
+  "schema": "R7B1_PBC56_HARMONIZATION_1.0",
+  "loci": 56,
+  "loci_ge_200_variants": 56,
+  "total_eligible_rows": 51772,
+  "minimum_locus_rows": 243,
+  "maximum_locus_rows": 1724,
+  "gate": "PASS",
+  "gwas_sha256": "439aa72c59b876236de2b8172c443a447cefa6868ace535183cec8b758a05921",
+  "bim_sha256": "6e28edad34d5930ca99f7be873e4684a885e26433d13ddba3d970bb8f8ad0bb6",
+  "ranges_sha256": "403366d805060824672e615e024255d46e30d05678943fcf3ed57fa60336ff5d",
+  "combined_sha256": "7f06b1e302a2d9244af53128806964a8563895216cb18b2972f1aeffb67a8a40"
+}
