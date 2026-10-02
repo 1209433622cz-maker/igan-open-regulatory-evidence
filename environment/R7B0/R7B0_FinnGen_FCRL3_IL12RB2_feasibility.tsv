@@ -1,0 +1,9 @@
+gene	OneK_cell	FinnGen_primary_level2	FinnGen_eqtl_q	FinnGen_caqtl_q	FinnGen_level1_B_or_NK_eqtl_q	mapping_status	source	data_build	individual_level_LD	top_variant_count	linked_peak_count
+FCRL3	B_IN	B_intermediate	1.7487312418647e-31	3.66952684245746e-34	2.32796140298836e-98	label_based_prespecified	CASCADE public gene API	GRCh38 API coordinates/variant IDs	RESTRICTED_NOT_USED		
+FCRL3	B_MEM	B_memory			2.32796140298836e-98	label_based_prespecified	CASCADE public gene API	GRCh38 API coordinates/variant IDs	RESTRICTED_NOT_USED		
+FCRL3	NK	NK	2.37959718693945e-71	7.97508915281307e-122	1.06168782120821e-64	label_based_prespecified	CASCADE public gene API	GRCh38 API coordinates/variant IDs	RESTRICTED_NOT_USED		
+FCRL3	NK_R	NK_CD56bright		9.16785748440714e-12	1.06168782120821e-64	label_based_prespecified	CASCADE public gene API	GRCh38 API coordinates/variant IDs	RESTRICTED_NOT_USED	0.0	4.0
+IL12RB2	B_IN	B_intermediate	0.832459040054907	1.78631847177287e-19	0.685377593378421	label_based_prespecified	CASCADE public gene API	GRCh38 API coordinates/variant IDs	RESTRICTED_NOT_USED		
+IL12RB2	B_MEM	B_memory		0.0409120345995785	0.685377593378421	label_based_prespecified	CASCADE public gene API	GRCh38 API coordinates/variant IDs	RESTRICTED_NOT_USED		
+IL12RB2	NK	NK	1.57239021752338e-76	1.16046477677008e-197	1.382128651568e-62	label_based_prespecified	CASCADE public gene API	GRCh38 API coordinates/variant IDs	RESTRICTED_NOT_USED		
+IL12RB2	NK_R	NK_CD56bright	1.73978003837177e-17	4.97094415058555e-05	1.382128651568e-62	label_based_prespecified	CASCADE public gene API	GRCh38 API coordinates/variant IDs	RESTRICTED_NOT_USED	2.0	69.0

@@ -1,0 +1,19 @@
+{
+  "status": "FROZEN_SCAFFOLD_PENDING_FULL_QTL_ELIGIBILITY",
+  "loci": 56,
+  "cells": 14,
+  "rows": 784,
+  "rows_expected": 784,
+  "gene_inclusion": "q<0.05 in at least one cell, then all available eligible cell-gene pairs",
+  "screen": "coloc.abf with p1=p2=1e-4 and p12 in 1e-6,1e-5,1e-4",
+  "multi_signal_trigger": "default PP.H4>=0.80 and H4/(H3+H4)>=0.80, or prespecified H3/H4 ambiguity with PP.H3+PP.H4>=0.80 and ratio in [0.20,0.80]",
+  "reclassification": {
+    "STABLE_H4": "default gate plus low-p12 ratio>=0.50 and corrected PF50 does not reverse",
+    "WEAKENED_H4": "H4 predominant but misses strict robustness",
+    "REVERSED_TO_H3": "default PP.H3>PP.H4 or H4/(H3+H4)<0.50",
+    "UNINFORMATIVE": "weak QTL/low overlap/no eligible CS",
+    "QC_FAIL": "identity, LD, convergence or coverage failure"
+  },
+  "source_inventory_sha256": "671f1aa1507d099f5524619203976dc99d05550d229594ddd83450c78862f9df",
+  "source_ranges_sha256": "403366d805060824672e615e024255d46e30d05678943fcf3ed57fa60336ff5d"
+}
