@@ -1,0 +1,11 @@
+{
+  "schema": "R7B1B_V2_FIGURE_ASSEMBLY_1.0",
+  "status": "PASS",
+  "input_rows": 642,
+  "figures": 3,
+  "formats": [
+    "png_300dpi",
+    "pdf_vector"
+  ],
+  "claim_ceiling": "prespecified high-information H3/H4 subset"
+}

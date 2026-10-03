@@ -1,0 +1,43 @@
+{
+  "schema": "R7B1B_V2_ADJUDICATION_1.0",
+  "status": "PASS",
+  "comparisons": 642,
+  "primary_184": 184,
+  "h3_rescue_455": 455,
+  "borderline_3": 3,
+  "reclassification_counts": {
+    "AMBIGUITY_REMAINS_MODEL_SENSITIVE": 46,
+    "AMBIGUITY_TO_H3": 15,
+    "AMBIGUITY_TO_H4": 5,
+    "AMBIGUITY_TO_UNINFORMATIVE": 6,
+    "BORDERLINE_TO_H4": 1,
+    "BORDERLINE_UNINFORMATIVE": 2,
+    "H3_TO_H4": 8,
+    "H3_TO_MODEL_SENSITIVE": 7,
+    "H3_TO_UNINFORMATIVE": 31,
+    "H4_TO_H3": 4,
+    "H4_TO_MODEL_SENSITIVE": 6,
+    "H4_TO_UNINFORMATIVE": 24,
+    "STABLE_H3": 409,
+    "STABLE_H4": 78
+  },
+  "PF10_PF50_sensitivity_counts": {
+    "MATCH": 491,
+    "NOT_COMPARABLE": 122,
+    "PF10_PF50_SENSITIVE": 4,
+    "PF50_UNINFORMATIVE": 25
+  },
+  "signal_pair_rows": 10542,
+  "fit_QC_rows": 2568,
+  "protocol_sha256": "fee64bdc019c1fb951aa6dbbc4df90026c0fa3a75b01afe307efc6f6dad2946e",
+  "outputs": {
+    "reclassification_sha256": "3d267d70e23b8b99d97044e649f067702fd47f12fda328d5d1c6580e38d27f9e",
+    "signals_sha256": "32d3c6fc53195c72f7365eb69b18758455abcd5c0bc683cf5c532e5ab26f27f4",
+    "fit_QC_sha256": "e870810c7bb12294a80d65fd0de4f4b947d40e7af0b9c8801910c9de9657a207",
+    "counts_sha256": "f624fe6784c9b84df9fc31ca6b735998e7b08f48455d4a7eae1b52939f075292",
+    "by_role_sha256": "9bf7de509090a1b8024468ecf5665da68f54c2ee5cd139bab4392d63cc453f66",
+    "sensitivity_sha256": "bd8bb600992a06a0451e244e48ac391836462bde3af6b20d524b318857f54d1a"
+  },
+  "scope_ceiling": "PBC-wide ABF screening plus source-matched multi-signal reclassification of the prespecified high-information H3/H4 subset",
+  "next": "INDEPENDENT_QA_THEN_SIMULATION_CALIBRATION"
+}

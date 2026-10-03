@@ -45,13 +45,24 @@ R7A2A4 subsequently completed the hostile manuscript audit, including claim/sour
 
 The R7A submission route is now archived while the project follows the R7B0 v2 major redesign. R7B0A recovered a fully auditable current-release OneK model even though the historical PF10 input bytes remain unresolved: 14/14 PF10/PF50 model-identity rows and 28/28 SuSiE fits passed. R7B1A then froze a result-blind PBC-wide universe of 6,923 locus–gene–cell comparisons and regenerated current PF10 QTL statistics from public pseudobulk, donor genotype and covariates. Of 5,460 comparisons with at least 200 variants, the single-causal screen produced 112 default robust-H4 triggers and 72 prespecified H3/H4 ambiguities; 455 favored distinct signals, 4,821 did not trigger, and 1,463 lacked sufficient variant overlap. Independent QA passes 12/12 checks.
 
-These 184 screen triggers are not treated as biological positives. They define the exact R7B1B source-matched multi-signal workload: 25 disease loci, 49 genes, 14 cells and 120 unique cell–locus LD blocks. All 184 must be adjudicated as stable, weakened, reversed, uninformative or QC-failed before the PBC-wide benchmark is interpreted.
+The original 184 screen triggers remain a nested primary verification cohort. R7B1B v2 expands the pre-result-frozen multi-signal workload to 642 high-information comparisons so H4-to-H3 and H3-to-H4 reclassification can be measured symmetrically.
 
 ![REEP3 discovery and replication result](figures/R6A2C1D_REEP3_falsification_summary.png)
 
 ![PBC three-control signal gate](figures/R7A1B_PBC_signal_gate_summary.png)
 
 ![PBC exact five-versus-five liver target panel](figures/R7A2A1_PBC_vs_control_target_panel.png)
+
+
+## R7B1B v2 high-information multi-signal reclassification
+
+R7B1B v2 preserves the original 184 screen-positive/ambiguous comparisons as the primary verification cohort and adds a pre-result-frozen symmetric layer of 455 H3 comparisons plus three borderline high-information calibration cases. All 642 comparisons were run with GJOKA study-matched disease LD and current-release OneK1K PF10/PF50 cell-specific LD; 2,568 SuSiE fits completed with no QC failures.
+
+The PF10 adjudication retained 78 stable H4 and 409 stable H3 comparisons. Eight ABF H3 comparisons were reclassified to stable H4, while four ABF H4 comparisons were reclassified to stable H3. FCRL3 × CD8_ET reproduces the key H4-to-H3 counterexample; IL12RB2 × NK and the FCRL3 B-cell comparisons remain stable shared-signal exemplars. Independent mechanical QA passes 19/19 checks.
+
+The evidence ceiling is **PBC-wide ABF screening followed by source-matched multi-signal reclassification of the prespecified high-information H3/H4 subset**. It is not a multi-signal analysis of every one of the 6,923 screened comparisons. The next frozen stage is simulation/calibration under known truth; manuscript rewriting remains on hold.
+
+![R7B1B v2 bidirectional reclassification](figures/R7B1B_v2/Figure_R7B1B_1_bidirectional_reclassification.png)
 
 ## Repository layout
 
@@ -66,7 +77,8 @@ analysis/r7a1c1/   TenK full-window replication and hardened HRA donor gate
 analysis/r7a2/     frozen five-control HRA runner and exact donor comparison
 analysis/r7a2a3/   deterministic manuscript structure, reference and numeric QA
 analysis/r7a2a5/   Human Genomics asset builders, WPS export and final QA
-analysis/r7b1/     PBC-wide eligibility, harmonization, PF10 ABF screen and R7B1B intake
+analysis/r7b1/     PBC-wide eligibility, harmonization and PF10 ABF screen
+analysis/r7b1b_v2/ R7B1B v2 source-LD, SuSiE, adjudication, QA and release
 data/              large-file manifest and data availability rules
 environment/       Python and R package requirements
 figures/           decision figures
@@ -91,6 +103,7 @@ results/r7a2a1/    exact 5-vs-5 donor metrics, independent QA and final adjudica
 results/r7a2a3/    claim/reference/risk ledgers, Methods–Results mirror and manuscript QA
 results/r7a2a5/    journal matrix, supplementary workbook, state and 55-check final QA
 results/r7b1a/     6,923-test ABF registry, exact 184-trigger set and independent QA
+results/r7b1b_v2/  642-comparison bidirectional reclassification and 19-check QA
 ```
 
 ## Reproduction
