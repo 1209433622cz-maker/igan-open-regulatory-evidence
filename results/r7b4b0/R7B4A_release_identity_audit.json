@@ -1,0 +1,16 @@
+{
+  "path": "H:\\SCI2\\YR1\\6_release\\CMM_R7B4A_HumanGenomics_SubmissionInterface_2026-10-10.zip",
+  "bytes": 18289096,
+  "sha256": "0b12b5f390b0492d31a1e93d588b07cd3ba8f70670240a1a46fd5898e754a91e",
+  "exact_release_identity": true,
+  "zip_entries": 56,
+  "unique_members": true,
+  "zip_crc": "PASS",
+  "bad_crc_member": null,
+  "internal_checksums": {
+    "checked": 55,
+    "passed": 55,
+    "exceptions": []
+  },
+  "status": "PASS"
+}

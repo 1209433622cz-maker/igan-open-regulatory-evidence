@@ -262,3 +262,11 @@ The Figure 2F reader-facing label was corrected from an ambiguous “shared only
 Author order, affiliations, correspondence, CRediT, funding, competing interests, institutional ethics/waiver wording, acknowledgements, APC/licence route and all-author approval remain a human completion gate. The package is a technically complete submission interface, not evidence that the manuscript has been submitted. The next frozen stage is `R7B4B_AUTHOR_COMPLETION_AND_FINAL_SUBMISSION_QA`.
 
 ![R7B4A graphical abstract](manuscript/r7b4a/graphical_abstract/Graphical_Abstract_HumanGenomics_920x300.png)
+
+## R7B4B0 pre-author final-submission gate
+
+R7B4B0 independently reverified the R7B4A release before any author information was injected. The 18,289,096-byte archive matches its frozen SHA-256, passes ZIP CRC and passes 55/55 internal checksums across 56 members. The public `main` identity and the peeled commit of the annotated R7B4A tag also pass. The 22 references are continuous and first appear in numerical order.
+
+The historical R7B4A 42/42 QA remains an author-review gate. R7B4B0 adds a separate fail-closed `FINAL_SUBMISSION` mode: explicit author/declaration placeholders must be absent, the internal author-completion page must be removed, WPS outputs must be bound to exact DOCX/PDF hashes and all-page visual review, and final author approval must reference the same hashes. Page count is no longer fixed at 31, and normal Vancouver citation brackets are not treated as placeholders.
+
+The current pre-author result is `10 PASS / 8 HOLD / 0 FAIL`. The HOLD items are verified author metadata, declarations, institutional journal qualification, final WPS parity, exact-version approval and author-operated submission authorization. No biological analysis is reopened. Completed author records remain private and must not be committed to this public repository.

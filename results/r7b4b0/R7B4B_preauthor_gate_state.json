@@ -1,0 +1,12 @@
+{
+  "stage": "R7B4B_PREAUTHOR_INDEPENDENT_GATE",
+  "status": "HOLD_HUMAN_INPUT_REQUIRED",
+  "primary_journal_route": "HUMAN_GENOMICS_RESEARCH_LOCKED",
+  "institutional_q2_confirmation": "PENDING",
+  "final_author_metadata_injection": "NOT_STARTED",
+  "final_submission_qa": "NOT_EXECUTED",
+  "final_wps_parity": "NOT_EXECUTED",
+  "new_biological_analysis": "NO",
+  "submission_authorized": "NO",
+  "next": "R7B4B_VERIFIED_AUTHOR_INPUT_AND_FINAL_CANDIDATE_BUILD"
+}

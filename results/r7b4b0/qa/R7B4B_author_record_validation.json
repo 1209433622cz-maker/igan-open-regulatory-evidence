@@ -1,0 +1,108 @@
+{
+  "record": "H:\\SCI2\\YR1\\5_manuscript\\R7B4B_PreauthorFinalSubmissionGate\\submission\\R7B4B_author_record.EMPTY.json",
+  "mode": "final",
+  "status": "HOLD_HUMAN_INPUT_REQUIRED",
+  "summary": {
+    "pass": 1,
+    "hold": 18,
+    "total": 19
+  },
+  "checks": [
+    {
+      "check": "record_version",
+      "status": "PASS",
+      "detail": "R7B4B-1.0"
+    },
+    {
+      "check": "authors",
+      "status": "HOLD",
+      "detail": "0"
+    },
+    {
+      "check": "unique_author_initials",
+      "status": "HOLD",
+      "detail": "[]"
+    },
+    {
+      "check": "affiliations",
+      "status": "HOLD",
+      "detail": "0"
+    },
+    {
+      "check": "author_affiliation_mapping",
+      "status": "HOLD",
+      "detail": "[]"
+    },
+    {
+      "check": "corresponding_author",
+      "status": "HOLD",
+      "detail": "None"
+    },
+    {
+      "check": "ethics",
+      "status": "HOLD",
+      "detail": "None"
+    },
+    {
+      "check": "consent_for_publication",
+      "status": "HOLD",
+      "detail": "False"
+    },
+    {
+      "check": "competing_interests",
+      "status": "HOLD",
+      "detail": "False"
+    },
+    {
+      "check": "research_funding",
+      "status": "HOLD",
+      "detail": "False"
+    },
+    {
+      "check": "authors_contributions",
+      "status": "HOLD",
+      "detail": "False"
+    },
+    {
+      "check": "acknowledgements",
+      "status": "HOLD",
+      "detail": "False"
+    },
+    {
+      "check": "ai_disclosure",
+      "status": "HOLD",
+      "detail": "{'statement_approved': False}"
+    },
+    {
+      "check": "originality",
+      "status": "HOLD",
+      "detail": "{'not_published_or_under_review_elsewhere': False}"
+    },
+    {
+      "check": "apc_and_licence",
+      "status": "HOLD",
+      "detail": "{'apc_route': None, 'waiver_or_discount_requested_at_initial_submission': None, 'research_funding_separate_from_apc': True, 'licence_choice': None, 'confirmed': False}"
+    },
+    {
+      "check": "institutional_journal_qualification",
+      "status": "HOLD",
+      "detail": "PENDING"
+    },
+    {
+      "check": "final_hashes",
+      "status": "HOLD",
+      "detail": "version-bound hashes"
+    },
+    {
+      "check": "all_author_approval",
+      "status": "HOLD",
+      "detail": "[]"
+    },
+    {
+      "check": "submission_authorization",
+      "status": "HOLD",
+      "detail": "False"
+    }
+  ],
+  "privacy": "No private field values are copied beyond bounded check details; do not publish completed input records."
+}

@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "R7B4B verified author and submission record",
+  "type": "object",
+  "required": [
+    "record_version",
+    "authors",
+    "affiliations",
+    "corresponding_author",
+    "declarations",
+    "publication_arrangements",
+    "institutional_journal_qualification",
+    "final_version_approval",
+    "submission_authorization"
+  ],
+  "properties": {
+    "record_version": {"const": "R7B4B-1.0"},
+    "authors": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["publication_name", "initials", "affiliation_ids", "credit_roles"],
+        "properties": {
+          "publication_name": {"type": "string", "minLength": 2},
+          "initials": {"type": "string", "minLength": 1},
+          "affiliation_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+          "orcid": {"type": ["string", "null"]},
+          "credit_roles": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+        }
+      }
+    },
+    "affiliations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "full_institutional_address"],
+        "properties": {
+          "id": {"type": "string"},
+          "full_institutional_address": {"type": "string", "minLength": 10}
+        }
+      }
+    },
+    "corresponding_author": {
+      "type": "object",
+      "required": ["author_initials", "postal_address", "institutional_email"],
+      "properties": {
+        "author_initials": {"type": "string"},
+        "postal_address": {"type": "string", "minLength": 10},
+        "institutional_email": {"type": "string", "format": "email"},
+        "telephone": {"type": ["string", "null"], "description": "Conditional: supply if requested by the submission system or institution."}
+      }
+    },
+    "declarations": {
+      "type": "object",
+      "required": ["ethics", "consent_for_publication", "competing_interests", "research_funding", "authors_contributions", "acknowledgements", "ai_disclosure", "originality"],
+      "properties": {
+        "ethics": {"type": "object"},
+        "consent_for_publication": {"type": "object"},
+        "competing_interests": {"type": "object"},
+        "research_funding": {"type": "object"},
+        "authors_contributions": {"type": "object"},
+        "acknowledgements": {"type": "object"},
+        "ai_disclosure": {"type": "object"},
+        "originality": {"type": "object"}
+      }
+    },
+    "publication_arrangements": {
+      "type": "object",
+      "required": ["apc_route", "research_funding_separate_from_apc", "licence_choice"]
+    },
+    "institutional_journal_qualification": {"type": "object"},
+    "final_version_approval": {"type": "object"},
+    "submission_authorization": {"type": "object"}
+  }
+}
