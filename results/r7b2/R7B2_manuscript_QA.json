@@ -1,0 +1,123 @@
+{
+  "stage": "R7B2_FULL_ENGLISH_MANUSCRIPT_V1",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "required_sections",
+      "status": "PASS",
+      "detail": "## Abstract, ## Background, ## Methods, ## Results, ## Discussion, ## Conclusions, ## Declarations, ## References, ## Figure legends"
+    },
+    {
+      "check": "numeric_anchor_coverage",
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "check": "prohibited_positive_claims",
+      "status": "PASS",
+      "detail": "found=[]"
+    },
+    {
+      "check": "ledger_count",
+      "status": "PASS",
+      "detail": "claims=27"
+    },
+    {
+      "check": "claim_ledger_text_coverage",
+      "status": "PASS",
+      "detail": "uncovered=[]"
+    },
+    {
+      "check": "reference_count",
+      "status": "PASS",
+      "detail": "references=19"
+    },
+    {
+      "check": "reference_continuity",
+      "status": "PASS",
+      "detail": "sequence=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]"
+    },
+    {
+      "check": "figure_legend_count",
+      "status": "PASS",
+      "detail": "figures=['1', '2', '3', '4', '5', '6']"
+    },
+    {
+      "check": "figure_file_count",
+      "status": "PASS",
+      "detail": "png=6"
+    },
+    {
+      "check": "manuscript_word_count",
+      "status": "PASS",
+      "detail": "words=7500"
+    },
+    {
+      "check": "unknown_metadata_explicit",
+      "status": "PASS",
+      "detail": "placeholders=9"
+    },
+    {
+      "check": "docx_exists",
+      "status": "PASS",
+      "detail": "bytes=3518506"
+    },
+    {
+      "check": "docx_figure_objects",
+      "status": "PASS",
+      "detail": "inline_shapes=6"
+    },
+    {
+      "check": "docx_sections",
+      "status": "PASS",
+      "detail": "headings=44"
+    },
+    {
+      "check": "pdf_exists",
+      "status": "PASS",
+      "detail": "bytes=2715298"
+    },
+    {
+      "check": "wps_pdf_creator",
+      "status": "PASS",
+      "detail": " WPS 文字"
+    },
+    {
+      "check": "pdf_page_count",
+      "status": "PASS",
+      "detail": "pages=29"
+    }
+  ],
+  "summary": {
+    "pass": 17,
+    "total": 17
+  },
+  "artifacts": {
+    "R7B2_full_english_manuscript_v1.md": {
+      "bytes": 54405,
+      "sha256": "8dadd04fddbe7336723d318686cf5a7f148d6ec6b1ab22dd0df93df40524c84e"
+    },
+    "R7B2_full_english_manuscript_v1.docx": {
+      "bytes": 3518506,
+      "sha256": "9026914c63df5938e12dbed360977eec421f0c386e813eaae90074e80677e926"
+    },
+    "R7B2_full_english_manuscript_v1_WPS.pdf": {
+      "bytes": 2715298,
+      "sha256": "5a9174b44f16022b9dfb36995bed17d446035e26da6ab310f452c25991299300"
+    }
+  },
+  "pdf_metadata": {
+    "/Author": "[AUTHORS TO BE COMPLETED]",
+    "/Comments": "",
+    "/Company": "",
+    "/CreationDate": "D:20261009225644+08'00'",
+    "/Creator": "WPS 文字",
+    "/Keywords": "PBC; colocalization; eQTL; SuSiE; source-matched LD",
+    "/ModDate": "D:20261009225644+08'00'",
+    "/Producer": "",
+    "/SourceModified": "D:20261009225644+08'00'",
+    "/Subject": "R7B2 full English manuscript v1",
+    "/Title": "Input-matched multi-signal analysis clarifies immune-cell regulatory assignments at PBC risk loci",
+    "/Trapped": "/False"
+  }
+}

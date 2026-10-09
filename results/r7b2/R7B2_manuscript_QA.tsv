@@ -1,0 +1,18 @@
+check	status	detail
+required_sections	PASS	## Abstract, ## Background, ## Methods, ## Results, ## Discussion, ## Conclusions, ## Declarations, ## References, ## Figure legends
+numeric_anchor_coverage	PASS	missing=[]
+prohibited_positive_claims	PASS	found=[]
+ledger_count	PASS	claims=27
+claim_ledger_text_coverage	PASS	uncovered=[]
+reference_count	PASS	references=19
+reference_continuity	PASS	sequence=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+figure_legend_count	PASS	figures=['1', '2', '3', '4', '5', '6']
+figure_file_count	PASS	png=6
+manuscript_word_count	PASS	words=7500
+unknown_metadata_explicit	PASS	placeholders=9
+docx_exists	PASS	bytes=3518506
+docx_figure_objects	PASS	inline_shapes=6
+docx_sections	PASS	headings=44
+pdf_exists	PASS	bytes=2715298
+wps_pdf_creator	PASS	 WPS 文字
+pdf_page_count	PASS	pages=29

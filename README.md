@@ -77,6 +77,7 @@ analysis/r7a1c1/   TenK full-window replication and hardened HRA donor gate
 analysis/r7a2/     frozen five-control HRA runner and exact donor comparison
 analysis/r7a2a3/   deterministic manuscript structure, reference and numeric QA
 analysis/r7a2a5/   Human Genomics asset builders, WPS export and final QA
+analysis/r7b2/     RP v3 manuscript, Figure 1-6, WPS export and manuscript QA
 analysis/r7b1/     PBC-wide eligibility, harmonization and PF10 ABF screen
 analysis/r7b1b_v2/ R7B1B v2 source-LD, SuSiE, adjudication, QA and release
 data/              large-file manifest and data availability rules
@@ -85,6 +86,7 @@ figures/           decision figures
 figures/r7a2a3_draft/ R7A2A2-frozen Figure 1–4/6 review assets with known repair notes
 figures/r7a2a5_submission/ Human Genomics main, supplementary and graphical-abstract assets
 manuscript/r7a2a5/ Human Genomics-formatted manuscript v3 in MD, DOCX and WPS PDF
+manuscript/r7b2/  RP v3 complete English manuscript v1 in MD, DOCX and WPS PDF
 protocols/         frozen analysis and next-stage protocols
 reports/           detailed Chinese-language audit records
 results/r6a2a1/    positive benchmark tables
@@ -104,6 +106,7 @@ results/r7a2a3/    claim/reference/risk ledgers, Methods–Results mirror and ma
 results/r7a2a5/    journal matrix, supplementary workbook, state and 55-check final QA
 results/r7b1a/     6,923-test ABF registry, exact 184-trigger set and independent QA
 results/r7b1b_v2/  642-comparison bidirectional reclassification and 19-check QA
+results/r7b2/       manuscript QA, state and artifact identity
 ```
 
 ## Reproduction
@@ -222,3 +225,15 @@ R7B2A freezes a 27-record claim ledger, a 10-module Methods–Results mirror and
 ![R7B2A matched-input attribution](figures/R7B2A/R7B2A_Figure2_attribution_prototype.png)
 
 ![R7B2A simulation channels](figures/R7B2A/R7B2A_Figure3_simulation_channels_prototype.png)
+
+## R7B2 complete English manuscript v1
+
+R7B2 converts the RP v3 evidence lock into a complete English research manuscript without reopening disease, locus, gene or cell selection. The 7,500-word author-review draft reports the 6,923-to-5,460-to-642 analysis scope, the A0/A1/A2/M matched-input attribution, signal-pair identity and coexistence, PF10/PF50 sensitivity, the discovery-versus-estimator simulation channels, bounded IL12RB2-NK and FCRL3 B-cell external support, and the exact 5-versus-5 liver tissue boundary.
+
+The release includes six scripted publication figures in PNG/PDF/SVG, an editable DOCX, a 29-page PDF exported by WPS Writer, a 27-claim text-coverage audit and the detailed action record. Machine QA passes 17/17 checks. Author order, affiliations, correspondence, CRediT, funding, competing interests and local ethics/waiver wording remain explicit author-supplied fields; the package is therefore an author-review manuscript, not a submission-ready package.
+
+The next frozen stage is `R7B3_HOSTILE_MANUSCRIPT_AUDIT`. It will audit statistical attribution, PBC/immune biological interpretation, novelty, figures, reproducibility and journal-facing claims. No new biological analysis is required by default.
+
+![R7B2 matched-input reclassification](figures/R7B2/Figure2_input_matched_reclassification.png)
+
+![R7B2 simulation discovery and inference](figures/R7B2/Figure3_simulation_discovery_and_inference.png)
