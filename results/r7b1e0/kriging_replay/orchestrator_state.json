@@ -1,0 +1,12 @@
+{
+  "schema": "R7B1E0_KRIGING_ORCHESTRATOR_1.0",
+  "status": "PASS",
+  "loci": 47,
+  "comparisons": 642,
+  "diagnostic_units": 2568,
+  "diagnostic_pass": 2568,
+  "diagnostic_hold": 0,
+  "historical_flags": 3333,
+  "official_flags": 2,
+  "runtime_seconds": 1480.3407731056213
+}

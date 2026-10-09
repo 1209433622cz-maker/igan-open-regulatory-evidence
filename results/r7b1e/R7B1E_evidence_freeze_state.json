@@ -1,0 +1,14 @@
+{
+  "schema": "R7B1E_EVIDENCE_FREEZE_1.0",
+  "status": "PASS",
+  "claims": 22,
+  "figures": 6,
+  "panels": 8,
+  "new_gene_cell_locus_selection": false,
+  "general_method_superiority": "NOT_ESTABLISHED",
+  "diagnostic_closure": "PASS_WITH_REVIEWED_NONDECISION_FLAG",
+  "external_gate": "PASS_BOUNDED",
+  "tissue_enrichment": "NOT_SUPPORTED",
+  "next": "R7B2_MANUSCRIPT_V1",
+  "independent_QA": "21/21 PASS"
+}

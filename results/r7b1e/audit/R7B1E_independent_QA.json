@@ -1,0 +1,156 @@
+{
+  "schema": "R7B1E_QA_1.0",
+  "status": "PASS",
+  "passed": 21,
+  "total": 21,
+  "checks": [
+    {
+      "name": "R7B1E0_QA_pass",
+      "pass": true,
+      "observed": "PASS",
+      "expected": "PASS"
+    },
+    {
+      "name": "claims_exact_22",
+      "pass": true,
+      "observed": 22,
+      "expected": 22
+    },
+    {
+      "name": "claim_ids_unique",
+      "pass": true,
+      "observed": 22,
+      "expected": 22
+    },
+    {
+      "name": "claims_supported_or_boundary",
+      "pass": true,
+      "observed": [
+        "SUPPORTED",
+        "SUPPORTED_BOUNDARY"
+      ],
+      "expected": [
+        "SUPPORTED",
+        "SUPPORTED_BOUNDARY"
+      ]
+    },
+    {
+      "name": "all_claim_sources_exist",
+      "pass": true,
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "all_panel_sources_exist",
+      "pass": true,
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "figure_source_hashes",
+      "pass": true,
+      "observed": 9,
+      "expected": 9
+    },
+    {
+      "name": "figures_1_to_6",
+      "pass": true,
+      "observed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "expected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "scope_6923",
+      "pass": true,
+      "observed": 6923,
+      "expected": 6923
+    },
+    {
+      "name": "scope_5460",
+      "pass": true,
+      "observed": 5460,
+      "expected": 5460
+    },
+    {
+      "name": "scope_642",
+      "pass": true,
+      "observed": 642,
+      "expected": 642
+    },
+    {
+      "name": "transition_H4_to_H3_4",
+      "pass": true,
+      "observed": 4,
+      "expected": 4
+    },
+    {
+      "name": "transition_H3_to_H4_8",
+      "pass": true,
+      "observed": 8,
+      "expected": 8
+    },
+    {
+      "name": "transition_total_642",
+      "pass": true,
+      "observed": 642,
+      "expected": 642
+    },
+    {
+      "name": "H4_signal_identity_92",
+      "pass": true,
+      "observed": 92,
+      "expected": 92
+    },
+    {
+      "name": "mixed_pair_32",
+      "pass": true,
+      "observed": 32,
+      "expected": 32
+    },
+    {
+      "name": "S2_matched_false_H4_0_16",
+      "pass": true,
+      "observed": 0.16,
+      "expected": 0.16
+    },
+    {
+      "name": "S5_matched_false_H4_0_011222",
+      "pass": true,
+      "observed": 0.0112222222222222,
+      "expected": 0.0112222222222222
+    },
+    {
+      "name": "no_prohibited_claim_text",
+      "pass": true,
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "architecture_three_formats",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "no_new_candidate_selection",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    }
+  ],
+  "claim_ceiling": "PBC-wide screening followed by source-matched multi-signal reclassification of the prespecified high-information H3/H4 subset, with scenario-dependent calibration and bounded external/tissue support",
+  "next": "R7B2_MANUSCRIPT_V1"
+}

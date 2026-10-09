@@ -1,0 +1,22 @@
+{
+  "schema": "R7B1E0_SIGNAL_SEMANTICS_1.0",
+  "status": "PASS",
+  "comparisons": 642,
+  "historical_state_counts": {
+    "H3_SUPPORTED_STABLE": 428,
+    "H4_SUPPORTED_STABLE": 92,
+    "MODEL_SENSITIVE": 59,
+    "UNINFORMATIVE": 63
+  },
+  "semantic_state_counts": {
+    "H3_DISTINCT_PAIR_STABLE_NOT_GLOBAL_ABSENCE": 428,
+    "H4_SAME_SIGNAL_PAIR_STABLE": 60,
+    "H4_SAME_SIGNAL_PAIR_STABLE__MIXED_SHARED_AND_DISTINCT_PAIRS": 32,
+    "NOT_APPLICABLE": 122
+  },
+  "stable_h4_same_signal_confirmed": 92,
+  "stable_h3_same_pair_confirmed": 428,
+  "mixed_shared_and_distinct": 32,
+  "historical_labels_overwritten": false,
+  "interpretation": "comparison stability and signal-pair identity are reported separately; H3 pair support is not global proof of no shared pair"
+}

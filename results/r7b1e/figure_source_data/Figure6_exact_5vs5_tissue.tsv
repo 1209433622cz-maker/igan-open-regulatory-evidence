@@ -1,0 +1,3 @@
+axis	primary_descriptive_endpoint	PBC_n	control_n	PBC_median_target_lineage_CPM	control_median_target_lineage_CPM	mean_log1p_CPM_difference_PBC_minus_control	exact_label_permutation_p	PBC_positive_donors	control_positive_donors	BH_q_two_prespecified_targets
+FCRL3_B	log1p(target_lineage_CPM)	5	5	5.48227951703951	12.45182477934477	-0.7863352116597311	0.1111111111111111	5	5	0.1111111111111111
+IL12RB2_NK	log1p(target_lineage_CPM)	5	5	6.656948156353453	4.2370080621789405	0.3299675359429739	0.06349206349206349	5	5	0.1111111111111111

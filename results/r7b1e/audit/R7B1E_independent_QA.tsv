@@ -1,0 +1,22 @@
+name	pass	observed	expected
+R7B1E0_QA_pass	True	PASS	PASS
+claims_exact_22	True	22	22
+claim_ids_unique	True	22	22
+claims_supported_or_boundary	True	['SUPPORTED', 'SUPPORTED_BOUNDARY']	['SUPPORTED', 'SUPPORTED_BOUNDARY']
+all_claim_sources_exist	True	[]	[]
+all_panel_sources_exist	True	[]	[]
+figure_source_hashes	True	9	9
+figures_1_to_6	True	[np.int64(1), np.int64(2), np.int64(3), np.int64(4), np.int64(5), np.int64(6)]	[1, 2, 3, 4, 5, 6]
+scope_6923	True	6923	6923
+scope_5460	True	5460	5460
+scope_642	True	642	642
+transition_H4_to_H3_4	True	4	4
+transition_H3_to_H4_8	True	8	8
+transition_total_642	True	642	642
+H4_signal_identity_92	True	92	92
+mixed_pair_32	True	32	32
+S2_matched_false_H4_0_16	True	0.16	0.16
+S5_matched_false_H4_0_011222	True	0.0112222222222222	0.0112222222222222
+no_prohibited_claim_text	True	[]	[]
+architecture_three_formats	True	True	True
+no_new_candidate_selection	True	False	False

@@ -1,0 +1,4 @@
+axis	eligible_resources	resource_families	direction	concordance	boundary
+IL12RB2–NK	4	3	PBC risk allele associated with HIGHER IL12RB2 expression	CONCORDANT_ONEK_TENK_FINNGEN	Association/direction only; not mediation
+FCRL3–B	3	2	PBC risk allele associated with LOWER FCRL3 expression	CONCORDANT_ONEK_TENK__FINNGEN_PBC_DIRECTION_UNAVAILABLE	FinnGen public PBC–FCRL3 coloc was not returned
+FCRL3–CD8_ET	0	0	NOT_INTERPRETABLE_AS_SHARED_SIGNAL	NOT_APPLICABLE_H3_RECLASSIFICATION	A QTL effect direction does not rescue a distinct-signal result

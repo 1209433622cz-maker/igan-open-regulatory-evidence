@@ -200,3 +200,13 @@ Current public FinnGen queries did not return a `CHIRBIL_PRIM–FCRL3` coloc pai
 The external gate is `PASS_BOUNDED`. R7B1C did not establish general method superiority; the next stage is a single integrated claim–evidence ledger and Figure 1–6 source-data freeze before manuscript rewriting.
 
 ![R7B1D external evidence overview](figures/R7B1D/R7B1D_external_evidence_overview.png)
+
+## R7B1E0 diagnostic closure and R7B1E evidence freeze
+
+R7B1E0 repaired a post-result diagnostic interface defect without refitting SuSiE or coloc. The historical runner expected `kriging_rss()` to return a data frame, whereas `susieR 0.14.2` returns a list containing `conditional_dist`. Exact replay of the frozen z, LD, sample size, variant order and fitted `s_rss` completed 2,568/2,568 disease/QTL × PF10/PF50 diagnostic units across 642 comparisons and 47 loci. The official plotting rule (`logLR > 2` and `|z| > 2`) yielded one unique reviewed event, rs1800378; it entered no credible set and required no posterior refit. Historical classifications were preserved.
+
+Signal-level semantic review confirmed the same pair identity for all 92 stable-H4 and all 428 stable-H3 comparisons across L10 and at least one other PF10 L setting. Thirty-two stable-H4 comparisons also contained an H3-qualifying pair, so shared and distinct pairs can coexist within a comparison. Stable H3 is therefore reported as support for a distinct pair, not global proof that no shared pair exists.
+
+R7B1E freezes 22 claim–evidence records, nine hashed figure-source assets and a Figure 1–6 panel manifest. The evidence ceiling is **PBC-wide screening followed by source-matched multi-signal reclassification of the prespecified high-information H3/H4 subset, with scenario-dependent calibration and bounded external/tissue support**. General method superiority, a complete regulatory cascade and PBC-specific tissue enrichment are not established. Independent QA passes 21/21 checks for R7B1E0 and 21/21 for R7B1E. The next stage is R7B2 manuscript v1, with no reopening of locus, gene or cell selection.
+
+![R7B1E figure-source architecture](figures/R7B1E/R7B1E_figure_source_architecture.png)
