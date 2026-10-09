@@ -15,6 +15,10 @@
   "wps_manuscript_pdf": "PASS_31_PAGES",
   "wps_cover_letter_pdf": "PASS_1_PAGE",
   "final_machine_qa": "PASS_42_OF_42",
+  "github_release_tag": "r7b4a-human-genomics-interface-2026-10-10",
+  "github_release_commit": "c768ff4c02481331c6563cf8e040062a8e31b6db",
+  "github_main_receipt_commit": "c3ad79a2cffa41281faf01088b95516867b1ad91",
+  "github_remote_verification": "PASS",
   "author_metadata": "HUMAN_COMPLETION_GATE",
   "submission_authorized": "NO",
   "next": "R7B4B_AUTHOR_COMPLETION_AND_FINAL_SUBMISSION_QA"

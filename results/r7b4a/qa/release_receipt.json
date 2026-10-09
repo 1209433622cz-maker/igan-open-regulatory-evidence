@@ -1,0 +1,15 @@
+{
+  "release": "CMM_R7B4A_HumanGenomics_SubmissionInterface_2026-10-10.zip",
+  "bytes": 18289096,
+  "sha256": "0b12b5f390b0492d31a1e93d588b07cd3ba8f70670240a1a46fd5898e754a91e",
+  "zip_crc": "PASS",
+  "zip_entries": 56,
+  "internal_checksums": "55/55 PASS",
+  "final_machine_qa": "42/42 PASS",
+  "wps_manuscript_pages": 31,
+  "wps_cover_pages": 1,
+  "github_release_commit": "c768ff4c02481331c6563cf8e040062a8e31b6db",
+  "github_main_receipt_commit": "c3ad79a2cffa41281faf01088b95516867b1ad91",
+  "github_tag": "r7b4a-human-genomics-interface-2026-10-10",
+  "status": "PASS_HUMAN_GATE_PENDING"
+}
