@@ -1,0 +1,11 @@
+{
+  "stage": "R7B4A_HUMAN_GENOMICS_SUBMISSION_INTERFACE",
+  "repository": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence",
+  "asset_commit": "f1c7040c3db114967c7f8385d6ad9f126a4d2d3f",
+  "remote_before": "993185e9db1937bf8e60c92afff01433bb7e717d",
+  "release_tag": "r7b4a-human-genomics-interface-2026-10-10",
+  "initial_push": "FAILED_CONNECTIVITY_GITHUB_443",
+  "final_remote_verification": "PENDING_RETRY",
+  "sync_script": "analysis/r7b4a/SYNC_R7B4A_TO_GITHUB.ps1",
+  "date": "2026-10-10"
+}
