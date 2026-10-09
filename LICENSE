@@ -1,6 +1,11 @@
 MIT License
 
-Copyright (c) 2026 IgAN open regulatory evidence contributors
+Scope: original source code and executable workflow files in this repository.
+Original manuscript text, figures, documentation and derived research outputs are
+licensed separately under CC BY 4.0; see LICENSE_CONTENT.md. Third-party source
+data and resources are excluded; see NOTICE.md.
+
+Copyright (c) 2026 Zhi Chen and Teng Qi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

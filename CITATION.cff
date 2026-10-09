@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this research compendium, please cite the Zenodo record and the associated preprint."
+title: "Input-matched multi-signal colocalization clarifies immune-cell regulatory assignments at primary biliary cholangitis risk loci"
+type: software
+version: 1.0.0
+date-released: 2026-10-10
+authors:
+  - family-names: Chen
+    given-names: Zhi
+    orcid: "https://orcid.org/0009-0001-0072-5576"
+    affiliation: "School of Medicine, The Chinese University of Hong Kong, Shenzhen"
+  - family-names: Qi
+    given-names: Teng
+    orcid: "https://orcid.org/0009-0007-7648-4776"
+    affiliation: "School of Medicine, The Chinese University of Hong Kong, Shenzhen"
+repository-code: "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence"
+license: MIT
+keywords:
+  - primary biliary cholangitis
+  - colocalization
+  - statistical genetics
+  - single-cell eQTL
+  - fine-mapping
+  - linkage disequilibrium

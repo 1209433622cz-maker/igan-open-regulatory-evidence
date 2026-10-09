@@ -270,3 +270,10 @@ R7B4B0 independently reverified the R7B4A release before any author information 
 The historical R7B4A 42/42 QA remains an author-review gate. R7B4B0 adds a separate fail-closed `FINAL_SUBMISSION` mode: explicit author/declaration placeholders must be absent, the internal author-completion page must be removed, WPS outputs must be bound to exact DOCX/PDF hashes and all-page visual review, and final author approval must reference the same hashes. Page count is no longer fixed at 31, and normal Vancouver citation brackets are not treated as placeholders.
 
 The current pre-author result is `10 PASS / 8 HOLD / 0 FAIL`. The HOLD items are verified author metadata, declarations, institutional journal qualification, final WPS parity, exact-version approval and author-operated submission authorization. No biological analysis is reopened. Completed author records remain private and must not be committed to this public repository.
+# R7B4B1 author-approved submission candidate and publication licences
+
+The author-approved Human Genomics candidate is available under `manuscript/r7b4b1/`. It contains the final manuscript in Markdown, DOCX and WPS-rendered PDF formats plus the required graphical abstract. The scientific analysis remains frozen; no locus, gene, cell type or result was changed during author-metadata injection.
+
+Final-submission QA returned **20 PASS, 2 HOLD and 0 FAIL**. The remaining holds concern institution-specific Q2 confirmation and the journal requirement that submission be operated by an author. The manuscript, figures, documentation and derived outputs are licensed under **CC BY 4.0**; original code remains under the **MIT License**. Third-party datasets and licence-restricted source files are excluded.
+
+The public release metadata are recorded in `CITATION.cff` and `.zenodo.json`. Private author records, personal approval evidence, journal credentials and the cover letter are intentionally excluded from Git history.

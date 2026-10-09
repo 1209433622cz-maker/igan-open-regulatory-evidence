@@ -1,0 +1,37 @@
+{
+  "title": "Input-matched multi-signal colocalization clarifies immune-cell regulatory assignments at primary biliary cholangitis risk loci",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "Preprint and open research compendium for a PBC-wide screen followed by source-matched multi-signal reclassification of a prespecified high-information H3/H4 subset. The release includes the manuscript, figures, supplementary tables, machine-readable derived outputs, frozen protocols and analysis code. It distinguishes statistical signal sharing from biological mechanism and retains negative, model-sensitive and uninformative results.",
+  "creators": [
+    {
+      "name": "Chen, Zhi",
+      "affiliation": "School of Medicine, The Chinese University of Hong Kong, Shenzhen",
+      "orcid": "0009-0001-0072-5576"
+    },
+    {
+      "name": "Qi, Teng",
+      "affiliation": "School of Medicine, The Chinese University of Hong Kong, Shenzhen",
+      "orcid": "0009-0007-7648-4776"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "publication_date": "2026-10-10",
+  "version": "1.0.0",
+  "keywords": [
+    "primary biliary cholangitis",
+    "colocalization",
+    "single-cell eQTL",
+    "fine-mapping",
+    "linkage disequilibrium",
+    "regulatory genomics",
+    "statistical genetics"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence",
+      "relation": "isSupplementedBy"
+    }
+  ]
+}
