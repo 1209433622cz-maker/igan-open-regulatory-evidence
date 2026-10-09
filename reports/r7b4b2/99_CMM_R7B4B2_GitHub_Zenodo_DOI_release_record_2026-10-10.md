@@ -50,7 +50,7 @@
 
 本轮没有重写或重渲染稿件。继续继承已经绑定到确切 DOCX 哈希的 WPS 后台渲染结果：主稿 30 页、投稿信 1 页，全部页面已完成视觉检查；未发现裁切、重叠、缺图、乱码或分页错误。最终投稿 QA 为 20 PASS、2 HOLD、0 FAIL。两个 HOLD 仅为院内期刊等级确认与作者本人操作期刊投稿系统，不影响 GitHub/Zenodo 开放发布。
 
-## 6. GitHub 发布设计
+## 6. GitHub 发布结果
 
 公共仓库：
 
@@ -81,10 +81,20 @@ R7B4B2_SUBMISSION_PACKAGE = COMPLETE
 PUBLIC_COMPENDIUM = COMPLETE
 LICENSE_GATE = PASS
 PUBLIC_PRIVACY_GATE = PASS
-GITHUB_RELEASE = PUBLISHING_AUTHORIZED
+GITHUB_RELEASE = COMPLETE_VERIFIED
 ZENODO_METADATA_AND_PUBLISHER = COMPLETE
 ZENODO_DOI = PENDING_AUTHENTICATED_EXECUTION
 JOURNAL_SUBMISSION = NOT_PERFORMED_AUTHOR_OPERATED
 ```
 
 若 Zenodo 身份验证在本轮恢复，立即发布并把 DOI 回写至 `CITATION.cff`、README、出版状态 JSON 与 GitHub Release。若没有凭据，下一阶段被严格限定为 `R7B4B3_ZENODO_AUTHENTICATED_PUBLICATION_AND_DOI_BINDING`；完成 DOI 绑定后再由作者登录 Human Genomics 投稿系统，不新增生物学分析。
+
+
+## GitHub remote verification
+
+- `main` / `origin/main`: `16b4f30404694a4248921a1c02280bc594a43d74`
+- annotated tag peeled commit: `16b4f30404694a4248921a1c02280bc594a43d74`
+- Release: https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/tag/r7b4b2-author-approved-open-research-release-2026-10-10
+- assets: public compendium ZIP and SHA-256 sidecar (2/2 uploaded)
+- public ZIP SHA-256: `0bfe7e08e1fdea9d5cf7d5baa9dd6416804e3e28d29dc237c7d66386edaf87de`
+- local private submission ZIP SHA-256: `2b0ee3cf1dd5a1b0f4cca43099072e77454ec65ec530f45bcc0a394ea523e1bd`

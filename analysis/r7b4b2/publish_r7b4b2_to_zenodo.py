@@ -86,6 +86,22 @@ def main() -> None:
     if dep.get("submitted"):
         raise RuntimeError(f"Deposition {deposition_id} is already published; refusing to overwrite it.")
 
+    # Persist the deposition identity immediately so an interrupted upload can
+    # always be resumed with --deposition-id instead of creating a duplicate.
+    initial_reserved = dep.get("metadata", {}).get("prereserve_doi", {})
+    checkpoint = {
+        "stage": "R7B4B2_ZENODO",
+        "timestamp_utc": datetime.now(timezone.utc).isoformat(),
+        "deposition_id": deposition_id,
+        "state": dep.get("state"),
+        "submitted": dep.get("submitted"),
+        "reserved_doi": initial_reserved.get("doi") if isinstance(initial_reserved, dict) else None,
+        "html": dep.get("links", {}).get("html"),
+        "checkpoint": "DEPOSITION_CREATED_OR_RECOVERED",
+    }
+    RECEIPT.parent.mkdir(parents=True, exist_ok=True)
+    RECEIPT.write_text(json.dumps(checkpoint, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
     metadata = json.loads((REPO / ".zenodo.json").read_text(encoding="utf-8"))
     metadata["prereserve_doi"] = True
     dep = checked(
