@@ -1,0 +1,60 @@
+{
+  "schema": "R7B2A_MATCHED_INPUT_ABF_1.0",
+  "status": "PASS",
+  "gate": "V3-G1_CONTRAST_VALID_PASS__V3-G2_COVERAGE_PASS",
+  "comparisons": 642,
+  "arms_per_comparison": 6,
+  "result_rows": 3852,
+  "A0_replay_max_abs_delta": 3.5427216715788745e-13,
+  "A0_shared_top_variant_match": 642,
+  "technical_failures": 0,
+  "runtime_seconds": 14.143,
+  "arm_state_counts": {
+    "A0_REPLAY": {
+      "ABF_AMBIGUOUS": 72,
+      "ABF_H3_DOMINANT": 455,
+      "ABF_H4_BORDERLINE": 3,
+      "ABF_H4_DOMINANT": 112
+    },
+    "A1_FIXED_SDY": {
+      "ABF_AMBIGUOUS": 70,
+      "ABF_H3_DOMINANT": 445,
+      "ABF_H4_BORDERLINE": 1,
+      "ABF_H4_DOMINANT": 113,
+      "ABF_UNINFORMATIVE_OR_NO_TRIGGER": 13
+    },
+    "A1_NATIVE_SDY": {
+      "ABF_AMBIGUOUS": 70,
+      "ABF_H3_DOMINANT": 445,
+      "ABF_H4_BORDERLINE": 1,
+      "ABF_H4_DOMINANT": 113,
+      "ABF_UNINFORMATIVE_OR_NO_TRIGGER": 13
+    },
+    "A2_MATCHEDZ_FIXED_SDY": {
+      "ABF_AMBIGUOUS": 62,
+      "ABF_H3_DOMINANT": 452,
+      "ABF_H4_BORDERLINE": 3,
+      "ABF_H4_DOMINANT": 113,
+      "ABF_UNINFORMATIVE_OR_NO_TRIGGER": 12
+    },
+    "A2_MATCHEDZ_NATIVE_SDY": {
+      "ABF_AMBIGUOUS": 62,
+      "ABF_H3_DOMINANT": 452,
+      "ABF_H4_BORDERLINE": 3,
+      "ABF_H4_DOMINANT": 113,
+      "ABF_UNINFORMATIVE_OR_NO_TRIGGER": 12
+    },
+    "A2_ROUNDED_FIXED_SDY": {
+      "ABF_AMBIGUOUS": 62,
+      "ABF_H3_DOMINANT": 452,
+      "ABF_H4_BORDERLINE": 3,
+      "ABF_H4_DOMINANT": 113,
+      "ABF_UNINFORMATIVE_OR_NO_TRIGGER": 12
+    }
+  },
+  "outputs": {
+    "matched_abf_sha256": "dc7a6313d1edc38efcee227333f527194f2f29e0968a3913196bd22f3ccabcc6",
+    "A0_audit_sha256": "4181d3fc04db5549f4d3b6765c75731c6a50c286b321dde18f48d2c313f2c134"
+  },
+  "next": "R7B2A_TRAJECTORY_ADJUDICATION"
+}

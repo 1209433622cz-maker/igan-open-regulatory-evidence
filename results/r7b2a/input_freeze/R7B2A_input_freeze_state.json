@@ -1,0 +1,39 @@
+{
+  "schema": "R7B2A_INPUT_FREEZE_1.0",
+  "status": "PASS",
+  "gate": "V3-G0_INPUT_LOCK_PASS",
+  "comparisons": 642,
+  "roles": {
+    "H3_RESCUE_FALSIFICATION": 455,
+    "PRIMARY_184_TRIGGER_VERIFICATION": 184,
+    "BORDERLINE_HIGH_INFORMATION_CALIBRATION": 3
+  },
+  "loci": 47,
+  "genes": 200,
+  "cells": 14,
+  "S_A_n_range": [
+    243,
+    1724
+  ],
+  "S_M_n_range": [
+    224,
+    1684
+  ],
+  "removed_n_range": [
+    19,
+    114
+  ],
+  "removed_n_median": 65.0,
+  "removed_fraction_median": 0.07670932910484389,
+  "gjoka_A1_exact_total": 496205,
+  "gjoka_A1_flipped_total": 2350,
+  "gjoka_A1_unresolved_total": 0,
+  "protocol_sha256": "1295f072d192fa3ec22631c7a0e4ac247576d2bacc56ca32c599622594ef7c03",
+  "rp_v3_sha256": "310b307e5463825968ee93e52ca34fb997b6a28b81d79ce791d831fc6f18ed59",
+  "outputs": {
+    "identity_sha256": "f4d67171b68dbbcd522c13ae6ef9519d6e8419f8f4652b068a628d73fbeb5a21",
+    "membership_sha256": "33d9fc2a04bc1cf411c3a9fa457002d42533c48437effe996cc17dd080881711",
+    "source_manifest_sha256": "90172276ae8187f35afa39f94a52649e6c44a8db5089c919efa55c172ba8a364"
+  },
+  "next": "R7B2A_A0_REPLAY_AND_A1_A2_ABF"
+}

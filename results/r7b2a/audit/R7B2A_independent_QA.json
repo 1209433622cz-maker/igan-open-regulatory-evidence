@@ -1,0 +1,17 @@
+{
+  "schema": "R7B2A_INDEPENDENT_QA_1.0",
+  "status": "PASS",
+  "checks": 53,
+  "passed": 53,
+  "failed": 0,
+  "failure_names": [],
+  "qa_tsv_sha256": "5fc366f27ff18b01c5a3e794cdef63111962412492489d755934e77eb1070d7e",
+  "gates": {
+    "V3-G0_INPUT_LOCK": "PASS",
+    "V3-G1_CONTRAST_VALID": "PASS",
+    "V3-G2_COVERAGE": "PASS",
+    "V3-G3_SIMULATION_INTERPRETABLE": "PASS_WITH_SCOPE_LIMIT",
+    "V3-G4_ATTRIBUTION": "PASS",
+    "V3-G5_MANUSCRIPT_LOCK_ASSETS": "PASS"
+  }
+}

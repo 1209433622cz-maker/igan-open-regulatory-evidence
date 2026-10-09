@@ -1,0 +1,37 @@
+{
+  "schema": "R7B2A_ATTRIBUTION_1.0",
+  "status": "PASS",
+  "gate": "V3-G4_ATTRIBUTION_PASS",
+  "comparisons": 642,
+  "support_set_state_changes": 15,
+  "disease_stat_state_changes": 19,
+  "matched_input_model_state_changes": 139,
+  "matched_input_strict_H4_to_H3": 8,
+  "matched_input_strict_H3_to_H4": 10,
+  "matched_input_stable_H4": 79,
+  "matched_input_stable_H3": 413,
+  "historical_direction_changes": 12,
+  "historical_direction_changes_retained_strict": 10,
+  "A1_fixed_native_state_changes": 0,
+  "A2_fixed_native_state_changes": 0,
+  "A2_matchedz_rounded_state_changes": 0,
+  "interpretation_boundary": "Real-data transitions localize decision changes; they do not establish causal truth or general method superiority.",
+  "outputs": {
+    "R7B2A_642_four_arm_trajectories.tsv": {
+      "bytes": 921281,
+      "sha256": "f002de909f3b2bd95ed7151b17819599aea81e847c56b69d093458520f5fec90"
+    },
+    "R7B2A_adjacent_transition_matrices.tsv": {
+      "bytes": 2452,
+      "sha256": "e53219875ab5d845b0e8e188708ea4a3cf768ab1ee86d2696128147dc088eaee"
+    },
+    "R7B2A_historical_12_direction_changes_audit.tsv": {
+      "bytes": 18747,
+      "sha256": "b30fa98afb65906ed8a07c416bad1604105a98c5462725f363149d675c0cb5be"
+    },
+    "R7B2A_attribution_summary.tsv": {
+      "bytes": 715,
+      "sha256": "f3904d1f01a0f48b57d70edaa97da8e2c7d284b71ce32ee6882b1342554d55a4"
+    }
+  }
+}

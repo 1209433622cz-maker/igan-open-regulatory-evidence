@@ -210,3 +210,15 @@ Signal-level semantic review confirmed the same pair identity for all 92 stable-
 R7B1E freezes 22 claim–evidence records, nine hashed figure-source assets and a Figure 1–6 panel manifest. The evidence ceiling is **PBC-wide screening followed by source-matched multi-signal reclassification of the prespecified high-information H3/H4 subset, with scenario-dependent calibration and bounded external/tissue support**. General method superiority, a complete regulatory cascade and PBC-specific tissue enrichment are not established. Independent QA passes 21/21 checks for R7B1E0 and 21/21 for R7B1E. The next stage is R7B2 manuscript v1, with no reopening of locus, gene or cell selection.
 
 ![R7B1E figure-source architecture](figures/R7B1E/R7B1E_figure_source_architecture.png)
+
+## R7B2A matched-input attribution and manuscript lock
+
+R7B2A implements the RP v3 A0/A1/A2/M bridge on the exact frozen 642-comparison high-information subset. The historical ABF calculation is replayed on its original support (A0), then repeated on the actual multi-signal support (A1) and with GJOKA disease statistics (A2), before comparison with the frozen source-matched multi-signal result (M). Support restriction changed 15 categorical states and disease-statistic matching changed 19. Under matched inputs, 79 H4 and 413 H3 states remained stable, while 8 H4-to-H3 and 10 H3-to-H4 transitions persisted. These real-data transitions are descriptive and do not establish causal truth or general method superiority.
+
+An iteration-level audit of all 486,000 R7B1C replicates found zero technical errors. Of 486,000 primary matched fits, 325,218 lacked a credible set in one or both traits, 160,782 formed an evaluable signal pair, and no fit had credible sets in both traits but no pair. Simulation performance is therefore reported both unconditionally and conditional on pair formation. The secondary mismatch branch did not store per-trait credible-set counts for zero-pair fits; its mechanistic interpretation remains restricted and no rerun was required.
+
+R7B2A freezes a 27-record claim ledger, a 10-module Methods–Results mirror and an updated Figure 1–6 source manifest. Independent QA passes 53/53 checks. No disease, locus, gene or cell was added. The next stage is the complete English manuscript v1 within this evidence ceiling.
+
+![R7B2A matched-input attribution](figures/R7B2A/R7B2A_Figure2_attribution_prototype.png)
+
+![R7B2A simulation channels](figures/R7B2A/R7B2A_Figure3_simulation_channels_prototype.png)
