@@ -9,7 +9,8 @@ if ((git branch --show-current).Trim() -ne 'main') { throw 'Repository is not on
 if (git status --porcelain) { throw 'Repository is not clean. Review local changes before sync.' }
 
 $head = (git rev-parse HEAD).Trim()
-if (-not (git merge-base --is-ancestor $ExpectedAssetCommit $head)) {
+git merge-base --is-ancestor $ExpectedAssetCommit $head
+if ($LASTEXITCODE -ne 0) {
     throw "Expected R7B4A asset commit is not an ancestor of HEAD: $ExpectedAssetCommit"
 }
 
@@ -30,7 +31,8 @@ if ($LASTEXITCODE -ne 1) { throw 'Secret-pattern scan did not complete normally.
 
 git fetch origin main
 $remoteBefore = (git rev-parse origin/main).Trim()
-if (-not (git merge-base --is-ancestor $remoteBefore $head)) {
+git merge-base --is-ancestor $remoteBefore $head
+if ($LASTEXITCODE -ne 0) {
     throw "Remote main is not an ancestor of local HEAD. Refusing non-fast-forward push: $remoteBefore"
 }
 
