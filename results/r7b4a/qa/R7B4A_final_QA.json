@@ -1,0 +1,271 @@
+{
+  "stage": "R7B4A_HUMAN_GENOMICS_SUBMISSION_INTERFACE",
+  "status": "PASS",
+  "summary": {
+    "pass": 42,
+    "total": 42
+  },
+  "checks": [
+    {
+      "check": "exact_title",
+      "status": "PASS",
+      "detail": "# Input-matched multi-signal colocalization clarifies immune-cell regulatory assignments at primary biliary cholangitis risk loci"
+    },
+    {
+      "check": "article_type",
+      "status": "PASS",
+      "detail": "Research"
+    },
+    {
+      "check": "abstract_structure",
+      "status": "PASS",
+      "detail": "['Background', 'Results', 'Conclusions']"
+    },
+    {
+      "check": "abstract_word_limit",
+      "status": "PASS",
+      "detail": "294"
+    },
+    {
+      "check": "abstract_no_citations",
+      "status": "PASS",
+      "detail": "no numeric citations"
+    },
+    {
+      "check": "keyword_count",
+      "status": "PASS",
+      "detail": "8"
+    },
+    {
+      "check": "required_sections",
+      "status": "PASS",
+      "detail": "['## Background', '## Methods', '## Results', '## Discussion', '## Conclusions', '## List of abbreviations', '## Declarations', '## References', '## Figure legends', '## Additional files']"
+    },
+    {
+      "check": "declaration_headings",
+      "status": "PASS",
+      "detail": "['Ethics approval and consent to participate', 'Consent for publication', 'Availability of data and materials', 'Competing interests', 'Funding', \"Authors' contributions\", 'Acknowledgements', \"Authors' information\"]"
+    },
+    {
+      "check": "llm_disclosure",
+      "status": "PASS",
+      "detail": "supervised use disclosed"
+    },
+    {
+      "check": "immutable_repository_tag",
+      "status": "PASS",
+      "detail": "r7b4a-human-genomics-interface-2026-10-10"
+    },
+    {
+      "check": "numeric_anchor_coverage",
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "check": "prohibited_claims_absent",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "check": "replication_language_bounded",
+      "status": "PASS",
+      "detail": "explicit disease-replication boundary"
+    },
+    {
+      "check": "screening_scope_bounded",
+      "status": "PASS",
+      "detail": "claim ceiling explicit"
+    },
+    {
+      "check": "reference_count_and_continuity",
+      "status": "PASS",
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]"
+    },
+    {
+      "check": "figure_legends",
+      "status": "PASS",
+      "detail": "['1', '2', '3', '4', '5', '6']"
+    },
+    {
+      "check": "figure2_semantic_legend",
+      "status": "PASS",
+      "detail": "60/32 wording"
+    },
+    {
+      "check": "figure2_semantic_label",
+      "status": "PASS",
+      "detail": "label corrected without count change"
+    },
+    {
+      "check": "figure_triplets",
+      "status": "PASS",
+      "detail": "18"
+    },
+    {
+      "check": "figure_hash_manifest",
+      "status": "PASS",
+      "detail": "18"
+    },
+    {
+      "check": "graphical_abstract",
+      "status": "PASS",
+      "detail": "(920, 300)"
+    },
+    {
+      "check": "additional_file_1",
+      "status": "PASS",
+      "detail": "3282142"
+    },
+    {
+      "check": "supplement_workbook_identity",
+      "status": "PASS",
+      "detail": "7f53dfd60195b9903a52f638ba5ae6f8c7286adec9bcec0652bf1c27adf57382"
+    },
+    {
+      "check": "additional_file_2_crc",
+      "status": "PASS",
+      "detail": "members=28 bad=None"
+    },
+    {
+      "check": "no_restricted_raw_files",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "check": "official_guideline_inventory",
+      "status": "PASS",
+      "detail": "12"
+    },
+    {
+      "check": "journal_route_lock",
+      "status": "PASS",
+      "detail": "{'priority': 'PRIMARY_LOCKED', 'journal': 'Human Genomics', 'article_type': 'Research', 'scope_fit': 'HIGH', 'publisher_metric': '2025 JIF 4.1', 'quartile_evidence': 'JCR Q2 in current public JCR-derived 2026 list; SCImago 2025 Q1', 'quartile_source_caveat': 'Clarivate JCR direct subscriber record was not accessible; institutional confirmation advised immediately before submission', 'format_delta': 'completed in R7B4A', 'main_risk': 'editorial novelty; mandatory OA APC', 'decision': 'GO_AFTER_HUMAN_METADATA'}"
+    },
+    {
+      "check": "quartile_caveat",
+      "status": "PASS",
+      "detail": "PASS_WITH_SOURCE_CAVEAT_AND_INSTITUTIONAL_RECHECK"
+    },
+    {
+      "check": "upload_map",
+      "status": "PASS",
+      "detail": "12"
+    },
+    {
+      "check": "human_gate_files",
+      "status": "PASS",
+      "detail": "HUMAN_COMPLETION_GATE"
+    },
+    {
+      "check": "next_stage",
+      "status": "PASS",
+      "detail": "R7B4B_AUTHOR_COMPLETION_AND_FINAL_SUBMISSION_QA"
+    },
+    {
+      "check": "docx_exists",
+      "status": "PASS",
+      "detail": "3802328"
+    },
+    {
+      "check": "docx_title_metadata",
+      "status": "PASS",
+      "detail": "Input-matched multi-signal colocalization clarifies immune-cell regulatory assignments at primary biliary cholangitis risk loci"
+    },
+    {
+      "check": "docx_figure_objects",
+      "status": "PASS",
+      "detail": "6"
+    },
+    {
+      "check": "docx_human_gate",
+      "status": "PASS",
+      "detail": "gate retained in author-review draft"
+    },
+    {
+      "check": "cover_letter_files",
+      "status": "PASS",
+      "detail": "md=True docx=True"
+    },
+    {
+      "check": "cover_human_confirmations",
+      "status": "PASS",
+      "detail": "confirmation_lines=5"
+    },
+    {
+      "check": "wps_manuscript_pdf",
+      "status": "PASS",
+      "detail": "pages=31 creator=WPS 文字 "
+    },
+    {
+      "check": "wps_pdf_title",
+      "status": "PASS",
+      "detail": "Input-matched multi-signal colocalization clarifies immune-cell regulatory assignments at primary biliary cholangitis risk loci"
+    },
+    {
+      "check": "one_page_wps_cover",
+      "status": "PASS",
+      "detail": "pages=1 creator=WPS 文字 "
+    },
+    {
+      "check": "wps_render_page_parity",
+      "status": "PASS",
+      "detail": "rendered=31 pdf=31"
+    },
+    {
+      "check": "visual_contact_sheets",
+      "status": "PASS",
+      "detail": "manual visual inspection assets present"
+    }
+  ],
+  "artifacts": {
+    "R7B4A_HumanGenomics_manuscript.md": {
+      "bytes": 59955,
+      "sha256": "17dd5490dbf4e2079430351aa52bdac45a348e55c1c6e746c24e466616202782"
+    },
+    "R7B4A_HumanGenomics_manuscript.docx": {
+      "bytes": 3802328,
+      "sha256": "698c32eee38d6f922460dbaf6072db63654b94b548fc3f3b89447806042672f3"
+    },
+    "R7B4A_HumanGenomics_manuscript_WPS.pdf": {
+      "bytes": 2804047,
+      "sha256": "ee67dd45818c47cb3733869c13d83e0acd6e1ebeda1c84bb86e63d965cc88f1a"
+    },
+    "R7B4A_HumanGenomics_cover_letter_DRAFT.md": {
+      "bytes": 3154,
+      "sha256": "a7be34a85ec7d225ae33ee143321b70a4513573ebb5d68b8499d7d5a6af8d361"
+    },
+    "R7B4A_HumanGenomics_cover_letter_DRAFT.docx": {
+      "bytes": 39050,
+      "sha256": "8a7d685cfafed81119f00f29e4abc0c73623b29aa7a8102c799c6b8e5399a3c0"
+    },
+    "R7B4A_HumanGenomics_cover_letter_DRAFT_WPS.pdf": {
+      "bytes": 107629,
+      "sha256": "f05e8671e5269a6dbba61eb288f70ee96e413017601b0f2c0f1114fa009ca2bf"
+    },
+    "Graphical_Abstract_HumanGenomics_920x300.png": {
+      "bytes": 59833,
+      "sha256": "089683e8387a5fe3e6ef10177a90a4678727d8f1965e1e77468062c5c41ec828"
+    },
+    "Additional_file_1_Supplementary_Tables_S1-S10.xlsx": {
+      "bytes": 3282142,
+      "sha256": "7f53dfd60195b9903a52f638ba5ae6f8c7286adec9bcec0652bf1c27adf57382"
+    },
+    "Additional_file_2_Machine_Readable_Supplementary_Data.zip": {
+      "bytes": 3238496,
+      "sha256": "c7d43420df5e256e85b68921df72fa30fbba7c9a9b14a44e06ce8aae8da8329b"
+    }
+  },
+  "human_gate": [
+    "authors",
+    "affiliations",
+    "correspondence",
+    "CRediT",
+    "funding",
+    "competing interests",
+    "ethics wording",
+    "acknowledgements",
+    "APC route",
+    "licence",
+    "final approval"
+  ]
+}

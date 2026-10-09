@@ -1,0 +1,21 @@
+{
+  "stage": "R7B4A_TARGET_JOURNAL_AND_SUBMISSION_INTERFACE",
+  "date": "2026-10-10",
+  "status": "TECHNICAL_INTERFACE_COMPLETE_HUMAN_GATE_PENDING",
+  "primary_journal": "Human Genomics",
+  "article_type": "Research",
+  "primary_route": "LOCKED",
+  "Q2_eligibility": "PASS_WITH_SOURCE_CAVEAT_AND_INSTITUTIONAL_RECHECK",
+  "new_biological_analysis": "NO",
+  "scientific_master_changed": "NO",
+  "journal_specific_manuscript": "CREATED",
+  "graphical_abstract": "CREATED_920x300",
+  "additional_files": 2,
+  "abstract_words": 270,
+  "wps_manuscript_pdf": "PASS_31_PAGES",
+  "wps_cover_letter_pdf": "PASS_1_PAGE",
+  "final_machine_qa": "PASS_42_OF_42",
+  "author_metadata": "HUMAN_COMPLETION_GATE",
+  "submission_authorized": "NO",
+  "next": "R7B4B_AUTHOR_COMPLETION_AND_FINAL_SUBMISSION_QA"
+}

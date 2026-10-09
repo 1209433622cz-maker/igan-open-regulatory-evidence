@@ -252,3 +252,13 @@ The source-corrected manuscript v2 is available as Markdown, editable DOCX and a
 The next stage is `R7B4_TARGET_JOURNAL_AND_SUBMISSION_INTERFACE`: verify current official journal instructions, freeze the primary and backup submission routes, and assemble the journal-specific title/abstract, cover letter, checklist and upload map. No new biological analysis is required by default.
 
 ![R7B3A complete figure set](figures/R7B3A/Figure1_study_scope_and_model_integrity.png)
+
+## R7B4A Human Genomics submission interface
+
+R7B4A freezes **Human Genomics / Research** as the primary submission route after a current official-guideline audit. The scientific master remains unchanged: no disease, locus, gene, cell, threshold or numerical result was reopened. The journal-specific version uses a 270-word `Background / Results / Conclusions` abstract, eight keywords, complete declaration headings, supervised-LLM disclosure and the mandatory 920×300 graphical abstract.
+
+The Figure 2F reader-facing label was corrected from an ambiguous “shared only” description to “no qualifying H3 pair”; the frozen 60/32 counts and source data did not change. The release includes six figures in PNG/PDF/SVG, an editable manuscript, a 31-page WPS review PDF, a one-page WPS cover-letter draft, the S1–S10 workbook and a CRC-validated machine-readable supplementary ZIP. Final machine QA passes 42/42 checks.
+
+Author order, affiliations, correspondence, CRediT, funding, competing interests, institutional ethics/waiver wording, acknowledgements, APC/licence route and all-author approval remain a human completion gate. The package is a technically complete submission interface, not evidence that the manuscript has been submitted. The next frozen stage is `R7B4B_AUTHOR_COMPLETION_AND_FINAL_SUBMISSION_QA`.
+
+![R7B4A graphical abstract](manuscript/r7b4a/graphical_abstract/Graphical_Abstract_HumanGenomics_920x300.png)
