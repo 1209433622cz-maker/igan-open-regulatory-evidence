@@ -1,0 +1,24 @@
+name	pass	observed	expected
+api_receipts_18	True	18	18
+api_all_http_200	True	{200: 18}	{200: 18}
+api_all_valid_json	True	18	18
+current_pbc_search_index_empty_logged	True	0	0
+current_pbc_direct_endpoints_live	True	CHIRBIL_PRIM	CHIRBIL_PRIM
+target_registry_exact_4	True	4	4
+target_ids_unique	True	4	4
+no_new_target_selection	True	['R7B1_000258', 'R7B1_000410', 'R7B1_000411', 'R7B1_000414']	exact frozen IDs
+FinnGen_IL12RB2_PBC_rows_3	True	3	3
+FinnGen_IL12RB2_cells	True	['l1.NK', 'l1.PBMC', 'l2.NK']	['l1.NK', 'l1.PBMC', 'l2.NK']
+FinnGen_IL12RB2_H4_min_gt_0_96	True	0.969838743831976	>0.96
+FinnGen_FCRL3_PBC_rows_0	True	0	0
+FCRL3_nonreturn_boundary_present	True	Public-output non-return; not proof of biological absence or a formally powered negative test	contains not proof
+IL12RB2_peak_NK_caqtl_q	True	{'peak_caqtl_q_l1_NK': 3.93152497046016e-13, 'peak_caqtl_q_l2_NK': 6.018990030648801e-15}	both <0.05
+positional_not_full_cascade	True	False	False
+IL12_direction_all_higher	True	['HIGHER']	['HIGHER']
+IL12_direction_three_resource_families	True	3	3
+FCRL3_B_direction_all_lower	True	['LOWER']	['LOWER']
+CD8_direction_not_eligible	True	[False]	[False]
+axis_adjudication_exact_3	True	3	3
+G6_pass_bounded	True	PASS_BOUNDED	PASS_BOUNDED
+next_stage_frozen	True	R7B1E_INTEGRATED_CLAIM_EVIDENCE_FREEZE_AND_FIGURE_SOURCE_ASSEMBLY	R7B1E...
+figure_three_formats	True	True	True

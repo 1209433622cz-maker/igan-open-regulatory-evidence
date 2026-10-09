@@ -1,0 +1,19 @@
+{
+  "schema": "R7B1D_TARGET_FREEZE_1.0",
+  "status": "PASS",
+  "selection_timing": "Targets inherited from prespecified R7B1B anchors before current R7B1D API adjudication",
+  "new_candidate_selection": false,
+  "targets": 4,
+  "positive_anchors": 3,
+  "falsification_anchors": 1,
+  "r7b1b_adjudication_sha256": "3d267d70e23b8b99d97044e649f067702fd47f12fda328d5d1c6580e38d27f9e",
+  "r7b0_cell_mapping_sha256": "b866a46e50e7682e86e2401b0ff81884996dd5f04c232efd25cc86137428bfd4",
+  "target_registry_sha256": "c7efc4a51cb859db67622a27a3b38ab867b43eeb819a36fb4ae71bac908429a8",
+  "hard_boundaries": [
+    "FinnGen non-return is a public-output coverage result, not proof of biological absence",
+    "TenK reuses the GJOKA disease GWAS and is molecular-QTL replication only",
+    "Direction requires exact allele harmonization at the same variant",
+    "Positional CASCADE evidence is not a complete disease-to-caQTL-to-expression causal chain",
+    "No additional OneK gene, locus or cell may be selected in R7B1D"
+  ]
+}

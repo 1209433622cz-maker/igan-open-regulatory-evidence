@@ -1,0 +1,6 @@
+asset	role	source	bytes	checksum	public_copy	reason
+OneK1K_full_cis_eQTL	primary cell-QTL summaries	Zenodo 18910121	10344009571	md5:e42239480f40abd21f221c0d77c82cc3	NO	third-party 10.34 GB archive
+OneK1K_genotype_980	source-matched QTL LD	Zenodo 18910121	233198074	md5:be1053e34fa023bc808388d4e0bf2aa1	NO	third-party donor genotype
+TenK10K_coloc_100kb	independent molecular-QTL replication	Zenodo 18221260	626505208	md5:c627f1c4bc47706e331039d1e9e6e7d1	NO	third-party large archive
+GJOKA_SUMSTATS	PBC locus summaries and disease LD	Newcastle GJOKA public archive	1184054519	112 member CRCs present	NO	third-party large archive
+FinnGen_CASCADE_R7B1D	external disease/eQTL/chromatin layer	https://cascade.finngen.fi/	SMALL_AGGREGATE_JSON	per-object SHA-256 in receipts	YES	current public aggregate output retained for audit

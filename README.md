@@ -190,3 +190,13 @@ R7B1C completes the frozen six-scenario, 486-row, 486,000-replicate simulation b
 The public repository includes code, protocols, aggregate results, figure source data, independent QA and a SHA-256 manifest for the local per-grid truth tables. The simulation calibrates inference under the frozen templates and fixed effects; it does not validate a biological mechanism or represent every ancestry and locus architecture.
 
 ![R7B1C scenario decisions](figures/R7B1C/Figure_R7B1C_1_scenario_H4_decisions.png)
+
+## R7B1D external multiome and direction gate
+
+R7B1D retained four prespecified R7B1B anchors and queried current public FinnGen CASCADE bytes without reopening candidate selection. Three `CHIRBIL_PRIM–IL12RB2` records support PBC–eQTL sharing in `l1.NK`, `l2.NK` and `l1.PBMC` (PP.H4.abf 0.9698–0.9706; credible-set overlap 5–9 variants). The linked IL12RB2 peak is a positional chromatin layer; the eQTL anchor is not in the peak caQTL credible set, so a complete disease→caQTL→expression cascade is not claimed.
+
+Current public FinnGen queries did not return a `CHIRBIL_PRIM–FCRL3` coloc pair. This is recorded as public-output non-return rather than a powered biological negative. FCRL3–B therefore retains OneK source-matched support and TenK cross-resource molecular-QTL replication only. Exact allele harmonization shows the PBC risk allele is associated with higher IL12RB2 expression across OneK, TenK and FinnGen contexts, and with lower FCRL3 expression in OneK and TenK B-cell contexts. These are directional associations, not mediation estimates.
+
+The external gate is `PASS_BOUNDED`. R7B1C did not establish general method superiority; the next stage is a single integrated claim–evidence ledger and Figure 1–6 source-data freeze before manuscript rewriting.
+
+![R7B1D external evidence overview](figures/R7B1D/R7B1D_external_evidence_overview.png)

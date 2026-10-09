@@ -1,0 +1,3 @@
+gene	queried_pair_rows_before_dedup	queried_unique_traits	PBC_CHIRBIL_PRIM_rows	PBC_cell_types	public_output_adjudication	interpretation_boundary
+IL12RB2	6	1	3	l1.NK;l1.PBMC;l2.NK	PBC_COLOC_RETURNED	Direct public PBC disease–eQTL aggregate support
+FCRL3	798	27	0		NO_PBC_COLOC_RETURNED	Public-output non-return; not proof of biological absence or a formally powered negative test

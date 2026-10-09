@@ -1,0 +1,178 @@
+{
+  "schema": "R7B1D_QA_1.0",
+  "status": "PASS",
+  "passed": 23,
+  "total": 23,
+  "checks": [
+    {
+      "name": "api_receipts_18",
+      "pass": true,
+      "observed": 18,
+      "expected": 18
+    },
+    {
+      "name": "api_all_http_200",
+      "pass": true,
+      "observed": {
+        "200": 18
+      },
+      "expected": {
+        "200": 18
+      }
+    },
+    {
+      "name": "api_all_valid_json",
+      "pass": true,
+      "observed": 18,
+      "expected": 18
+    },
+    {
+      "name": "current_pbc_search_index_empty_logged",
+      "pass": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "current_pbc_direct_endpoints_live",
+      "pass": true,
+      "observed": "CHIRBIL_PRIM",
+      "expected": "CHIRBIL_PRIM"
+    },
+    {
+      "name": "target_registry_exact_4",
+      "pass": true,
+      "observed": 4,
+      "expected": 4
+    },
+    {
+      "name": "target_ids_unique",
+      "pass": true,
+      "observed": 4,
+      "expected": 4
+    },
+    {
+      "name": "no_new_target_selection",
+      "pass": true,
+      "observed": [
+        "R7B1_000258",
+        "R7B1_000410",
+        "R7B1_000411",
+        "R7B1_000414"
+      ],
+      "expected": "exact frozen IDs"
+    },
+    {
+      "name": "FinnGen_IL12RB2_PBC_rows_3",
+      "pass": true,
+      "observed": 3,
+      "expected": 3
+    },
+    {
+      "name": "FinnGen_IL12RB2_cells",
+      "pass": true,
+      "observed": [
+        "l1.NK",
+        "l1.PBMC",
+        "l2.NK"
+      ],
+      "expected": [
+        "l1.NK",
+        "l1.PBMC",
+        "l2.NK"
+      ]
+    },
+    {
+      "name": "FinnGen_IL12RB2_H4_min_gt_0_96",
+      "pass": true,
+      "observed": 0.969838743831976,
+      "expected": ">0.96"
+    },
+    {
+      "name": "FinnGen_FCRL3_PBC_rows_0",
+      "pass": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "FCRL3_nonreturn_boundary_present",
+      "pass": true,
+      "observed": "Public-output non-return; not proof of biological absence or a formally powered negative test",
+      "expected": "contains not proof"
+    },
+    {
+      "name": "IL12RB2_peak_NK_caqtl_q",
+      "pass": true,
+      "observed": {
+        "peak_caqtl_q_l1_NK": 3.93152497046016e-13,
+        "peak_caqtl_q_l2_NK": 6.018990030648801e-15
+      },
+      "expected": "both <0.05"
+    },
+    {
+      "name": "positional_not_full_cascade",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "IL12_direction_all_higher",
+      "pass": true,
+      "observed": [
+        "HIGHER"
+      ],
+      "expected": [
+        "HIGHER"
+      ]
+    },
+    {
+      "name": "IL12_direction_three_resource_families",
+      "pass": true,
+      "observed": 3,
+      "expected": 3
+    },
+    {
+      "name": "FCRL3_B_direction_all_lower",
+      "pass": true,
+      "observed": [
+        "LOWER"
+      ],
+      "expected": [
+        "LOWER"
+      ]
+    },
+    {
+      "name": "CD8_direction_not_eligible",
+      "pass": true,
+      "observed": [
+        false
+      ],
+      "expected": [
+        false
+      ]
+    },
+    {
+      "name": "axis_adjudication_exact_3",
+      "pass": true,
+      "observed": 3,
+      "expected": 3
+    },
+    {
+      "name": "G6_pass_bounded",
+      "pass": true,
+      "observed": "PASS_BOUNDED",
+      "expected": "PASS_BOUNDED"
+    },
+    {
+      "name": "next_stage_frozen",
+      "pass": true,
+      "observed": "R7B1E_INTEGRATED_CLAIM_EVIDENCE_FREEZE_AND_FIGURE_SOURCE_ASSEMBLY",
+      "expected": "R7B1E..."
+    },
+    {
+      "name": "figure_three_formats",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    }
+  ]
+}

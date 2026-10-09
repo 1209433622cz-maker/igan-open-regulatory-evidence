@@ -1,0 +1,71 @@
+{
+  "schema": "R7B1D_EXTERNAL_GATE_1.0",
+  "status": "COMPLETE",
+  "phenotype": {
+    "phenocode": "CHIRBIL_PRIM",
+    "phenostring": "Primary biliary cholangitis (PBC)",
+    "category": "Gastrointestinal endpoints",
+    "num_cases": 760,
+    "num_controls": 372273,
+    "num_gw_significant": 3
+  },
+  "phenotype_metadata_source": "R7B0_FROZEN_PUBLIC_METADATA__CURRENT_SEARCH_INDEX_EMPTY",
+  "current_phenotype_search_rows": 0,
+  "current_autocomplete_identity": "CHIRBIL_PRIM",
+  "target_count": 4,
+  "FinnGen_PBC_IL12RB2_coloc_records": 3,
+  "FinnGen_PBC_FCRL3_coloc_records": 0,
+  "IL12RB2_PP_H4_range": [
+    0.969838743831976,
+    0.970597813640913
+  ],
+  "IL12RB2_CS_overlap_range": [
+    5,
+    9
+  ],
+  "G6_EXTERNAL_REPLICATION": "PASS_BOUNDED",
+  "G6_basis": [
+    "IL12RB2–NK stable OneK multi-signal result",
+    "IL12RB2–NK TenK molecular-QTL replication",
+    "Three FinnGen R12 CHIRBIL_PRIM–IL12RB2 eQTL coloc records",
+    "FinnGen positional linked-peak chromatin layer with explicit non-causal-chain boundary",
+    "FCRL3 B-cell OneK–TenK replication with concordant allele direction"
+  ],
+  "general_method_superiority": "NOT_ESTABLISHED_BY_R7B1C_SIMULATION",
+  "project": "RETAIN_PBC__EVIDENCE_INTEGRATION_GO",
+  "next": "R7B1E_INTEGRATED_CLAIM_EVIDENCE_FREEZE_AND_FIGURE_SOURCE_ASSEMBLY",
+  "outputs": {
+    "R7B1D_direction_summary.tsv": {
+      "rows": 3,
+      "sha256": "11ece774afa0139f15dba057443aa99a0c5ab48393cc30cf6afbee6c2fe9c36c"
+    },
+    "R7B1D_external_axis_adjudication.tsv": {
+      "rows": 3,
+      "sha256": "590b2fe566f4484764c83d84eb747b331c48fa9c693a06aae4f23dfd3c2e3252"
+    },
+    "R7B1D_external_target_registry.tsv": {
+      "rows": 4,
+      "sha256": "c7efc4a51cb859db67622a27a3b38ab867b43eeb819a36fb4ae71bac908429a8"
+    },
+    "R7B1D_FinnGen_coloc_coverage.tsv": {
+      "rows": 2,
+      "sha256": "70ee5544b00dbf25e0ca488ed36b3d1aa5f94c7d4a88f8a2db6fb3c7775ace33"
+    },
+    "R7B1D_FinnGen_PBC_molQTL_coloc.tsv": {
+      "rows": 3,
+      "sha256": "8ca2dcde36e8c0ab3bcb44e272dc78c380f3aebbbe684dc6bd595b32d4474cd9"
+    },
+    "R7B1D_FinnGen_regulatory_cell_map.tsv": {
+      "rows": 9,
+      "sha256": "45418b380a6a86a42d7d5dbcfa8c3e1ac39d0353f7b61e73e5e62e0ae5629f5c"
+    },
+    "R7B1D_IL12RB2_FinnGen_positional_cascade.tsv": {
+      "rows": 1,
+      "sha256": "01495ccf8c8973130c046e285a1a09c5b7ad04bf842fa541cf0d82f30e69644e"
+    },
+    "R7B1D_risk_allele_expression_direction.tsv": {
+      "rows": 10,
+      "sha256": "1fb3808c653628ffa41d295331ccdb4844173167a953e9f1749e0a6b6de66cb7"
+    }
+  }
+}
