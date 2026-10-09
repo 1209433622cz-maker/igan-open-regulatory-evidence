@@ -52,9 +52,9 @@
     "tag": "r7b4b2-author-approved-open-research-release-2026-10-10",
     "release_url": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/tag/r7b4b2-author-approved-open-research-release-2026-10-10",
     "status": "PUBLISHED_VERIFIED",
-    "commit": "16b4f30404694a4248921a1c02280bc594a43d74",
     "tag_commit": "16b4f30404694a4248921a1c02280bc594a43d74",
-    "assets": 2
+    "assets": 2,
+    "release_commit": "16b4f30404694a4248921a1c02280bc594a43d74"
   },
   "zenodo": {
     "status": "AUTHENTICATION_REQUIRED",

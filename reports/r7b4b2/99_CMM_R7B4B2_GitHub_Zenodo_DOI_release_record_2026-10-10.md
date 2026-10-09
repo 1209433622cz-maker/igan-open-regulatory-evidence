@@ -92,8 +92,9 @@ JOURNAL_SUBMISSION = NOT_PERFORMED_AUTHOR_OPERATED
 
 ## GitHub remote verification
 
-- `main` / `origin/main`: `16b4f30404694a4248921a1c02280bc594a43d74`
+- public release commit: `16b4f30404694a4248921a1c02280bc594a43d74`
 - annotated tag peeled commit: `16b4f30404694a4248921a1c02280bc594a43d74`
+- post-release DOI workflow was pushed to `main`; remote and local `main` were verified identical after push.
 - Release: https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/tag/r7b4b2-author-approved-open-research-release-2026-10-10
 - assets: public compendium ZIP and SHA-256 sidecar (2/2 uploaded)
 - public ZIP SHA-256: `0bfe7e08e1fdea9d5cf7d5baa9dd6416804e3e28d29dc237c7d66386edaf87de`
