@@ -1,0 +1,15 @@
+{
+  "schema": "R7B1C_SCIENTIFIC_INTERPRETATION_1.0",
+  "status": "PASS_BOUNDED_TRADEOFF",
+  "distinct_average_abf_false_h4": 0.1241049382716049,
+  "distinct_average_matched_false_h4": 0.0856111111111111,
+  "false_h4_relative_reduction": 0.31017159910470027,
+  "shared_average_abf_recovery": 0.3299135802469136,
+  "shared_average_matched_recovery": 0.2665864197530864,
+  "shared_recovery_relative_loss": 0.19195075403210726,
+  "S6_mismatch_decision_flip_rate": 0.0011975308641975,
+  "S6_mismatch_mean_abs_h4_delta": 0.0011721135084705,
+  "general_method_superiority": "NOT_DEMONSTRATED",
+  "PF10_PF50_mismatch_general_harm": "NOT_DEMONSTRATED_IN_TWO_TEMPLATES",
+  "next": "R7B1D_EXTERNAL_MOLECULAR_CHROMATIN_REPLICATION_AND_DIRECTION"
+}

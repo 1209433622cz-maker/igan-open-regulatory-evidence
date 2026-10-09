@@ -182,3 +182,11 @@ pwsh -File .\analysis\r7b1\DOWNLOAD_R7B1B_GJOKA_TRIGGER_MEMBERS.ps1
 ## Evidence and licensing
 
 Code is released under the MIT License. Reports and small derived summary tables are provided for transparency. Third-party data remain subject to their source licenses and citation requirements; see [`DATA_AVAILABILITY.md`](DATA_AVAILABILITY.md).
+
+## R7B1C truth-known simulation calibration
+
+R7B1C completes the frozen six-scenario, 486-row, 486,000-replicate simulation benchmark using two empirical 128-variant GJOKA/OneK LD templates. It compares single-causal ABF with source-matched SuSiE/coloc and a bounded same-locus PF10-to-PF50 QTL-LD mismatch. Source-matched multi-signal inference reduced false-H4 decisions in the frozen distinct-signal scenarios, but also reduced shared-signal recovery and left many complex low-power replicates uninformative. The two-template PF10-to-PF50 mismatch had little effect. These are bounded calibration trade-offs, not evidence of general method superiority.
+
+The public repository includes code, protocols, aggregate results, figure source data, independent QA and a SHA-256 manifest for the local per-grid truth tables. The simulation calibrates inference under the frozen templates and fixed effects; it does not validate a biological mechanism or represent every ancestry and locus architecture.
+
+![R7B1C scenario decisions](figures/R7B1C/Figure_R7B1C_1_scenario_H4_decisions.png)

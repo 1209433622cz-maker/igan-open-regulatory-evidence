@@ -1,0 +1,22 @@
+check	pass	detail
+grid_486	True	486
+grid_replicates_486000	True	486000
+state_files_486	True	486
+result_files_486	True	486
+all_states_complete	True	0 bad
+combined_rows_486000	True	486000
+unique_grid_replicate	True	0
+grid_ids_exact	True	486
+six_scenarios_81000_each	True	{'S1_one_shared': 81000, 'S2_distinct_correlated': 81000, 'S3_disease2_qtl1_partial': 81000, 'S4_two_by_two_one_shared': 81000, 'S5_two_by_two_none_highLD': 81000, 'S6_matched_vs_mismatched_LD': 81000}
+templates_500_each_per_grid	True	500
+abf_complete	True	486000
+matched_fit_success_ge_99pct	True	1.00000000
+matched_convergence_ge_99pct	True	1.00000000
+S6_mismatch_complete	True	81000
+nonS6_mismatch_absent	True	expected NA
+state_labels_valid	True	valid
+row_summary_486	True	486
+scenario_summary_6	True	6
+scenario_h4_rates_reproduced	True	max_delta=6.938893903907228e-17
+pilot_gate_pass	True	PASS
+template_freeze_pass	True	PASS
