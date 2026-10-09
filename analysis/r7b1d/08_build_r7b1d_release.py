@@ -69,6 +69,9 @@ def main() -> None:
     copy_tree(AUDIT, "audit")
     copy_tree(FIGURE, "figures")
     copy_tree(REPORT, "reports")
+    large_manifest = ROOT / "github/igan-open-regulatory-evidence/data/R7B1D_LARGE_ASSET_MANIFEST.tsv"
+    (STAGE / "data").mkdir(parents=True, exist_ok=True)
+    shutil.copy2(large_manifest, STAGE / "data/R7B1D_LARGE_ASSET_MANIFEST.tsv")
 
     readme = f"""# CMM R7B1D release
 
