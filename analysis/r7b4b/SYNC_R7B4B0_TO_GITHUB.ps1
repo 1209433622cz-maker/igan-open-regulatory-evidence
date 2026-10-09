@@ -28,13 +28,17 @@ if ($LASTEXITCODE -eq 0) { throw "Secret-pattern scan returned hits:`n$scan" }
 if ($LASTEXITCODE -ne 1) { throw 'Secret scan did not complete normally.' }
 
 git fetch origin main --tags
+if ($LASTEXITCODE -ne 0) { throw 'git fetch failed; no remote state was accepted.' }
 $remoteBefore = (git rev-parse origin/main).Trim()
 git merge-base --is-ancestor $remoteBefore $head
 if ($LASTEXITCODE -ne 0) { throw "Refusing non-fast-forward push from $remoteBefore to $head" }
 
 git push origin main
+if ($LASTEXITCODE -ne 0) { throw 'git push origin main failed.' }
 git push origin "refs/tags/$Tag"
+if ($LASTEXITCODE -ne 0) { throw 'git push release tag failed.' }
 git fetch origin main --tags
+if ($LASTEXITCODE -ne 0) { throw 'post-push git fetch failed.' }
 $remoteAfter = (git rev-parse origin/main).Trim()
 $remoteTag = (git rev-parse "refs/tags/$Tag^{}").Trim()
 if ($remoteAfter -ne $head) { throw "Remote main mismatch: $remoteAfter" }
