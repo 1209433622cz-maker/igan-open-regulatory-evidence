@@ -1,0 +1,21 @@
+{
+  "stage": "R7B3A_SUPPLEMENT_ASSEMBLY",
+  "status": "PASS",
+  "supplements": 10,
+  "files_before_workbook": 34,
+  "excluded": [
+    "individual-level genotype",
+    "BAM",
+    "pseudobulk matrices",
+    "licensed source archives"
+  ],
+  "row_controls": {
+    "S2": 6923,
+    "S3": 642,
+    "S5_fit_QC": 2568,
+    "S6_pairs": 10542,
+    "S7_iterations": 486000,
+    "S9_donor_rows": 20,
+    "S10_claims": 27
+  }
+}

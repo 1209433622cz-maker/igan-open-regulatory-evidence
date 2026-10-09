@@ -1,0 +1,11 @@
+axis	resource	cell	variant	build	ref	alt	disease_effect_allele	disease_beta_effect_allele	risk_allele	qtl_effect_allele	qtl_beta_effect_allele	risk_allele_expression_beta	risk_allele_expression_direction	eligible_for_shared_signal_direction	boundary
+IL12RB2–NK	OneK1K_PF10	NK	rs6679356	GRCh37	C	T	T	-0.439362	C	C	0.3906460317770731	0.3906460317770731	HIGHER	True	GJOKA disease GWAS plus source-matched OneK multi-signal stable H4
+IL12RB2–NK	TenK10K	NK	rs6679356	GRCh38	C	T	T	-0.439362	C	T	-0.43732	0.43732	HIGHER	True	Same GJOKA disease GWAS; independent molecular-QTL resource; single-causal analysis
+IL12RB2–NK	FinnGen_R12_multiome	l1.NK	rs6659932	GRCh38	A	C	C	-0.470334	A	C	-0.41812	0.41812	HIGHER	True	Exact-allele FinnGen PBC GWAS–eQTL direction within a public PBC coloc credible-set pair
+IL12RB2–NK	FinnGen_R12_multiome	l1.NK	rs6679356	GRCh38	C	T	T	-0.422314	C	T	-0.38004	0.38004	HIGHER	True	Exact-allele FinnGen PBC GWAS–eQTL direction within a public PBC coloc credible-set pair
+IL12RB2–NK	FinnGen_R12_multiome	l2.NK	rs6659932	GRCh38	A	C	C	-0.470334	A	C	-0.47322	0.47322	HIGHER	True	Exact-allele FinnGen PBC GWAS–eQTL direction within a public PBC coloc credible-set pair
+IL12RB2–NK	FinnGen_R12_multiome	l2.NK	rs6679356	GRCh38	C	T	T	-0.422314	C	T	-0.4322	0.4322	HIGHER	True	Exact-allele FinnGen PBC GWAS–eQTL direction within a public PBC coloc credible-set pair
+FCRL3–B_IN	OneK1K_PF10	B_IN	rs3761959	GRCh37	C	T	T	-0.121001	C	T	0.4434838472342266	-0.4434838472342266	LOWER	True	GJOKA disease GWAS plus source-matched OneK stable H4
+FCRL3–B_MEM	OneK1K_PF10	B_MEM	rs3761959	GRCh37	C	T	T	-0.121001	C	T	0.2398997002360821	-0.2398997002360821	LOWER	True	GJOKA disease GWAS plus source-matched OneK stable H4
+FCRL3–CD8_ET	OneK1K_PF10	CD8_ET	rs3761959	GRCh37	C	T	T	-0.121001	C	T	0.4443232006427965	-0.4443232006427965	LOWER	False	Direction is descriptive only because PF10 source-matched multi-signal adjudication favors H3
+FCRL3–B	TenK10K	B_intermediate	rs3761959	GRCh38	C	T	T	-0.121001	C	T	0.199341	-0.199341	LOWER	True	Same GJOKA disease GWAS; independent molecular-QTL resource; single-causal analysis

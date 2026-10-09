@@ -1,0 +1,8 @@
+dataset_id	accession	provider	url	access_class	license_or_terms	role_and_boundary
+PBC_GWAS	GCST90061440	NHGRI-EBI GWAS Catalog	https://www.ebi.ac.uk/gwas/studies/GCST90061440	public	Catalog/source-study terms	Disease summary statistics; same GWAS reused across QTL resources
+PBC_FINE_MAP_LD	GjokaPaper	Newcastle University	https://www.staff.ncl.ac.uk/heather.cordell/GjokaPaper.html	public	Source-page terms	Study-derived PBC regional statistics and LD
+ONEK1K_EQTL	Zenodo 18910121	Zenodo	https://doi.org/10.5281/zenodo.18910121	public	Zenodo-record terms	Cell-specific cis-eQTL, genotype and covariate release
+TENK10K_EQTL	Zenodo 18221260	Zenodo	https://doi.org/10.5281/zenodo.18221260	public	Zenodo-record terms	Independent molecular-QTL resource; same PBC GWAS
+FINNGEN_MULTIOME	Nature 2026	FinnGen	https://doi.org/10.1038/s41586-026-11078-2	public aggregate	Publisher/resource terms	Molecular-QTL colocalization records and chromatin evidence
+PBC_LIVER	HRA008003	GSA-Human	https://ngdc.cncb.ac.cn/gsa-human/browse/HRA008003	open access	GSA-Human source terms	Five PBC and five surgical non-lesion control donors
+PROJECT_REPOSITORY	GitHub	Open Regulatory Evidence Project	https://github.com/1209433622cz-maker/igan-open-regulatory-evidence	public	Repository license/source-file terms	Code, protocols and compact aggregate results

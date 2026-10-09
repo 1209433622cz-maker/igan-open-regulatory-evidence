@@ -78,6 +78,7 @@ analysis/r7a2/     frozen five-control HRA runner and exact donor comparison
 analysis/r7a2a3/   deterministic manuscript structure, reference and numeric QA
 analysis/r7a2a5/   Human Genomics asset builders, WPS export and final QA
 analysis/r7b2/     RP v3 manuscript, Figure 1-6, WPS export and manuscript QA
+analysis/r7b3a/    source-bound Figure 1-6, S1-S10, DOCX and release QA builders
 analysis/r7b1/     PBC-wide eligibility, harmonization and PF10 ABF screen
 analysis/r7b1b_v2/ R7B1B v2 source-LD, SuSiE, adjudication, QA and release
 data/              large-file manifest and data availability rules
@@ -87,6 +88,7 @@ figures/r7a2a3_draft/ R7A2A2-frozen Figure 1–4/6 review assets with known repa
 figures/r7a2a5_submission/ Human Genomics main, supplementary and graphical-abstract assets
 manuscript/r7a2a5/ Human Genomics-formatted manuscript v3 in MD, DOCX and WPS PDF
 manuscript/r7b2/  RP v3 complete English manuscript v1 in MD, DOCX and WPS PDF
+manuscript/r7b3a/ source-corrected manuscript v2 in MD, DOCX and WPS PDF
 protocols/         frozen analysis and next-stage protocols
 reports/           detailed Chinese-language audit records
 results/r6a2a1/    positive benchmark tables
@@ -107,6 +109,7 @@ results/r7a2a5/    journal matrix, supplementary workbook, state and 55-check fi
 results/r7b1a/     6,923-test ABF registry, exact 184-trigger set and independent QA
 results/r7b1b_v2/  642-comparison bidirectional reclassification and 19-check QA
 results/r7b2/       manuscript QA, state and artifact identity
+results/r7b3a/      S1-S10 public supplements, 36-check QA and release state
 ```
 
 ## Reproduction
@@ -237,3 +240,15 @@ The next frozen stage is `R7B3_HOSTILE_MANUSCRIPT_AUDIT`. It will audit statisti
 ![R7B2 matched-input reclassification](figures/R7B2/Figure2_input_matched_reclassification.png)
 
 ![R7B2 simulation discovery and inference](figures/R7B2/Figure3_simulation_discovery_and_inference.png)
+
+## R7B3A source-bound manuscript v2 and publication assets
+
+R7B3 first audited the complete English manuscript against the frozen source tables and execution code. It corrected the Figure 5C A0/A1/A2/M values, restored the actual fixed simulation sample sizes and default-prior ABF admission rule, separated the 14 targeted comparison–model identity rows from the 14 cell labels, and removed causal-looking links from the bounded IL12RB2 chromatin panel.
+
+R7B3A has now rebuilt all six composite figures from frozen inputs and assembled the actual S1–S10 supplementary files. The supplement contains the full 6,923-row screen registry, 642 matched-input trajectories, 2,568 fit-QC records, 10,542 signal-pair posteriors, the 486-row/486,000-iteration simulation summaries, external-evidence tables, the exact five-versus-five liver panel and the 27-record claim ledger. Individual-level genotype, BAM, pseudobulk matrices and licensed source archives remain excluded.
+
+The source-corrected manuscript v2 is available as Markdown, editable DOCX and a 31-page PDF exported by WPS Writer. Six figures are released in PNG, PDF and SVG. Bibliographic verification passes 22/22 references, ten workbook sheets pass visual review, and final machine QA passes 36/36 checks. Author order, affiliations, correspondence, CRediT, funding, competing interests, ethics/waiver wording and all-author approval remain explicit human completion fields.
+
+The next stage is `R7B4_TARGET_JOURNAL_AND_SUBMISSION_INTERFACE`: verify current official journal instructions, freeze the primary and backup submission routes, and assemble the journal-specific title/abstract, cover letter, checklist and upload map. No new biological analysis is required by default.
+
+![R7B3A complete figure set](figures/R7B3A/Figure1_study_scope_and_model_integrity.png)
