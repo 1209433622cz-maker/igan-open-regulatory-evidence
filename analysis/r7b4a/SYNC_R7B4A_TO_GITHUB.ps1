@@ -22,7 +22,9 @@ $large = Get-ChildItem -LiteralPath @(
 if ($large) { throw "Public-file size gate failed: $($large.FullName -join ', ')" }
 
 $pattern = '(api[_-]?key\s*[:=]|access[_-]?token\s*[:=]|password\s*[:=]|passwd\s*[:=]|BEGIN (RSA|OPENSSH|EC) PRIVATE KEY|ghp_[A-Za-z0-9]{20,}|sk-[A-Za-z0-9]{20,})'
-$scan = rg -n -i $pattern analysis/r7b4a figures/R7B4A manuscript/r7b4a results/r7b4a protocols reports
+$scan = rg -n -i $pattern analysis/r7b4a figures/R7B4A manuscript/r7b4a results/r7b4a `
+    'protocols/R7B4B_作者补全与最终投稿QA冻结协议.md' `
+    'reports/99_CMM_R7B4A_期刊资格冻结与投稿接口_详细行动记录_2026-10-10.md'
 if ($LASTEXITCODE -eq 0) { throw "Secret-pattern scan returned hits:`n$scan" }
 if ($LASTEXITCODE -ne 1) { throw 'Secret-pattern scan did not complete normally.' }
 
