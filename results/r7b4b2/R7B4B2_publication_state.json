@@ -1,0 +1,67 @@
+{
+  "stage": "R7B4B2_AUTHOR_APPROVED_OPEN_RELEASE",
+  "date": "2026-10-10",
+  "authors": [
+    {
+      "name": "Zhi Chen",
+      "order": 1,
+      "orcid": "0009-0001-0072-5576"
+    },
+    {
+      "name": "Teng Qi",
+      "order": 2,
+      "corresponding": true,
+      "orcid": "0009-0007-7648-4776"
+    }
+  ],
+  "affiliation": "School of Medicine, The Chinese University of Hong Kong, Shenzhen",
+  "author_confirmations": {
+    "all_content_approved": true,
+    "originality_confirmed": true,
+    "single_submission_confirmed": true,
+    "not_under_review_elsewhere": true,
+    "ethics_approval_required": false,
+    "competing_interests": "none",
+    "funding": "none",
+    "acknowledgements": "none",
+    "generative_ai_disclosure_approved": true,
+    "github_zenodo_doi_publication_authorized": true
+  },
+  "licenses": {
+    "original_code": "MIT",
+    "original_manuscript_figures_documentation_and_derived_outputs": "CC BY 4.0",
+    "third_party_material": "excluded or governed by source-provider terms"
+  },
+  "packages": {
+    "private_submission": {
+      "path": "H:\\SCI2\\YR1\\6_release\\R7B4B2_2026-10-10\\CMM_R7B4B2_HumanGenomics_SubmissionPackage_PRIVATE_2026-10-10.zip",
+      "bytes": 16174848,
+      "sha256": "2b0ee3cf1dd5a1b0f4cca43099072e77454ec65ec530f45bcc0a394ea523e1bd",
+      "entries": 36,
+      "zip_crc": "PASS"
+    },
+    "public_compendium": {
+      "path": "H:\\SCI2\\YR1\\6_release\\R7B4B2_2026-10-10\\PBC_R7B4B2_OpenResearchCompendium_2026-10-10.zip",
+      "bytes": 16027860,
+      "sha256": "0bfe7e08e1fdea9d5cf7d5baa9dd6416804e3e28d29dc237c7d66386edaf87de",
+      "entries": 34,
+      "zip_crc": "PASS"
+    }
+  },
+  "github": {
+    "tag": "r7b4b2-author-approved-open-research-release-2026-10-10",
+    "release_url": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/tag/r7b4b2-author-approved-open-research-release-2026-10-10",
+    "status": "PUBLISHING_AUTHORIZED"
+  },
+  "zenodo": {
+    "status": "AUTHENTICATION_REQUIRED",
+    "doi": null,
+    "rule": "publish only through an authenticated Zenodo account; token is read from ZENODO_TOKEN and never persisted"
+  },
+  "journal_submission": "NOT_PERFORMED; must be operated by an author",
+  "remaining_journal_holds": [
+    "institution-specific Q2 confirmation",
+    "author-operated journal submission"
+  ],
+  "scientific_analysis_changed": false
+}

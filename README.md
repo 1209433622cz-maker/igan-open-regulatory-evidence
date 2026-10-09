@@ -277,3 +277,11 @@ The author-approved Human Genomics candidate is available under `manuscript/r7b4
 Final-submission QA returned **20 PASS, 2 HOLD and 0 FAIL**. The remaining holds concern institution-specific Q2 confirmation and the journal requirement that submission be operated by an author. The manuscript, figures, documentation and derived outputs are licensed under **CC BY 4.0**; original code remains under the **MIT License**. Third-party datasets and licence-restricted source files are excluded.
 
 The public release metadata are recorded in `CITATION.cff` and `.zenodo.json`. Private author records, personal approval evidence, journal credentials and the cover letter are intentionally excluded from Git history.
+
+## R7B4B2 author-approved open research release
+
+R7B4B2 freezes the two-author Human Genomics candidate and separates the local journal package from the public research compendium. Zhi Chen is first author and Teng Qi is corresponding author; both authors approved the manuscript, figures, supplements, derived data, cover-letter content, originality, single-submission status and supervised generative-AI disclosure.
+
+Original code is released under the MIT License. Original manuscript text, figures, documentation and derived outputs are released under CC BY 4.0. Third-party and individual-level data remain excluded under their source-provider terms. The public package passed ZIP CRC and privacy scans; the local submission package retains private author/QA records in an explicitly non-uploadable directory.
+
+The versioned GitHub release is `r7b4b2-author-approved-open-research-release-2026-10-10`. Zenodo metadata and a fail-closed authenticated publication script are included. Journal submission remains an author-operated action and is not represented as complete.
