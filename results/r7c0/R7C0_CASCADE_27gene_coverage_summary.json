@@ -1,0 +1,24 @@
+{
+  "stage": "R7C0_G3",
+  "generated_utc": "2026-10-10T19:23:52.442680+00:00",
+  "prespecified_comparisons": 92,
+  "prespecified_genes": 27,
+  "gene_endpoint_pass": 27,
+  "genes_with_relevant_broad_cell_eqtl_q_lt_0_05": 22,
+  "fixed_genes_with_PBC_eQTL_coloc_records": 1,
+  "PBC_eQTL_coloc_record_count": 7,
+  "genes_with_PBC_eQTL_PP_H4_ge_0_8": 1,
+  "freeze_receipt": {
+    "created_before_network_queries": true,
+    "created_utc": "2026-10-10T19:22:28.368069+00:00",
+    "source": "H:\\SCI2\\YR1\\github\\igan-open-regulatory-evidence\\results\\r7b3a\\supplements\\S5\\S5_642_PF10_PF50_classifications.tsv",
+    "source_sha256": "3d267d70e23b8b99d97044e649f067702fd47f12fda328d5d1c6580e38d27f9e",
+    "path": "H:\\SCI2\\YR1\\5_analysis\\R7C0_SourceIdentity_ExternalEvidence_Preflight_20261011\\results\\R7C0_frozen_92_stableH4_comparisons.tsv",
+    "sha256": "a074a66b79215c8f0ee4be4fe77fe5b3a4decc10520ea8688f2555411396920a",
+    "rows": 92,
+    "genes": 27,
+    "cells": 12,
+    "loci": 19
+  },
+  "interpretation_boundary": "CASCADE current integration uses FinnGen R12 disease statistics and its molecular-QTL resource. Coverage and PBC-eQTL records are prespecified external-context evidence; they do not create participant-independent disease replication."
+}

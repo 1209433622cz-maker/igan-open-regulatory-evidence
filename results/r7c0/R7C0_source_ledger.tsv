@@ -1,0 +1,13 @@
+source	url	role	local_sha256	public_package
+RP v4 DOCX	local:H:/SCI2/YR1/9.Version/PBC_研究计划书_RP_v4_20261011.docx	protocol and dual-track gates	6d9de404fdcdadde28a8e4562a7f9c96ca7bfecbb75600ef79ecd887e29bcbdc	no
+Gjoka/Cordell fine-mapping paper	https://pmc.ncbi.nlm.nih.gov/articles/PMC11656035/	N and SuSiE-RSS source convention	ce7312d8ac06592d92ac3f1934e74f7f6a6fe0f9b4af7ed0d9252f9fb87eebfa	receipt/derived only
+Official GJOKA page	https://www.staff.ncl.ac.uk/heather.cordell/GjokaPaper.html	official summary-stat and LD distribution	823710e055adb64e26ac2b02372564d33e632c079ec783196246741dbf5410fe	receipt/derived only
+FinnGen R12 phenotype API	https://r12.finngen.fi/api/phenos?q=CHIRBIL_PRIM	R12 case/control metadata		derived metadata only
+FinnGen R13 phenotype API	https://r13.finngen.fi/api/phenos?q=CHIRBIL_PRIM	R13 case/control metadata		derived metadata only
+FinnGen R13 PBC summary statistics	https://storage.googleapis.com/finngen-public-data-r13/summary_stats/finngen_R13_CHIRBIL_PRIM.gz	external disease validation	remote ETag e33e1d34f7095d2d0c521fd755a2f632; regional receipt d4f80c9a096dba1c6be2e3d1bbeeb2fdcc30aaa72e3aaf5ef6d88747db9d37e7	no raw redistribution
+FinnGen R12 PBC SuSiE SNP file	https://storage.googleapis.com/finngen-public-data-r12/finemap/summary/finngen_R12_CHIRBIL_PRIM.SUSIE.snp.filter.tsv	release-stability audit	924ff099b1bcb16f8f2061bee5a14c3f420d0bf46e9aa32551f1fe8c56b84a89	derived only
+FinnGen R13 PBC SuSiE SNP file	https://storage.googleapis.com/finngen-public-data-r13/finemap/summary/finngen_R13_CHIRBIL_PRIM.SUSIE.snp.filter.tsv	source disease credible set	16184e2a0933de1efaa050cf51c2797b3d2b06533d3689cae41b254c99c6b38c	derived only
+FinnGen CASCADE gene/region/peak APIs	https://cascade.finngen.fi	27-gene coverage and IL12RB2 multiome triangle	see R7C0_CASCADE_API_receipts.tsv	receipts/derived only
+OMIX001122 release	https://ngdc.cncb.ac.cn/omix/release/OMIX001122	spatial resource identity	release HTML 69eee85b9238799588eaea0ab643af8ee03c19fdaae619c6191f184053f0e3fe	receipt/derived only
+OMIX001122 spatial archive	https://download.cncb.ac.cn/OMIX/OMIX001122/OMIX001122-99-01.rar	two-matrix byte audit	f5fbc39682f5705105b1fb3e3d67d21d66f96fb2f231ff3f97fc065c768ff240	no raw redistribution
+OMIX001122 primary publication	https://pmc.ncbi.nlm.nih.gov/articles/PMC9911648/	sample and study identity	3b9ea4c0eabcfbc71c2c3247e27fb33c7d1964009932d29b4b4f3979df28a254	receipt/derived only

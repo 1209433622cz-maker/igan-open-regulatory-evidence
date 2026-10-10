@@ -1,0 +1,96 @@
+{
+  "zip_path": "C:\\Users\\Administrator\\Downloads\\CMM_PBC_RP_v4_DoctoralAudit_DualTrack_20261011.zip",
+  "zip_bytes": 339507,
+  "zip_sha256": "d87e14cee23fcf12ad7f3a85be8771fddf2f9166c81b3bbc58e296e0a67ab37d",
+  "zip_crc": "PASS",
+  "internal_checksums": {
+    "pass": 12,
+    "fail": 0,
+    "total": 12
+  },
+  "workspace_docx": {
+    "path": "H:\\SCI2\\YR1\\9.Version\\PBC_研究计划书_RP_v4_20261011.docx",
+    "bytes": 191196,
+    "sha256": "6d9de404fdcdadde28a8e4562a7f9c96ca7bfecbb75600ef79ecd887e29bcbdc"
+  },
+  "package_docx": {
+    "path": "H:\\SCI2\\YR1\\5_analysis\\R7C0_SourceIdentity_ExternalEvidence_Preflight_20261011\\intake\\rpv4_audit_package\\proposal\\PBC_研究计划书_RP_v4_PBC调控归因可靠性_双轨升级与决策门_20261011.docx",
+    "bytes": 191196,
+    "sha256": "6d9de404fdcdadde28a8e4562a7f9c96ca7bfecbb75600ef79ecd887e29bcbdc"
+  },
+  "docx_identity": "PASS",
+  "checks": [
+    {
+      "path": "README.md",
+      "declared": "84b8bd34c0125c36d37117ae0f942f5d3a656b1c4248639a4ec7f1db48a6dee7",
+      "actual": "84b8bd34c0125c36d37117ae0f942f5d3a656b1c4248639a4ec7f1db48a6dee7",
+      "status": "PASS"
+    },
+    {
+      "path": "audit/RPv4_document_qa.json",
+      "declared": "cdaa41558a4c018058da2f3e69fa9161d879113701aab4be8c3852feae851991",
+      "actual": "cdaa41558a4c018058da2f3e69fa9161d879113701aab4be8c3852feae851991",
+      "status": "PASS"
+    },
+    {
+      "path": "audit/bootstrap_state.json",
+      "declared": "74f21ab767f3ff99a1ac988f337a95f6cf1615645e80813165c3e86df4a10d3e",
+      "actual": "74f21ab767f3ff99a1ac988f337a95f6cf1615645e80813165c3e86df4a10d3e",
+      "status": "PASS"
+    },
+    {
+      "path": "audit/locus_cluster_bootstrap_exploratory.tsv",
+      "declared": "acd28b1eaf6e50a7150f4845c754d5e9f0c75cc5cf143dcdc03e947fdf856b50",
+      "actual": "acd28b1eaf6e50a7150f4845c754d5e9f0c75cc5cf143dcdc03e947fdf856b50",
+      "status": "PASS"
+    },
+    {
+      "path": "audit/locus_summary_source_47.tsv",
+      "declared": "eed0b45d188a6f2d47e41da2b77d2f49f21e02c2bcbdcee0600e28558bb4b69b",
+      "actual": "eed0b45d188a6f2d47e41da2b77d2f49f21e02c2bcbdcee0600e28558bb4b69b",
+      "status": "PASS"
+    },
+    {
+      "path": "code/01_bootstrap_audit.py",
+      "declared": "c816d37b2993c651e301e63551ceaab7d154a32b368bac9547ff6922755e0207",
+      "actual": "c816d37b2993c651e301e63551ceaab7d154a32b368bac9547ff6922755e0207",
+      "status": "PASS"
+    },
+    {
+      "path": "code/make_bootstrap_figure.py",
+      "declared": "5232dcdccf8b0053cb5a548b5e6d8eb84fdac0b7010446afee2fd57ba3ec8ae4",
+      "actual": "5232dcdccf8b0053cb5a548b5e6d8eb84fdac0b7010446afee2fd57ba3ec8ae4",
+      "status": "PASS"
+    },
+    {
+      "path": "figures/RPv4_47locus_cluster_resampling.png",
+      "declared": "f30fdc1cb2818541850c32add00ba9e28a70dbdcb9ae0eb1cd6ab9a009bd26ed",
+      "actual": "f30fdc1cb2818541850c32add00ba9e28a70dbdcb9ae0eb1cd6ab9a009bd26ed",
+      "status": "PASS"
+    },
+    {
+      "path": "figures/RPv4_47locus_cluster_resampling.svg",
+      "declared": "f18b8fa062ed3371893410dc40e83321f2bd24a8bf0b390f06af0d9d84513d3f",
+      "actual": "f18b8fa062ed3371893410dc40e83321f2bd24a8bf0b390f06af0d9d84513d3f",
+      "status": "PASS"
+    },
+    {
+      "path": "proposal/PBC_研究计划书_RP_v4_PBC调控归因可靠性_双轨升级与决策门_20261011.docx",
+      "declared": "6d9de404fdcdadde28a8e4562a7f9c96ca7bfecbb75600ef79ecd887e29bcbdc",
+      "actual": "6d9de404fdcdadde28a8e4562a7f9c96ca7bfecbb75600ef79ecd887e29bcbdc",
+      "status": "PASS"
+    },
+    {
+      "path": "protocol/R7C0_PBC_科学补强双轨硬门协议_v1_2026-10-11.md",
+      "declared": "655fe34ccf3e65a3cf3a99b5d568c72a4847b59a150b54bf4c679e29ba926412",
+      "actual": "655fe34ccf3e65a3cf3a99b5d568c72a4847b59a150b54bf4c679e29ba926412",
+      "status": "PASS"
+    },
+    {
+      "path": "reports/99_PBC_RPv4_导师级全量审计与研究计划书重构_2026-10-11.md",
+      "declared": "11b9ca392d24326b63749248ea472825ea1a22027b8dcc7260f12c4f4d092ccc",
+      "actual": "11b9ca392d24326b63749248ea472825ea1a22027b8dcc7260f12c4f4d092ccc",
+      "status": "PASS"
+    }
+  ]
+}

@@ -285,3 +285,15 @@ R7B4B2 freezes the two-author Human Genomics candidate and separates the local j
 Original code is released under the MIT License. Original manuscript text, figures, documentation and derived outputs are released under CC BY 4.0. Third-party and individual-level data remain excluded under their source-provider terms. The public package passed ZIP CRC and privacy scans; the local submission package retains private author/QA records in an explicitly non-uploadable directory.
 
 The versioned GitHub release is `r7b4b2-author-approved-open-research-release-2026-10-10`. Zenodo metadata and a fail-closed authenticated publication script are included. Journal submission remains an author-operated action and is not represented as complete.
+
+## R7C0 source identity and external-evidence upgrade gate
+
+R7C0 preserves the author-approved R7B4B2 manuscript as the submission-ready Q2 baseline and evaluates a separate, falsifiable Q1-upgrade track. The GJOKA source audit confirms that the frozen SuSiE-RSS analysis used the study's total sample size of 24,510; the alternative effective case-control sample-size convention is retained as a sensitivity concept rather than treated as evidence of an error.
+
+FinnGen R13 provides a different PBC disease study system for the IL12RB2 locus. The FinnGen R13 × OneK NK/IL12RB2 external single-causal analysis used 1,175 harmonized variants and returned PP.H4 = 0.9977 at the default prior and 0.9772 at the skeptical prior. Both members of the frozen OneK QTL credible set occur in the FinnGen R13 disease credible set. This is bounded external disease–molecular signal validation; it is not a second source-LD multi-signal fit and does not establish person-level zero overlap.
+
+A prespecified IL12RB2-linked peak supports a disease–eQTL / disease–caQTL / peak–gene triangle. A direct eQTL–caQTL posterior and mediation estimate were not computed. The fixed 92-comparison CASCADE audit found PBC–eQTL colocalization only for IL12RB2 among the 27 fixed genes. OMIX001122 contains one control and one PBC spatial matrix and therefore supports descriptive gene detectability only, not independent donor-level spatial validation.
+
+Independent machine QA passed 25/25 checks. The next bounded stage is `R7C1_IL12RB2_EXTERNAL_VALIDATION_MODULE_AND_MANUSCRIPT_FORK`; candidate discovery and a full 642-comparison rerun remain closed.
+
+![R7C0 external evidence preflight](figures/R7C0/R7C0_external_evidence_preflight.png)

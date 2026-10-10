@@ -1,0 +1,62 @@
+{
+  "stage": "R7C0_G4",
+  "generated_utc": "2026-10-10T19:24:06.671973+00:00",
+  "archive_file_count": 6,
+  "biological_matrices": 2,
+  "control_matrices": 1,
+  "pbc_matrices": 1,
+  "prespecified_genes": 27,
+  "genes_detected_in_control": 24,
+  "genes_detected_in_pbc": 25,
+  "IL12RB2": [
+    {
+      "sample": "CTR4_2",
+      "condition": "control",
+      "gene": "IL12RB2",
+      "feature_rows": 1,
+      "spots": 3573,
+      "total_umi": 3.0,
+      "positive_spots": 3,
+      "positive_spot_fraction": 0.0008396305625524769,
+      "pseudobulk_cpm": 0.1066674024347048
+    },
+    {
+      "sample": "PBC5_2",
+      "condition": "PBC",
+      "gene": "IL12RB2",
+      "feature_rows": 1,
+      "spots": 1365,
+      "total_umi": 5.0,
+      "positive_spots": 5,
+      "positive_spot_fraction": 0.003663003663003663,
+      "pseudobulk_cpm": 0.5691329816774466
+    }
+  ],
+  "FCRL3": [
+    {
+      "sample": "CTR4_2",
+      "condition": "control",
+      "gene": "FCRL3",
+      "feature_rows": 1,
+      "spots": 3573,
+      "total_umi": 33.0,
+      "positive_spots": 32,
+      "positive_spot_fraction": 0.008956059333893087,
+      "pseudobulk_cpm": 1.1733414267817528
+    },
+    {
+      "sample": "PBC5_2",
+      "condition": "PBC",
+      "gene": "FCRL3",
+      "feature_rows": 1,
+      "spots": 1365,
+      "total_umi": 210.0,
+      "positive_spots": 146,
+      "positive_spot_fraction": 0.10695970695970695,
+      "pseudobulk_cpm": 23.90358523045276
+    }
+  ],
+  "adjudication": "PASS_OPEN_BYTES_FAIL_INDEPENDENT_SPATIAL_VALIDATION_GATE",
+  "reason": "The 34.63 MB public archive is valid but contains six Matrix Market component files for only two biological matrices (CTR4_2 and PBC5_2), not six donors. No tissue-image coordinates or spot-level annotation accompany these files. Descriptive detectability is valid; spatial localization, donor-level replication, and case-control inference are not. The data originate from an already published PBC study.",
+  "action": "DO_NOT_USE_AS_Q1_INDEPENDENT_SPATIAL_REPLICATION; RETAIN_AS_OPTIONAL_DESCRIPTIVE_RESOURCE"
+}

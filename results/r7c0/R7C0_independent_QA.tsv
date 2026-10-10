@@ -1,0 +1,26 @@
+check	status	detail
+rpv4_zip_crc	PASS	PASS
+rpv4_internal_checksums	PASS	{'pass': 12, 'fail': 0, 'total': 12}
+rpv4_docx_identity	PASS	6d9de404fdcdadde28a8e4562a7f9c96ca7bfecbb75600ef79ecd887e29bcbdc
+g1_source_matched_n	PASS	NO_642_RERUN; RETIRE_NEFF_REPLACEMENT_UNLESS_NEW_SOURCE_EVIDENCE
+r12_r13_cs_identity	PASS	{'r12_cs_size': 19, 'r13_cs_size': 17, 'intersection_size': 17, 'jaccard': 0.8947368421052632}
+r12_r13_direction	PASS	1.0
+independent_disease_signal	PASS	PASS_IL12RB2_EXTERNAL_DISEASE_SIGNAL_REPLICATION_WITH_DECLARED_BOUNDARY
+independence_boundary_present	PASS	SUPPORTED_AT_STUDY_SYSTEM_LEVEL_WITHOUT_PERSON_LEVEL_PROOF
+external_coloc_posterior_sums	PASS	[1.0000000000000013, 0.9999999999999987, 1.0000000000000007]
+external_coloc_coverage	PASS	1175
+external_coloc_frozen_gate	PASS	{'default_H4': 0.9976766621271316, 'low_ratio': 0.9775998771166914}
+external_source_cs_2_of_2	PASS	0.998960001018466
+external_top_direction	PASS	{'rsid': 'rs6702599', 'onek_GRCh37_variant': '1:67825399', 'finngen_GRCh38_variant': '1:67359716:A:C', 'conditional_shared_variant_probability': 0.6585972579699014, 'onek_A1': 'A', 'onek_A2': 'C', 'onek_beta_A1': 0.3944166337879175, 'finngen_ref': 'A', 'finngen_alt': 'C', 'finngen_beta_alt': -0.410132, 'finngen_p': 2.93157e-08, 'aligned_direction': 'CONCORDANT'}
+stable_h4_freeze	PASS	{'rows': 92, 'genes': 27, 'loci': 19}
+cascade_all_gene_endpoints	PASS	27
+cascade_disease_specificity	PASS	['IL12RB2']
+cascade_il12rb2_h4	PASS	[0.968962638272499, 0.968857696313452, 0.970306779415918, 0.970597813640913, 0.962698507688035, 0.969838743831976, 0.967473686550874]
+chromatin_triangle	PASS	PASS_TRIANGULAR_SIGNAL_COHERENCE_WITHOUT_DIRECT_MEDIATION_PROOF
+chromatin_boundary	PASS	The public endpoint does not provide a direct eQTL-versus-caQTL coloc posterior; the historical positional top eQTL variant is not itself in the peak caQTL credible set.
+omix_byte_identity	PASS	{'files': 6, 'matrices': 2}
+omix_fail_independent_validation	PASS	DO_NOT_USE_AS_Q1_INDEPENDENT_SPATIAL_REPLICATION; RETAIN_AS_OPTIONAL_DESCRIPTIVE_RESOURCE
+figure_formats	PASS	['.pdf', '.png', '.svg']
+python_compile	PASS	{'files': 9, 'failures': []}
+baseline_commit_unchanged	PASS	{'head': 'db20068e700b9c1ded8fb9171dab7e8da6aa33b7', 'origin': 'db20068e700b9c1ded8fb9171dab7e8da6aa33b7'}
+baseline_repo_clean	PASS	clean

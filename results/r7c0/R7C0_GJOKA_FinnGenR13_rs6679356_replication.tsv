@@ -1,0 +1,2 @@
+variant_rsid	gjoka_build	gjoka_position	gjoka_effect_allele	gjoka_beta_effect_allele	gjoka_p	gjoka_multisignal_primary_hit	gjoka_multisignal_primary_pair_PP_H4	finngen_build	finngen_r13_position	finngen_r13_ref	finngen_r13_alt	finngen_r13_beta_alt	finngen_r13_beta_aligned_to_GJOKA_C	finngen_r13_p	finngen_r13_in_credible_set	finngen_r13_cs_specific_prob	effect_direction_concordant_after_allele_alignment
+rs6679356	GRCh37	67820194	C	0.4433	3.112e-75	1:67820194	0.998018801005373	GRCh38	67354511	C	T	-0.412462	0.412462	2.61577e-08	True	0.0219702716047805	True
