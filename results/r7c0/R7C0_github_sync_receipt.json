@@ -1,0 +1,23 @@
+{
+  "stage": "R7C0",
+  "status": "PASS",
+  "repository": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence",
+  "branch": "main",
+  "baseline_commit": "db20068e700b9c1ded8fb9171dab7e8da6aa33b7",
+  "commit": "11b140ae8ec868fddacc5a4c6611b635cdabf3c3",
+  "remote_head": "11b140ae8ec868fddacc5a4c6611b635cdabf3c3",
+  "commit_message": "Add R7C0 external validation and upgrade gate",
+  "pushed_utc": "2026-10-10T19:48:26.1783489Z",
+  "public_scope": [
+    "analysis/r7c0",
+    "data/r7c0",
+    "figures/R7C0",
+    "protocols/R7C1_IL12RB2_external_validation_manuscript_fork_v1.md",
+    "reports/r7c0",
+    "results/r7c0"
+  ],
+  "raw_third_party_bytes_excluded": true,
+  "secret_scan": "PASS",
+  "max_file_gate": "PASS_NO_FILE_OVER_10MB",
+  "diff_check": "PASS"
+}
