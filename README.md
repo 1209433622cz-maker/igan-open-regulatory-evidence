@@ -349,4 +349,29 @@ directly to that baseline rather than add unbounded rescue analyses. The next
 stage is `R7C3_AUTHOR_FINAL_REVIEW_AND_NPJ_SUBMISSION_GATE`; journal submission
 must be completed by an author.
 
-![R7C2 external validation figure](figures/R7C2/Figure4_IL12RB2_external_evidence.png)\n
+![R7C2 external validation figure](figures/R7C2/Figure4_IL12RB2_external_evidence.png)
+
+## R7C3 full workspace audit and submission gate
+
+R7C3 completed a content-aware local audit before submission without reopening
+the scientific analysis. The inventory baseline contained 50,630 files and
+42.73 GiB. SHA-256 coverage was complete for 49,565 non-Git research files,
+including all 18 files above the initial 256 MiB hashing threshold. Full stream
+validation passed for 122 research ZIP archives and 4,211 GZIP files, covering
+173,974,898,239 expanded bytes with zero failures.
+
+The audit identified 11,375 exact-duplicate groups with a theoretical 6.13 GiB
+of redundant storage. Release, version and repository copies were preserved as
+provenance-bearing assets. Twenty-two historical `.part` or `.redownload`
+artifacts were classified; none is primary PBC manuscript evidence. Two hundred
+action-record files collapsed to 84 unique contents and 72 resolved stage
+tokens.
+
+The public R7C3 layer contains relative-path-only summaries, the canonical work
+record ledger, a 26-item high-value asset register and the frozen submission
+gate. Third-party raw data, individual-level data, absolute local paths and
+credentials remain excluded. The exact journal files remain the WPS-verified
+R7C2 npj package; R7C3 adds a checksum-bound author upload bundle and does not
+change the manuscript science. The next stage is
+`R7C4_AUTHOR_OPERATED_NPJ_SUBMISSION_AND_RECEIPT`. A Zenodo DOI has not yet been
+minted.

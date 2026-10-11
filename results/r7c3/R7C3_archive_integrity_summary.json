@@ -1,0 +1,12 @@
+{
+  "stage": "R7C3_ARCHIVE_INTEGRITY",
+  "started": "2026-10-11T17:47:54.103010+08:00",
+  "completed": "2026-10-11T17:56:32.838173+08:00",
+  "targets": 4333,
+  "zip_targets": 122,
+  "gzip_targets": 4211,
+  "pass": 4333,
+  "fail": 0,
+  "expanded_bytes_checked": 173974898239,
+  "failures": []
+}

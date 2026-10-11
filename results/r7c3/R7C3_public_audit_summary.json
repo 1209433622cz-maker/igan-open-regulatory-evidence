@@ -1,0 +1,48 @@
+{
+  "stage": "R7C3_FULL_WORKSPACE_AUDIT_PUBLIC_SUMMARY",
+  "inventory_baseline": {
+    "file_count": 50630,
+    "total_bytes": 45879434246,
+    "total_gib": 42.728552823886275,
+    "git_internal_files": 1065,
+    "research_non_git_sha256_complete": 49565,
+    "large_hash_completed": 18
+  },
+  "content_parse_errors_research": 0,
+  "content_parse_errors_skill_runtime_long_path": 293,
+  "archive_integrity": {
+    "targets": 4333,
+    "zip_targets": 122,
+    "gzip_targets": 4211,
+    "pass": 4333,
+    "fail": 0,
+    "expanded_bytes_checked": 173974898239
+  },
+  "duplicates": {
+    "hashed_research_files": 49565,
+    "unique_hashes": 32047,
+    "duplicate_groups": 11375,
+    "duplicate_member_rows": 28893,
+    "potential_redundant_bytes": 6587241870,
+    "potential_redundant_gib": 6.134847057983279,
+    "action": "No file deleted; release/version/repository duplicates are provenance-bearing by default."
+  },
+  "work_records": {
+    "action_record_files_found": 202,
+    "unique_action_record_contents": 85,
+    "exact_duplicate_action_record_copies": 117,
+    "resolved_stage_tokens": 73,
+    "unresolved_records": 2
+  },
+  "fragments": {
+    "fragment_files": 22,
+    "fragment_bytes": 426460399,
+    "exact_final_copy_exists": 1,
+    "primary_evidence_blockers": 0,
+    "action": "No fragment was deleted; none is used as primary PBC manuscript evidence."
+  },
+  "scientific_state": "PBC_GO_SCIENTIFIC_ANALYSIS_FROZEN",
+  "submission_state": "NPJ_PACKAGE_READY_AUTHOR_OPERATED_SUBMISSION",
+  "zenodo_doi": null,
+  "publication_boundary": "No third-party raw data, individual-level data, user-profile paths, full absolute-path inventory, credentials or tokens are included. Audit code retains the workspace-root default H:\\\\SCI2\\\\YR1 for reproducibility."
+}
