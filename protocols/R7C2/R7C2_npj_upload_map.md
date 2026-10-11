@@ -5,7 +5,7 @@
 | 1 | Cover letter | `cover_letter/R7C2_npj_Genomic_Medicine_cover_letter.docx` | READY |
 | 2 | Main manuscript | `manuscript/R7C2_npj_Genomic_Medicine_manuscript.docx` | READY |
 | 3-8 | Figures 1-6 | `figures/Figure*.pdf` | READY |
-| 9 | Supplementary information guide | `supplement/R7C2_npj_Supplementary_Information.pdf` | READY AFTER WPS EXPORT |
+| 9 | Supplementary information guide | `supplement/R7C2_npj_Supplementary_Information.pdf` | READY |
 | 10 | Supplementary Data 1 | `supplement/Supplementary_Data_1_Tables_S1-S10.xlsx` | READY |
 | 11 | Source Data 1 | `supplement/Source_Data_1_Primary_Machine_Readable_Data.zip` | READY |
 | 12 | Source Data 2 | `supplement/Source_Data_2_External_Validation_Data.zip` | READY |

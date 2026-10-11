@@ -276,7 +276,7 @@ The author-approved Human Genomics candidate is available under `manuscript/r7b4
 
 Final-submission QA returned **20 PASS, 2 HOLD and 0 FAIL**. The remaining holds concern institution-specific Q2 confirmation and the journal requirement that submission be operated by an author. The manuscript, figures, documentation and derived outputs are licensed under **CC BY 4.0**; original code remains under the **MIT License**. Third-party datasets and licence-restricted source files are excluded.
 
-The public release metadata are recorded in `CITATION.cff` and `.zenodo.json`. Private author records, personal approval evidence, journal credentials and the cover letter are intentionally excluded from Git history.
+The public release metadata are recorded in `CITATION.cff` and `.zenodo.json`. Private author records, personal approval evidence and journal credentials are excluded from Git history. The R7C2 journal-specific cover letter is public because both authors explicitly approved release of the manuscript, figures, supplements, source-data package and cover letter.
 
 ## R7B4B2 author-approved open research release
 

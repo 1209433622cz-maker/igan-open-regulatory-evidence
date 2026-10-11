@@ -621,7 +621,7 @@ Human Genomics 版本继续作为完整、冻结、可立即回退的投稿基�
 5. 制作目标期刊 cover letter、Supplementary Information 导航、upload map 与 submission checklist。
 6. 保留六幅主图与全部机器可读补充数据；不隐藏阴性、无信息或模型敏感结果。
 7. 使用 WPS 后台导出 PDF，并对每页进行视觉质控；机器检查标题、摘要、章节、声明、数字、图件、哈希和发布包完整性。
-8. 制作带 SHA-256 manifest 的 R7C2 release；GitHub 仅同步公开安全资产，投稿信保留在本地投稿包。
+8. 制作带 SHA-256 manifest 的 R7C2 release；GitHub 同步经作者明确授权公开的稿件、投稿信、图件、补充材料与安全衍生数据；隐私凭证和期刊账号不进入仓库。
 
 ## 科学裁决
 
@@ -652,7 +652,7 @@ def build_upload_map():
 | 1 | Cover letter | `cover_letter/R7C2_npj_Genomic_Medicine_cover_letter.docx` | READY |
 | 2 | Main manuscript | `manuscript/R7C2_npj_Genomic_Medicine_manuscript.docx` | READY |
 | 3-8 | Figures 1-6 | `figures/Figure*.pdf` | READY |
-| 9 | Supplementary information guide | `supplement/R7C2_npj_Supplementary_Information.pdf` | READY AFTER WPS EXPORT |
+| 9 | Supplementary information guide | `supplement/R7C2_npj_Supplementary_Information.pdf` | READY |
 | 10 | Supplementary Data 1 | `supplement/Supplementary_Data_1_Tables_S1-S10.xlsx` | READY |
 | 11 | Source Data 1 | `supplement/Source_Data_1_Primary_Machine_Readable_Data.zip` | READY |
 | 12 | Source Data 2 | `supplement/Source_Data_2_External_Validation_Data.zip` | READY |
