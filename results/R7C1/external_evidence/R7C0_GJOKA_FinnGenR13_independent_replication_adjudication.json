@@ -1,0 +1,50 @@
+{
+  "stage": "R7C0_G2_INDEPENDENCE",
+  "generated_utc": "2026-10-10T19:27:36.661491+00:00",
+  "cordell_gjoka": {
+    "cases": 8021,
+    "controls": 16489,
+    "ancestry_panel": "combined European cohorts",
+    "source_signal": {
+      "variant_rsid": "rs6679356",
+      "gjoka_build": "GRCh37",
+      "gjoka_position": 67820194,
+      "gjoka_effect_allele": "C",
+      "gjoka_beta_effect_allele": 0.4433,
+      "gjoka_p": 3.112e-75,
+      "gjoka_multisignal_primary_hit": "1:67820194",
+      "gjoka_multisignal_primary_pair_PP_H4": 0.998018801005373,
+      "finngen_build": "GRCh38",
+      "finngen_r13_position": 67354511,
+      "finngen_r13_ref": "C",
+      "finngen_r13_alt": "T",
+      "finngen_r13_beta_alt": -0.412462,
+      "finngen_r13_beta_aligned_to_GJOKA_C": 0.412462,
+      "finngen_r13_p": 2.61577e-08,
+      "finngen_r13_in_credible_set": true,
+      "finngen_r13_cs_specific_prob": 0.0219702716047805,
+      "effect_direction_concordant_after_allele_alignment": true
+    }
+  },
+  "finngen_r13": {
+    "cases": 795,
+    "controls": 368758,
+    "study_system": "FinnGen Finnish biobank release 13",
+    "regional_lead": "1:67336688:A:C (rs6659932)",
+    "regional_lead_beta_alt": -0.46038,
+    "regional_lead_p": 2.62972e-09,
+    "credible_set_size": 17
+  },
+  "study_independence": "SUPPORTED_AT_STUDY_SYSTEM_LEVEL_WITHOUT_PERSON_LEVEL_PROOF",
+  "study_independence_reason": "The source descriptions identify the disease inputs as the Cordell international European panels and FinnGen's Finnish-biobank release, respectively; no declared cohort overlap was found. Participant identifiers are unavailable, so zero person-level overlap cannot be proven directly.",
+  "signal_replication": "PASS",
+  "signal_replication_reason": "The GJOKA primary disease signal hit rs6679356 is a member of the FinnGen R13 IL12RB2 credible set, and the effect direction is concordant after aligning the GJOKA C allele to the FinnGen reference C allele.",
+  "scope_boundary": "This supports external disease-signal replication for the IL12RB2 locus. It does not independently replicate the OneK NK eQTL mechanism, and it does not rescue FCRL3.",
+  "adjudication": "PASS_IL12RB2_EXTERNAL_DISEASE_SIGNAL_REPLICATION_WITH_DECLARED_BOUNDARY",
+  "source_checksums": {
+    "gjoka_sumstats_locus2": "a381929557351c2b05624d0e7085a536cb2112abd0bd6f518361e529891d8e12",
+    "finngen_r13_region": "b6f30281d283895c8347fbde1514593eacb49ee7b411490901be41a6abf0cabe",
+    "finngen_r13_cs": "16184e2a0933de1efaa050cf51c2797b3d2b06533d3689cae41b254c99c6b38c",
+    "r7b1b_signal_pairs": "32d3c6fc53195c72f7365eb69b18758455abcd5c0bc683cf5c532e5ab26f27f4"
+  }
+}

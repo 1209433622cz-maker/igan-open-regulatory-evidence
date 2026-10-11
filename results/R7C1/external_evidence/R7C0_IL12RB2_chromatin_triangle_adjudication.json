@@ -1,0 +1,41 @@
+{
+  "stage": "R7C0_G3_CHROMATIN",
+  "generated_utc": "2026-10-10T19:30:27.922646+00:00",
+  "prespecified_gene": "IL12RB2",
+  "prespecified_cell": "l1.NK",
+  "prespecified_peak": "chr1-67307618-67308670",
+  "disease_eQTL": {
+    "PP_H4_abf": 0.970306779415918,
+    "disease_cs_size": 19,
+    "eqtl_cs_size": 9,
+    "cs_overlap": 9,
+    "all_eqtl_cs_members_inside_disease_cs": true
+  },
+  "disease_caQTL": {
+    "PP_H4_abf": 0.969529511604649,
+    "disease_cs_size": 19,
+    "caqtl_cs_size": 11,
+    "cs_overlap": 11,
+    "all_caqtl_cs_members_inside_disease_cs": true
+  },
+  "peak_gene_link": {
+    "gene": "IL12RB2",
+    "distance_to_tss": 239,
+    "link_beta": 0.140574115960542,
+    "method": "fasthurdle",
+    "best_cell": "PBMC",
+    "joint_p": 0
+  },
+  "minimum_eQTL_caQTL_cs_intersection_implied_by_shared_19_variant_disease_cs": 1,
+  "previous_statement_superseded": "R7B1D stated that PBC-caQTL colocalization was not established for this linked peak. The prespecified full-region query now returns a direct CHIRBIL_PRIM-to-peak caQTL record in l1.NK.",
+  "adjudication": "PASS_TRIANGULAR_SIGNAL_COHERENCE_WITHOUT_DIRECT_MEDIATION_PROOF",
+  "allowed_claim": "The independent disease-supported IL12RB2 locus also shows source-integrated PBC-eQTL and PBC-caQTL sharing in NK cells at a linked promoter-proximal peak.",
+  "forbidden_claim": "A unique causal variant or a directional disease-to-chromatin-to-expression mediation chain is proven.",
+  "remaining_gap": "The public endpoint does not provide a direct eQTL-versus-caQTL coloc posterior; the historical positional top eQTL variant is not itself in the peak caQTL credible set.",
+  "source": {
+    "region_url": "https://cascade.finngen.fi/api/cascade/coloc/by_region/chr1:66307873-68398724",
+    "region_json_sha256": "8aae24be6d25a21010b14383aeb67450294d2c615ccbd3e6a4f5b330df16046c",
+    "peak_url": "https://cascade.finngen.fi/api/cascade/peak/chr1-67307618-67308670",
+    "peak_json_sha256": "fbe4887b0d9639047d027e0dc82c0bbad28c3a508c5e7659c21eb0aaac7bc86a"
+  }
+}

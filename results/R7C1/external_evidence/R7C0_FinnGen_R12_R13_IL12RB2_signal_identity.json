@@ -1,0 +1,44 @@
+{
+  "stage": "R7C0_G2",
+  "generated_utc": "2026-10-10T19:22:20.774092+00:00",
+  "phenocode": "CHIRBIL_PRIM",
+  "region": "chr1:65836688-68836688",
+  "r12_cs_size": 19,
+  "r13_cs_size": 17,
+  "intersection_size": 17,
+  "union_size": 19,
+  "jaccard": 0.8947368421052632,
+  "r13_is_subset_of_r12": true,
+  "r12_only": [
+    "1:67330273:TAAAAA:T",
+    "1:67356694:A:G"
+  ],
+  "r13_only": [],
+  "shared_lead_variant": true,
+  "r12_lead": {
+    "variant": "1:67336688:A:C",
+    "pip": 0.148444569827234,
+    "beta": -0.470334,
+    "p": 2.7842e-09
+  },
+  "r13_lead": {
+    "variant": "1:67336688:A:C",
+    "pip": 0.191577922609118,
+    "beta": -0.46038,
+    "p": 2.62972e-09
+  },
+  "shared_variant_beta_direction_concordance": 1.0,
+  "shared_variant_pip_pearson": 0.833277112861072,
+  "source_files": [
+    {
+      "path": "H:\\SCI2\\YR1\\5_analysis\\R7C0_SourceIdentity_ExternalEvidence_Preflight_20261011\\external_metadata\\finngen_R12_CHIRBIL_PRIM.SUSIE.snp.filter.tsv",
+      "sha256": "924ff099b1bcb16f8f2061bee5a14c3f420d0bf46e9aa32551f1fe8c56b84a89"
+    },
+    {
+      "path": "H:\\SCI2\\YR1\\5_analysis\\R7C0_SourceIdentity_ExternalEvidence_Preflight_20261011\\external_metadata\\finngen_R13_CHIRBIL_PRIM.SUSIE.snp.filter.tsv",
+      "sha256": "16184e2a0933de1efaa050cf51c2797b3d2b06533d3689cae41b254c99c6b38c"
+    }
+  ],
+  "adjudication": "PASS_RELEASE_STABILITY_NOT_INDEPENDENT_COHORT_REPLICATION",
+  "independence_boundary": "R12 and R13 are longitudinal FinnGen releases. Their concordance validates signal and byte identity but must not be counted as two participant-independent disease replications."
+}

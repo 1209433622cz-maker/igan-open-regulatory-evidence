@@ -1,0 +1,39 @@
+gate	pass	evidence
+baseline_immutable_md	True	39c3164e572d7957859de71815856cd7b61cb7865caea00ffeb3078ede7a3638
+baseline_immutable_docx	True	8dec3207ec695aded22a50ad0646c0b016df27fb28eb333fbd70ca7c35039ff7
+baseline_immutable_pdf	True	c7f55e24936b29add40621ff2b4dd57c28664fb0663ff9a049a810d2e9ab4786
+external_variant_count_1175	True	manuscript token + frozen source
+default_h4_09977	True	manuscript token + frozen source
+skeptical_h4_09772	True	manuscript token + frozen source
+high_prior_h4_09998	True	manuscript token + frozen source
+source_cs_2_of_2	True	manuscript token + frozen source
+r13_cs_17	True	manuscript token + frozen source
+cs_jaccard	True	manuscript token + frozen source
+cs_correlation	True	manuscript token + frozen source
+cascade_27	True	manuscript token + frozen source
+cascade_22	True	manuscript token + frozen source
+disease_eqtl_h4	True	manuscript token + frozen source
+disease_caqtl_h4	True	manuscript token + frozen source
+peak_distance	True	manuscript token + frozen source
+peak_link_beta	True	manuscript token + frozen source
+omix_two_matrices	True	manuscript token + frozen source
+no_person_level_independence_claim	True	explicit boundary
+no_second_source_ld_claim	True	explicit boundary
+no_direct_mediation_claim	True	explicit boundary
+omix_descriptive_only	True	explicit boundary
+old_chromatin_claim_removed	True	stale claim absent
+novelty_calibrated	True	claim governor
+new_gene_fishing_absent	True	bounded module
+references_continuous_1_25	True	[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+citations_in_range	True	min=1 max=25
+every_reference_cited	True	[]
+docx_six_figures	True	6
+docx_line_numbering	True	w:lnNumType present
+docx_page_number_field	True	PAGE field in DOCX footer XML
+wps_pdf_32_pages	True	32
+wps_pdf_metadata	True	 wps 文字
+all_pdf_pages_rendered	True	32
+additional_file_3_crc	True	None
+additional_file_3_manifest	True	25
+figure4_png_exists	True	journal figure
+additional_file_3_declared	True	reader-facing inventory

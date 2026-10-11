@@ -26,3 +26,12 @@ The published result tables contain summary-level or aggregate statistics only. 
 ## R7C0 external sources
 
 R7C0 redistributes only analysis code, source receipts, small derived summaries and figures. FinnGen summary-statistic objects, FinnGen CASCADE service responses, GJOKA source data, OneK individual-level or pseudobulk inputs, and OMIX001122 source archives are not redistributed here. Their identifiers, URLs, byte hashes where applicable and retrieval records are listed in `results/r7c0/R7C0_source_ledger.tsv` and the R7C0 reports. Users must obtain those source objects from their original providers and comply with the applicable source terms.
+
+## R7C1 external-validation derived data
+
+R7C1 adds only compact derived FinnGen R12/R13 disease-CS, FinnGen R13 × OneK,
+source-CS, fixed CASCADE, chromatin-triangle and OMIX descriptive-QC tables under
+`results/R7C1/external_evidence/`, plus a self-checking Additional file 3 under
+`manuscript/r7c1/supplement/`. Raw FinnGen summary statistics, CASCADE response
+objects, OMIX source archives, OneK genotypes/pseudobulk and other third-party
+source bytes remain at their original providers and are not redistributed.\n

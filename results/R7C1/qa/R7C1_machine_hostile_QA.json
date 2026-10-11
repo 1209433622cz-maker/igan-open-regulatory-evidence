@@ -1,0 +1,199 @@
+{
+  "stage": "R7C1_HOSTILE_MANUSCRIPT_QA",
+  "pass": 38,
+  "fail": 0,
+  "total": 38,
+  "status": "PASS",
+  "checks": [
+    {
+      "gate": "baseline_immutable_md",
+      "pass": true,
+      "evidence": "39c3164e572d7957859de71815856cd7b61cb7865caea00ffeb3078ede7a3638"
+    },
+    {
+      "gate": "baseline_immutable_docx",
+      "pass": true,
+      "evidence": "8dec3207ec695aded22a50ad0646c0b016df27fb28eb333fbd70ca7c35039ff7"
+    },
+    {
+      "gate": "baseline_immutable_pdf",
+      "pass": true,
+      "evidence": "c7f55e24936b29add40621ff2b4dd57c28664fb0663ff9a049a810d2e9ab4786"
+    },
+    {
+      "gate": "external_variant_count_1175",
+      "pass": true,
+      "evidence": "manuscript token + frozen source"
+    },
+    {
+      "gate": "default_h4_09977",
+      "pass": true,
+      "evidence": "manuscript token + frozen source"
+    },
+    {
+      "gate": "skeptical_h4_09772",
+      "pass": true,
+      "evidence": "manuscript token + frozen source"
+    },
+    {
+      "gate": "high_prior_h4_09998",
+      "pass": true,
+      "evidence": "manuscript token + frozen source"
+    },
+    {
+      "gate": "source_cs_2_of_2",
+      "pass": true,
+      "evidence": "manuscript token + frozen source"
+    },
+    {
+      "gate": "r13_cs_17",
+      "pass": true,
+      "evidence": "manuscript token + frozen source"
+    },
+    {
+      "gate": "cs_jaccard",
+      "pass": true,
+      "evidence": "manuscript token + frozen source"
+    },
+    {
+      "gate": "cs_correlation",
+      "pass": true,
+      "evidence": "manuscript token + frozen source"
+    },
+    {
+      "gate": "cascade_27",
+      "pass": true,
+      "evidence": "manuscript token + frozen source"
+    },
+    {
+      "gate": "cascade_22",
+      "pass": true,
+      "evidence": "manuscript token + frozen source"
+    },
+    {
+      "gate": "disease_eqtl_h4",
+      "pass": true,
+      "evidence": "manuscript token + frozen source"
+    },
+    {
+      "gate": "disease_caqtl_h4",
+      "pass": true,
+      "evidence": "manuscript token + frozen source"
+    },
+    {
+      "gate": "peak_distance",
+      "pass": true,
+      "evidence": "manuscript token + frozen source"
+    },
+    {
+      "gate": "peak_link_beta",
+      "pass": true,
+      "evidence": "manuscript token + frozen source"
+    },
+    {
+      "gate": "omix_two_matrices",
+      "pass": true,
+      "evidence": "manuscript token + frozen source"
+    },
+    {
+      "gate": "no_person_level_independence_claim",
+      "pass": true,
+      "evidence": "explicit boundary"
+    },
+    {
+      "gate": "no_second_source_ld_claim",
+      "pass": true,
+      "evidence": "explicit boundary"
+    },
+    {
+      "gate": "no_direct_mediation_claim",
+      "pass": true,
+      "evidence": "explicit boundary"
+    },
+    {
+      "gate": "omix_descriptive_only",
+      "pass": true,
+      "evidence": "explicit boundary"
+    },
+    {
+      "gate": "old_chromatin_claim_removed",
+      "pass": true,
+      "evidence": "stale claim absent"
+    },
+    {
+      "gate": "novelty_calibrated",
+      "pass": true,
+      "evidence": "claim governor"
+    },
+    {
+      "gate": "new_gene_fishing_absent",
+      "pass": true,
+      "evidence": "bounded module"
+    },
+    {
+      "gate": "references_continuous_1_25",
+      "pass": true,
+      "evidence": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]"
+    },
+    {
+      "gate": "citations_in_range",
+      "pass": true,
+      "evidence": "min=1 max=25"
+    },
+    {
+      "gate": "every_reference_cited",
+      "pass": true,
+      "evidence": "[]"
+    },
+    {
+      "gate": "docx_six_figures",
+      "pass": true,
+      "evidence": "6"
+    },
+    {
+      "gate": "docx_line_numbering",
+      "pass": true,
+      "evidence": "w:lnNumType present"
+    },
+    {
+      "gate": "docx_page_number_field",
+      "pass": true,
+      "evidence": "PAGE field in DOCX footer XML"
+    },
+    {
+      "gate": "wps_pdf_32_pages",
+      "pass": true,
+      "evidence": "32"
+    },
+    {
+      "gate": "wps_pdf_metadata",
+      "pass": true,
+      "evidence": " wps 文字"
+    },
+    {
+      "gate": "all_pdf_pages_rendered",
+      "pass": true,
+      "evidence": "32"
+    },
+    {
+      "gate": "additional_file_3_crc",
+      "pass": true,
+      "evidence": "None"
+    },
+    {
+      "gate": "additional_file_3_manifest",
+      "pass": true,
+      "evidence": "25"
+    },
+    {
+      "gate": "figure4_png_exists",
+      "pass": true,
+      "evidence": "journal figure"
+    },
+    {
+      "gate": "additional_file_3_declared",
+      "pass": true,
+      "evidence": "reader-facing inventory"
+    }
+  ]
+}

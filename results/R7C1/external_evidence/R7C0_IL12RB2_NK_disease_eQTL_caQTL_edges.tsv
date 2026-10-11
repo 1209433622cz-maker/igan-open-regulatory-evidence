@@ -1,0 +1,3 @@
+edge	cell	PP_H4_abf	disease_cs_size	qtl_cs_size	disease_qtl_cs_overlap	disease_lead	qtl_lead
+PBC_GWAS_to_IL12RB2_eQTL	l1.NK	0.970306779415918	19	9	9	chr1_67336688_A_C	chr1_67332644_T_G
+PBC_GWAS_to_linked_peak_caQTL	l1.NK	0.969529511604649	19	11	11	chr1_67336688_A_C	chr1_67326053_A_C

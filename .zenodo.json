@@ -2,7 +2,7 @@
   "title": "Input-matched multi-signal colocalization clarifies immune-cell regulatory assignments at primary biliary cholangitis risk loci",
   "upload_type": "publication",
   "publication_type": "preprint",
-  "description": "Preprint and open research compendium for a PBC-wide screen followed by source-matched multi-signal reclassification of a prespecified high-information H3/H4 subset. The release includes the manuscript, figures, supplementary tables, machine-readable derived outputs, frozen protocols and analysis code. It distinguishes statistical signal sharing from biological mechanism and retains negative, model-sensitive and uninformative results.",
+  "description": "Preprint and open research compendium for PBC-wide screening followed by source-matched multi-signal reclassification of a prespecified high-information H3/H4 subset. R7C1 adds a bounded IL12RB2-NK validation module using a different FinnGen disease study system, source credible sets and a disease-eQTL/disease-caQTL/peak-gene chromatin triangle. The release distinguishes statistical signal sharing from participant-level independence, direct eQTL-caQTL colocalization and causal mediation.",
   "creators": [
     {
       "name": "Chen, Zhi",
@@ -17,8 +17,8 @@
   ],
   "access_right": "open",
   "license": "cc-by-4.0",
-  "publication_date": "2026-10-10",
-  "version": "1.0.0",
+  "publication_date": "2026-10-11",
+  "version": "1.1.0",
   "keywords": [
     "primary biliary cholangitis",
     "colocalization",

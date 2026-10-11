@@ -297,3 +297,28 @@ A prespecified IL12RB2-linked peak supports a disease–eQTL / disease–caQTL /
 Independent machine QA passed 25/25 checks. The next bounded stage is `R7C1_IL12RB2_EXTERNAL_VALIDATION_MODULE_AND_MANUSCRIPT_FORK`; candidate discovery and a full 642-comparison rerun remain closed.
 
 ![R7C0 external evidence preflight](figures/R7C0/R7C0_external_evidence_preflight.png)
+
+## R7C1 IL12RB2 external-validation manuscript fork
+
+R7C1 preserves the byte-identical R7B4B2 Human Genomics baseline and adds a
+separate, bounded manuscript fork for IL12RB2-NK. FinnGen R13 × OneK used 1,175
+harmonized variants and supported H4 across the frozen prior series (PP.H4
+0.9772, 0.9977 and 0.9998 at p12 10^-6, 10^-5 and 10^-4); both OneK QTL
+credible-set members occur in the FinnGen R13 disease credible set. FinnGen is
+treated as a different disease study system because person-level zero overlap
+with the discovery GWAS cannot be demonstrated from public metadata.
+
+The prespecified linked peak now has direct PBC-eQTL and PBC-caQTL sharing
+records in l1.NK plus a promoter-proximal peak-IL12RB2 link. This supersedes the
+historical R7B1D statement that PBC-caQTL sharing had not been established for
+the peak. The result is reported as triangular signal coherence: the direct
+eQTL-caQTL posterior and a mediation estimate remain unavailable. OMIX001122
+contains one PBC and one control processed matrix and is descriptive only.
+
+The R7C1 manuscript DOCX was exported to a 32-page PDF using WPS Writer, and
+32/32 pages passed visual inspection. Machine and hostile-claim QA passed 38/38.
+No gene, locus or cell type was added, and the 642-comparison analysis was not
+rerun. The next stage is a Q1 journal-fit reality check; if that fit fails, the
+R7B4B2 Human Genomics baseline remains the submission route.
+
+![R7C1 external validation and chromatin triangle](figures/R7C1/Figure4_IL12RB2_external_evidence.png)\n
