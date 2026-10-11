@@ -1,0 +1,11 @@
+{
+  "archive_bytes": 10344009571,
+  "bytes_read": 10344009571,
+  "md5": "e42239480f40abd21f221c0d77c82cc3",
+  "sha256": "63b980c82c234268183205a9cf3c9da96ead1440d7b4b4586652f38ea18039ea",
+  "expected_md5": "e42239480f40abd21f221c0d77c82cc3",
+  "required_cell_members": 7,
+  "extracted_cell_members": 7,
+  "missing": [],
+  "gate": "PASS"
+}

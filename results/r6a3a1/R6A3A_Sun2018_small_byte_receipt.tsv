@@ -1,0 +1,3 @@
+"dataset_id"	"study"	"donors"	"assay"	"build"	"effect_allele"	"file"	"url"	"ftp_declared_size"	"bytes"	"md5"	"sha256"	"status"
+"QTD000584"	"Sun_2018"	"3301"	"aptamer"	"GRCh38"	"ALT"	"QTD000584.permuted.tsv.gz"	"https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000035/QTD000584/QTD000584.permuted.tsv.gz"	"128K"	"130995"	"39d387ea93dbcdf9996ba23e228ef640"	"18504ebec4f9882a74dd30e8ea7fb7d103e10f9fe2499ba625a178c412576bc1"	"PASS"
+"QTD000584"	"Sun_2018"	"3301"	"aptamer"	"GRCh38"	"ALT"	"QTD000584.credible_sets.tsv.gz"	"https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000035/QTD000584/QTD000584.credible_sets.tsv.gz"	"1.0M"	"1032049"	"a7e645a0fb83a265daa17b90318d29a6"	"cc324e6fe39cbc699879ae41d529215e347791ad13e69b823b9024fa6ee08644"	"PASS"

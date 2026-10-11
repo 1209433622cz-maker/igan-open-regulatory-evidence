@@ -1,0 +1,200 @@
+[
+  {
+    "name": "me",
+    "url": "https://cascade.finngen.fi/api/v1/me",
+    "retrieved_utc": "2026-10-09T06:19:33.284979+00:00",
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 66,
+    "sha256": "ebe00f1ea96946af2532da20ad2d67d7412a2dd6d90633f259fc5cd08340fca5",
+    "valid_json": true,
+    "local_path": "3_results/01_intake/R7B1D/finngen_cascade_20261009/me.json"
+  },
+  {
+    "name": "phenos_pbc",
+    "url": "https://cascade.finngen.fi/api/finngen/phenos?q=PBC&limit=200",
+    "retrieved_utc": "2026-10-09T06:19:33.833972+00:00",
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 37,
+    "sha256": "381827a2cbc71d9363109e5ece95e5b4f428320a17db081401f7f2db3b4f834e",
+    "valid_json": true,
+    "local_path": "3_results/01_intake/R7B1D/finngen_cascade_20261009/phenos_pbc.json"
+  },
+  {
+    "name": "phenos_chirbil",
+    "url": "https://cascade.finngen.fi/api/finngen/phenos?q=CHIRBIL&limit=200",
+    "retrieved_utc": "2026-10-09T06:19:34.390152+00:00",
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 37,
+    "sha256": "381827a2cbc71d9363109e5ece95e5b4f428320a17db081401f7f2db3b4f834e",
+    "valid_json": true,
+    "local_path": "3_results/01_intake/R7B1D/finngen_cascade_20261009/phenos_chirbil.json"
+  },
+  {
+    "name": "autocomplete_pbc_phenotype",
+    "url": "https://cascade.finngen.fi/api/cascade/autocomplete?q=CHIRBIL_PRIM&limit=20",
+    "retrieved_utc": "2026-10-09T06:19:34.964371+00:00",
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 160,
+    "sha256": "cbfb96f94283189eebe7081b9ecba3ce344c9375da2d9d2d78a54f1b33d87b0d",
+    "valid_json": true,
+    "local_path": "3_results/01_intake/R7B1D/finngen_cascade_20261009/autocomplete_pbc_phenotype.json"
+  },
+  {
+    "name": "manhattan_pbc",
+    "url": "https://cascade.finngen.fi/api/finngen/manhattan/CHIRBIL_PRIM",
+    "retrieved_utc": "2026-10-09T06:19:37.094541+00:00",
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 649279,
+    "sha256": "2f5a633434943cf728c11d050337b0497b97f69e25450040a0161bccd3a24a2f",
+    "valid_json": true,
+    "local_path": "3_results/01_intake/R7B1D/finngen_cascade_20261009/manhattan_pbc.json"
+  },
+  {
+    "name": "gene_il12rb2",
+    "url": "https://cascade.finngen.fi/api/cascade/gene/IL12RB2",
+    "retrieved_utc": "2026-10-09T06:19:37.688951+00:00",
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 201560,
+    "sha256": "89c766496b4db017637e6126c5baac8b3fa9654f05868ed52986cc824c24d4a2",
+    "valid_json": true,
+    "local_path": "3_results/01_intake/R7B1D/finngen_cascade_20261009/gene_il12rb2.json"
+  },
+  {
+    "name": "gene_fcrl3",
+    "url": "https://cascade.finngen.fi/api/cascade/gene/FCRL3",
+    "retrieved_utc": "2026-10-09T06:19:38.239128+00:00",
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 36090,
+    "sha256": "6b1b249cf3375c15b4aa95502af11917fdd8b61e234cfa81b7102bccc9430fd2",
+    "valid_json": true,
+    "local_path": "3_results/01_intake/R7B1D/finngen_cascade_20261009/gene_fcrl3.json"
+  },
+  {
+    "name": "peak_il12rb2_anchor",
+    "url": "https://cascade.finngen.fi/api/cascade/peak/chr1-67307618-67308670",
+    "retrieved_utc": "2026-10-09T06:19:38.802554+00:00",
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 61283,
+    "sha256": "fbe4887b0d9639047d027e0dc82c0bbad28c3a508c5e7659c21eb0aaac7bc86a",
+    "valid_json": true,
+    "local_path": "3_results/01_intake/R7B1D/finngen_cascade_20261009/peak_il12rb2_anchor.json"
+  },
+  {
+    "name": "coloc_il12rb2_variant1",
+    "url": "https://cascade.finngen.fi/api/cascade/coloc/by_variant/1-67307966-T-C?include_variants=true",
+    "retrieved_utc": "2026-10-09T06:19:39.443798+00:00",
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 2648,
+    "sha256": "a5ff5ead2d2b85d130d84507942d0202946ad26e54898e416ca9fe5cee5416b6",
+    "valid_json": true,
+    "local_path": "3_results/01_intake/R7B1D/finngen_cascade_20261009/coloc_il12rb2_variant1.json"
+  },
+  {
+    "name": "coloc_il12rb2_variant2",
+    "url": "https://cascade.finngen.fi/api/cascade/coloc/by_variant/1-67308980-A-G?include_variants=true",
+    "retrieved_utc": "2026-10-09T06:19:40.105972+00:00",
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 2648,
+    "sha256": "a5ff5ead2d2b85d130d84507942d0202946ad26e54898e416ca9fe5cee5416b6",
+    "valid_json": true,
+    "local_path": "3_results/01_intake/R7B1D/finngen_cascade_20261009/coloc_il12rb2_variant2.json"
+  },
+  {
+    "name": "coloc_fcrl3_marginal",
+    "url": "https://cascade.finngen.fi/api/cascade/coloc/by_variant/1-157701026-A-G?include_variants=true",
+    "retrieved_utc": "2026-10-09T06:19:40.764831+00:00",
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 87123,
+    "sha256": "a1b19ab084bc33d990e9e16284de547a6ebb91445d016fe30b10ea6b20d1f141",
+    "valid_json": true,
+    "local_path": "3_results/01_intake/R7B1D/finngen_cascade_20261009/coloc_fcrl3_marginal.json"
+  },
+  {
+    "name": "coloc_fcrl3_anchor",
+    "url": "https://cascade.finngen.fi/api/cascade/coloc/by_variant/1-157699488-C-T?include_variants=true",
+    "retrieved_utc": "2026-10-09T06:19:41.915409+00:00",
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 87765,
+    "sha256": "b048e409c4407f0513e9bb30daf65ae732bd0daa5f5604b4af11fc010127bc98",
+    "valid_json": true,
+    "local_path": "3_results/01_intake/R7B1D/finngen_cascade_20261009/coloc_fcrl3_anchor.json"
+  },
+  {
+    "name": "coloc_fcrl3_region",
+    "url": "https://cascade.finngen.fi/api/cascade/coloc/by_region/chr1:156676481-158700769",
+    "retrieved_utc": "2026-10-09T06:19:42.529009+00:00",
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 548963,
+    "sha256": "a896b42b83126b921b25d35b90ccb872c6e5587c681b8baff7d966cbf8cfcdde",
+    "valid_json": true,
+    "local_path": "3_results/01_intake/R7B1D/finngen_cascade_20261009/coloc_fcrl3_region.json"
+  },
+  {
+    "name": "eqtl_il12rb2_nk",
+    "url": "https://cascade.finngen.fi/api/cascade/region/eqtl/lz-multi/?filter=chromosome+in+%271%27+and+position+ge+67200000+and+position+le+67500000&traits=ENSG00000081985&cts=l1.NK%2Cl2.NK%2Cl1.PBMC&pmax=1",
+    "retrieved_utc": "2026-10-09T06:19:44.170495+00:00",
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 385554,
+    "sha256": "65d96a43f8b1ff8c8ae8c6cc9eb537f055eef788090b63442b4e36a9fae74767",
+    "valid_json": true,
+    "local_path": "3_results/01_intake/R7B1D/finngen_cascade_20261009/eqtl_il12rb2_nk.json"
+  },
+  {
+    "name": "eqtl_fcrl3_b_cd8",
+    "url": "https://cascade.finngen.fi/api/cascade/region/eqtl/lz-multi/?filter=chromosome+in+%271%27+and+position+ge+157500000+and+position+le+157900000&traits=ENSG00000160856&cts=l1.B%2Cl2.B_intermediate%2Cl2.B_memory%2Cl1.CD8_T%2Cl2.CD8_TEM&pmax=1",
+    "retrieved_utc": "2026-10-09T06:19:45.354554+00:00",
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 700094,
+    "sha256": "eb6867ccdcedee4150327695e9bb448ceea28fdc5636033a6e678ffb82603147",
+    "valid_json": true,
+    "local_path": "3_results/01_intake/R7B1D/finngen_cascade_20261009/eqtl_fcrl3_b_cd8.json"
+  },
+  {
+    "name": "caqtl_il12rb2_anchor",
+    "url": "https://cascade.finngen.fi/api/cascade/region/caqtl/lz-multi/?filter=chromosome+in+%271%27+and+position+ge+67200000+and+position+le+67500000&traits=chr1-67307618-67308670&cts=l1.NK%2Cl2.NK%2Cl1.PBMC%2Cl2.CD8_TEM&pmax=1",
+    "retrieved_utc": "2026-10-09T06:19:47.106386+00:00",
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 395132,
+    "sha256": "1f872f7c0a5c131893200395e26b470c8f5bcaf08939c6daa45d69cf2de753f3",
+    "valid_json": true,
+    "local_path": "3_results/01_intake/R7B1D/finngen_cascade_20261009/caqtl_il12rb2_anchor.json"
+  },
+  {
+    "name": "gwas_pbc_il12rb2_region",
+    "url": "https://cascade.finngen.fi/api/finngen/region/CHIRBIL_PRIM/lz-results/?filter=chromosome%20in%20%271%27%20and%20position%20ge%2067200000%20and%20position%20le%2067500000",
+    "retrieved_utc": "2026-10-09T06:19:49.474951+00:00",
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 70855,
+    "sha256": "721665f7c4c14affcb529592bdb2cebf1c862e55fcab70ba0b6f7f1285f52cd0",
+    "valid_json": true,
+    "local_path": "3_results/01_intake/R7B1D/finngen_cascade_20261009/gwas_pbc_il12rb2_region.json"
+  },
+  {
+    "name": "gwas_pbc_fcrl3_region",
+    "url": "https://cascade.finngen.fi/api/finngen/region/CHIRBIL_PRIM/lz-results/?filter=chromosome%20in%20%271%27%20and%20position%20ge%20157500000%20and%20position%20le%20157900000",
+    "retrieved_utc": "2026-10-09T06:19:50.028063+00:00",
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 15947,
+    "sha256": "01a055d659d93e201b1f9d5c2a39b8c82c504f12326e6a6c9777a0d8dae387c3",
+    "valid_json": true,
+    "local_path": "3_results/01_intake/R7B1D/finngen_cascade_20261009/gwas_pbc_fcrl3_region.json"
+  }
+]

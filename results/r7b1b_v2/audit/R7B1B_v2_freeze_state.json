@@ -1,0 +1,26 @@
+{
+  "schema": "R7B1B_V2_FREEZE_1.1",
+  "status": "FROZEN_BEFORE_MULTISIGNAL_RESULTS",
+  "comparisons": 642,
+  "primary_184": 184,
+  "h3_rescue": 455,
+  "borderline": 3,
+  "loci": 47,
+  "genes": 200,
+  "cells": 14,
+  "blocks": 286,
+  "GJOKA_members": 94,
+  "GJOKA_compressed_bytes": 928328240,
+  "GJOKA_uncompressed_bytes": 2714228510,
+  "ABF_sha256": "0e07e325262f77bb30180efda0201284912709d27f73bc6652877c7837b7f8a4",
+  "original_184_trigger_sha256": "bac35fe7572a336ceedcf60a19a3d4f7f8c3cd97337ebd34a2d08e5360cb1f0e",
+  "remote_inventory_sha256": "671f1aa1507d099f5524619203976dc99d05550d229594ddd83450c78862f9df",
+  "outputs": {
+    "workload_sha256": "7df7cada737afbbe27755ded566b3d49ac70c6861c8873607f55a1cf095845d1",
+    "blocks_sha256": "459ccbc4ab2f278ece7038094c378b2741522a4fd818fa2ae958495e96b678ca",
+    "required_members_sha256": "bb4f4886ea8bfc8968b65d27c56e1046ae5cb97ffe6ad1656bdd0f922ab93858",
+    "borderline_sha256": "a9dea2ccf6c9132207c995bddff34f712b6ad27122a53ee586decf46ce456f6f"
+  },
+  "posterior_multisignal_read_before_freeze": false,
+  "scope_ceiling": "PBC-wide ABF screening plus multi-signal reclassification of the prespecified high-information H3/H4 subset"
+}

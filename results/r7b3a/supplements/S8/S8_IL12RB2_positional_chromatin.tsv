@@ -1,0 +1,2 @@
+gene	variant	variant_mechanism	variant_eQTL_PIP_max	peak	peak_gene_link_method	peak_gene_link_beta	peak_caqtl_q_l1_NK	peak_caqtl_q_l2_NK	variant_in_peak	variant_in_peak_caqtl_CS	complete_variant_level_cascade_supported	boundary
+IL12RB2	chr1_67307966_T_C	Positional Cascade (overlap link)	0.574622640891429	chr1-67307618-67308670	fasthurdle	0.140574115960542	3.93152497046016e-13	6.0189900306488e-15	True	False	False	CASCADE positional overlap/link; the eQTL variant is not in the peak caQTL credible set, and PBC–caQTL colocalization is not established

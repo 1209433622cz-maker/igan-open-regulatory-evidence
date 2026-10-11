@@ -1,0 +1,15 @@
+{
+  "schema": "R7A2A0_CONTROL_LIVER_MANIFEST_PREFLIGHT_1.0",
+  "rows": 5,
+  "runs": [
+    "HRR1849454",
+    "HRR1849455",
+    "HRR1849456",
+    "HRR1849457",
+    "HRR1849458"
+  ],
+  "total_expected_bytes": 134657112757,
+  "total_expected_GiB": 125.40920894313604,
+  "errors": [],
+  "status": "PASS"
+}

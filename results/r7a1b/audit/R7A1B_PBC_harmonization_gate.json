@@ -1,0 +1,5 @@
+{
+  "genes": 3,
+  "all_regions_ge_500": true,
+  "gate": "PASS"
+}

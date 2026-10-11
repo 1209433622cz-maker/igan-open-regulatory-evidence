@@ -1,0 +1,3 @@
+locus	gene_symbol	molecular_trait_id	n_overlap	disease_min_p	pqtl_min_p
+TNFSF12/13	TNFSF12	TNFSF12.5939.42.3..1	5164	1.21e-10	2.35353e-106
+TNFSF8/15	TNFSF8	TNFSF8.3421.54.2..1	6144	1.273e-08	2.15526e-07

@@ -1,0 +1,3 @@
+classification	comparisons	skeptical_ratio_ge_0_5	source_cell_q_lt_0_05	median_qtl_min_p
+H3_H4_AMBIGUITY_TRIGGER	72	0	65	1.8913845863855906e-10
+ROBUST_H4_TRIGGER	112	101	91	8.831480280399947e-10

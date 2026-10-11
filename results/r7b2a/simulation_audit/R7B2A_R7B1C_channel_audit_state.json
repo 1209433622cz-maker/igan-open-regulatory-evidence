@@ -1,0 +1,49 @@
+{
+  "schema": "R7B2A_R7B1C_CHANNEL_AUDIT_1.0",
+  "status": "PASS_WITH_SCOPE_LIMIT",
+  "gate": "V3-G3_SIMULATION_INTERPRETABLE_PASS_WITH_SCOPE_LIMIT",
+  "replicates": 486000,
+  "grid_rows": 486,
+  "primary_matched": {
+    "technical_errors": 0,
+    "successful_no_CS": 325218,
+    "both_CS_present_no_pair": 0,
+    "pair_evaluable": 160782,
+    "pair_evaluable_rate": 0.33082716049382715,
+    "channel_counts": {
+      "NO_CS_BOTH": 130994,
+      "NO_DISEASE_CS": 16819,
+      "NO_QTL_CS": 177405,
+      "PAIR_H3": 31459,
+      "PAIR_H4": 100243,
+      "PAIR_UNINFORMATIVE": 29080
+    }
+  },
+  "mismatch_secondary": {
+    "applicable_replicates": 81000,
+    "technical_errors": 0,
+    "zero_pair_CS_source_not_recorded": 69346,
+    "limitation": "The historical mismatch branch did not store disease/QTL CS counts; zero-pair origin cannot be decomposed without rerun."
+  },
+  "rerun_required": false,
+  "rerun_rationale": "The primary matched analysis fully separates technical error, no-CS and both-CS/no-pair states. The unresolved mismatch zero-pair origin is secondary and is handled by restricting its claim rather than spending 81,000 repeated fits.",
+  "interpretation": "Most primary uninformative outcomes reflect absent credible sets, not software failure. Performance must be reported both unconditionally and conditional on an evaluable signal pair; neither alone establishes general superiority.",
+  "outputs": {
+    "R7B2A_R7B1C_iteration_channel_audit.tsv.gz": {
+      "bytes": 1405808,
+      "sha256": "db777a82b2df221444732923c6ba6c6d7f6a6297a30efde6ffc0cbe208c21e68"
+    },
+    "R7B2A_R7B1C_channel_summary.tsv": {
+      "bytes": 4116,
+      "sha256": "18530288dd037b6c8949b7ea57465e29b5c26ddecffe73bd82ada1bd08eb292c"
+    },
+    "R7B2A_R7B1C_mismatch_channel_summary.tsv": {
+      "bytes": 233,
+      "sha256": "80917ffa294fc808a62dfb02ad17fd52683b875cc5b45f133808a3e868275794"
+    },
+    "R7B2A_R7B1C_discovery_vs_estimator_performance.tsv": {
+      "bytes": 1009,
+      "sha256": "25b2928e1a8ccb0b27f1c2ee4b8cd3acfc774d99e6705b41512803b93f0586b5"
+    }
+  }
+}

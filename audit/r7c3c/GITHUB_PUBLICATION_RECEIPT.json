@@ -1,0 +1,23 @@
+{
+  "stage": "R7C3C",
+  "date": "2026-10-12",
+  "repo": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence",
+  "previous_head": "18a4032836236008f54cb9cfaca8480c21a05f7a",
+  "verified_payload_commit": "b675f7bb1fa1ac012049d2e6bf275fa84d012a41",
+  "verified_remote_head_at_payload_check": "b675f7bb1fa1ac012049d2e6bf275fa84d012a41",
+  "independent_GitHub_API_ref_check": "b675f7bb1fa1ac012049d2e6bf275fa84d012a41",
+  "public_files_changed": 85,
+  "canonical_manifest_members": 1424,
+  "candidate_committed_blob_identity": 22,
+  "candidate_internal_checksums": 21,
+  "secret_or_raw_data_gate_blockers": 0,
+  "push_mode": "NORMAL_FAST_FORWARD_NOT_FORCE",
+  "transport": "Git HTTPS via existing user Windows proxy; no global configuration change",
+  "earlier_direct_fetch_failures": [
+    "connection reset",
+    "direct connection timeout"
+  ],
+  "journal_submission": false,
+  "new_DOI_minted": false,
+  "note": "This receipt identifies the verified scientific/editorial payload commit. A following administrative commit carries the receipt; its final remote HEAD is recorded separately locally."
+}

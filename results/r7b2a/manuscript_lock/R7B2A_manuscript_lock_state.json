@@ -1,0 +1,36 @@
+{
+  "schema": "R7B2A_MANUSCRIPT_LOCK_ASSETS_1.0",
+  "status": "PASS",
+  "gate": "V3-G5_MANUSCRIPT_LOCK_ASSETS_READY",
+  "claims": 27,
+  "methods_results_modules": 10,
+  "figure_manifest_rows": 8,
+  "figures_1_to_6": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "new_candidate_selection": 0,
+  "scope": "PBC-wide single-causal screening with matched-input, source-matched multi-signal reclassification of the prespecified high-information subset; simulation and external/tissue evidence remain bounded.",
+  "outputs": {
+    "R7B2A_updated_claim_evidence_ledger.tsv": {
+      "bytes": 12565,
+      "sha256": "aeb4f25dbe4aef041c5007b4d3aac51e6f67ee3985bce1985bfecbc10e92ceb1"
+    },
+    "R7B2A_methods_results_mirror.tsv": {
+      "bytes": 1706,
+      "sha256": "8314907a206ce3045450420553cbb211c23fcccc2527d2aaa9ac3175bb79b83e"
+    },
+    "R7B2A_Figure1_6_panel_source_manifest.tsv": {
+      "bytes": 2525,
+      "sha256": "90586948380b30403d1340f88238cf38284febdabfd8bd65d7807baea28903b8"
+    },
+    "R7B2A_manuscript_lock_asset_hashes.tsv": {
+      "bytes": 1980,
+      "sha256": "07c0f506b3c62c514ad534d1ccfff8f9a409ad57c61a3a81f14f062ac2767e9c"
+    }
+  }
+}

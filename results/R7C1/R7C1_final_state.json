@@ -1,0 +1,28 @@
+{
+  "stage": "R7C1_IL12RB2_EXTERNAL_VALIDATION_MODULE_AND_MANUSCRIPT_FORK",
+  "date": "2026-10-11",
+  "R7C1": "COMPLETE_PASS_WITH_BOUNDED_SCIENTIFIC_UPGRADE",
+  "PBC_PRIMARY_PROJECT": "GO",
+  "R7B4B2_Q2_BASELINE": "FROZEN_BYTE_IDENTICAL_SUBMISSION_READY",
+  "IL12RB2_external_disease_study": "PASS_FINNGEN_R13_X_ONEK_SINGLE_CAUSAL_WITH_SOURCE_CS",
+  "chromatin": "PASS_TRIANGULAR_SIGNAL_COHERENCE_WITHOUT_DIRECT_MEDIATION",
+  "OMIX001122": "DESCRIPTIVE_ONLY_NOT_INDEPENDENT_SPATIAL_VALIDATION",
+  "new_biological_analysis_required": false,
+  "new_gene_locus_cell_fishing": false,
+  "full_642_rerun": false,
+  "qa": {
+    "pass": 38,
+    "fail": 0,
+    "total": 38
+  },
+  "wps_pdf_pages": 32,
+  "hashes": {
+    "manuscript_md": "22c0039c9daab296aaf2b3b8f8d1912013d21adaeef44635a86f2a38154a9ec6",
+    "manuscript_docx": "46ea7585be13b924746e73a7a4b87bacfbcebeec10c7d6e03ed03260d33ef67f",
+    "manuscript_wps_pdf": "cb9595c8db8b19166eb7df39589c4f9e941a176feb8db557df210ccb5f97c559",
+    "figure4_png": "7e8b241f9963a70fd66f97e50ef6238e5d18f03acba900de1db6526ef7f9831d",
+    "additional_file_3": "186d2e914c4b3762dd489230820b3e8c3b1cbf2ce0c75412a134bfd5b6dab097"
+  },
+  "NEXT": "R7C2_Q1_TARGET_JOURNAL_REALITY_CHECK_AND_DUAL_TRACK_SUBMISSION_PACKAGE",
+  "R7C2_exit_rule": "Attempt a Q1-specific package only if current official scope and editor-facing novelty fit pass; otherwise submit the unchanged Q2 baseline without additional biological analysis."
+}

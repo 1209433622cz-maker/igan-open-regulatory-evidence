@@ -1,0 +1,11 @@
+module_id	methods_commitment	results_mirror	gate	figure_panel
+MR01	Freeze exact 642 comparison identities and roles before A1/A2 results.	All 642 were retained: 184 primary, 455 H3 rescue/falsification, 3 borderline.	V3-G0	1A-C
+MR02	Reconstruct original ABF support S_A and actual multi-signal support S_M.	S_M removed 19-114 variants per comparison (median 65; median 7.67%).	V3-G0	2A
+MR03	Replay A0 with the historical ABF formula and priors.	A0 replay matched historical posteriors to maximum absolute difference 3.55e-13.	V3-G1	S Methods/QC
+MR04	Run A1 on S_M with original GCST disease statistics and fixed sdY.	A0-to-A1 yielded 15 categorical changes and retained all 112 historical H4 states.	V3-G1-2	2A
+MR05	Run A2 on S_M using GJOKA matched-z disease statistics.	A1-to-A2 yielded 19 categorical changes.	V3-G1-2	2B
+MR06	Compare A2 with frozen M without refitting M.	A2-to-M retained 79 H4 and 413 H3, with 8 H4-to-H3 and 10 H3-to-H4 strict transitions.	V3-G4	2C-D
+MR07	Evaluate native sdY and rounded GJOKA BETA/SE sensitivities separately.	No sensitivity definition changed a categorical state.	V3-G1	2E
+MR08	Audit all 486,000 simulation iterations for technical error, no CS and no pair.	Zero technical errors; 325,218 no-CS; zero both-CS/no-pair; 160,782 pair-evaluable.	V3-G3	3E-F
+MR09	Report simulation decision rates both unconditionally and conditional on a signal pair.	Pair-evaluable rates ranged from 13.29% to 59.79%; conditional H4 rates are reported as estimator behavior after discovery.	V3-G3	3E-F
+MR10	Preserve external molecular-QTL and exact 5-vs-5 tissue boundaries.	External and tissue claims remain unchanged and bounded; no new candidate was selected.	V3-G4-5	4-6

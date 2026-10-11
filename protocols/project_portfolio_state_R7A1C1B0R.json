@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-15",
+  "stage": "R7A1C1B0R_PREEXECUTION_REPAIR_AND_LIGHTWEIGHT_CLOSURE",
+  "open_data_only": true,
+  "candidate_project": "primary_biliary_cholangitis",
+  "new_primary_project": "HOLD_PENDING_FIVE_DONOR_HRA_V3_1",
+  "upstream": {
+    "TenK_replication": "PASS_2_OF_2",
+    "R7A1C1B0_input_integrity": "PASS_17_OF_17"
+  },
+  "lightweight_supplement_gate": {
+    "supplement_human_target_hits": 2,
+    "supplement_mouse_target_hits": 1,
+    "source_data_target_hits": 0,
+    "donor_id_hits": 0,
+    "decision": "FAIL_NO_DONOR_TARGET_MATRIX"
+  },
+  "runner_audit": {
+    "R7A1C1B0_v3": "INVALID_RUNTIME_AND_FALSE_FAIL_RISK",
+    "defects": [
+      "final adjudicator assigned three paths",
+      "fixed 500k coordinate-sorted prefix produced only 15 xf-bit-8 records",
+      "summary reuse did not require a matching byte/MD5/SHA receipt",
+      "PMC supplement URLs returned HTML rather than XLSX bytes"
+    ],
+    "R7A1C1B0R_v3_1": "PASS_PREFLIGHT_AND_REAL_PREFIX_SCHEMA_TEST"
+  },
+  "real_five_donor_result": "NOT_TESTED",
+  "next_stage": "R7A1C1B_FIVE_DONOR_BYTE_EXECUTION_V3_1",
+  "next_protocol": "0_admin/protocol/current/R7A1C1B_five_donor_execution_v3_1.md",
+  "CeD_auto_resume": false
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "R7B1B_EXACT_WORKLOAD_1.0",
+  "status": "FROZEN_BEFORE_MULTISIGNAL_RESULTS",
+  "trigger_comparisons": 184,
+  "trigger_loci": 25,
+  "trigger_genes": 49,
+  "trigger_cells": 14,
+  "cell_locus_blocks": 120,
+  "required_GJOKA_members": 50,
+  "required_GJOKA_compressed_bytes": 357742541,
+  "required_GJOKA_uncompressed_bytes": 1080148372,
+  "trigger_set_sha256": "bac35fe7572a336ceedcf60a19a3d4f7f8c3cd97337ebd34a2d08e5360cb1f0e",
+  "remote_inventory_sha256": "671f1aa1507d099f5524619203976dc99d05550d229594ddd83450c78862f9df",
+  "no_post_result_filtering": true,
+  "next": "DOWNLOAD_50_GJOKA_MEMBERS_THEN_BUILD_120_DUAL_MODEL_QTL_LD_BLOCKS"
+}

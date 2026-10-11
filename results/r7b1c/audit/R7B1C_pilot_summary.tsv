@@ -1,0 +1,7 @@
+grid_id	scenario	replicates	abf_h4_rate	matched_h4_rate	matched_h3_rate	matched_ok_rate	matched_convergence_rate	matched_pair_rate	mismatch_h4_rate	sha256
+R7B1C_G041	S1_one_shared	50	0.94	0.64	0.0	1.0	1.0	0.64		3a73055567cd5cf823e2af9f621ab509652a05ea4bf30c834300cbabe17186b8
+R7B1C_G122	S2_distinct_correlated	50	0.08	0.06	0.22	1.0	1.0	0.76		0ed93bb91f2447125c745d5c7cafc5fd53caeada70cc6e24a54bc23bcfa52827
+R7B1C_G203	S3_disease2_qtl1_partial	50	0.46	0.5	0.04	1.0	1.0	0.64		37327fec5f8d0c2ca40107b0fa7ad73b4698eab2b86bf0e38efd2f1f95b2ca70
+R7B1C_G284	S4_two_by_two_one_shared	50	0.06	0.02	0.0	1.0	1.0	0.02		daa484ccfae8c963737b502216c2419558de89d367379d28bec186aebb20713a
+R7B1C_G365	S5_two_by_two_none_highLD	50	0.06	0.04	0.0	1.0	1.0	0.06		df7a8151bf990d990c1333324e2a220ed40104f87cf2ca8fa7285b127b719c37
+R7B1C_G446	S6_matched_vs_mismatched_LD	50	0.02	0.02	0.0	1.0	1.0	0.02	0.02	122b644b07b3b07a4187bd4f8b04f02f127ad4e24456dc28a6021fbcb370476c

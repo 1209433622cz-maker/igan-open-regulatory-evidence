@@ -1,0 +1,43 @@
+check	status	detail
+exact_title	PASS	# Input-matched multi-signal colocalization clarifies immune-cell regulatory assignments at primary biliary cholangitis risk loci
+article_type	PASS	Research
+abstract_structure	PASS	['Background', 'Results', 'Conclusions']
+abstract_word_limit	PASS	294
+abstract_no_citations	PASS	no numeric citations
+keyword_count	PASS	8
+required_sections	PASS	['## Background', '## Methods', '## Results', '## Discussion', '## Conclusions', '## List of abbreviations', '## Declarations', '## References', '## Figure legends', '## Additional files']
+declaration_headings	PASS	"['Ethics approval and consent to participate', 'Consent for publication', 'Availability of data and materials', 'Competing interests', 'Funding', ""Authors' contributions"", 'Acknowledgements', ""Authors' information""]"
+llm_disclosure	PASS	supervised use disclosed
+immutable_repository_tag	PASS	r7b4a-human-genomics-interface-2026-10-10
+numeric_anchor_coverage	PASS	missing=[]
+prohibited_claims_absent	PASS	[]
+replication_language_bounded	PASS	explicit disease-replication boundary
+screening_scope_bounded	PASS	claim ceiling explicit
+reference_count_and_continuity	PASS	[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+figure_legends	PASS	['1', '2', '3', '4', '5', '6']
+figure2_semantic_legend	PASS	60/32 wording
+figure2_semantic_label	PASS	label corrected without count change
+figure_triplets	PASS	18
+figure_hash_manifest	PASS	18
+graphical_abstract	PASS	(920, 300)
+additional_file_1	PASS	3282142
+supplement_workbook_identity	PASS	7f53dfd60195b9903a52f638ba5ae6f8c7286adec9bcec0652bf1c27adf57382
+additional_file_2_crc	PASS	members=28 bad=None
+no_restricted_raw_files	PASS	[]
+official_guideline_inventory	PASS	12
+journal_route_lock	PASS	{'priority': 'PRIMARY_LOCKED', 'journal': 'Human Genomics', 'article_type': 'Research', 'scope_fit': 'HIGH', 'publisher_metric': '2025 JIF 4.1', 'quartile_evidence': 'JCR Q2 in current public JCR-derived 2026 list; SCImago 2025 Q1', 'quartile_source_caveat': 'Clarivate JCR direct subscriber record was not accessible; institutional confirmation advised immediately before submission', 'format_delta': 'completed in R7B4A', 'main_risk': 'editorial novelty; mandatory OA APC', 'decision': 'GO_AFTER_HUMAN_METADATA'}
+quartile_caveat	PASS	PASS_WITH_SOURCE_CAVEAT_AND_INSTITUTIONAL_RECHECK
+upload_map	PASS	12
+human_gate_files	PASS	HUMAN_COMPLETION_GATE
+next_stage	PASS	R7B4B_AUTHOR_COMPLETION_AND_FINAL_SUBMISSION_QA
+docx_exists	PASS	3802328
+docx_title_metadata	PASS	Input-matched multi-signal colocalization clarifies immune-cell regulatory assignments at primary biliary cholangitis risk loci
+docx_figure_objects	PASS	6
+docx_human_gate	PASS	gate retained in author-review draft
+cover_letter_files	PASS	md=True docx=True
+cover_human_confirmations	PASS	confirmation_lines=5
+wps_manuscript_pdf	PASS	pages=31 creator=WPS 文字 
+wps_pdf_title	PASS	Input-matched multi-signal colocalization clarifies immune-cell regulatory assignments at primary biliary cholangitis risk loci
+one_page_wps_cover	PASS	pages=1 creator=WPS 文字 
+wps_render_page_parity	PASS	rendered=31 pdf=31
+visual_contact_sheets	PASS	manual visual inspection assets present

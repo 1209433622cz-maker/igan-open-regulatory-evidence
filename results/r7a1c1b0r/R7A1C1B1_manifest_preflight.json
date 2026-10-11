@@ -1,0 +1,15 @@
+{
+  "schema": "R7A1C1B0_MANIFEST_PREFLIGHT_1.0",
+  "rows": 5,
+  "runs": [
+    "HRR1849459",
+    "HRR1849460",
+    "HRR1849461",
+    "HRR1849462",
+    "HRR1849463"
+  ],
+  "total_expected_bytes": 152488497199,
+  "total_expected_GiB": 142.01597981061786,
+  "errors": [],
+  "status": "PASS"
+}

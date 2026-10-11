@@ -1,0 +1,23 @@
+{
+  "input_package_sha256": "7acfd7cca97598550e9ec9c90daf37104e6164fe14478661f33829c71ec8f479",
+  "input_package_internal_checksums": "29/29_PASS",
+  "public_input_files_rehashed": 10,
+  "public_input_rehash": "PASS",
+  "frozen_targets": 11,
+  "measured_targets": 8,
+  "source_supported_candidates": [
+    "TNFSF12",
+    "TNFSF8"
+  ],
+  "source_supported_traits": 2,
+  "harmonized_traits_ge_500_variants": 2,
+  "valid_source_cs_components": 3,
+  "shared_signal_pass_components": 0,
+  "kidney_donors": {
+    "IgAN": 13,
+    "paracancer_control": 6
+  },
+  "ZMIZ1_case_minus_control_log2CPM": -0.2563662202045158,
+  "ZMIZ1_exact_permutation_p": 0.4827878519828984,
+  "status": "PASS_INDEPENDENT_REPRODUCTION"
+}

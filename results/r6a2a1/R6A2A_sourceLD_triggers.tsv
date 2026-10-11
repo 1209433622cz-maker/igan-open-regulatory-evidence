@@ -1,0 +1,1 @@
+dataset	locus	gene	cell_type	benchmark_role	n_snps	qtl_N	gwas_min_p	qtl_min_p	PP_H0	PP_H1	PP_H2	PP_H3	PP_H4	H4_over_H3H4	H4_p12_1e-6	H4ratio_p12_1e-6	H4_p12_1e-4	H4ratio_p12_1e-4	classification	shared_top_variant	shared_top_SNP_PP_H4_conditional

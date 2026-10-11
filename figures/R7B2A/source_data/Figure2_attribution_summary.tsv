@@ -1,0 +1,13 @@
+metric	value	interpretation
+frozen_comparisons	642	fixed universe
+support_set_state_changes_A0_to_A1	15	support-set attributable
+disease_stat_state_changes_A1_to_A2	19	disease-stat attributable
+model_state_changes_A2_to_M	139	matched-input model transition
+matched_input_H4_to_H3	8	descriptive falsification direction
+matched_input_H3_to_H4	10	descriptive rescue direction
+matched_input_stable_H4	79	stable H4
+matched_input_stable_H3	413	stable H3
+historical_12_retained_strict_direction	10	strict H4/H3 direction after matching
+fixed_to_native_A1_state_changes	0	scale sensitivity
+fixed_to_native_A2_state_changes	0	scale sensitivity
+matchedz_to_rounded_A2_state_changes	0	GJOKA statistic sensitivity

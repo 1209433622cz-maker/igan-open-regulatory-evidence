@@ -1,0 +1,143 @@
+{
+  "schema": "R7B1E0_QA_1.0",
+  "status": "PASS",
+  "passed": 21,
+  "total": 21,
+  "checks": [
+    {
+      "name": "diagnostic_units_2568",
+      "pass": true,
+      "observed": 2568,
+      "expected": 2568
+    },
+    {
+      "name": "diagnostic_comparisons_642",
+      "pass": true,
+      "observed": 642,
+      "expected": 642
+    },
+    {
+      "name": "diagnostic_loci_47",
+      "pass": true,
+      "observed": 47,
+      "expected": 47
+    },
+    {
+      "name": "all_diagnostics_pass",
+      "pass": true,
+      "observed": {
+        "PASS": 2568
+      },
+      "expected": {
+        "PASS": 2568
+      }
+    },
+    {
+      "name": "variant_rows_complete",
+      "pass": true,
+      "observed": 2568,
+      "expected": 2568
+    },
+    {
+      "name": "finite_rows_complete",
+      "pass": true,
+      "observed": 2568,
+      "expected": 2568
+    },
+    {
+      "name": "historical_count_preserved",
+      "pass": true,
+      "observed": 3333,
+      "expected": 3333
+    },
+    {
+      "name": "official_raw_flags_two",
+      "pass": true,
+      "observed": 2,
+      "expected": 2
+    },
+    {
+      "name": "official_unique_event_one",
+      "pass": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "official_event_reviewed",
+      "pass": true,
+      "observed": [
+        "REVIEWED_RETAIN_INPUT_NO_REFIT"
+      ],
+      "expected": [
+        "REVIEWED_RETAIN_INPUT_NO_REFIT"
+      ]
+    },
+    {
+      "name": "official_event_not_in_CS",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "no_posterior_refit",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "historical_labels_unchanged",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "semantics_642",
+      "pass": true,
+      "observed": 642,
+      "expected": 642
+    },
+    {
+      "name": "historical_H4_92",
+      "pass": true,
+      "observed": 92,
+      "expected": 92
+    },
+    {
+      "name": "H4_same_signal_92",
+      "pass": true,
+      "observed": 92,
+      "expected": 92
+    },
+    {
+      "name": "historical_H3_428",
+      "pass": true,
+      "observed": 428,
+      "expected": 428
+    },
+    {
+      "name": "H3_same_pair_428",
+      "pass": true,
+      "observed": 428,
+      "expected": 428
+    },
+    {
+      "name": "mixed_pairs_32",
+      "pass": true,
+      "observed": 32,
+      "expected": 32
+    },
+    {
+      "name": "labels_not_overwritten",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "protocol_exists",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    }
+  ],
+  "gate": "PASS_TO_R7B1E"
+}

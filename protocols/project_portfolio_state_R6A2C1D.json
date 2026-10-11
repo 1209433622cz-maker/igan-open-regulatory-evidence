@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-14",
+  "stage_completed": "R6A2C1D_REEP3_ACTUAL_FALSIFICATION_AND_TENK_REPLICATION",
+  "primary_project": "IgA_nephropathy",
+  "open_data_only": true,
+  "SSc_project": "FROZEN_ARCHIVE",
+  "MG_project": "FROZEN_ARCHIVE",
+  "immune_cis_eQTL_full24": "FROZEN_NO_GO",
+  "validated_anchor": {
+    "locus_gene_cell": "ZMIZ1_NK",
+    "status": "VALIDATED_CROSS_RESOURCE_ANCHOR"
+  },
+  "REEP3": {
+    "OneK1K_Asian_signal": "PASS_ASIAN_SPECIFIC_DISCOVERY_CANDIDATE",
+    "TenK10K_replication": "FAIL_INDEPENDENT_TENK_REPLICATION",
+    "claim_ceiling": "ONEK_DISCOVERY_ONLY_NO_INDEPENDENT_MOLECULAR_COLOC_REPLICATION"
+  },
+  "manuscript_scale_analysis": "HOLD",
+  "current_stage": "R6A3A_IGAN_COMPLETION_DESIGN_GATE",
+  "R6A3A": "GO_BOUNDED_PREFLIGHT",
+  "R6A3A_tracks": [
+    "OPEN_PUBLIC_CIS_PQTL_BYTE_LEVEL_PREFLIGHT",
+    "ZMIZ1_KIDNEY_DONOR_LEVEL_LOCALIZATION_PREFLIGHT"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "mode": "FINAL_SUBMISSION",
+  "candidate": "H:\\SCI2\\YR1\\5_manuscript\\R7B4B_FinalSubmissionCandidate",
+  "status": "HOLD_HUMAN_INPUT_REQUIRED",
+  "summary": {
+    "pass": 0,
+    "hold": 2,
+    "fail": 0,
+    "total": 2
+  },
+  "checks": [
+    {
+      "check": "candidate_file_inventory",
+      "status": "HOLD",
+      "detail": "['md', 'docx', 'pdf', 'cover_md', 'cover_docx', 'cover_pdf', 'render_receipt', 'graphical_abstract', 'supp1', 'supp2']"
+    },
+    {
+      "check": "author_record",
+      "status": "HOLD",
+      "detail": "authors=0"
+    }
+  ],
+  "page_count_rule": "not fixed; must be WPS-rendered, version-bound and visually inspected",
+  "placeholder_rule": "specific author/declaration markers only; numeric citation brackets are allowed"
+}

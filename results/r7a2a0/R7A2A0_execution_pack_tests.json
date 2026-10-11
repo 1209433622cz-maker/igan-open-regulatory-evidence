@@ -1,0 +1,24 @@
+{
+  "schema": "R7A2A0_EXECUTION_PACK_TESTS_1.0",
+  "passed": 4,
+  "total": 4,
+  "checks": [
+    {
+      "name": "synthetic_exact_5_vs_5",
+      "pass": true
+    },
+    {
+      "name": "two_targets",
+      "pass": true
+    },
+    {
+      "name": "known_direction",
+      "pass": true
+    },
+    {
+      "name": "exact_permutation_minimum",
+      "pass": true
+    }
+  ],
+  "status": "PASS"
+}

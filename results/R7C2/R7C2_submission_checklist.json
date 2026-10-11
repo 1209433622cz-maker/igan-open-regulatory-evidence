@@ -1,0 +1,30 @@
+{
+  "stage": "R7C2_NPJ_DUAL_TRACK",
+  "target": "npj Genomic Medicine",
+  "article_type": "Article",
+  "author_final_submission_required": true,
+  "checks": {
+    "title_le_15_words_and_no_punctuation": true,
+    "abstract_unstructured_le_150_words": true,
+    "introduction_no_subheadings": true,
+    "results_has_subheadings": true,
+    "discussion_no_subheadings": true,
+    "no_separate_limitations_section": true,
+    "no_separate_conclusions_section": true,
+    "methods_has_subheadings": true,
+    "data_availability_present": true,
+    "code_availability_present": true,
+    "author_contributions_present": true,
+    "competing_interests_present": true,
+    "cover_letter_present": true,
+    "figures_separate": true,
+    "source_data_machine_readable": true,
+    "human_genomics_fallback_frozen": true
+  },
+  "apc": {
+    "GBP": 3190,
+    "USD": 4390,
+    "EUR": 3590,
+    "waiver_or_discount_decision_required_at_submission": true
+  }
+}

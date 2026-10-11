@@ -1,0 +1,25 @@
+{
+  "schema": "R7B1E0_DIAGNOSTIC_ADJUDICATION_1.0",
+  "status": "PASS_WITH_REVIEWED_NONDECISION_FLAG",
+  "loci": 47,
+  "comparisons": 642,
+  "diagnostic_units": 2568,
+  "diagnostic_pass": 2568,
+  "diagnostic_hold": 0,
+  "historical_logLR_gt2_raw_count": 3333,
+  "official_rule_raw_count": 2,
+  "official_rule_unique_events": 1,
+  "unique_event_ids": [
+    "286ef2a077a0d553"
+  ],
+  "unique_event_comparison_ids": [
+    "R7B1_003438"
+  ],
+  "unique_event_variants": [
+    "12:6172202"
+  ],
+  "unique_event_in_any_credible_set": false,
+  "posterior_refit_required": false,
+  "historical_classifications_changed": false,
+  "decision": "DIAGNOSTIC_INTERFACE_FIXED_AND_REPLAYED__ONE_NONDECISION_FLAG_RETAINED"
+}

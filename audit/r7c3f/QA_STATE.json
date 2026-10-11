@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "checks": 114,
+  "passed": 114,
+  "failed": [],
+  "public_files": 2328,
+  "public_bytes": 164098926,
+  "public_largest_bytes": 5535453,
+  "historical_git_blobs_scanned": 1529,
+  "original_content_assets_unchanged": 21,
+  "scientific_source_members_unchanged": 48,
+  "new_biological_analysis": false,
+  "new_render_or_portal_proof": false
+}

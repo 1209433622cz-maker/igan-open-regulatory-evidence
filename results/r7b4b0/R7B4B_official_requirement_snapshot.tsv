@@ -1,0 +1,13 @@
+requirement	observed_current_rule	implementation_status	source	accessed
+article_type	Research articles report original primary research	PASS_ROUTE_LOCKED	https://link.springer.com/journal/40246/submission-guidelines/research	2026-10-10
+graphical_abstract	Mandatory landscape image approximately 920x300; JPEG PNG or SVG	PASS_UPSTREAM_920x300	https://link.springer.com/journal/40246/submission-guidelines/research	2026-10-10
+title_page	Full author names and institutional addresses; corresponding author indicated	HOLD_VERIFIED_AUTHOR_INPUT	https://link.springer.com/journal/40246/submission-guidelines/research	2026-10-10
+llm	LLMs are not authors; supervised use documented in Methods	PASS_UPSTREAM_DISCLOSURE	https://link.springer.com/journal/40246/submission-guidelines/research	2026-10-10
+abstract	Background Results Conclusions; <=350 words; no citations	PASS_UPSTREAM_270_WORDS	https://link.springer.com/journal/40246/submission-guidelines/research	2026-10-10
+keywords	3-10 keywords	PASS_UPSTREAM_8	https://link.springer.com/journal/40246/submission-guidelines/research	2026-10-10
+ethics	Human participants/data/tissue require ethics and consent statement even if approval waived	HOLD_INSTITUTIONAL_WORDING	https://link.springer.com/journal/40246/submission-guidelines/research	2026-10-10
+authors_information	Optional	NOT_HARD_BLOCK	https://link.springer.com/journal/40246/submission-guidelines/research	2026-10-10
+author_submission	Only an author may submit; no third-party submission	HOLD_AUTHOR_OPERATED_SUBMISSION	https://link.springer.com/journal/40246/submission-guidelines	2026-10-10
+apc	GBP 2590 / USD 3390 / EUR 2890; taxes may apply	HOLD_APC_ROUTE	https://link.springer.com/journal/40246/submission-guidelines	2026-10-10
+waiver_timing	Discretionary waiver/discount application at initial submission	HOLD_IF_APPLICABLE	https://link.springer.com/journal/40246/submission-guidelines	2026-10-10
+institutional_quartile	Publisher metric does not establish the author's institutional classification	HOLD_INSTITUTIONAL_RECHECK	https://link.springer.com/journal/40246	2026-10-10

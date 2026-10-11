@@ -1,0 +1,17 @@
+{
+  "schema": "R7B1A_INDEPENDENT_QA_1.0",
+  "status": "PASS",
+  "checks_pass": 12,
+  "checks_total": 12,
+  "frozen_comparisons": 6923,
+  "eligible_comparisons": 5460,
+  "insufficient_variant_overlap": 1463,
+  "trigger_comparisons": 184,
+  "trigger_loci": 25,
+  "trigger_cell_locus_blocks": 120,
+  "robust_H4": 112,
+  "H3_H4_ambiguity": 72,
+  "skeptical_prior_H4_ratio_ge_0_5": 101,
+  "interpretation": "screen triggers only; no multi-signal biological conclusion",
+  "next": "R7B1B_exact_184_trigger_source_matched_multisignal"
+}

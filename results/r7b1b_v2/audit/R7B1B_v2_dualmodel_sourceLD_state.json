@@ -1,0 +1,28 @@
+{
+  "schema": "R7B1B_V2_DUALMODEL_SOURCE_LD_1.0",
+  "status": "PASS",
+  "comparisons": 642,
+  "qtl_summaries": 1284,
+  "cell_locus_blocks": 286,
+  "cells": 14,
+  "loci": 47,
+  "original184_pf10_regression_checks": 184,
+  "runtime_seconds": 126.78,
+  "inputs": {
+    "workload_sha256": "7df7cada737afbbe27755ded566b3d49ac70c6861c8873607f55a1cf095845d1",
+    "blocks_sha256": "459ccbc4ab2f278ece7038094c378b2741522a4fd818fa2ae958495e96b678ca",
+    "disease_sha256": "7f06b1e302a2d9244af53128806964a8563895216cb18b2972f1aeffb67a8a40",
+    "pseudobulk_sha256": "92b38f54e1dd77cdac6d1c814db30ff0e83eaff209825f020839402b90e027e5",
+    "gene_list_sha256": "68757fb2c571da1c4a123aa9d8ee22ae30e75661960d81d7daadac78c467f407",
+    "bed_sha256": "75a2ebd613b9c63b7a283722180aeef871d08490cb75ba1bce52deec6a19eb63",
+    "fam_sha256": "774c0c1c7491e892520c5c645fd790ba6f7ee0204467260fcf6088b68eb428ad"
+  },
+  "outputs": {
+    "qtl_receipts_sha256": "b261f6b0bc69a47cb0a04e6b9372ae160f64fdf1a4235cebb9180bc6438aaee7",
+    "block_receipts_sha256": "0f616850731d0041d82744c1be3a610ac2ed85d822dac529106804e9cdc0042a",
+    "cell_receipts_sha256": "3dc7cef5fb07cd782fe6f835e91c4cd639e65809d12bedfea56d4c1b9cc88aff",
+    "regression_QA_sha256": "8fa7c7a645cde468bd31acec00465921c8798d0ea0eac63c5946f4149280fc93"
+  },
+  "posterior_multisignal_read_before_input_build": false,
+  "next": "R7B1B_V2_642_SOURCE_MATCHED_SUSIE_COLOC"
+}

@@ -1,0 +1,107 @@
+{
+  "stage": "R7B4B_PREAUTHOR_INDEPENDENT_GATE",
+  "status": "HOLD_HUMAN_INPUT_REQUIRED",
+  "summary": {
+    "pass": 10,
+    "hold": 8,
+    "fail": 0,
+    "total": 18
+  },
+  "checks": [
+    {
+      "check": "release_identity",
+      "status": "PASS",
+      "detail": "PASS"
+    },
+    {
+      "check": "repository_identity",
+      "status": "PASS",
+      "detail": "{'local_head': '375dd6d6e1cb3949fed50089a14e446eae9c9b4e', 'origin_main': '375dd6d6e1cb3949fed50089a14e446eae9c9b4e', 'tag_object': '7b0c36bc03546d0f088b2cd9ac6b95dfb923fb82', 'tag_commit': 'c768ff4c02481331c6563cf8e040062a8e31b6db', 'worktree_clean': True, 'status': 'PASS'}"
+    },
+    {
+      "check": "historical_r7b4a_qa",
+      "status": "PASS",
+      "detail": "{'pass': 42, 'total': 42}"
+    },
+    {
+      "check": "reference_list_continuity",
+      "status": "PASS",
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]"
+    },
+    {
+      "check": "reference_first_appearance",
+      "status": "PASS",
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]"
+    },
+    {
+      "check": "author_review_placeholders_explicit",
+      "status": "PASS",
+      "detail": "['TO BE COMPLETED', 'AUTHOR CONFIRMATION REQUIRED', 'LOCAL INSTITUTIONAL DETERMINATION', 'CRediT CONTRIBUTIONS TO BE COMPLETED', 'ADDITIONAL ACKNOWLEDGEMENTS TO BE COMPLETED', 'OPTIONAL AUTHOR BIOGRAPHICAL INFORMATION TO BE COMPLETED', 'FULL AUTHOR NAMES TO BE COMPLETED', 'NUMBERED INSTITUTIONAL ADDRESSES TO BE COMPLETED', 'POSTAL ADDRESS, EMAIL, AND TELEPHONE TO BE COMPLETED']"
+    },
+    {
+      "check": "author_review_internal_gate_present",
+      "status": "PASS",
+      "detail": "historical author-review condition"
+    },
+    {
+      "check": "author_review_cover_confirmations",
+      "status": "PASS",
+      "detail": "7"
+    },
+    {
+      "check": "historical_wps_manuscript",
+      "status": "PASS",
+      "detail": "31"
+    },
+    {
+      "check": "historical_wps_cover",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "check": "final_author_metadata",
+      "status": "HOLD",
+      "detail": "verified author record not supplied"
+    },
+    {
+      "check": "final_placeholder_zero",
+      "status": "HOLD",
+      "detail": "manuscript=9 cover=7"
+    },
+    {
+      "check": "final_internal_gate_removed",
+      "status": "HOLD",
+      "detail": "historical review DOCX correctly retains internal gate"
+    },
+    {
+      "check": "final_declarations_confirmed",
+      "status": "HOLD",
+      "detail": "ethics/funding/COI/CRediT/acknowledgements pending"
+    },
+    {
+      "check": "institutional_q2_confirmation",
+      "status": "HOLD",
+      "detail": "institution-specific evidence not supplied"
+    },
+    {
+      "check": "final_wps_parity",
+      "status": "HOLD",
+      "detail": "final DOCX/PDF not generated"
+    },
+    {
+      "check": "all_author_final_approval",
+      "status": "HOLD",
+      "detail": "version-bound approvals not supplied"
+    },
+    {
+      "check": "submission_authorization",
+      "status": "HOLD",
+      "detail": "author-operated submission remains unauthorized"
+    }
+  ],
+  "release_identity": "PASS",
+  "repository_identity": "PASS",
+  "new_biological_analysis": "NO",
+  "submission_authorized": "NO",
+  "next": "R7B4B_VERIFIED_AUTHOR_INPUT_AND_FINAL_CANDIDATE_BUILD"
+}

@@ -1,0 +1,36 @@
+{
+  "tests": 30,
+  "combined_tests": 10,
+  "robust_combined": 1,
+  "targeted_LD_triggers_combined": 0,
+  "published_cell_locus_status": [
+    {
+      "locus": "IRF4/DUSP22",
+      "status": "UNINFORMATIVE",
+      "best_gene": "IRF4",
+      "best_cell": "Mono_C",
+      "best_PP_H4": 0.09626709345329781,
+      "best_H4_ratio": 0.43008901026430024,
+      "best_qtl_min_p": 0.0005597275373888
+    },
+    {
+      "locus": "ITGAM/ITGAX",
+      "status": "UNINFORMATIVE",
+      "best_gene": "ITGAX",
+      "best_cell": "Mono_C",
+      "best_PP_H4": 0.1037211561344033,
+      "best_H4_ratio": 0.3337846723352586,
+      "best_qtl_min_p": 0.0013779866724084
+    },
+    {
+      "locus": "ZMIZ1",
+      "status": "PASS_SINGLE_SIGNAL",
+      "best_gene": "ZMIZ1",
+      "best_cell": "NK",
+      "best_PP_H4": 0.9305874680520649,
+      "best_H4_ratio": 0.9341141088825184,
+      "best_qtl_min_p": 3.511957351085424e-07
+    }
+  ],
+  "next": "ADJUDICATE_BENCHMARK_GATE"
+}

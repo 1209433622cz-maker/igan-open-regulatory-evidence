@@ -1,0 +1,6 @@
+{
+  "python_compile": {
+    "03_audit_candidate_gwas.py": "PASS",
+    "04_screen_qtl_positive_controls.py": "PASS"
+  }
+}

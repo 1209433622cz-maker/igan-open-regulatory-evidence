@@ -1,0 +1,36 @@
+{
+  "stage": "R7C0_SOURCE_IDENTITY_EXTERNAL_EVIDENCE_UPGRADE_PREFLIGHT",
+  "date": "2026-10-11",
+  "R7C0": "COMPLETE",
+  "PBC_PRIMARY_PROJECT": "GO",
+  "R7B4B2_Q2_BASELINE": "FROZEN_SUBMISSION_READY_UNCHANGED",
+  "G1_GJOKA_N": "PASS_SOURCE_MATCHED_N_TOTAL_NO_RERUN",
+  "G2_EXTERNAL_DISEASE": "PASS_FINNGEN_R13_X_ONEK_IL12RB2",
+  "G2_DEFAULT_PP_H4": 0.9976766621271316,
+  "G2_LOW_PRIOR_PP_H4": 0.9772424819044834,
+  "G2_SOURCE_CS": "2_OF_2_ONEK_QTL_CS_MEMBERS_IN_FINNGEN_R13_DISEASE_CS",
+  "G3_FIXED_92_CASCADE": "ONLY_IL12RB2_HAS_PBC_EQTL_COLOC",
+  "G3_CHROMATIN": "PASS_TRIANGULAR_SIGNAL_COHERENCE_WITHOUT_MEDIATION_PROOF",
+  "G4_OMIX": "FAIL_AS_INDEPENDENT_SPATIAL_VALIDATION_DESCRIPTIVE_ONLY",
+  "FCRL3_EXTERNAL_DISEASE_SUPPORT": "NO",
+  "NEW_GENE_LOCUS_SEARCH": "NO",
+  "FULL_642_RERUN": "NO",
+  "Q1_UPGRADE_TRACK": "GO_BOUNDED_MANUSCRIPT_FORK",
+  "NEXT": "R7C1_IL12RB2_EXTERNAL_VALIDATION_MODULE_AND_MANUSCRIPT_FORK",
+  "NEXT_HARD_BOUNDARIES": [
+    "Preserve R7B4B2 byte-identical baseline and submission package.",
+    "Add only the prespecified IL12RB2 external-disease and chromatin evidence module.",
+    "Describe FinnGen R13 x OneK as single-causal external validation with a source-CS audit, not a second source-LD multi-signal fit.",
+    "Do not claim direct eQTL-to-caQTL mediation; retain the missing direct posterior as a limitation.",
+    "Do not use OMIX001122 as independent spatial replication.",
+    "Hostile-audit the fork before any journal retargeting; retain the Q2 baseline if the upgrade does not survive review."
+  ],
+  "GITHUB_BASELINE_COMMIT": "db20068e700b9c1ded8fb9171dab7e8da6aa33b7",
+  "ZENODO_DOI": null,
+  "ZENODO_STATUS": "AUTHENTICATION_REQUIRED",
+  "qa": {
+    "pass": 25,
+    "fail": 0,
+    "total": 25
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "R7B1_PBCWIDE_ELIGIBILITY_1.0",
+  "status": "GENE_CELL_UNIVERSE_FROZEN_PENDING_VARIANT_OVERLAP",
+  "disease_loci": 56,
+  "cells": 14,
+  "top_qtl_members_read": 308,
+  "source_significant_genes_genomewide": 5712,
+  "mapped_locus_gene_pairs": 589,
+  "frozen_comparisons": 6923,
+  "loci_with_at_least_one_gene": 55,
+  "top_qtl_archive_sha256": "a3100acf36aedfbb78ab7ddc1113b9dcb119170c9c4b863d37b99a0edee05d5d",
+  "locus_ranges_sha256": "403366d805060824672e615e024255d46e30d05678943fcf3ed57fa60336ff5d",
+  "scaffold_sha256": "c45e18f1d105a5655884fb7af8387d545e0485e6c8c9df656f559ea6f2c63255",
+  "posterior_read_before_freeze": false
+}

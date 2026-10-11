@@ -1,0 +1,30 @@
+{
+  "schema": "R7A2A5_TARGET_JOURNAL_SUBMISSION_FORMAT_1.0",
+  "date": "2026-09-30",
+  "input_release": "CMM_R7A2A4_HostileManuscriptAudit_2026-09-30.zip",
+  "input_release_sha256": "c7c50a3637068d13d593f10b182fc0f26c715d8ef53e9d6fdf228c34dd3daaf9",
+  "R7A2A4_internal_checksums": "PASS_25_OF_25",
+  "PBC_PRIMARY_PROJECT": "GO",
+  "TARGET_JOURNAL": "Human Genomics",
+  "ARTICLE_TYPE": "Research",
+  "R7A2A5": "FORMATTED_AWAITING_AUTHOR_METADATA_AND_FINAL_SUBMISSION_QA",
+  "NEW_BIOLOGICAL_ANALYSIS_REQUIRED": false,
+  "MANUSCRIPT_DOCX": "H:\\SCI2\\YR1\\5_manuscript\\R7A2A5_HumanGenomics\\manuscript\\R7A2A5_HumanGenomics_manuscript_v3.docx",
+  "COVER_LETTER_DOCX": "H:\\SCI2\\YR1\\5_manuscript\\R7A2A5_HumanGenomics\\cover_letter\\R7A2A5_HumanGenomics_cover_letter_DRAFT.docx",
+  "GRAPHICAL_ABSTRACT": "H:\\SCI2\\YR1\\5_manuscript\\R7A2A5_HumanGenomics\\graphical_abstract\\Graphical_Abstract_R7A2A5_HumanGenomics_920x300.png",
+  "SUPPLEMENTARY_WORKBOOK": "H:\\SCI2\\YR1\\5_manuscript\\R7A2A5_HumanGenomics\\supplement\\Additional_file_1_R7A2A5_Supplementary_Tables.xlsx",
+  "HUMAN_BLOCKERS": [
+    "authors",
+    "affiliations",
+    "correspondence",
+    "CRediT",
+    "funding",
+    "competing interests",
+    "ethics/local waiver confirmation",
+    "all-author approval",
+    "APC/licence decision"
+  ],
+  "GITHUB_LOCAL_RELEASE_COMMIT": "PREPARED",
+  "GITHUB_REMOTE_SYNC": "PENDING_NETWORK_RETRY",
+  "NEXT": "R7A2A6_AUTHOR_METADATA_AND_FINAL_SUBMISSION_QA"
+}

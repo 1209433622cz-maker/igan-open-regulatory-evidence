@@ -1,0 +1,37 @@
+check	status	detail
+required_sections	PASS	['## Abstract', '## Background', '## Methods', '## Results', '## Discussion', '## Conclusions', '## Declarations', '## References', '## Figure legends', '## Supplementary materials']
+numeric_anchor_coverage	PASS	missing=[]
+prohibited_positive_claims	PASS	found=[]
+independent_disease_replication_bounded	PASS	explicitly bounded
+claim_ledger_count	PASS	27
+claim_text_coverage	PASS	[]
+reference_count_and_continuity	PASS	[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+bibliographic_verification	PASS	{'references': 22, 'pass_crossref_or_endpoint': 20, 'pass_web_primary': 2, 'fail': 0, 'status': 'PASS', 'web_primary_records': {'12': 'https://zenodo.org/records/18910121', '14': 'https://zenodo.org/records/18221260'}}
+figure_legends	PASS	['1', '2', '3', '4', '5', '6']
+figure_triplets	PASS	18
+figure_hash_manifest	PASS	18
+no_figure2_fallback	PASS	fail-closed source check
+deterministic_tissue_points	PASS	fixed offsets
+figure5c_exact_values	PASS	[np.float64(0.941334682686132), np.float64(0.9413349988264992), np.float64(0.949260546232612), np.float64(0.0036361957364122), np.float64(0.991894292309108)]
+supplement_state	PASS	{'stage': 'R7B3A_SUPPLEMENT_ASSEMBLY', 'status': 'PASS', 'supplements': 10, 'files_before_workbook': 34, 'excluded': ['individual-level genotype', 'BAM', 'pseudobulk matrices', 'licensed source archives'], 'row_controls': {'S2': 6923, 'S3': 642, 'S5_fit_QC': 2568, 'S6_pairs': 10542, 'S7_iterations': 486000, 'S9_donor_rows': 20, 'S10_claims': 27}}
+supplement_directories	PASS	10
+S2_workbook_rows	PASS	6923
+S3_workbook_rows	PASS	642
+S4_workbook_rows	PASS	642
+S5_workbook_rows	PASS	3210
+S6_workbook_rows	PASS	11184
+S7_workbook_rows	PASS	540
+S8_workbook_rows	PASS	21
+S9_workbook_rows	PASS	28
+S10_workbook_rows	PASS	37
+supplement_workbook	PASS	3282142
+supplement_sheet_visual_review	PASS	10
+manuscript_word_count	PASS	8175
+unknown_metadata_explicit	PASS	9
+docx_exists	PASS	3792701
+docx_figure_objects	PASS	6
+docx_section_parity	PASS	44
+pdf_exists	PASS	2799323
+wps_pdf_creator	PASS	 WPS 文字
+pdf_page_count	PASS	31
+pdf_page_render_parity	PASS	rendered=31 pages=31

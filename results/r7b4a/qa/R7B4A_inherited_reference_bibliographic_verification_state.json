@@ -1,0 +1,11 @@
+{
+  "references": 22,
+  "pass_crossref_or_endpoint": 20,
+  "pass_web_primary": 2,
+  "fail": 0,
+  "status": "PASS",
+  "web_primary_records": {
+    "12": "https://zenodo.org/records/18910121",
+    "14": "https://zenodo.org/records/18221260"
+  }
+}

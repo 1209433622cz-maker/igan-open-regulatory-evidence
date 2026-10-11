@@ -1,0 +1,11 @@
+{
+  "schema": "R7B1B_V2_GJOKA_INTAKE_1.0",
+  "status": "PASS",
+  "members": 94,
+  "loci": 47,
+  "local_uncompressed_bytes": 2714228510,
+  "existing_reused": 50,
+  "remote_fetched": 44,
+  "receipt_sha256": "1e7130738244e350b7ea05916395c1867a7b12dcd0470b10e2cc5f6067346d61",
+  "url": "https://www.staff.ncl.ac.uk/heather.cordell/GJOKA_SUMSTATS.zip"
+}

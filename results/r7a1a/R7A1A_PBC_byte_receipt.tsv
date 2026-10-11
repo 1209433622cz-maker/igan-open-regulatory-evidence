@@ -1,0 +1,2 @@
+"candidate"	"accession"	"role"	"url"	"file"	"bytes"	"md5"	"sha256"	"status"
+"PBC"	"GCST90061440"	"eligible_core"	"https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90061001-GCST90062000/GCST90061440/GCST90061440_buildGRCh37.tsv"	"GCST90061440_buildGRCh37.tsv"	"373673109"	"c48ede08359f6fc919810591cc0daad7"	"439aa72c59b876236de2b8172c443a447cefa6868ace535183cec8b758a05921"	"PASS"

@@ -1,0 +1,7 @@
+candidate	priority	gene	cytoband	preregistration_basis	role
+PBC	1	IL12RB2	1p31.3	Published 2021 PBC GWMA/moloc candidate at a genome-wide significant risk locus	PRIMARY_POSITIVE_CONTROL
+PBC	2	FCRL3	1q23.1	Published 2021 PBC GWMA/moloc candidate at a genome-wide significant risk locus	PRIMARY_POSITIVE_CONTROL
+PBC	3	INAVA	1q32.1	Published 2021 PBC GWMA/moloc candidate at a genome-wide significant risk locus	PRIMARY_POSITIVE_CONTROL
+CeD	1	CSK	15q24	Supported by all four gene-prioritization methods in the 2020 CeD integrative study	PRIMARY_POSITIVE_CONTROL
+CeD	2	TRAFD1	12q24	Three lines of evidence in 2020 CeD study; validated master regulator context	PRIMARY_POSITIVE_CONTROL
+CeD	3	UBASH3A	21q22	Three lines of evidence in 2020 CeD integrative study	PRIMARY_POSITIVE_CONTROL

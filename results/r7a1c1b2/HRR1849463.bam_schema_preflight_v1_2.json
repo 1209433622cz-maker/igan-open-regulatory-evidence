@@ -1,0 +1,78 @@
+{
+  "schema": "R7A1C1B1R_BAM_SCHEMA_PREFLIGHT_1.2",
+  "run": "HRR1849463",
+  "bam": "/mnt/h/SCI2/YR1/1_data/scrna/PBC/HRA008003/bam/HRR1849463.bam",
+  "records_inspected": 2078203,
+  "sampling_rule": {
+    "min_records": 500000,
+    "max_records": 5000000,
+    "stop_after_target_xf8": 1000,
+    "coordinate_sorted_adaptive_prefix": true,
+    "prefix_xf8_abundance_is_not_a_hard_gate": true
+  },
+  "counts": {
+    "records": 2078203,
+    "has_xf": 597149,
+    "xf8": 1000,
+    "xf8_CB": 1000,
+    "xf8_GN": 1000,
+    "xf8_UB": 1000,
+    "xf8_unambiguous_GN": 1000
+  },
+  "fractions": {
+    "CB_among_xf8": 1.0,
+    "GN_among_xf8": 1.0,
+    "UB_among_xf8": 1.0,
+    "unambiguous_GN_among_xf8": 1.0
+  },
+  "xf8_density_per_million_records": 481.1849468025982,
+  "program_header": [
+    {
+      "PN": "STAR",
+      "ID": "STAR",
+      "VN": "STAR_2.5.1b",
+      "CL": "STAR   --runThreadN 4   --genomeDir /mnt/penglei/soft/cellranger-3.1.0/refdata-cellranger-GRCh38-3.0.0/star   --readFilesIn /dev/fd/63      --readNameSeparator space      --outStd SAM   --outSAMtype SAM      --outSAMunmapped Within   KeepPairs      --outSAMorder PairedKeepInputOrder   --outSAMattrRGline ID:pbc-liver5:0:1:H5TWNDSXY:2   SM:pbc-liver5   LB:0.1   PU:pbc-liver5:0:1:H5TWNDSXY:2   PL:ILLUMINA      --outSAMmultNmax 18446744073709551615"
+    },
+    {
+      "ID": "annotate_reads"
+    }
+  ],
+  "bam_sort_order": "coordinate",
+  "examples": [
+    {
+      "CB": "GAGATGGAGATGACCG-1",
+      "GN": "AL627309.1",
+      "UB": "CTTGTTTCGCTC",
+      "xf": 25
+    },
+    {
+      "CB": "AAAGTGACAACTCGTA-1",
+      "GN": "AL627309.1",
+      "UB": "GTATCGTTTTTC",
+      "xf": 25
+    },
+    {
+      "CB": "CCTCACAGTGATATAG-1",
+      "GN": "AL627309.1",
+      "UB": "AACGAATTGGCC",
+      "xf": 25
+    },
+    {
+      "CB": "GCCGTGACACCTCGTT-1",
+      "GN": "AL627309.1",
+      "UB": "TCTCCGCCATCG",
+      "xf": 25
+    },
+    {
+      "CB": "CAATCGATCCCTCATG-1",
+      "GN": "AL627309.1",
+      "UB": "TACACACCTCAT",
+      "xf": 25
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "schema_valid": true,
+  "quantitative_adequacy": "DEFERRED_TO_FULL_TARGET_PANEL_SCAN",
+  "status": "PASS"
+}

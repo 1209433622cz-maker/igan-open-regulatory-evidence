@@ -1,0 +1,12 @@
+source	url	verified_2026_10_11	relevant_rule
+npj Genomic Medicine aims and scope	https://www.nature.com/npjgenmed/aims	PASS	Genomics applied to medicine; integrative phenotype-genome analysis; immunogenomics; disease polymorphisms; informatics
+npj Genomic Medicine content types	https://www.nature.com/npjgenmed/content-types	PASS	Article; title <=15 words without punctuation; unstructured abstract <=150 words; no Discussion subheadings, limitations or conclusion section
+npj Genomic Medicine editorial process	https://www.nature.com/npjgenmed/for-authors-and-referees/editorial-process	PASS	Editors assess advance, evidence and journal-level visibility
+npj Genomic Medicine metrics	https://www.nature.com/npjgenmed/journal-impact	PASS	2025 JIF 5.3; median 18 days to first editorial decision
+npj Genomic Medicine APC	https://www.nature.com/npjgenmed/apc	PASS	Original Research APC GBP 3190 / USD 4390 / EUR 3590; waiver/discount request at submission
+Communications Biology aims	https://www.nature.com/commsbio/aims	PASS	Significant advances bringing new biological insight; computational and secondary analyses permitted
+Communications Biology content types	https://www.nature.com/commsbio/submit/content-types	PASS	Article; recommended main text under approximately 5,000 words; up to 10 display items
+Genome Medicine aims and scope	https://link.springer.com/journal/13073/aims-and-scope	PASS	Outstanding broad-interest research applying genetics, genomics and multi-omics to understand, diagnose and treat disease
+Genome Medicine submission guidelines	https://link.springer.com/journal/13073/submission-guidelines	PASS	Research/Method/Software types; APC USD 5490; broad clinical/basic bridge
+Human Genomics aims and scope	https://link.springer.com/journal/40246/aims-and-scope	PASS	Human genetics, GWAS, regulatory genomics, statistical genetics, bioinformatics and integrative multi-omics
+Human Genomics submission guidelines	https://link.springer.com/journal/40246/submission-guidelines	PASS	Research and Methodology types; APC USD 3390; machine-readable data encouraged

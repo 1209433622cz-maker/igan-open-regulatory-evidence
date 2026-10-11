@@ -1,0 +1,13 @@
+order	submission_designation	file	status	note
+1	Main manuscript	manuscript/R7B4A_HumanGenomics_manuscript.docx	TECHNICALLY_READY_HUMAN_FIELDS_PENDING	Replace author/declaration placeholders before upload
+2	Graphical abstract	graphical_abstract/Graphical_Abstract_HumanGenomics_920x300.png	READY	920x300 pixels; SVG also supplied
+3	Figure 1	figures/Figure1_study_scope_and_model_integrity.png	READY	600 dpi source-bound composite
+4	Figure 2	figures/Figure2_input_matched_reclassification.png	READY	semantic label corrected; counts unchanged
+5	Figure 3	figures/Figure3_simulation_discovery_and_inference.png	READY	600 dpi source-bound composite
+6	Figure 4	figures/Figure4_IL12RB2_external_evidence.png	READY	bounded chromatin relationships
+7	Figure 5	figures/Figure5_FCRL3_support_and_counterexample.png	READY	exact A0/A1/A2/M values
+8	Figure 6	figures/Figure6_liver_tissue_boundary.png	READY	deterministic donor display
+9	Additional file 1	supplement/Additional_file_1_Supplementary_Tables_S1-S10.xlsx	READY	editable workbook
+10	Additional file 2	supplement/Additional_file_2_Machine_Readable_Supplementary_Data.zip	READY	public derived tables only
+11	Cover letter	cover_letter/R7B4A_HumanGenomics_cover_letter_DRAFT.docx	HUMAN_CONFIRMATION_PENDING	complete signature and confirmation fields
+12	Reviewer PDF	manuscript/R7B4A_HumanGenomics_manuscript_WPS.pdf	READY_AFTER_WPS_EXPORT	not a substitute for editable manuscript

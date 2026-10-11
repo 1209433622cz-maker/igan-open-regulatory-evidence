@@ -1,0 +1,55 @@
+﻿id,date,journal,jif,title,archetype,score,level,verdict,file
+P01,2024-06,Journal of Assisted Reproduction and Genetics,2.8,整合生物信息学分析鉴定非梗阻性无精子症中的铁死亡相关基因,经典生物信息学/生物标志物筛选型,3.0,C（基础模板/需升级）,易复刻但已高度同质化；适合作为“结果顺序”教材，不宜作为2026年新稿的完整母版。,P01_Journal_of_Assisted_Reproduction_and_G_写作逻辑分析.md
+P02,2024-11,Ecotoxicology and Environmental Safety,6.6,环境诱因与自身免疫性疾病未来风险：双酚A的分子机制与网络毒理学分析,网络毒理/网络药理 + 分子对接型,2.8,S（特殊文体，不作为原创研究母版）,多疾病分层使结果有叙事感，但纯数据库靶点+对接证据层级偏低。,P02_Ecotoxicology_and_Environmental_Safety_写作逻辑分析.md
+P03,2024-11,Journal of Affective Disorders,5.7,解析神经质的遗传基础：可成药基因靶点的孟德尔随机化研究,可成药靶点 MR + 共定位 + 转化型,4.5,A（强推荐借鉴）,可成药基因→MR→共定位→复现→PheWAS→药物的闭环非常适合作为公共数据转化论文母版。,P03_Journal_of_Affective_Disorders_写作逻辑分析.md
+P04,2024-11,Reproductive Toxicology,3.4,采用网络毒理学与分子对接评估环境污染物邻苯二甲酸二（2-乙基己基）酯的男性生殖毒性,网络毒理/网络药理 + 分子对接型,2.8,S（特殊文体，不作为原创研究母版）,结构清楚、可快速复刻；新稿必须加入真实暴露、人群、因果或实验层。,P04_Reproductive_Toxicology_写作逻辑分析.md
+P05,2025-01,American Journal of Reproductive Immunology,2.5,沙眼衣原体感染抗体介导免疫反应与生殖道并发症的因果关系：双向孟德尔随机化研究,双向/两样本孟德尔随机化型,3.4,C（基础模板/需升级）,双向MR逻辑干净，适合学习“一个问题、一条主轴”，但新颖性主要依赖问题本身。,P05_American_Journal_of_Reproductive_Immun_写作逻辑分析.md
+P06,2025-02,Clinical Rheumatology,2.7,基于网络药理学与分子对接探索雷公藤治疗系统性红斑狼疮的分子机制,网络毒理/网络药理 + 分子对接型,2.7,S（特殊文体，不作为原创研究母版）,网络药理写法标准，但若无实验或因果证据，高分期刊说服力有限。,P06_Clinical_Rheumatology_写作逻辑分析.md
+P07,2025-02,Ecotoxicology and Environmental Safety,6.6,白消安致非梗阻性无精子症的毒性及机制：整合分子对接、单细胞测序与体内实验的基因组毒理学研究,环境暴露多组学三角验证型,4.4,A（强推荐借鉴）,在计算毒理后加入单细胞和体内证据，形成从假说到生物验证的升级版。,P07_Ecotoxicology_and_Environmental_Safety_写作逻辑分析.md
+P08,2025-03,Archives of Dermatological Research,2.5,免疫细胞表型在皮炎发病机制中的复杂作用：因果推断孟德尔随机化分析,双向/两样本孟德尔随机化型,3.3,C（基础模板/需升级）,大规模免疫表型扫描的写法简洁，但需要严格控制多重比较和解释尺度。,P08_Archives_of_Dermatological_Research_写作逻辑分析.md
+P09,2025-03,Frontiers in Public Health,4.1,70岁以上人群高BMI相关肝癌的全球、区域和国家疾病负担：1990—2021年趋势及2044年预测,疾病负担与趋势预测型,3.7,C（基础模板/需升级）,全球→区域→国家→预测的空间时间叙事稳定，适合疾病负担类选题。,P09_Frontiers_in_Public_Health_写作逻辑分析.md
+P10,2025-03,Journal of Inflammation Research,4.6,通过生物信息学与实验验证鉴定RSAD2为连接铁代谢与树突状细胞激活的系统性红斑狼疮关键生物标志物,经典生物信息学/生物标志物筛选型,4.0,B（适合局部借鉴）,WGCNA/机器学习后用实验验证核心基因，显著强于仅做ROC的传统生信稿。,P10_Journal_of_Inflammation_Research_写作逻辑分析.md
+P11,2025-04,Ecotoxicology and Environmental Safety,6.6,通过孟德尔随机化与共定位分析优先筛选靶向系统性红斑狼疮基因的内分泌干扰物,可成药靶点 MR + 共定位 + 转化型,4.2,B（适合局部借鉴）,EDC响应基因与SLE用MR+共定位收缩靶点，因果层比传统网络毒理更强。,P11_Ecotoxicology_and_Environmental_Safety_写作逻辑分析.md
+P12,2025-04,Naunyn-Schmiedeberg's Archives of Pharmacology,4.0,免疫细胞表型与儿童疾病易感性：双向孟德尔随机化的证据及对免疫调节治疗的启示,双向/两样本孟德尔随机化型,3.5,C（基础模板/需升级）,免疫表型↔儿童疾病的双向扫描具有系统性，但容易出现结果碎片化。,P12_Naunyn_Schmiedeberg_s_Archives_of_Phar_写作逻辑分析.md
+P13,2025-05,"Cancer Immunology, Immunotherapy",5.8,含TCP1伴侣蛋白复合物亚基5作为泛癌肿瘤干性与免疫治疗反应的新型预后生物标志物：多组学、机器学习与实验验证,泛癌/多组学 + 机器学习生物标志物型,4.3,B（适合局部借鉴）,泛癌、机器学习、免疫治疗与实验验证形成大故事，但模块多、最怕“堆分析”。,P13_Cancer_Immunology_Immunotherapy_写作逻辑分析.md
+P14,2025-05,Frontiers in Immunology,7.0,整合基因组与单细胞框架鉴定结直肠癌精准治疗的可成药靶点,可成药靶点 MR + 共定位 + 转化型,4.8,A+（优先母版）,可成药靶点→因果→共定位→复现→PheWAS→药物→单细胞/IHC，闭环完整。,P14_Frontiers_in_Immunology_写作逻辑分析.md
+P15,2025-05,Journal of Translational Medicine,9.7,解析PFAS在肝细胞癌中的作用：多组学与计算毒理学研究,环境暴露多组学三角验证型,4.5,A（强推荐借鉴）,PFAS-HCC从计算毒理到多组学/空间与转化解释，适合学习“多层证据围绕同一暴露”。,P15_Journal_of_Translational_Medicine_写作逻辑分析.md
+P16,2025-06,Functional & Integrative Genomics,4.0,整合网络毒理学、单细胞测序、空间转录组与分子模拟解析PFAS对乳腺癌的潜在靶点与机制,环境暴露多组学三角验证型,4.2,B（适合局部借鉴）,网络毒理+单细胞+空间+分子模拟，视觉和层级丰富；因果强度仍取决于数据链是否同向。,P16_Functional_Integrative_Genomics_写作逻辑分析.md
+P17,2025-06,Inflammation Research,6.2,外泌体作为自身免疫炎症的免疫调节因子：对原发性干燥综合征的启示,机制综述/叙事综述型,3.8,B（适合局部借鉴）,适合学习机制综述如何从外泌体生物学过渡到pSS临床意义，而非原创研究母版。,P17_Inflammation_Research_写作逻辑分析.md
+P18,2025-06,International Journal of Surgery,9.0,PFAS相关人类癌症分子改变的整合计算分析：预测毒性基因组扰动的多癌种框架,环境暴露多组学三角验证型,4.0,B（适合局部借鉴）,多癌种框架提高外推范围，但更需要控制“泛癌=机制普适”的过度推断。,P18_International_Journal_of_Surgery_写作逻辑分析.md
+P19,2025-06,International Journal of Surgery,9.0,基于eQTL数据的基因组证据表明内分泌干扰物是雌激素受体阳性乳腺癌的环境风险因素,可成药靶点 MR + 共定位 + 转化型,4.3,B（适合局部借鉴）,以eQTL把环境响应基因与ER+乳腺癌连接，题目聚焦、遗传因果主线清晰。,P19_International_Journal_of_Surgery_写作逻辑分析.md
+P20,2025-07,Ageing Research Reviews,15.5,绘制衰老的免疫遗传图谱：用于生物标志物发现与治疗靶向的单细胞因果框架,单细胞 eQTL / scTWMR 因果靶点型,4.8,A+（优先母版）,把单细胞分辨率、因果推断、安全性和药物转化串成完整范式，是高价值模板。,P20_Ageing_Research_Reviews_写作逻辑分析.md
+P21,2025-07,Ecotoxicology and Environmental Safety,6.6,整合因果与单细胞分析揭示驱动男性不育的内分泌干扰物响应基因,单细胞 eQTL / scTWMR 因果靶点型,4.5,A（强推荐借鉴）,EDC响应基因+单细胞因果框架兼顾环境与生殖机制，适合做交叉主题。,P21_Ecotoxicology_and_Environmental_Safety_写作逻辑分析.md
+P22,2025-07,Ecotoxicology and Environmental Safety,6.6,整合因果推断揭示内分泌干扰物与女性不孕之间的基因-环境相互作用,可成药靶点 MR + 共定位 + 转化型,4.2,B（适合局部借鉴）,基因-环境相互作用用因果筛选而非仅交集网络，较传统毒理模板更有说服力。,P22_Ecotoxicology_and_Environmental_Safety_写作逻辑分析.md
+P23,2025-07,Health Information Science and Systems,4.4,线粒体相关蛋白在炎症和自身免疫性疾病中的作用：孟德尔随机化与共定位因果分析,可成药靶点 MR + 共定位 + 转化型,4.4,A（强推荐借鉴）,线粒体蛋白→MR/共定位→系统性关联/药物，主题聚焦且具可转化出口。,P23_Health_Information_Science_and_Systems_写作逻辑分析.md
+P24,2025-07,International Journal of Rheumatic Diseases,2.0,系统性红斑狼疮中的棕榈酰化动态：多组学洞见及潜在治疗意义,经典生物信息学/生物标志物筛选型,4.0,B（适合局部借鉴）,棕榈酰化主题把DEG/WGCNA/ML等工具围绕一个翻译后修饰组织，概念统一性较好。,P24_International_Journal_of_Rheumatic_Dis_写作逻辑分析.md
+P25,2025-08,European Archives of Psychiatry and Clinical Neuroscience,3.9,表观遗传年龄加速与精神障碍的关联：双向孟德尔随机化研究,双向/两样本孟德尔随机化型,3.6,C（基础模板/需升级）,表观遗传年龄与精神障碍双向MR问题清晰，但需要谨慎处理不同年龄时钟的异质性。,P25_European_Archives_of_Psychiatry_and_Cl_写作逻辑分析.md
+P26,2025-08,Frontiers in Immunology,7.0,解析胰腺导管腺癌微环境中肿瘤起始细胞的奥秘：机制与治疗机会,机制综述/叙事综述型,4.1,B（适合局部借鉴）,按肿瘤起始细胞的分子特征、微环境和治疗机会组织，适合学习“机制→机会”综述结构。,P26_Frontiers_in_Immunology_写作逻辑分析.md
+P27,2025-09,Archives of Dermatological Research,2.5,遗传预测的IgG N-糖基化谱作为皮炎的风险与保护因素,双向/两样本孟德尔随机化型,3.6,C（基础模板/需升级）,IgG N-糖基化作为多维暴露的MR扫描，强项是风险/保护双向解释。,P27_Archives_of_Dermatological_Research_写作逻辑分析.md
+P28,2025-09,Journal of Assisted Reproduction and Genetics,2.8,内分泌干扰物与男性不育：多组学鉴定非梗阻性无精子症关键基因,环境暴露多组学三角验证型,4.0,B（适合局部借鉴）,EDC与NOA用多组学收缩关键基因，适合学习“环境→疾病→关键基因”的桥接。,P28_Journal_of_Assisted_Reproduction_and_G_写作逻辑分析.md
+P29,2025-09,Next Research,暂无,全球趋势、关键贡献与启示：1999—2024年神经质研究的文献计量学分析,文献计量型,3.0,C（基础模板/需升级）,适合快速建立领域地图与选题，但不适合作为机制型SCI研究母版。,P29_Next_Research_写作逻辑分析.md
+P30,2025-09,The Journal of Headache and Pain,8.7,解析偏头痛的免疫细胞特异性遗传机制：用于靶点发现与治疗优先级排序的多组学框架,单细胞 eQTL / scTWMR 因果靶点型,4.9,A+（优先母版）,细胞特异遗传机制→靶点发现→治疗优先级，问题、机制、转化三段式很成熟。,P30_The_Journal_of_Headache_and_Pain_写作逻辑分析.md
+P31,2025-10,Autoimmunity Reviews,9.8,炎症与自身免疫性疾病中的铁蛋白自噬：机制解析与治疗潜力,机制综述/叙事综述型,4.5,A（强推荐借鉴）,围绕ferritinophagy形成机制—疾病—药物—临床转化链，是综述写作中的强模板。,P31_Autoimmunity_Reviews_写作逻辑分析.md
+P32,2025-10,Computational Biology and Chemistry,3.4,揭示通过性激素结合球蛋白调控生物可利用睾酮的新型蛋白通路,可成药靶点 MR + 共定位 + 转化型,4.6,A（强推荐借鉴）,蛋白→SHBG→生物可利用睾酮的中介因果链比普通MR多一层机制方向。,P32_Computational_Biology_and_Chemistry_写作逻辑分析.md
+P33,2025-10,Environmental Chemistry and Ecotoxicology,12.3,内分泌干扰物、免疫失调与阿尔茨海默病：揭示环境神经遗传机制的多组学研究,环境暴露多组学三角验证型,4.8,A+（优先母版）,EDC→AD以MR/复现/共定位/单细胞组成三角验证，并单列strengths/limitations，写作成熟。,P33_Environmental_Chemistry_and_Ecotoxicol_写作逻辑分析.md
+P34,2025-10,npj Parkinson's Disease,8.5,多组学揭示帕金森病外周免疫细胞特异性基因及其治疗意义,单细胞 eQTL / scTWMR 因果靶点型,5.0,A+（优先母版）,发现→共定位→独立sc-eQTL复现→scRNA验证→PheWAS→药物→BBB/对接，公共数据转化链最完整。,P34_npj_Parkinson_s_Disease_写作逻辑分析.md
+P35,2025-10,Translational Vision Science & Technology,2.7,遗传预测的免疫细胞表型作为青光眼风险与保护因素：探索性双向孟德尔随机化研究,双向/两样本孟德尔随机化型,3.5,C（基础模板/需升级）,青光眼亚型+双向免疫表型MR有临床可读性，但多表型扫描需避免把统计关联写成机制事实。,P35_Translational_Vision_Science_Technolog_写作逻辑分析.md
+P36,2025-11,Ecotoxicology and Environmental Safety,6.6,PFOA暴露与非酒精性脂肪性肝病关联的多维解析：流行病学、转录组学与分子对接整合分析,环境暴露多组学三角验证型,4.6,A（强推荐借鉴）,GBD/NHANES样式的人群证据+转录组+预测模型+对接，多维证据按“人群→分子”递进。,P36_Ecotoxicology_and_Environmental_Safety_写作逻辑分析.md
+P37,2025-11,Rheumatology,4.7,单细胞全转录组孟德尔随机化与共定位揭示系统性红斑狼疮的细胞特异性机制,单细胞 eQTL / scTWMR 因果靶点型,4.9,A+（优先母版）,Rheumatology版本非常克制：sc-eQTL→MR→共定位→PheWAS→药物，结果与Discussion高度镜像。,P37_Rheumatology_写作逻辑分析.md
+P38,2025-12,Clinical and Experimental Rheumatology,3.2,基于机器学习鉴定原发性干燥综合征中的焦亡相关基因作为生物标志物和治疗靶点,经典生物信息学/生物标志物筛选型,3.9,B（适合局部借鉴）,焦亡主题+机器学习生物标志物是常见模板；若有外部/实验验证则可显著增强。,P38_Clinical_and_Experimental_Rheumatology_写作逻辑分析.md
+P39,2025-12,Reproductive Toxicology,3.4,系统分析揭示与子宫内膜异位症相关的内分泌干扰化学物响应基因,环境暴露多组学三角验证型,4.1,B（适合局部借鉴）,EDC响应基因与子宫内膜异位症系统整合，适合环境生殖方向；避免数据库交集替代真实暴露。,P39_Reproductive_Toxicology_写作逻辑分析.md
+P40,2025-12,Signal Transduction and Targeted Therapy,81.2,脑葡萄糖再分配：丝氨酸-核苷酸依赖性增强胶质母细胞瘤治疗敏感性,Research Highlight / 研究亮点评述型,2.0,S（特殊文体，不作为原创研究母版）,写作质量很高但属于Research Highlight，不是原创研究设计模板；适合学“概念转折”与压缩表达。,P40_Signal_Transduction_and_Targeted_Thera_写作逻辑分析.md
+P41,2025-12,The FASEB Journal,4.3,单细胞全转录组孟德尔随机化与共定位分析揭示表观遗传年龄加速的细胞特异性机制,单细胞 eQTL / scTWMR 因果靶点型,4.7,A（强推荐借鉴）,把scTWMR/共定位用于表观遗传年龄加速，方法主轴统一，适合作为跨表型因果框架模板。,P41_The_FASEB_Journal_写作逻辑分析.md
+P42,2026-01,Next Research,暂无,病原体特异性抗体反应影响骨代谢与骨质疏松风险的遗传学和免疫学证据,双向/两样本孟德尔随机化型,4.0,B（适合局部借鉴）,病原体特异抗体→骨代谢/骨质疏松把免疫与骨健康连接，题目跨领域且可用遗传证据闭环。,P42_Next_Research_写作逻辑分析.md
+P43,2026-02,Human Genomics,4.1,整合基因组与暴露组数据鉴定可能与慢性阻塞性肺疾病相关的内分泌干扰物,环境暴露多组学三角验证型,4.5,A（强推荐借鉴）,基因组+暴露组识别COPD相关EDC，适合学习“exposome不是列表，而是通过基因层收缩”。,P43_Human_Genomics_写作逻辑分析.md
+P44,2026-03,Eye and Vision,5.2,加速度计测得的“周末勇士”体力活动模式与年龄相关眼病风险：前瞻性队列研究,大型前瞻性队列/组学型,4.8,A+（优先母版）,加速度计客观暴露+前瞻性队列+眼病结局，时间顺序明确，是观察性研究强模板。,P44_Eye_and_Vision_写作逻辑分析.md
+P45,2026-03,Pediatric Surgery International,1.8,隐睾手术模型中体细胞功能障碍先于睾丸退变,机制实验研究型,4.5,A（强推荐借鉴）,手术/隐睾模型用时间顺序证明体细胞功能障碍先于退变，核心优势是“先后关系”而非分析数量。,P45_Pediatric_Surgery_International_写作逻辑分析.md
+P46,2026-04,npj Gut and Liver,暂无,内分泌干扰物重编程肝脏代谢与免疫基因网络以促进肝细胞癌,环境暴露多组学三角验证型,4.8,A+（优先母版）,EDC→肝代谢/免疫网络→HCC，把因果、细胞与功能层收束到同一机制命题，适合高阶整合。,P46_npj_Gut_and_Liver_写作逻辑分析.md
+P47,2026-04,npj Gut and Liver,暂无,单细胞全转录组孟德尔随机化与共定位揭示胆石症的免疫细胞特异性遗传驱动因素,单细胞 eQTL / scTWMR 因果靶点型,4.8,A+（优先母版）,胆石症免疫细胞特异scTWMR+共定位，主线窄、因果链清晰，适合纯公共数据高质量稿。,P47_npj_Gut_and_Liver_写作逻辑分析.md
+P48,2026-04,The Journal of Headache and Pain,8.7,"血浆蛋白质组学鉴定与50,668名成人新发偏头痛相关的蛋白质和通路",大型前瞻性队列/组学型,5.0,A+（优先母版）,"50,668人前瞻性蛋白组学→新发偏头痛→预测/遗传/细胞解释，时间轴与转化轴都强。",P48_The_Journal_of_Headache_and_Pain_写作逻辑分析.md
+P49,2026-06,Journal of Experimental & Clinical Cancer Research,14.3,从悖论到靶点：IFN-β劫持MEK信号驱动结直肠癌形成逃避细胞死亡的休眠表型,机制实验研究型,5.0,A+（优先母版）,从“IFN-β悖论”定义休眠表型，再用机制和干预闭环，属于真正问题驱动而非工具驱动的高阶原创研究。,P49_Journal_of_Experimental_Clinical_Cance_写作逻辑分析.md
+P50,2026-06,STAR Protocols,1.4,利用网络毒理学和分子对接分析环境污染物在人类疾病中潜在靶点的操作流程,方法协议型,2.0,S（特殊文体，不作为原创研究母版）,不是新生物学发现论文；最适合反向学习方法写作的可重复性、参数化和故障排查。,P50_STAR_Protocols_写作逻辑分析.md
+P51,2026-07,eLife,暂无,单细胞全转录组孟德尔随机化与共定位分析揭示前列腺癌的免疫细胞特异性机制及可干预药物靶点,单细胞 eQTL / scTWMR 因果靶点型,4.8,A+（优先母版）,scTWMR→共定位→scRNA→跨队列meta→药物，框架强；作为Reviewed Preprint还应关注审稿意见边界。,P51_eLife_写作逻辑分析.md
+P52,2026-07,Investigative Ophthalmology & Visual Science,5.5,近视与外斜视共病的共享遗传基础,跨性状遗传结构/共病机制型,4.9,A+（优先母版）,遗传相关→多基因重叠→局部相关→联合GWAS→共定位/SMR，围绕“共病为何发生”层层收缩。,P52_Investigative_Ophthalmology_Visual_Sci_写作逻辑分析.md
+P53,2026-07,Stress and Health,2.9,童年不良经历与抑郁遗传负荷对多种抑郁症状的联合影响,大型前瞻性队列/组学型,4.5,A（强推荐借鉴）,ACEs+抑郁PRS联合效应→症状亚型→中介，写作核心是“独立效应不足，联合脆弱性更重要”。,P53_Stress_and_Health_写作逻辑分析.md
+P54,2026-08,iScience,4.5,"479,760名成人偏头痛的血浆代谢组学特征",大型前瞻性队列/组学型,5.0,A+（优先母版）,近48万人前瞻性代谢组→事件风险→稳定特征选择→影像/PRS/睡眠情绪语境化，是大队列组学范式。,P54_iScience_写作逻辑分析.md

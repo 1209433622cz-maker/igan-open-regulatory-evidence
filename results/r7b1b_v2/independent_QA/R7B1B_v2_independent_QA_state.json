@@ -1,0 +1,11 @@
+{
+  "schema": "R7B1B_V2_INDEPENDENT_QA_1.0",
+  "status": "PASS",
+  "checks": 19,
+  "passed": 19,
+  "failed": 0,
+  "failed_checks": [],
+  "workload_sha256": "7df7cada737afbbe27755ded566b3d49ac70c6861c8873607f55a1cf095845d1",
+  "adjudication_sha256": "3d267d70e23b8b99d97044e649f067702fd47f12fda328d5d1c6580e38d27f9e",
+  "receipt_sha256": "97574ad765ce14b4749be5de951b0d35762804b324fc5b50f5733ab33d8921ab"
+}

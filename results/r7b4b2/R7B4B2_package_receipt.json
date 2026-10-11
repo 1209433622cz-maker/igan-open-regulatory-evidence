@@ -1,0 +1,28 @@
+{
+  "stage": "R7B4B2_GITHUB_ZENODO_DOI_RELEASE",
+  "created_utc": "2026-10-09T19:18:00.595546+00:00",
+  "source_candidate": "H:\\SCI2\\YR1\\5_manuscript\\R7B4B_FinalSubmissionCandidate",
+  "public_privacy_gate": {
+    "private_author_record_in_public_package": false,
+    "cover_letter_in_public_package": false,
+    "first_author_private_email_in_public_package": false,
+    "corresponding_author_publication_email_in_public_package": true,
+    "third_party_raw_data_in_public_package": false
+  },
+  "private_manifest_files_before_manifest": 35,
+  "public_manifest_files_before_manifest": 33,
+  "private_archive": {
+    "path": "H:\\SCI2\\YR1\\6_release\\R7B4B2_2026-10-10\\CMM_R7B4B2_HumanGenomics_SubmissionPackage_PRIVATE_2026-10-10.zip",
+    "bytes": 16174848,
+    "sha256": "2b0ee3cf1dd5a1b0f4cca43099072e77454ec65ec530f45bcc0a394ea523e1bd",
+    "entries": 36,
+    "zip_crc": "PASS"
+  },
+  "public_archive": {
+    "path": "H:\\SCI2\\YR1\\6_release\\R7B4B2_2026-10-10\\PBC_R7B4B2_OpenResearchCompendium_2026-10-10.zip",
+    "bytes": 16027860,
+    "sha256": "0bfe7e08e1fdea9d5cf7d5baa9dd6416804e3e28d29dc237c7d66386edaf87de",
+    "entries": 34,
+    "zip_crc": "PASS"
+  }
+}

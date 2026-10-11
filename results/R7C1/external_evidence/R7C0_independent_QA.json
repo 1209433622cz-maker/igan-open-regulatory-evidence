@@ -1,0 +1,191 @@
+{
+  "stage": "R7C0_QA",
+  "generated_utc": "2026-10-10T19:44:43.600334+00:00",
+  "checks": [
+    {
+      "check": "rpv4_zip_crc",
+      "status": "PASS",
+      "detail": "PASS"
+    },
+    {
+      "check": "rpv4_internal_checksums",
+      "status": "PASS",
+      "detail": {
+        "pass": 12,
+        "fail": 0,
+        "total": 12
+      }
+    },
+    {
+      "check": "rpv4_docx_identity",
+      "status": "PASS",
+      "detail": "6d9de404fdcdadde28a8e4562a7f9c96ca7bfecbb75600ef79ecd887e29bcbdc"
+    },
+    {
+      "check": "g1_source_matched_n",
+      "status": "PASS",
+      "detail": "NO_642_RERUN; RETIRE_NEFF_REPLACEMENT_UNLESS_NEW_SOURCE_EVIDENCE"
+    },
+    {
+      "check": "r12_r13_cs_identity",
+      "status": "PASS",
+      "detail": {
+        "r12_cs_size": 19,
+        "r13_cs_size": 17,
+        "intersection_size": 17,
+        "jaccard": 0.8947368421052632
+      }
+    },
+    {
+      "check": "r12_r13_direction",
+      "status": "PASS",
+      "detail": 1.0
+    },
+    {
+      "check": "independent_disease_signal",
+      "status": "PASS",
+      "detail": "PASS_IL12RB2_EXTERNAL_DISEASE_SIGNAL_REPLICATION_WITH_DECLARED_BOUNDARY"
+    },
+    {
+      "check": "independence_boundary_present",
+      "status": "PASS",
+      "detail": "SUPPORTED_AT_STUDY_SYSTEM_LEVEL_WITHOUT_PERSON_LEVEL_PROOF"
+    },
+    {
+      "check": "external_coloc_posterior_sums",
+      "status": "PASS",
+      "detail": [
+        1.0000000000000013,
+        0.9999999999999987,
+        1.0000000000000007
+      ]
+    },
+    {
+      "check": "external_coloc_coverage",
+      "status": "PASS",
+      "detail": 1175
+    },
+    {
+      "check": "external_coloc_frozen_gate",
+      "status": "PASS",
+      "detail": {
+        "default_H4": 0.9976766621271316,
+        "low_ratio": 0.9775998771166914
+      }
+    },
+    {
+      "check": "external_source_cs_2_of_2",
+      "status": "PASS",
+      "detail": 0.998960001018466
+    },
+    {
+      "check": "external_top_direction",
+      "status": "PASS",
+      "detail": {
+        "rsid": "rs6702599",
+        "onek_GRCh37_variant": "1:67825399",
+        "finngen_GRCh38_variant": "1:67359716:A:C",
+        "conditional_shared_variant_probability": 0.6585972579699014,
+        "onek_A1": "A",
+        "onek_A2": "C",
+        "onek_beta_A1": 0.3944166337879175,
+        "finngen_ref": "A",
+        "finngen_alt": "C",
+        "finngen_beta_alt": -0.410132,
+        "finngen_p": 2.93157e-08,
+        "aligned_direction": "CONCORDANT"
+      }
+    },
+    {
+      "check": "stable_h4_freeze",
+      "status": "PASS",
+      "detail": {
+        "rows": 92,
+        "genes": 27,
+        "loci": 19
+      }
+    },
+    {
+      "check": "cascade_all_gene_endpoints",
+      "status": "PASS",
+      "detail": 27
+    },
+    {
+      "check": "cascade_disease_specificity",
+      "status": "PASS",
+      "detail": [
+        "IL12RB2"
+      ]
+    },
+    {
+      "check": "cascade_il12rb2_h4",
+      "status": "PASS",
+      "detail": [
+        0.968962638272499,
+        0.968857696313452,
+        0.970306779415918,
+        0.970597813640913,
+        0.962698507688035,
+        0.969838743831976,
+        0.967473686550874
+      ]
+    },
+    {
+      "check": "chromatin_triangle",
+      "status": "PASS",
+      "detail": "PASS_TRIANGULAR_SIGNAL_COHERENCE_WITHOUT_DIRECT_MEDIATION_PROOF"
+    },
+    {
+      "check": "chromatin_boundary",
+      "status": "PASS",
+      "detail": "The public endpoint does not provide a direct eQTL-versus-caQTL coloc posterior; the historical positional top eQTL variant is not itself in the peak caQTL credible set."
+    },
+    {
+      "check": "omix_byte_identity",
+      "status": "PASS",
+      "detail": {
+        "files": 6,
+        "matrices": 2
+      }
+    },
+    {
+      "check": "omix_fail_independent_validation",
+      "status": "PASS",
+      "detail": "DO_NOT_USE_AS_Q1_INDEPENDENT_SPATIAL_REPLICATION; RETAIN_AS_OPTIONAL_DESCRIPTIVE_RESOURCE"
+    },
+    {
+      "check": "figure_formats",
+      "status": "PASS",
+      "detail": [
+        ".pdf",
+        ".png",
+        ".svg"
+      ]
+    },
+    {
+      "check": "python_compile",
+      "status": "PASS",
+      "detail": {
+        "files": 9,
+        "failures": []
+      }
+    },
+    {
+      "check": "baseline_commit_unchanged",
+      "status": "PASS",
+      "detail": {
+        "head": "db20068e700b9c1ded8fb9171dab7e8da6aa33b7",
+        "origin": "db20068e700b9c1ded8fb9171dab7e8da6aa33b7"
+      }
+    },
+    {
+      "check": "baseline_repo_clean",
+      "status": "PASS",
+      "detail": "clean"
+    }
+  ],
+  "pass": 25,
+  "fail": 0,
+  "total": 25,
+  "overall": "PASS"
+}

@@ -1,0 +1,32 @@
+{
+  "stage": "R7C3F",
+  "snapshot": "BEFORE_REBUILD",
+  "date": "2026-10-12",
+  "files": 36209,
+  "bytes": 45989865331,
+  "GiB": 42.831399786286056,
+  "fresh_full_sha256": 36209,
+  "changed_during_read": 0,
+  "reparse_points_excluded": 14,
+  "directories": 5185,
+  "work_records": 837,
+  "duplicate_groups": 3888,
+  "duplicate_members": 13198,
+  "duplicate_copy_bytes": 6456494141,
+  "content_parser_findings": 0,
+  "content_status_counts": {
+    "FULL_TEXT_INDEXED": 16630,
+    "GENERATED_INDEX_SCHEMA_AND_IDENTITY": 8,
+    "PDF_ALL_PAGE_TEXT_INDEX": 538,
+    "IMAGE_INTEGRITY": 979,
+    "METADATA_ONLY": 13438,
+    "ARCHIVE_MEMBER_INDEX": 175,
+    "DOCX_FULL_TEXT_AND_OBJECT_SCHEMA": 71,
+    "WORKBOOK_SHEETS_AND_DIMENSIONS": 26,
+    "GZIP_PREFIX_SCHEMA": 4333,
+    "PREFIX_SCHEMA_ONLY": 11
+  },
+  "elapsed_seconds": 228.41,
+  "limits": "Full-byte integrity is not full scientific validation. Raw genotype/BAM/RDS objects receive format/identity metadata; no false claim of row-by-row interpretation or complete statistical rerun.",
+  "private_full_inventory": "Not redistributed; counts include local vendor runtimes, Git metadata, archives and inputs. Content-schema review of an identical freshly verified hash may reuse prior audit."
+}

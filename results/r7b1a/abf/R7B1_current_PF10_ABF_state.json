@@ -1,0 +1,36 @@
+{
+  "schema": "R7B1_CURRENT_PF10_ABF_1.0",
+  "status": "COMPLETE_TRIGGER_SET_FROZEN",
+  "frozen_comparisons": 6923,
+  "observed_results": 6923,
+  "cells": 14,
+  "loci": 55,
+  "genes": 589,
+  "class_counts": {
+    "H3_DISTINCT_SIGNAL": 455,
+    "H3_H4_AMBIGUITY_TRIGGER": 72,
+    "INSUFFICIENT_VARIANT_OVERLAP": 1463,
+    "NO_TRIGGER_OR_UNINFORMATIVE": 4821,
+    "ROBUST_H4_TRIGGER": 112
+  },
+  "trigger_comparisons": 184,
+  "trigger_loci": 25,
+  "trigger_genes": 49,
+  "trigger_cells": 14,
+  "runtime_seconds": 75.484,
+  "inputs": {
+    "comparison_universe_sha256": "e1cec5392bbedf197031ab944d6f654d0ba6ebcb1bcce603e7e5e11ee8a2101f",
+    "disease_harmonized_sha256": "7f06b1e302a2d9244af53128806964a8563895216cb18b2972f1aeffb67a8a40",
+    "pseudobulk_zip_sha256": "92b38f54e1dd77cdac6d1c814db30ff0e83eaff209825f020839402b90e027e5",
+    "gene_list_zip_sha256": "68757fb2c571da1c4a123aa9d8ee22ae30e75661960d81d7daadac78c467f407",
+    "bed_sha256": "75a2ebd613b9c63b7a283722180aeef871d08490cb75ba1bce52deec6a19eb63",
+    "fam_sha256": "774c0c1c7491e892520c5c645fd790ba6f7ee0204467260fcf6088b68eb428ad"
+  },
+  "outputs": {
+    "all_comparisons_sha256": "0e07e325262f77bb30180efda0201284912709d27f73bc6652877c7837b7f8a4",
+    "trigger_set_sha256": "bac35fe7572a336ceedcf60a19a3d4f7f8c3cd97337ebd34a2d08e5360cb1f0e"
+  },
+  "posterior_read_before_universe_freeze": false,
+  "primary_model": "current-release PF10",
+  "next": "R7B1B_CURRENT_PF50_AND_SOURCE_MATCHED_MULTISIGNAL_FOR_EXACT_TRIGGER_SET"
+}

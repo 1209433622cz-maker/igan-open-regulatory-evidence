@@ -1,0 +1,37 @@
+scenario	causal_r2	method	H4_rate
+S1_one_shared	0.2	ABF	0.6677777777777778
+S1_one_shared	0.2	Source-matched multi-signal	0.5536666666666666
+S1_one_shared	0.5	ABF	0.6636666666666666
+S1_one_shared	0.5	Source-matched multi-signal	0.49377777777777776
+S1_one_shared	0.8	ABF	0.6467037037037037
+S1_one_shared	0.8	Source-matched multi-signal	0.5762592592592592
+S2_distinct_correlated	0.2	ABF	0.03537037037037037
+S2_distinct_correlated	0.2	Source-matched multi-signal	0.00962962962962963
+S2_distinct_correlated	0.5	ABF	0.15414814814814815
+S2_distinct_correlated	0.5	Source-matched multi-signal	0.09562962962962963
+S2_distinct_correlated	0.8	ABF	0.4255555555555556
+S2_distinct_correlated	0.8	Source-matched multi-signal	0.37474074074074076
+S3_disease2_qtl1_partial	0.2	ABF	0.5942222222222222
+S3_disease2_qtl1_partial	0.2	Source-matched multi-signal	0.5425925925925926
+S3_disease2_qtl1_partial	0.5	ABF	0.3552222222222222
+S3_disease2_qtl1_partial	0.5	Source-matched multi-signal	0.3422222222222222
+S3_disease2_qtl1_partial	0.8	ABF	0.15651851851851853
+S3_disease2_qtl1_partial	0.8	Source-matched multi-signal	0.11851851851851852
+S4_two_by_two_one_shared	0.2	ABF	0.3012962962962963
+S4_two_by_two_one_shared	0.2	Source-matched multi-signal	0.25755555555555554
+S4_two_by_two_one_shared	0.5	ABF	0.13111111111111112
+S4_two_by_two_one_shared	0.5	Source-matched multi-signal	0.028962962962962965
+S4_two_by_two_one_shared	0.8	ABF	0.005148148148148148
+S4_two_by_two_one_shared	0.8	Source-matched multi-signal	0.0006666666666666666
+S5_two_by_two_none_highLD	0.2	ABF	0.019925925925925927
+S5_two_by_two_none_highLD	0.2	Source-matched multi-signal	0.005592592592592593
+S5_two_by_two_none_highLD	0.5	ABF	0.10666666666666667
+S5_two_by_two_none_highLD	0.5	Source-matched multi-signal	0.02751851851851852
+S5_two_by_two_none_highLD	0.8	ABF	0.002962962962962963
+S5_two_by_two_none_highLD	0.8	Source-matched multi-signal	0.0005555555555555556
+S6_matched_vs_mismatched_LD	0.2	ABF	0.3032592592592593
+S6_matched_vs_mismatched_LD	0.2	Source-matched multi-signal	0.2544814814814815
+S6_matched_vs_mismatched_LD	0.5	ABF	0.12862962962962962
+S6_matched_vs_mismatched_LD	0.5	Source-matched multi-signal	0.029518518518518517
+S6_matched_vs_mismatched_LD	0.8	ABF	0.005407407407407408
+S6_matched_vs_mismatched_LD	0.8	Source-matched multi-signal	0.0008148148148148148

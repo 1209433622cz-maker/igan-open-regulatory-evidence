@@ -1,0 +1,69 @@
+check	pass	detail
+title_words	TRUE	12 words
+title_no_punctuation	TRUE	Input matched multisignal colocalization clarifies regulatory assignments at primary biliary cholangitis loci
+abstract_unstructured	TRUE	no abstract subheadings
+abstract_words	TRUE	137 words
+introduction_heading	TRUE	present
+background_heading_removed	TRUE	removed
+discussion_heading	TRUE	present
+no_conclusions_heading	TRUE	removed
+no_limitations_heading	TRUE	no separate limitations
+single_references_heading	TRUE	count=1
+section_Ethics statement	TRUE	present
+section_Data availability	TRUE	present
+section_Code availability	TRUE	present
+section_Acknowledgements	TRUE	present
+section_Author contributions	TRUE	present
+section_Competing interests	TRUE	present
+numeric_6,923	TRUE	present
+numeric_5,460	TRUE	present
+numeric_642	TRUE	present
+numeric_92 H4-supported	TRUE	present
+numeric_428 H3-supported	TRUE	present
+numeric_59 model-sensitive	TRUE	present
+numeric_63 uninformative	TRUE	present
+numeric_486,000	TRUE	present
+numeric_12.41%	TRUE	present
+numeric_8.56%	TRUE	present
+numeric_32.99%	TRUE	present
+numeric_26.66%	TRUE	present
+numeric_1,175	TRUE	present
+numeric_0.9977	TRUE	present
+numeric_0.9772	TRUE	present
+numeric_0.9695	TRUE	present
+numeric_0.111	TRUE	present
+boundary_person-level non-overlap cou	TRUE	present
+boundary_triangular signal coherence 	TRUE	present
+boundary_not independent disease repl	TRUE	present
+boundary_no perturbational experiment	TRUE	present
+boundary_not a multi-signal analysis 	TRUE	present
+cover_All authors approved the man	TRUE	present
+cover_not under review elsewhere	TRUE	present
+cover_no competing interests	TRUE	present
+cover_no specific funding	TRUE	present
+cover_Ethics approval was not requ	TRUE	present
+cover_open research version	TRUE	present
+cover_OpenAI Codex	TRUE	present
+cover_not discussed this manuscrip	TRUE	present
+wps_manuscript_pages	TRUE	pages=31
+wps_cover_pages	TRUE	pages=1
+wps_supplement_pages	TRUE	pages=2
+exists_R7C2_npj_Genomic_Medicine_manuscript.md	TRUE	bytes=63896
+exists_R7C2_npj_Genomic_Medicine_manuscript.docx	TRUE	bytes=3619965
+exists_R7C2_npj_Genomic_Medicine_manuscript_WPS.pdf	TRUE	bytes=2827281
+exists_R7C2_npj_Genomic_Medicine_cover_letter.md	TRUE	bytes=3649
+exists_R7C2_npj_Genomic_Medicine_cover_letter.docx	TRUE	bytes=39283
+exists_R7C2_npj_Genomic_Medicine_cover_letter_WPS.pdf	TRUE	bytes=116750
+exists_R7C2_npj_Supplementary_Information.docx	TRUE	bytes=38850
+exists_R7C2_npj_Supplementary_Information.pdf	TRUE	bytes=126982
+six_figure_pdfs	TRUE	count=6
+six_figure_pngs	TRUE	count=6
+zip_crc_Source_Data_1_Primary_Machine_Readable_Data.zip	TRUE	bad=None
+zip_crc_Source_Data_2_External_Validation_Data.zip	TRUE	bad=None
+supplementary_workbook	TRUE	sheets=10
+title_style_no_border	TRUE	no Title border
+baseline_hash_frozen	TRUE	8dec3207ec695aded22a50ad0646c0b016df27fb28eb333fbd70ca7c35039ff7
+npj_decision	TRUE	NPJ_GENOMIC_MEDICINE_CONDITIONAL_GO_ONE_ATTEMPT
+next_stage	TRUE	R7C3_AUTHOR_FINAL_REVIEW_AND_NPJ_SUBMISSION_GATE
+no_new_biology	TRUE	false
+rendered_page_inventory	TRUE	{"manuscript": 31, "cover_letter": 1, "supplement": 2}

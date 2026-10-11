@@ -1,0 +1,11 @@
+{
+  "gene": "IL12RB2",
+  "cell": "NK",
+  "n_samples": 980,
+  "n_variants": 2386,
+  "finite": true,
+  "max_asymmetry": 0.0,
+  "max_diag_dev": 0.0,
+  "min_eigenvalue": -3.678564368182324e-05,
+  "status": "PASS"
+}

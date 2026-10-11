@@ -1,0 +1,37 @@
+{
+  "title": "Input matched multisignal colocalization clarifies regulatory assignments at primary biliary cholangitis loci",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "Open research compendium and npj Genomic Medicine submission candidate for PBC-wide screening followed by source-matched multi-signal reclassification of a prespecified high-information subset. The release separates variant-support and disease-statistic effects from residual reclassification, reports discovery and pair-conditional simulation channels, and adds bounded IL12RB2-NK evidence from a different FinnGen disease study system and a disease-eQTL/disease-caQTL/peak-gene chromatin triangle. It does not claim participant-level independence, direct eQTL-caQTL colocalization, causal mediation or general method superiority. R7C3C retains the unchanged R7C3B QiTeng/WPS editorial candidate and adds byte-audited asset catalogues; edited-version author approval and publisher proof are pending. This file is publication metadata, not proof that a Zenodo deposit exists.",
+  "creators": [
+    {
+      "name": "Chen, Zhi",
+      "affiliation": "School of Medicine, The Chinese University of Hong Kong, Shenzhen",
+      "orcid": "0009-0001-0072-5576"
+    },
+    {
+      "name": "Qi, Teng",
+      "affiliation": "School of Medicine, The Chinese University of Hong Kong, Shenzhen",
+      "orcid": "0009-0007-7648-4776"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "publication_date": "2026-10-12",
+  "version": "1.4.0",
+  "keywords": [
+    "primary biliary cholangitis",
+    "colocalization",
+    "single-cell eQTL",
+    "fine-mapping",
+    "linkage disequilibrium",
+    "regulatory genomics",
+    "statistical genetics"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence",
+      "relation": "isSupplementedBy"
+    }
+  ]
+}

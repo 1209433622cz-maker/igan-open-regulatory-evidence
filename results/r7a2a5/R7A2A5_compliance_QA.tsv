@@ -1,0 +1,13 @@
+check	status	detail
+R7A2A4 external SHA-256	PASS	c7c50a3637068d13d593f10b182fc0f26c715d8ef53e9d6fdf228c34dd3daaf9
+Target journal	PASS	Human Genomics / Research
+Title word count <= 20	PASS	13
+Abstract word count <= 350	PASS	262
+Abstract headings	PASS	Background; Results; Conclusions
+Main headings	PASS	Background; Methods; Results; Discussion; Conclusions
+Declaration headings	PASS	8 required headings present
+Graphical abstract dimensions	PASS	920 x 300
+Main figure files	PASS	6 PNG; source pixels preserved
+Figure title length	PASS	"{""1"": 7, ""2"": 7, ""3"": 10, ""4"": 8, ""5"": 9, ""6"": 6}"
+Supplementary figures	PASS	4 PNG at 300 dpi
+Author metadata	BLOCKED_HUMAN_INPUT	Explicit placeholders retained

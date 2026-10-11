@@ -1,0 +1,31 @@
+{
+  "candidate": "CeD",
+  "accession": "GCST010064",
+  "rows": 127855,
+  "nonMHC_GWS_rows": 1259,
+  "provisional_1Mb_leads": 36,
+  "source_schema_fields": [
+    "CHR",
+    "BP",
+    "SNP",
+    "A1",
+    "A2",
+    "N",
+    "P",
+    "P(R)",
+    "OR",
+    "OR(R)",
+    "Q",
+    "I",
+    "WEIGHTED_Z",
+    "P(WZ)",
+    "Unnamed: 14"
+  ],
+  "standard_error_present": false,
+  "beta_present": false,
+  "effect_alleles_present": true,
+  "OR_present": true,
+  "P_present": true,
+  "gate_full_schema": "FAIL_MISSING_SE",
+  "allowable_secondary_use": "OR/P direction and approximate SE sensitivity only; not frozen core coloc input"
+}

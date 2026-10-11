@@ -1,0 +1,15 @@
+{
+  "stage": "R7B2_FULL_ENGLISH_MANUSCRIPT_V1",
+  "date": "2026-10-09",
+  "status": "COMPLETE",
+  "primary_project": "PBC",
+  "manuscript_words_qa": 7500,
+  "main_figures": 6,
+  "claim_ledger": "27/27",
+  "machine_qa": "17/17 PASS",
+  "wps_pdf_creator": "WPS 文字",
+  "pdf_pages": 29,
+  "visual_qa": "PASS 29/29",
+  "new_biological_analysis": false,
+  "next": "R7B3_HOSTILE_MANUSCRIPT_AUDIT"
+}

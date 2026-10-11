@@ -1,0 +1,35 @@
+{
+  "schema": "R7A2A1_PBC_CONTROL_TARGET_PANEL_1.0",
+  "groups": {
+    "PBC": 5,
+    "CONTROL_HEMANGIOMA_NONLESION": 5
+  },
+  "comparisons": {
+    "FCRL3_B": {
+      "primary_descriptive_endpoint": "log1p(target_lineage_CPM)",
+      "PBC_n": 5,
+      "control_n": 5,
+      "PBC_median_target_lineage_CPM": 5.48227951703951,
+      "control_median_target_lineage_CPM": 12.45182477934477,
+      "mean_log1p_CPM_difference_PBC_minus_control": -0.7863352116597311,
+      "exact_label_permutation_p": 0.1111111111111111,
+      "PBC_positive_donors": 5,
+      "control_positive_donors": 5,
+      "BH_q_two_prespecified_targets": 0.1111111111111111
+    },
+    "IL12RB2_NK": {
+      "primary_descriptive_endpoint": "log1p(target_lineage_CPM)",
+      "PBC_n": 5,
+      "control_n": 5,
+      "PBC_median_target_lineage_CPM": 6.656948156353453,
+      "control_median_target_lineage_CPM": 4.2370080621789405,
+      "mean_log1p_CPM_difference_PBC_minus_control": 0.3299675359429739,
+      "exact_label_permutation_p": 0.06349206349206349,
+      "PBC_positive_donors": 5,
+      "control_positive_donors": 5,
+      "BH_q_two_prespecified_targets": 0.1111111111111111
+    }
+  },
+  "interpretation_rule": "Case-control statistics are supportive because lineage gates come from a bounded marker panel. Full cell-state differential claims require full QC/reclustering and donor-level pseudobulk.",
+  "status": "PASS_COMPUTED_EXACT_5_VS_5"
+}

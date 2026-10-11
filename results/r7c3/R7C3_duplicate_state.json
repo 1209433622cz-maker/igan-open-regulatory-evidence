@@ -1,0 +1,9 @@
+{
+  "hashed_research_files": 49565,
+  "unique_hashes": 32047,
+  "duplicate_groups": 11375,
+  "duplicate_member_rows": 28893,
+  "potential_redundant_bytes": 6587241870,
+  "potential_redundant_gib": 6.134847057983279,
+  "action": "No file deleted; release/version/repository duplicates are provenance-bearing by default."
+}

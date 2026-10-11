@@ -1,0 +1,21 @@
+{
+  "schema": "R7B0A_CURRENT_RELEASE_DUALMODEL_1.0",
+  "comparisons": 7,
+  "expected_fit_rows": 28,
+  "observed_fit_rows": 28,
+  "identity_manifest_rows": 14,
+  "identity_manifest_pass_rows": 14,
+  "identity_manifest_overall_pass": true,
+  "fit_key_exact": true,
+  "hard_fit_qc_pass_rows": 28,
+  "diagnostic_review_rows": 0,
+  "biological_class_counts": {
+    "STABLE_H4_ACROSS_CURRENT_PF10_PF50": 5,
+    "MIXED_OR_UNINFORMATIVE": 1,
+    "PF_NUMBER_SENSITIVE_H3_TO_H4": 1
+  },
+  "G1B_CURRENT_RELEASE_MODEL_IDENTITY": "PASS",
+  "HISTORICAL_PF10_SOURCE_IDENTITY": "HOLD_UNRESOLVED",
+  "R7B1": "GO_ELIGIBILITY_AND_ABF_SCREEN",
+  "note": "G1B is a source/model/QC gate; biological H4/H3 classes do not determine G1B PASS. Kriging flags require explicit review rather than silent passage."
+}

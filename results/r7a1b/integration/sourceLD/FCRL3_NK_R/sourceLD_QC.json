@@ -1,0 +1,11 @@
+{
+  "gene": "FCRL3",
+  "cell": "NK_R",
+  "n_samples": 750,
+  "n_variants": 2667,
+  "finite": true,
+  "max_asymmetry": 0.0,
+  "max_diag_dev": 0.0,
+  "min_eigenvalue": -4.609853353285092e-05,
+  "status": "PASS"
+}

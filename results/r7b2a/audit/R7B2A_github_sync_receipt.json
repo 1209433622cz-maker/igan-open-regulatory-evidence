@@ -1,0 +1,17 @@
+{
+  "schema": "R7B2A_GITHUB_SYNC_RECEIPT_1.0",
+  "status": "PASS",
+  "repository": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence",
+  "branch": "main",
+  "scientific_asset_commit": "20c173fc52786f3b7ab4b5e67c9f4e81290ffec1",
+  "remote_verified_by": "git ls-remote origin refs/heads/main",
+  "third_party_raw_data_published": false,
+  "published_scope": [
+    "analysis/r7b2a",
+    "protocols/R7B2A",
+    "results/r7b2a",
+    "figures/R7B2A",
+    "reports/R7B2A",
+    "README.md"
+  ]
+}

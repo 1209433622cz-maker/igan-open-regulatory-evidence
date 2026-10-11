@@ -1,0 +1,46 @@
+{
+  "schema": "R7B1C_AGGREGATE_1.0",
+  "status": "PASS",
+  "replicates": 486000,
+  "grid_rows": 486,
+  "scenario_counts": {
+    "S1_one_shared": 81000,
+    "S2_distinct_correlated": 81000,
+    "S3_disease2_qtl1_partial": 81000,
+    "S4_two_by_two_one_shared": 81000,
+    "S5_two_by_two_none_highLD": 81000,
+    "S6_matched_vs_mismatched_LD": 81000
+  },
+  "matched_fit_failures": 0,
+  "matched_nonconverged": 0,
+  "outputs": {
+    "R7B1C_all_486000_replicates.tsv.gz": {
+      "bytes": 20595301,
+      "sha256": "fd75bed0d08012d20e8c7114ba3b3ccebbe01967254496413208cfef01173cf0"
+    },
+    "R7B1C_grid_486_summary.tsv": {
+      "bytes": 115745,
+      "sha256": "730bba230573020ad8cb954896fd9650c78c679b9edfc830e66be67995a06d97"
+    },
+    "R7B1C_scenario_summary.tsv": {
+      "bytes": 3572,
+      "sha256": "2a4f40b4b3c1074ce4ba936fd3bd592de05e9c6717d09b9be7435744a7d557cb"
+    },
+    "R7B1C_factor_stratified_summary.tsv": {
+      "bytes": 228966,
+      "sha256": "2a2cd3b57781fa4c54e2b0d3b625d17bcb08da0fd1e911216ee7b7b76a49b840"
+    },
+    "R7B1C_ABF_to_multisignal_reclassification.tsv": {
+      "bytes": 3351,
+      "sha256": "fc5bada50523dbdae8f5b21e1ec518a9920f00fae30ac131ad77a3626491a070"
+    },
+    "R7B1C_posterior_calibration_bins.tsv": {
+      "bytes": 1550,
+      "sha256": "6d28ec7e39d6e59c5e6fb8c5fbc8b56096279c743935ea7ad28506229904e1fc"
+    },
+    "R7B1C_posterior_brier_scores.tsv": {
+      "bytes": 91,
+      "sha256": "8d3a501ffa0a8104f2c177a9a3b6dd9b2839a548cdc5a894abda4fd2647dfe4e"
+    }
+  }
+}

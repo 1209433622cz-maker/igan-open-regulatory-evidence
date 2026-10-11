@@ -1,0 +1,22 @@
+{
+  "kidney_cells": 2785,
+  "excluded_peripheral_monocytes": 835,
+  "marker_labels": {
+    "Proximal_tubule": 1566,
+    "TAL": 263,
+    "T_cell": 162,
+    "Monocyte": 150,
+    "Intercalated": 144,
+    "VCAM1_PT": 114,
+    "Principal": 91,
+    "Macrophage": 84,
+    "Unresolved": 65,
+    "Podocyte": 61,
+    "Mesangial": 47,
+    "Neutrophil": 24,
+    "Endothelial": 14
+  },
+  "missing_marker_genes": [],
+  "status": "PASS_PROVISIONAL",
+  "boundary": "marker-based provisional localization only; not a substitute for a full Seurat/Scanpy re-clustering"
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "archive_url": "https://zenodo.org/api/records/18221260/files/coloc_100kb.zip/content",
+    "official_archive_bytes": 626505208,
+    "official_archive_md5_not_locally_recomputed": "c627f1c4bc47706e331039d1e9e6e7d1",
+    "central_directory_entries": 41929,
+    "member": "directflow/SCCGGroupShare/projects/blabow/tenk10k_phase1/data_processing/coloc_100kb/DiseaseTraits/kiryluk_IgAN/CD4_Naive/chr10.csv",
+    "member_compressed_bytes": 26106,
+    "member_uncompressed_bytes": 65598,
+    "member_crc32": "0de6bb46",
+    "local_path": "1_data/qtl/TenK10K/R6A2D_REEP3_precomputed_coloc/CD4_Naive_chr10.csv",
+    "local_sha256": "e4436007e651d66e15d9ef5687c39e26eee019cce93ff0a63005457dca680c6c",
+    "range_member_gate": "PASS"
+  },
+  {
+    "archive_url": "https://zenodo.org/api/records/18221260/files/coloc_100kb.zip/content",
+    "official_archive_bytes": 626505208,
+    "official_archive_md5_not_locally_recomputed": "c627f1c4bc47706e331039d1e9e6e7d1",
+    "central_directory_entries": 41929,
+    "member": "directflow/SCCGGroupShare/projects/blabow/tenk10k_phase1/data_processing/coloc_100kb/DiseaseTraits/kiryluk_IgAN/CD4_TCM/chr10.csv",
+    "member_compressed_bytes": 28304,
+    "member_uncompressed_bytes": 70188,
+    "member_crc32": "b77065c5",
+    "local_path": "1_data/qtl/TenK10K/R6A2D_REEP3_precomputed_coloc/CD4_TCM_chr10.csv",
+    "local_sha256": "bb3c01d69515e3003331b29634291200d3960e6e0e86abbc77ce3471e6ac7007",
+    "range_member_gate": "PASS"
+  },
+  {
+    "archive_url": "https://zenodo.org/api/records/18221260/files/coloc_100kb.zip/content",
+    "official_archive_bytes": 626505208,
+    "official_archive_md5_not_locally_recomputed": "c627f1c4bc47706e331039d1e9e6e7d1",
+    "central_directory_entries": 41929,
+    "member": "directflow/SCCGGroupShare/projects/blabow/tenk10k_phase1/data_processing/coloc_100kb/DiseaseTraits/kiryluk_IgAN/Treg/chr10.csv",
+    "member_compressed_bytes": 15864,
+    "member_uncompressed_bytes": 38073,
+    "member_crc32": "69e00f37",
+    "local_path": "1_data/qtl/TenK10K/R6A2D_REEP3_precomputed_coloc/Treg_chr10.csv",
+    "local_sha256": "86bf2fdaee8f1da26f5e6dc81eb1d225333b9280cb6da8a64eb35d0db45f3378",
+    "range_member_gate": "PASS"
+  }
+]

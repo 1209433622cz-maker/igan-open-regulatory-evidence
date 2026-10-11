@@ -1,0 +1,315 @@
+{
+  "schema": "R7A2A1_INDEPENDENT_QA_1.0",
+  "status": "PASS",
+  "checks_passed": 19,
+  "checks_total": 19,
+  "checks": [
+    {
+      "check": "exact_five_control_manifest",
+      "pass": true,
+      "detail": {
+        "runs": [
+          "HRR1849454",
+          "HRR1849455",
+          "HRR1849456",
+          "HRR1849457",
+          "HRR1849458"
+        ],
+        "total_expected_bytes": 134657112757
+      }
+    },
+    {
+      "check": "exact_five_unique_control_receipts",
+      "pass": true,
+      "detail": {
+        "runs": [
+          "HRR1849454",
+          "HRR1849455",
+          "HRR1849456",
+          "HRR1849457",
+          "HRR1849458"
+        ],
+        "rows": 5
+      }
+    },
+    {
+      "check": "HRR1849454_byte_schema_receipt_summary_identity",
+      "pass": true,
+      "detail": {
+        "identity": true,
+        "called_cell_aggregation": true,
+        "bytes": 26515099225,
+        "sha256": "177195a2f24d1bed95f70672246ba67365b2eb89a993af30eca3b474ebf315e9",
+        "called_cells": 5268,
+        "schema_status": "PASS"
+      }
+    },
+    {
+      "check": "HRR1849454_called_cell_reaggregation",
+      "pass": true,
+      "detail": {
+        "FCRL3_B": {
+          "gate_cells": 956,
+          "positive_cells": 83,
+          "target_umi": 140,
+          "target_lineage_CPM": 12.45182477934477
+        },
+        "IL12RB2_NK": {
+          "gate_cells": 2145,
+          "positive_cells": 54,
+          "target_umi": 56,
+          "target_lineage_CPM": 5.994270761638465
+        }
+      }
+    },
+    {
+      "check": "HRR1849455_byte_schema_receipt_summary_identity",
+      "pass": true,
+      "detail": {
+        "identity": true,
+        "called_cell_aggregation": true,
+        "bytes": 33941473553,
+        "sha256": "30373d90ddbdef0ece868699e6b5e070305005d9c9901813557aac2fd82d08c9",
+        "called_cells": 7316,
+        "schema_status": "PASS"
+      }
+    },
+    {
+      "check": "HRR1849455_called_cell_reaggregation",
+      "pass": true,
+      "detail": {
+        "FCRL3_B": {
+          "gate_cells": 715,
+          "positive_cells": 212,
+          "target_umi": 430,
+          "target_lineage_CPM": 56.91495529131721
+        },
+        "IL12RB2_NK": {
+          "gate_cells": 4496,
+          "positive_cells": 89,
+          "target_umi": 92,
+          "target_lineage_CPM": 4.2033945883670505
+        }
+      }
+    },
+    {
+      "check": "HRR1849456_byte_schema_receipt_summary_identity",
+      "pass": true,
+      "detail": {
+        "identity": true,
+        "called_cell_aggregation": true,
+        "bytes": 27185713400,
+        "sha256": "91d756562b75832c43c1033268090a67d5d2faa7520a059ecccc787ae426de4f",
+        "called_cells": 4341,
+        "schema_status": "PASS"
+      }
+    },
+    {
+      "check": "HRR1849456_called_cell_reaggregation",
+      "pass": true,
+      "detail": {
+        "FCRL3_B": {
+          "gate_cells": 1046,
+          "positive_cells": 87,
+          "target_umi": 192,
+          "target_lineage_CPM": 14.115208033905907
+        },
+        "IL12RB2_NK": {
+          "gate_cells": 1392,
+          "positive_cells": 30,
+          "target_umi": 30,
+          "target_lineage_CPM": 4.2370080621789405
+        }
+      }
+    },
+    {
+      "check": "HRR1849457_byte_schema_receipt_summary_identity",
+      "pass": true,
+      "detail": {
+        "identity": true,
+        "called_cell_aggregation": true,
+        "bytes": 27590017244,
+        "sha256": "69759b12da0414e81e218dafd41e37f8041671c67c8e3f2109c6748779d76e78",
+        "called_cells": 5591,
+        "schema_status": "PASS"
+      }
+    },
+    {
+      "check": "HRR1849457_called_cell_reaggregation",
+      "pass": true,
+      "detail": {
+        "FCRL3_B": {
+          "gate_cells": 1319,
+          "positive_cells": 67,
+          "target_umi": 107,
+          "target_lineage_CPM": 6.182749954279431
+        },
+        "IL12RB2_NK": {
+          "gate_cells": 2425,
+          "positive_cells": 38,
+          "target_umi": 43,
+          "target_lineage_CPM": 3.836107909893929
+        }
+      }
+    },
+    {
+      "check": "HRR1849458_byte_schema_receipt_summary_identity",
+      "pass": true,
+      "detail": {
+        "identity": true,
+        "called_cell_aggregation": true,
+        "bytes": 19424809335,
+        "sha256": "ccf8bf9edbba964234503041bb79e3fdd4a70014235b73abb4c0bf74ca6534e9",
+        "called_cells": 3312,
+        "schema_status": "PASS"
+      }
+    },
+    {
+      "check": "HRR1849458_called_cell_reaggregation",
+      "pass": true,
+      "detail": {
+        "FCRL3_B": {
+          "gate_cells": 341,
+          "positive_cells": 13,
+          "target_umi": 18,
+          "target_lineage_CPM": 3.715259230148751
+        },
+        "IL12RB2_NK": {
+          "gate_cells": 1675,
+          "positive_cells": 52,
+          "target_umi": 53,
+          "target_lineage_CPM": 5.847233199575116
+        }
+      }
+    },
+    {
+      "check": "exact_five_pbc_compact_pairs_present",
+      "pass": true,
+      "detail": {
+        "runs": [
+          "HRR1849459",
+          "HRR1849460",
+          "HRR1849461",
+          "HRR1849462",
+          "HRR1849463"
+        ]
+      }
+    },
+    {
+      "check": "five_pbc_called_cell_reaggregation",
+      "pass": true,
+      "detail": {
+        "runs": [
+          "HRR1849459",
+          "HRR1849460",
+          "HRR1849461",
+          "HRR1849462",
+          "HRR1849463"
+        ]
+      }
+    },
+    {
+      "check": "control_bam_cache_empty",
+      "pass": true,
+      "detail": {
+        "residual_files": []
+      }
+    },
+    {
+      "check": "frozen_comparator_json_exact_reproduction",
+      "pass": true,
+      "detail": {
+        "official_sha256": "e7e2082f324dad70b78c701c9fe83100301b4d3b75864637e998e8e7cbe3b7fd",
+        "rerun_sha256": "e7e2082f324dad70b78c701c9fe83100301b4d3b75864637e998e8e7cbe3b7fd"
+      }
+    },
+    {
+      "check": "frozen_comparator_tsv_byte_reproduction",
+      "pass": true,
+      "detail": {
+        "official_sha256": "ff9581e7f70c1bf244fa6a06674e0733c46d4ded0c47b19f46816ee88e8e5d1c",
+        "rerun_sha256": "ff9581e7f70c1bf244fa6a06674e0733c46d4ded0c47b19f46816ee88e8e5d1c"
+      }
+    },
+    {
+      "check": "independent_exact_permutation_recalculation",
+      "pass": true,
+      "detail": {
+        "FCRL3_B": {
+          "mean_log1p_CPM_difference": -0.7863352116597311,
+          "exact_permutation_p": 0.1111111111111111,
+          "match": true
+        },
+        "IL12RB2_NK": {
+          "mean_log1p_CPM_difference": 0.3299675359429739,
+          "exact_permutation_p": 0.06349206349206349,
+          "match": true
+        }
+      }
+    },
+    {
+      "check": "frozen_analysis_files_present_and_hashed",
+      "pass": true,
+      "detail": {
+        "2_code\\06_intake\\r7a1c1\\02_hra_bam_target_panel_v2.py": "a88a8d061332322e3182dc259bf4a47b5bb507a30047d278a370932654d9a7a2",
+        "2_code\\06_intake\\r7a2\\02_compare_PBC_control_target_panel.py": "20657f8bb336034b7791509f6673862ef78361134c3f269662522d76549cb5b5",
+        "2_code\\06_intake\\r7a2\\RUN_R7A2A1_HRA008003_CONTROL_TARGET_PANEL_HARDENED.ps1": "b0b2335d00ab782715c7ee7d0c82d0b684c78cdae554dfe22403ddf566ca041f"
+      }
+    }
+  ],
+  "per_control_run": {
+    "HRR1849454": {
+      "identity": true,
+      "called_cell_aggregation": true,
+      "bytes": 26515099225,
+      "sha256": "177195a2f24d1bed95f70672246ba67365b2eb89a993af30eca3b474ebf315e9",
+      "called_cells": 5268,
+      "schema_status": "PASS"
+    },
+    "HRR1849455": {
+      "identity": true,
+      "called_cell_aggregation": true,
+      "bytes": 33941473553,
+      "sha256": "30373d90ddbdef0ece868699e6b5e070305005d9c9901813557aac2fd82d08c9",
+      "called_cells": 7316,
+      "schema_status": "PASS"
+    },
+    "HRR1849456": {
+      "identity": true,
+      "called_cell_aggregation": true,
+      "bytes": 27185713400,
+      "sha256": "91d756562b75832c43c1033268090a67d5d2faa7520a059ecccc787ae426de4f",
+      "called_cells": 4341,
+      "schema_status": "PASS"
+    },
+    "HRR1849457": {
+      "identity": true,
+      "called_cell_aggregation": true,
+      "bytes": 27590017244,
+      "sha256": "69759b12da0414e81e218dafd41e37f8041671c67c8e3f2109c6748779d76e78",
+      "called_cells": 5591,
+      "schema_status": "PASS"
+    },
+    "HRR1849458": {
+      "identity": true,
+      "called_cell_aggregation": true,
+      "bytes": 19424809335,
+      "sha256": "ccf8bf9edbba964234503041bb79e3fdd4a70014235b73abb4c0bf74ca6534e9",
+      "called_cells": 3312,
+      "schema_status": "PASS"
+    }
+  },
+  "independent_statistics": {
+    "FCRL3_B": {
+      "mean_log1p_CPM_difference": -0.7863352116597311,
+      "exact_permutation_p": 0.1111111111111111,
+      "match": true
+    },
+    "IL12RB2_NK": {
+      "mean_log1p_CPM_difference": 0.3299675359429739,
+      "exact_permutation_p": 0.06349206349206349,
+      "match": true
+    }
+  },
+  "conclusion": "Exact five-control bytes, compact artifacts and 5-vs-5 statistics close independently."
+}

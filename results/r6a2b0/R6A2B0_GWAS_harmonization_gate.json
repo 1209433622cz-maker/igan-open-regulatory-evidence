@@ -1,0 +1,6 @@
+{
+  "comparisons": 24,
+  "combined_all_regions_ge_500": true,
+  "combined_all_loci_have_data": true,
+  "gate": "PASS"
+}

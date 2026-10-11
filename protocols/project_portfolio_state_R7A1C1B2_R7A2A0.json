@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-28",
+  "source_execution_completed": "2026-09-17",
+  "stage": "R7A1C1B2_COMPLETE_R7A2A0_COMPLETE",
+  "open_data_only": true,
+  "primary_project": "primary_biliary_cholangitis",
+  "primary_project_status": "PROMOTED_GO_MANUSCRIPT_SCALE",
+  "upstream_evidence": {
+    "OneK_signal_specific_shared_genes": ["FCRL3", "IL12RB2"],
+    "TenK_compatible_cell_replication": "PASS_2_OF_2",
+    "PBC_liver_target_detectability": "PASS_5_OF_5_BOTH_TARGET_LINEAGE_PAIRS"
+  },
+  "HRA008003_PBC_liver": {
+    "donors": 5,
+    "technical_QC": "PASS_5_OF_5",
+    "FCRL3_B_promotion_eligible": "5_OF_5",
+    "IL12RB2_NK_promotion_eligible": "5_OF_5",
+    "independent_QA": "PASS_8_OF_8",
+    "bam_cache": "EMPTY_AFTER_VALIDATED_COMPACT_OUTPUT"
+  },
+  "claim_boundary": {
+    "allowed": "Replicated disease-QTL sharing plus target detectability in prespecified marker-defined PBC liver immune lineages.",
+    "not_yet_allowed": "PBC-versus-control differential expression, altered cell-state abundance, or causal tissue mediation."
+  },
+  "R7A2A0": {
+    "control_runs": ["HRR1849454", "HRR1849455", "HRR1849456", "HRR1849457", "HRR1849458"],
+    "control_bytes": 134657112757,
+    "manifest_preflight": "PASS",
+    "execution_pack_tests": "PASS_4_OF_4",
+    "real_WSL_preflight": "PASS"
+  },
+  "next_stage": "R7A2A1_HRA008003_EXACT_5_VS_5_CONTROL_TARGET_PANEL",
+  "full_reclustering": "HOLD_UNTIL_R7A2A1_RESULT_AND_CLAIM_NEED",
+  "CeD_auto_resume": false
+}

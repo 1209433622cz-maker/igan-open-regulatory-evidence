@@ -1,0 +1,56 @@
+{
+  "record_version": "R7B4B-1.0",
+  "privacy": "PRIVATE_DO_NOT_COMMIT_WHEN_COMPLETED",
+  "authors": [],
+  "affiliations": [],
+  "corresponding_author": {
+    "author_initials": null,
+    "postal_address": null,
+    "institutional_email": null,
+    "telephone": null
+  },
+  "declarations": {
+    "ethics": {
+      "determination": null,
+      "institution_or_committee": null,
+      "reference_number_or_not_applicable": null,
+      "approved_wording": null,
+      "evidence_reference": null,
+      "confirmed": false
+    },
+    "consent_for_publication": {"statement": null, "confirmed": false},
+    "competing_interests": {"statement": null, "all_authors_confirmed": false},
+    "research_funding": {"statement": null, "funder_role_statement": null, "confirmed": false},
+    "authors_contributions": {"statement_using_initials": null, "confirmed": false},
+    "acknowledgements": {"statement_or_not_applicable": null, "permissions_confirmed": false},
+    "ai_disclosure": {"statement_approved": false},
+    "originality": {"not_published_or_under_review_elsewhere": false}
+  },
+  "publication_arrangements": {
+    "apc_route": null,
+    "waiver_or_discount_requested_at_initial_submission": null,
+    "research_funding_separate_from_apc": true,
+    "licence_choice": null,
+    "confirmed": false
+  },
+  "institutional_journal_qualification": {
+    "evaluation_system": null,
+    "year": null,
+    "category": null,
+    "status": "PENDING",
+    "evidence_reference": null
+  },
+  "final_version_approval": {
+    "manuscript_docx_sha256": null,
+    "cover_letter_docx_sha256": null,
+    "approval_date": null,
+    "approved_author_initials": [],
+    "all_authors_approved": false
+  },
+  "submission_authorization": {
+    "authorized": false,
+    "authorized_by_author_initials": null,
+    "authorization_date": null,
+    "author_operated_submission_confirmed": false
+  }
+}

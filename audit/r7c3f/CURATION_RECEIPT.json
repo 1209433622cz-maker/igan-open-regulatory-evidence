@@ -1,0 +1,104 @@
+{
+  "export_index_rows": 957,
+  "work_record_aliases": 568,
+  "workflow_code_aliases": 389,
+  "public_path_adapters": [
+    {
+      "public_path": "analysis/r7a2/07_plot_R7A2A1_tissue_gate.py",
+      "old_sha256": "35f562f3709ea2349d4425c58de4f62e83fb4ed0bcec10c7d5c631df42ab6546",
+      "current_sha256": "82242b339c65d6ca63e0ee8c5cf9815f837d8c0981f2c24c3978d7925d3bd42b",
+      "change": "FIGURE_PATH_ADAPTER_ONLY",
+      "upstream_ast_identity": true
+    },
+    {
+      "public_path": "analysis/r7b1b_v2/15_build_r7b1b_v2_figures.py",
+      "old_sha256": "55d663d3b22f57d8451f1ff8bb8904238b25bed889f218b285b291f35193fbf4",
+      "current_sha256": "9f473ed045318c30f795dff6a7b20558ef02c4101ab30288fa24daf27b1d8e9f",
+      "change": "FIGURE_PATH_ADAPTER_ONLY",
+      "upstream_ast_identity": true
+    },
+    {
+      "public_path": "analysis/r7b1b_v2/17_sync_r7b1b_v2_to_github.py",
+      "old_sha256": "4051f1739231e1cd4fd155b8482c2833bea2c58a44454804f5ba09b4838656ae",
+      "current_sha256": "3529431f5fa6cf6bbaa10e88bc0ccbfbfce3605f81324f035cfaa4c92b48feaa",
+      "change": "FIGURE_PATH_ADAPTER_ONLY",
+      "upstream_ast_identity": true
+    },
+    {
+      "public_path": "analysis/r7b1c/07_build_r7b1c_figures.py",
+      "old_sha256": "76aed4768ff046f6893541cde8a66efe5ff1fef0694eee87888ad0305fdcbda5",
+      "current_sha256": "17763ce51ddcfdcbd4f91b09b86f9e463707afb8f3dc3e3d9a520037f3231105",
+      "change": "FIGURE_PATH_ADAPTER_ONLY",
+      "upstream_ast_identity": true
+    },
+    {
+      "public_path": "analysis/r7b1c/08_build_r7b1c_reports_release.py",
+      "old_sha256": "4c36a7d5b955f9230f42116f0816840eb26e4a8dabd7afda6b07126966a12a33",
+      "current_sha256": "90774b89574278a18c491bd2b60f5789a824039aa9cde33d3d3aeea58065f614",
+      "change": "FIGURE_PATH_ADAPTER_ONLY",
+      "upstream_ast_identity": true
+    },
+    {
+      "public_path": "analysis/r7b1c/09_sync_r7b1c_to_github.py",
+      "old_sha256": "fe6087f6b873a987fb932187f144e0582690b8a45dab161f21b641704e3d785a",
+      "current_sha256": "624d2b8878ffd4fc8bb75bcf3569fc3e807ac4bba96c20d4d5f8532f79e9dd94",
+      "change": "FIGURE_PATH_ADAPTER_ONLY",
+      "upstream_ast_identity": true
+    },
+    {
+      "public_path": "analysis/r7b2a/05_build_r7b2a_manuscript_lock_assets.py",
+      "old_sha256": "dc07e93f8db90e3fe33caa893ade94f3dec107401b0ad099e6408a4f99fb814b",
+      "current_sha256": "43b330c7a853f777084f8057c825d0122424e44f303b7d122cc82c5068e55f06",
+      "change": "FIGURE_PATH_ADAPTER_ONLY",
+      "upstream_ast_identity": true
+    },
+    {
+      "public_path": "analysis/r7b2a/06_independent_qa_r7b2a.py",
+      "old_sha256": "beb4682cef0dd739edc0800703b5bf22d4570f1c660f129e8f093d5ac4f43576",
+      "current_sha256": "9179b7f9aba182edcb8529027545d5d6796d4dba0ca0cfea0015b34acb2530dd",
+      "change": "FIGURE_PATH_ADAPTER_ONLY",
+      "upstream_ast_identity": true
+    },
+    {
+      "public_path": "analysis/r7b2a/07_build_r7b2a_reports_release.py",
+      "old_sha256": "999483eb4c982f72f6ab80a0b7c2442c9299e23505b5f649c096d4d198cdd16c",
+      "current_sha256": "7363b08e53103e870a5b12115b5ed70c3138fff0aa08824dadef1a48c1f12bbd",
+      "change": "FIGURE_PATH_ADAPTER_ONLY",
+      "upstream_ast_identity": true
+    },
+    {
+      "public_path": "analysis/r7b2/build_r7b2_figures.py",
+      "old_sha256": "a74a2fa94e36fedb21f3710dd177be6d37da440fcba51f2ec1e0025eb24af797",
+      "current_sha256": "9684b3c07abbebd4bfb602a50df171ede41d45221616ed837a71543e24a0cc8f",
+      "change": "FIGURE_PATH_ADAPTER_ONLY",
+      "upstream_ast_identity": true
+    },
+    {
+      "public_path": "analysis/r7b3a/build_r7b3a_figures.py",
+      "old_sha256": "6205f282494cdb841aae879819aeedbe856b4993ff1782191ebfac770723371a",
+      "current_sha256": "d7c8e044e3d70a61f2c69936f3c73f3f541cacd720536731c795f7127ed15529",
+      "change": "FIGURE_PATH_ADAPTER_ONLY",
+      "upstream_ast_identity": true
+    },
+    {
+      "public_path": "analysis/r7b4a/build_r7b4a_figures.py",
+      "old_sha256": "441989653d8724022c2716dd046dd2aba3ca3bffd1783cc4bb0d006cfaef16d1",
+      "current_sha256": "288541cdf86fc8e7c50d1e19a6b173b296098786d9fb95ba47e29bf00fb1b5d6",
+      "change": "FIGURE_PATH_ADAPTER_ONLY",
+      "upstream_ast_identity": true
+    },
+    {
+      "public_path": "analysis/r7a2/04_build_R7A2A0_source_audit.py",
+      "old_sha256": "fde66343cdc368ca8de90bcc8d6f1034bb06e20c47e9400c06feafd591ecae2b",
+      "current_sha256": "961f36f1032ee323492932334cb2b237ab41a3a06dc22d2c016779b5a2359328",
+      "change": "SOURCE_HTML_PATH_ADAPTER_ONLY",
+      "upstream_ast_identity": "Recorded in R7C3E; two source paths only"
+    }
+  ],
+  "large_input_unique_identities": 158,
+  "submission_original_content_assets": 21,
+  "submission_zip_sha256": "a691af22b062d3432be4794b01bcfab9a985836cdb76e82b4f4b430403d3e4da",
+  "submission_zip_bytes": 10057808,
+  "science_changed": false,
+  "scope": "Private workspace intact; duplicate bytes retained; public snapshots and original records indexed."
+}

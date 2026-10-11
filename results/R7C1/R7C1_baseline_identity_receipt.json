@@ -1,0 +1,28 @@
+{
+  "stage": "R7C1_BASELINE_FORK",
+  "baseline": "R7B4B2",
+  "status": "PASS_BYTE_IDENTICAL_COPY",
+  "files": [
+    {
+      "name": "R7B4B_HumanGenomics_final.docx",
+      "source": "H:\\SCI2\\YR1\\5_manuscript\\R7B4B_FinalSubmissionCandidate\\manuscript\\R7B4B_HumanGenomics_final.docx",
+      "source_sha256": "8dec3207ec695aded22a50ad0646c0b016df27fb28eb333fbd70ca7c35039ff7",
+      "fork_sha256": "8dec3207ec695aded22a50ad0646c0b016df27fb28eb333fbd70ca7c35039ff7",
+      "identical": true
+    },
+    {
+      "name": "R7B4B_HumanGenomics_final.md",
+      "source": "H:\\SCI2\\YR1\\5_manuscript\\R7B4B_FinalSubmissionCandidate\\manuscript\\R7B4B_HumanGenomics_final.md",
+      "source_sha256": "39c3164e572d7957859de71815856cd7b61cb7865caea00ffeb3078ede7a3638",
+      "fork_sha256": "39c3164e572d7957859de71815856cd7b61cb7865caea00ffeb3078ede7a3638",
+      "identical": true
+    },
+    {
+      "name": "R7B4B_HumanGenomics_final_WPS.pdf",
+      "source": "H:\\SCI2\\YR1\\5_manuscript\\R7B4B_FinalSubmissionCandidate\\manuscript\\R7B4B_HumanGenomics_final_WPS.pdf",
+      "source_sha256": "c7f55e24936b29add40621ff2b4dd57c28664fb0663ff9a049a810d2e9ab4786",
+      "fork_sha256": "c7f55e24936b29add40621ff2b4dd57c28664fb0663ff9a049a810d2e9ab4786",
+      "identical": true
+    }
+  ]
+}

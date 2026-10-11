@@ -1,0 +1,12 @@
+{
+  "status": "BLOCK",
+  "jobs": 7,
+  "jobs_pass": 3,
+  "inputs": {
+    "1_data\\qtl\\OneK1K\\OneK1K_pseudobulk_mean_mx.zip": "92b38f54e1dd77cdac6d1c814db30ff0e83eaff209825f020839402b90e027e5",
+    "1_data\\qtl\\OneK1K\\OneK1K_pseudobulk_mx_gene_list.zip": "68757fb2c571da1c4a123aa9d8ee22ae30e75661960d81d7daadac78c467f407",
+    "3_results\\03_qtl\\R7A1B\\R7A1B_OneK_frozen_QTL.tsv.gz": "0dba7c4ee573f294de699cb43e51e853b2426c1db84854b1ef0ac72ab1b37eb2",
+    "3_results\\04_integration\\R7A1B\\R7A1B_multisignal_triggers.tsv": "2e06a59dc6e92272de7e1e8b589b05f6c5853d7403263782e1696f4814fa1e55"
+  },
+  "implementation": "TensorQTL_1.0.10_formula_compatible_numpy"
+}

@@ -1,0 +1,8 @@
+evidence_layer	gene_axis	result	status	allowed_use
+OneK1K_source_LD_signal_specific	FCRL3	PP.H4=0.993775; stable cells=B_IN;B_MEM;CD4_NC;NK;NK_R	PASS	primary genetic-regulatory result
+OneK1K_source_LD_signal_specific	IL12RB2	PP.H4=0.998031; stable cell=NK	PASS	primary genetic-regulatory result
+TenK10K_independent_replication	FCRL3_B_intermediate	n=343; default PP.H4=0.991562; low-prior H4/(H3+H4)=0.921714	PASS	cross-resource replication
+TenK10K_independent_replication	IL12RB2_NK	n=396; default PP.H4=0.997544; low-prior H4/(H3+H4)=0.975973	PASS	cross-resource replication
+HRA008003_PBC_liver_detectability	FCRL3_B + IL12RB2_NK	both target-lineage pairs promotion-eligible in 5/5 PBC donors	PASS	disease-tissue lineage localization
+HRA008003_exact_5_vs_5	FCRL3_B	PBC-control log1p CPM difference=-0.786335; P=0.111111; q=0.111111	NO_ENRICHMENT	report null case-control support and direction
+HRA008003_exact_5_vs_5	IL12RB2_NK	PBC-control log1p CPM difference=0.329968; P=0.063492; q=0.111111	SUGGESTIVE_DIRECTION_ONLY	report null corrected result and direction

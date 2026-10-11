@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-15",
+  "stage": "R7A1C1A_COMPLETE_TENK_CLOSURE_AND_HRA_GATE_HARDENING",
+  "open_data_only": true,
+  "archived_projects": {
+    "SSc_sex_specific_main": "FROZEN_ARCHIVE",
+    "MG_regulatory_main": "NO_GO_ARCHIVED",
+    "IgAN_regulatory_main": "FROZEN_ARCHIVE"
+  },
+  "candidate_project": "primary_biliary_cholangitis",
+  "new_primary_project": "HOLD_PENDING_FIVE_DONOR_HRA_V2",
+  "R7A1C_TenK": {
+    "IL12RB2_NK": "PASS_FULL_PBC_INTERSECTION_WITH_SOURCE_CS_EXTERNAL_LD_CAVEAT",
+    "IL12RB2_exact_overlap_n": 396,
+    "IL12RB2_default_PP_H4": 0.9975442349979932,
+    "FCRL3_B_intermediate": "PASS_ROBUST_SINGLE_CAUSAL_ABF_SMOKE_WITH_SOURCE_CS1_IDENTITY",
+    "FCRL3_exact_overlap_n": 343,
+    "FCRL3_default_PP_H4": 0.9915620110494514,
+    "TenK_replication_gate": "PASS_2_OF_2_ELIGIBLE_GENES"
+  },
+  "R7A1C1_HRA": {
+    "source_gate": "PASS_OPEN_ACCESS_EXACT_FIVE_PBC_RUNS",
+    "total_raw_bytes": 152488497199,
+    "v1_runner": "INVALID_FOR_ADJUDICATION_CB_WHITELIST_AND_AMBIENT_RNA_RISK",
+    "v2_protocol": "FROZEN_OUTCOME_BLIND",
+    "v2_runner": "READY_AND_SYNTHETIC_TESTED",
+    "five_donor_outcome": "NOT_TESTED"
+  },
+  "next_stage": "R7A1C1B_FIVE_DONOR_BYTE_EXECUTION",
+  "next_protocol": "0_admin/protocol/current/R7A1C1_HRA008003_donor_target_detectability_v2.md",
+  "promotion_gate": "FCRL3_B_OR_IL12RB2_NK robust detectable in at least 3 of 5 PBC donors",
+  "CeD_auto_resume": false
+}

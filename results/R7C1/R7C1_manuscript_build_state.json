@@ -1,0 +1,11 @@
+{
+  "stage": "R7C1_IL12RB2_EXTERNAL_VALIDATION_MANUSCRIPT_FORK",
+  "baseline_md_sha256": "39c3164e572d7957859de71815856cd7b61cb7865caea00ffeb3078ede7a3638",
+  "output_md": "H:\\SCI2\\YR1\\5_manuscript\\R7C1_IL12RB2_ExternalValidation_ManuscriptFork\\manuscript\\R7C1_HumanGenomics_IL12RB2_external_validation_fork.md",
+  "output_md_sha256": "22c0039c9daab296aaf2b3b8f8d1912013d21adaeef44635a86f2a38154a9ec6",
+  "output_docx": "H:\\SCI2\\YR1\\5_manuscript\\R7C1_IL12RB2_ExternalValidation_ManuscriptFork\\manuscript\\R7C1_HumanGenomics_IL12RB2_external_validation_fork.docx",
+  "output_docx_sha256": "46ea7585be13b924746e73a7a4b87bacfbcebeec10c7d6e03ed03260d33ef67f",
+  "figure4_sha256": "7e8b241f9963a70fd66f97e50ef6238e5d18f03acba900de1db6526ef7f9831d",
+  "additional_file_3_sha256": "186d2e914c4b3762dd489230820b3e8c3b1cbf2ce0c75412a134bfd5b6dab097",
+  "claim_ceiling": "E2_ROBUST_ASSOCIATION; NO_DIRECT_MEDIATION"
+}

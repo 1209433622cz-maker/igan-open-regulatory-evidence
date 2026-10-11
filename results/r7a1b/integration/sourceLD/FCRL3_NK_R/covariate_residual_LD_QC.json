@@ -1,0 +1,29 @@
+{
+  "gene": "FCRL3",
+  "cell": "NK_R",
+  "n_samples": 750,
+  "n_variants": 2667,
+  "results": {
+    "PF10": {
+      "design_columns": 19,
+      "design_rank": 19,
+      "residual_df": 731,
+      "dual_min_eigenvalue": -3.4784777509974674e-15,
+      "dual_negative_lt_1e8": 0,
+      "max_asymmetry": 0.0,
+      "max_diag_dev": 0.0,
+      "gate_pass": true
+    },
+    "PF50": {
+      "design_columns": 59,
+      "design_rank": 59,
+      "residual_df": 691,
+      "dual_min_eigenvalue": -6.417728518619291e-15,
+      "dual_negative_lt_1e8": 0,
+      "max_asymmetry": 0.0,
+      "max_diag_dev": 0.0,
+      "gate_pass": true
+    }
+  },
+  "gate_pass": true
+}

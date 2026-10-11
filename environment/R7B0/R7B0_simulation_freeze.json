@@ -1,0 +1,22 @@
+{
+  "status": "PROTOCOL_FROZEN_BEFORE_RESULTS",
+  "core_replicates": 1000,
+  "secondary_replicates": 500,
+  "scenarios": [
+    "S1_one_shared",
+    "S2_distinct_correlated",
+    "S3_disease2_qtl1_partial",
+    "S4_two_by_two_one_shared",
+    "S5_two_by_two_none_highLD",
+    "S6_matched_vs_mismatched_LD"
+  ],
+  "random_seed_base": 20261002,
+  "no_result_adaptation": true,
+  "decision_outputs": [
+    "signal_classification",
+    "H4_bias_under_LD_mismatch",
+    "coverage",
+    "convergence",
+    "false_stability_rate"
+  ]
+}

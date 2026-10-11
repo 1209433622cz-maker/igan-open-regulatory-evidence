@@ -1,0 +1,222 @@
+{
+  "stage": "R7B3A_SOURCE_BOUND_COMPOSITES_SUPPLEMENT_AND_RENDER_PARITY",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "required_sections",
+      "status": "PASS",
+      "detail": "['## Abstract', '## Background', '## Methods', '## Results', '## Discussion', '## Conclusions', '## Declarations', '## References', '## Figure legends', '## Supplementary materials']"
+    },
+    {
+      "check": "numeric_anchor_coverage",
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "check": "prohibited_positive_claims",
+      "status": "PASS",
+      "detail": "found=[]"
+    },
+    {
+      "check": "independent_disease_replication_bounded",
+      "status": "PASS",
+      "detail": "explicitly bounded"
+    },
+    {
+      "check": "claim_ledger_count",
+      "status": "PASS",
+      "detail": "27"
+    },
+    {
+      "check": "claim_text_coverage",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "check": "reference_count_and_continuity",
+      "status": "PASS",
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]"
+    },
+    {
+      "check": "bibliographic_verification",
+      "status": "PASS",
+      "detail": "{'references': 22, 'pass_crossref_or_endpoint': 20, 'pass_web_primary': 2, 'fail': 0, 'status': 'PASS', 'web_primary_records': {'12': 'https://zenodo.org/records/18910121', '14': 'https://zenodo.org/records/18221260'}}"
+    },
+    {
+      "check": "figure_legends",
+      "status": "PASS",
+      "detail": "['1', '2', '3', '4', '5', '6']"
+    },
+    {
+      "check": "figure_triplets",
+      "status": "PASS",
+      "detail": "18"
+    },
+    {
+      "check": "figure_hash_manifest",
+      "status": "PASS",
+      "detail": "18"
+    },
+    {
+      "check": "no_figure2_fallback",
+      "status": "PASS",
+      "detail": "fail-closed source check"
+    },
+    {
+      "check": "deterministic_tissue_points",
+      "status": "PASS",
+      "detail": "fixed offsets"
+    },
+    {
+      "check": "figure5c_exact_values",
+      "status": "PASS",
+      "detail": "[np.float64(0.941334682686132), np.float64(0.9413349988264992), np.float64(0.949260546232612), np.float64(0.0036361957364122), np.float64(0.991894292309108)]"
+    },
+    {
+      "check": "supplement_state",
+      "status": "PASS",
+      "detail": "{'stage': 'R7B3A_SUPPLEMENT_ASSEMBLY', 'status': 'PASS', 'supplements': 10, 'files_before_workbook': 34, 'excluded': ['individual-level genotype', 'BAM', 'pseudobulk matrices', 'licensed source archives'], 'row_controls': {'S2': 6923, 'S3': 642, 'S5_fit_QC': 2568, 'S6_pairs': 10542, 'S7_iterations': 486000, 'S9_donor_rows': 20, 'S10_claims': 27}}"
+    },
+    {
+      "check": "supplement_directories",
+      "status": "PASS",
+      "detail": "10"
+    },
+    {
+      "check": "S2_workbook_rows",
+      "status": "PASS",
+      "detail": "6923"
+    },
+    {
+      "check": "S3_workbook_rows",
+      "status": "PASS",
+      "detail": "642"
+    },
+    {
+      "check": "S4_workbook_rows",
+      "status": "PASS",
+      "detail": "642"
+    },
+    {
+      "check": "S5_workbook_rows",
+      "status": "PASS",
+      "detail": "3210"
+    },
+    {
+      "check": "S6_workbook_rows",
+      "status": "PASS",
+      "detail": "11184"
+    },
+    {
+      "check": "S7_workbook_rows",
+      "status": "PASS",
+      "detail": "540"
+    },
+    {
+      "check": "S8_workbook_rows",
+      "status": "PASS",
+      "detail": "21"
+    },
+    {
+      "check": "S9_workbook_rows",
+      "status": "PASS",
+      "detail": "28"
+    },
+    {
+      "check": "S10_workbook_rows",
+      "status": "PASS",
+      "detail": "37"
+    },
+    {
+      "check": "supplement_workbook",
+      "status": "PASS",
+      "detail": "3282142"
+    },
+    {
+      "check": "supplement_sheet_visual_review",
+      "status": "PASS",
+      "detail": "10"
+    },
+    {
+      "check": "manuscript_word_count",
+      "status": "PASS",
+      "detail": "8175"
+    },
+    {
+      "check": "unknown_metadata_explicit",
+      "status": "PASS",
+      "detail": "9"
+    },
+    {
+      "check": "docx_exists",
+      "status": "PASS",
+      "detail": "3792701"
+    },
+    {
+      "check": "docx_figure_objects",
+      "status": "PASS",
+      "detail": "6"
+    },
+    {
+      "check": "docx_section_parity",
+      "status": "PASS",
+      "detail": "44"
+    },
+    {
+      "check": "pdf_exists",
+      "status": "PASS",
+      "detail": "2799323"
+    },
+    {
+      "check": "wps_pdf_creator",
+      "status": "PASS",
+      "detail": " WPS 文字"
+    },
+    {
+      "check": "pdf_page_count",
+      "status": "PASS",
+      "detail": "31"
+    },
+    {
+      "check": "pdf_page_render_parity",
+      "status": "PASS",
+      "detail": "rendered=31 pages=31"
+    }
+  ],
+  "summary": {
+    "pass": 36,
+    "total": 36
+  },
+  "artifacts": {
+    "R7B3A_full_english_manuscript_v2.md": {
+      "bytes": 59208,
+      "sha256": "26e30438ca51f07baa4ad1c2b6213a0d37370cb44834d72c79474ac96c7a8a83"
+    },
+    "R7B3A_full_english_manuscript_v2.docx": {
+      "bytes": 3792701,
+      "sha256": "3a83a122f1ac5476e46da27d7e625986b4219cc58353ec0ad145d9c8b47c7ef2"
+    },
+    "R7B3A_full_english_manuscript_v2_WPS.pdf": {
+      "bytes": 2799323,
+      "sha256": "4af506b6c36488509adf4932fad60419bcc2b24ef6841d49b21f7539201544cd"
+    },
+    "R7B3A_Supplementary_Tables_S1-S10.xlsx": {
+      "bytes": 3282142,
+      "sha256": "7f53dfd60195b9903a52f638ba5ae6f8c7286adec9bcec0652bf1c27adf57382"
+    }
+  },
+  "pdf_metadata": {
+    "/Author": "[AUTHORS TO BE COMPLETED]",
+    "/Comments": "",
+    "/Company": "",
+    "/CreationDate": "D:20261010002609+08'00'",
+    "/Creator": "WPS 文字",
+    "/Keywords": "PBC; colocalization; eQTL; SuSiE; source-matched LD; multi-signal",
+    "/ModDate": "D:20261010002609+08'00'",
+    "/Producer": "",
+    "/SourceModified": "D:20261010002609+08'00'",
+    "/Subject": "R7B3A source-corrected manuscript v2 with frozen figures and supplements",
+    "/Title": "Input-matched multi-signal analysis clarifies immune-cell regulatory assignments at PBC risk loci",
+    "/Trapped": "/False"
+  }
+}

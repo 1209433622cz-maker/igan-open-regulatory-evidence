@@ -1,0 +1,291 @@
+{
+  "schema": "R7A2A5_FINAL_QA_1.0",
+  "date": "2026-09-30",
+  "pass": 55,
+  "fail": 0,
+  "blocked_human_input": 1,
+  "machine_gate": "PASS",
+  "submission_state": "AWAITING_AUTHOR_METADATA",
+  "checks": [
+    {
+      "check": "file exists: R7A2A5_HumanGenomics_manuscript_v3.md",
+      "status": "PASS",
+      "detail": "50871 bytes"
+    },
+    {
+      "check": "file exists: R7A2A5_HumanGenomics_manuscript_v3.docx",
+      "status": "PASS",
+      "detail": "55661 bytes"
+    },
+    {
+      "check": "file exists: R7A2A5_HumanGenomics_manuscript_v3_WPS.pdf",
+      "status": "PASS",
+      "detail": "303033 bytes"
+    },
+    {
+      "check": "file exists: R7A2A5_HumanGenomics_cover_letter_DRAFT.docx",
+      "status": "PASS",
+      "detail": "38315 bytes"
+    },
+    {
+      "check": "file exists: R7A2A5_HumanGenomics_cover_letter_DRAFT_WPS.pdf",
+      "status": "PASS",
+      "detail": "117258 bytes"
+    },
+    {
+      "check": "file exists: Additional_file_1_R7A2A5_Supplementary_Tables.xlsx",
+      "status": "PASS",
+      "detail": "71360 bytes"
+    },
+    {
+      "check": "R7A2A4 input identity",
+      "status": "PASS",
+      "detail": "c7c50a3637068d13d593f10b182fc0f26c715d8ef53e9d6fdf228c34dd3daaf9"
+    },
+    {
+      "check": "title <=20 words",
+      "status": "PASS",
+      "detail": "13 words"
+    },
+    {
+      "check": "structured abstract <=350 words",
+      "status": "PASS",
+      "detail": "292 words"
+    },
+    {
+      "check": "abstract heading Background",
+      "status": "PASS",
+      "detail": "### Background"
+    },
+    {
+      "check": "abstract heading Results",
+      "status": "PASS",
+      "detail": "### Results"
+    },
+    {
+      "check": "abstract heading Conclusions",
+      "status": "PASS",
+      "detail": "### Conclusions"
+    },
+    {
+      "check": "section Background",
+      "status": "PASS",
+      "detail": "## Background"
+    },
+    {
+      "check": "section Methods",
+      "status": "PASS",
+      "detail": "## Methods"
+    },
+    {
+      "check": "section Results",
+      "status": "PASS",
+      "detail": "## Results"
+    },
+    {
+      "check": "section Discussion",
+      "status": "PASS",
+      "detail": "## Discussion"
+    },
+    {
+      "check": "section Conclusions",
+      "status": "PASS",
+      "detail": "## Conclusions"
+    },
+    {
+      "check": "section List of abbreviations",
+      "status": "PASS",
+      "detail": "## List of abbreviations"
+    },
+    {
+      "check": "section Declarations",
+      "status": "PASS",
+      "detail": "## Declarations"
+    },
+    {
+      "check": "section References",
+      "status": "PASS",
+      "detail": "## References"
+    },
+    {
+      "check": "section Figure legends",
+      "status": "PASS",
+      "detail": "## Figure legends"
+    },
+    {
+      "check": "declaration Ethics approval and consent to participate",
+      "status": "PASS",
+      "detail": "### Ethics approval and consent to participate"
+    },
+    {
+      "check": "declaration Consent for publication",
+      "status": "PASS",
+      "detail": "### Consent for publication"
+    },
+    {
+      "check": "declaration Availability of data and materials",
+      "status": "PASS",
+      "detail": "### Availability of data and materials"
+    },
+    {
+      "check": "declaration Competing interests",
+      "status": "PASS",
+      "detail": "### Competing interests"
+    },
+    {
+      "check": "declaration Funding",
+      "status": "PASS",
+      "detail": "### Funding"
+    },
+    {
+      "check": "declaration Authors' contributions",
+      "status": "PASS",
+      "detail": "### Authors' contributions"
+    },
+    {
+      "check": "declaration Acknowledgements",
+      "status": "PASS",
+      "detail": "### Acknowledgements"
+    },
+    {
+      "check": "declaration Authors' information",
+      "status": "PASS",
+      "detail": "### Authors' information"
+    },
+    {
+      "check": "claim ceiling retained",
+      "status": "PASS",
+      "detail": "explicit association/signal-sharing ceiling"
+    },
+    {
+      "check": "tissue null boundary retained",
+      "status": "PASS",
+      "detail": "detectability separated from enrichment"
+    },
+    {
+      "check": "TenK disease-replication boundary retained",
+      "status": "PASS",
+      "detail": "same PBC GWAS explicitly disclosed"
+    },
+    {
+      "check": "external preregistration not claimed",
+      "status": "PASS",
+      "detail": "prespecified/protocol-frozen wording"
+    },
+    {
+      "check": "QiTeng disclosure present",
+      "status": "PASS",
+      "detail": "supervised writing disclosure"
+    },
+    {
+      "check": "reference continuity",
+      "status": "PASS",
+      "detail": "references=[1, 2, 3]...[17, 18, 19]"
+    },
+    {
+      "check": "citation first-appearance order",
+      "status": "PASS",
+      "detail": "first appearances=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]"
+    },
+    {
+      "check": "continuous line numbering",
+      "status": "PASS",
+      "detail": "DOCX section properties"
+    },
+    {
+      "check": "page numbering field",
+      "status": "PASS",
+      "detail": "DOCX footer field"
+    },
+    {
+      "check": "double-spaced normal style",
+      "status": "PASS",
+      "detail": "line spacing=2.0"
+    },
+    {
+      "check": "WPS manuscript PDF",
+      "status": "PASS",
+      "detail": "27 pages; creator=WPS 文字"
+    },
+    {
+      "check": "one-page WPS cover letter",
+      "status": "PASS",
+      "detail": "1 page; creator=WPS 文字"
+    },
+    {
+      "check": "PDF text extraction",
+      "status": "PASS",
+      "detail": "51866 characters"
+    },
+    {
+      "check": "graphical abstract 920x300",
+      "status": "PASS",
+      "detail": "920x300"
+    },
+    {
+      "check": "Figure 1 technical gate",
+      "status": "PASS",
+      "detail": "2760x2538, 300.0 dpi, 313105 bytes"
+    },
+    {
+      "check": "Figure 2 technical gate",
+      "status": "PASS",
+      "detail": "2271x1311, 300.0 dpi, 147038 bytes"
+    },
+    {
+      "check": "Figure 3 technical gate",
+      "status": "PASS",
+      "detail": "2247x1684, 300.0 dpi, 184419 bytes"
+    },
+    {
+      "check": "Figure 4 technical gate",
+      "status": "PASS",
+      "detail": "2054x1288, 300.0 dpi, 116917 bytes"
+    },
+    {
+      "check": "Figure 5 technical gate",
+      "status": "PASS",
+      "detail": "2618x1436, 320.0 dpi, 156311 bytes"
+    },
+    {
+      "check": "Figure 6 technical gate",
+      "status": "PASS",
+      "detail": "2760x2220, 300.0 dpi, 273272 bytes"
+    },
+    {
+      "check": "Supplementary Figure S1",
+      "status": "PASS",
+      "detail": "2400x1500, 300.0 dpi"
+    },
+    {
+      "check": "Supplementary Figure S2",
+      "status": "PASS",
+      "detail": "2400x1500, 300.0 dpi"
+    },
+    {
+      "check": "Supplementary Figure S3",
+      "status": "PASS",
+      "detail": "2400x1500, 300.0 dpi"
+    },
+    {
+      "check": "Supplementary Figure S4",
+      "status": "PASS",
+      "detail": "2400x1500, 300.0 dpi"
+    },
+    {
+      "check": "supplement workbook sheet set",
+      "status": "PASS",
+      "detail": "11 sheets"
+    },
+    {
+      "check": "supplement formula/error scan",
+      "status": "PASS",
+      "detail": "formulas=0; errors=0"
+    },
+    {
+      "check": "human metadata complete",
+      "status": "BLOCKED_HUMAN_INPUT",
+      "detail": "3 explicit manuscript placeholders remain"
+    }
+  ]
+}

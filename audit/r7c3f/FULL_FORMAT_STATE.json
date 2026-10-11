@@ -1,0 +1,14 @@
+{
+  "counts": {
+    "PASS_FULL_ARCHIVE_CRC": 272,
+    "PASS_FULL_GZIP_STREAM_CRC": 4324,
+    "LIMIT_FULL_SHA256_ONLY": 9,
+    "PASS_PLINK_SNP_MAJOR_MAGIC": 3,
+    "PASS_NPY_HEADER_AND_PAYLOAD_SIZE": 60
+  },
+  "review_findings": 0,
+  "elapsed_seconds": 0.12,
+  "scope": "All original snapshot archive members CRC-checked; gzip <=64MiB fully decompressed, larger gzip identity-only; PLINK/NPY headers not scientific-model validation. No raw-file mutation.",
+  "retry_npy_only": true,
+  "repair": "Replaced removed NumPy private API with public version-specific header readers; original scientific NPY bytes untouched."
+}

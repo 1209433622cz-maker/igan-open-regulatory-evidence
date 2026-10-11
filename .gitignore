@@ -1,0 +1,44 @@
+# Raw and large data
+1_data/
+raw_data/
+*.bed
+*.bim
+*.fam
+*.pgen
+*.pvar
+*.psam
+*.vcf
+*.vcf.gz
+*.bcf
+*.h5ad
+*.rds
+*.RDS
+*.tar
+*.tar.gz
+*.zip
+*.br
+
+# Donor-level and large numeric matrices
+*active_donors.txt
+*standardized*A1*dosage*
+*correlation.npy
+*correlation.float32.bin
+*.npy
+*.npz
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+
+# Runtime output
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+.pytest_cache/
+logs/
+

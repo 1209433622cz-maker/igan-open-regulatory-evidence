@@ -1,0 +1,43 @@
+{
+  "stage": "R7B4B1_AUTHOR_APPROVED_SUBMISSION_CANDIDATE",
+  "date": "2026-10-10",
+  "primary_project": "PBC regulatory-assignment reliability",
+  "target_journal": "Human Genomics",
+  "article_type": "Research",
+  "authors": [
+    {
+      "name": "Zhi Chen",
+      "order": 1,
+      "orcid": "0009-0001-0072-5576"
+    },
+    {
+      "name": "Teng Qi",
+      "order": 2,
+      "corresponding": true,
+      "orcid": "0009-0007-7648-4776"
+    }
+  ],
+  "affiliation": "School of Medicine, The Chinese University of Hong Kong, Shenzhen",
+  "scientific_analysis_changed": false,
+  "wps_render": {
+    "manuscript_pages": 30,
+    "cover_letter_pages": 1,
+    "visual_inspection": "PASS_ALL_PAGES"
+  },
+  "final_submission_qa": {
+    "pass": 20,
+    "hold": 2,
+    "fail": 0,
+    "holds": [
+      "institution-specific Q2 confirmation",
+      "author-operated journal submission"
+    ]
+  },
+  "licensing": {
+    "code": "MIT",
+    "original_content": "CC BY 4.0",
+    "third_party_data": "source-provider terms"
+  },
+  "journal_submission": "NOT_PERFORMED; must be operated by an author",
+  "private_data_boundary": "Private author record, approval evidence and journal credentials are excluded from Git history."
+}

@@ -1,0 +1,58 @@
+{
+  "status": "PASS_ASIAN_SPECIFIC_DISCOVERY_CANDIDATE",
+  "claim_ceiling": "ANCESTRY_SPECIFIC_DISCOVERY_CANDIDATE_ONLY",
+  "LD_QC": "PASS",
+  "PF10_L10_converged": true,
+  "PF10_L10_credible_sets_95": 1,
+  "stable_95pct_CS": 1,
+  "stable_CS_details": [
+    {
+      "primary_credible_set": "L1",
+      "primary_component": 1,
+      "members": 15,
+      "stable": true,
+      "matches": {
+        "PF10_L5": {
+          "best_jaccard": 1.0,
+          "credible_set": "L1"
+        },
+        "PF10_L20": {
+          "best_jaccard": 1.0,
+          "credible_set": "L1"
+        },
+        "PF50_L10": {
+          "best_jaccard": 1.0,
+          "credible_set": "L1"
+        }
+      }
+    }
+  ],
+  "asian_signal_tests": [
+    {
+      "component": 1,
+      "credible_set": "L1",
+      "pass": true,
+      "asian_PP_H4": 0.900481619224669,
+      "asian_H4_ratio": 0.913218469750893,
+      "asian_low_prior_ratio": 0.51274629599041
+    }
+  ],
+  "contrast": {
+    "combined": {
+      "max_PP_H4": 0.0717149934398155,
+      "max_H4_ratio": 0.0928844200289726
+    },
+    "european": {
+      "max_PP_H4": 0.0148623938956355,
+      "max_H4_ratio": 0.0920607257667253
+    },
+    "asian": {
+      "max_PP_H4": 0.900481619224669,
+      "max_H4_ratio": 0.913218469750893
+    }
+  },
+  "disease_strength_note": "Asian regional disease min P was ~4.55e-6 in frozen R6A2B0 smoke; not genome-wide significant.",
+  "project_decision": "CONDITIONAL_GO_ANCESTRY_AWARE_TWO_LOCUS_REASSESSMENT",
+  "next_stage": "R6A2D_TENK_REEP3_CD4_REPLICATION",
+  "tenk_triggered": true
+}

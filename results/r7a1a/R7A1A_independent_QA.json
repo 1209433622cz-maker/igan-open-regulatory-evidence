@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "PBC_official_MD5",
+      "status": "PASS",
+      "observed": "c48ede08359f6fc919810591cc0daad7"
+    },
+    {
+      "check": "PBC_rows",
+      "status": "PASS",
+      "observed": 5054572
+    },
+    {
+      "check": "PBC_valid_rows",
+      "status": "PASS",
+      "observed": 5054572
+    },
+    {
+      "check": "PBC_nonMHC_gate",
+      "status": "PASS",
+      "observed": 45
+    },
+    {
+      "check": "CeD_schema",
+      "status": "PASS",
+      "observed": "PASS"
+    },
+    {
+      "check": "CeD_nonMHC_gate",
+      "status": "PASS",
+      "observed": 12
+    },
+    {
+      "check": "GJOKA_pairs",
+      "status": "PASS",
+      "observed": {
+        "url": "https://www.staff.ncl.ac.uk/heather.cordell/GJOKA_SUMSTATS.zip",
+        "http_content_length": 1184054519,
+        "last_modified": "Mon, 08 Apr 2024 16:04:09 GMT",
+        "accept_ranges": "bytes",
+        "members": 112,
+        "sumstats_members": 56,
+        "ld_members": 56,
+        "matched_locus_pairs": 56,
+        "central_directory_all_members_have_crc": true,
+        "full_archive_downloaded": false,
+        "interpretation": "HTTP-range central directory plus all small sumstats members inspected; large LD members were not downloaded because no R7A1B locus is yet triggered."
+      }
+    },
+    {
+      "check": "PBC_3of3_testable",
+      "status": "PASS",
+      "observed": {
+        "controls": 3,
+        "cross_resource_byte_testable": 3,
+        "OneK_source_supported": 2,
+        "TenK_source_or_CS_supported": 3,
+        "cross_resource_source_positive": 2,
+        "gate_3_controls_byte_testable": "PASS",
+        "strict_positive_gate_3_of_3": "FAIL"
+      }
+    },
+    {
+      "check": "PBC_2of3_positive",
+      "status": "PASS",
+      "observed": {
+        "controls": 3,
+        "cross_resource_byte_testable": 3,
+        "OneK_source_supported": 2,
+        "TenK_source_or_CS_supported": 3,
+        "cross_resource_source_positive": 2,
+        "gate_3_controls_byte_testable": "PASS",
+        "strict_positive_gate_3_of_3": "FAIL"
+      }
+    },
+    {
+      "check": "CeD_3of3_testable",
+      "status": "PASS",
+      "observed": {
+        "controls": 3,
+        "cross_resource_byte_testable": 3,
+        "OneK_source_supported": 1,
+        "TenK_source_or_CS_supported": 3,
+        "cross_resource_source_positive": 1,
+        "gate_3_controls_byte_testable": "PASS",
+        "strict_positive_gate_3_of_3": "FAIL"
+      }
+    },
+    {
+      "check": "CeD_1of3_positive",
+      "status": "PASS",
+      "observed": {
+        "controls": 3,
+        "cross_resource_byte_testable": 3,
+        "OneK_source_supported": 1,
+        "TenK_source_or_CS_supported": 3,
+        "cross_resource_source_positive": 1,
+        "gate_3_controls_byte_testable": "PASS",
+        "strict_positive_gate_3_of_3": "FAIL"
+      }
+    },
+    {
+      "check": "decision",
+      "status": "PASS",
+      "observed": {
+        "stage": "R7A1A",
+        "status": "COMPLETE",
+        "new_primary_project": "NOT_YET_APPROVED",
+        "pbc": "GO_R7A1B_BOUNDED_SIGNAL_GATE",
+        "ced": "HOLD_NOT_SELECTED",
+        "excluded_ced_source": "GCST90014442_UK_BIOBANK_DERIVED",
+        "pbc_controls": {
+          "IL12RB2": "SOURCE_POSITIVE",
+          "FCRL3": "SOURCE_POSITIVE",
+          "INAVA": "TESTABLE_ONEK_WEAK"
+        },
+        "ced_controls": {
+          "CSK": "TESTABLE_ONEK_WEAK",
+          "TRAFD1": "TESTABLE_ONEK_WEAK",
+          "UBASH3A": "SOURCE_POSITIVE"
+        },
+        "next_stage": "R7A1B_PBC_3CONTROL_SIGNAL_GATE"
+      }
+    }
+  ]
+}

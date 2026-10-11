@@ -1,0 +1,63 @@
+{
+  "status": "FAIL_INDEPENDENT_TENK_REPLICATION",
+  "OneK_primary_CS_members": 15,
+  "OneK_primary_CS_unique_liftover": 15,
+  "OneK_primary_CS_exact_overlap_with_TenK_source_CS": 0,
+  "primary_cells": [
+    {
+      "cell_type": "CD4_Naive",
+      "gene_level_ACAT_p": 3.21487281240707e-12,
+      "source_CS_count": 1,
+      "source_CS_members": 44,
+      "source_CS_max_PIP": 0.0450641593469681,
+      "exact_OneK_primary_CS_overlap": 0,
+      "minimum_distance_OneK_CS_to_TenK_CS_bp": 22693.0,
+      "author_precomputed_IgAN_PP_H3": 0.9650299239149,
+      "author_precomputed_IgAN_PP_H4": 0.0314165176191261,
+      "author_precomputed_IgAN_H4_ratio": 0.03152855618688394,
+      "author_precomputed_top_snp": "chr10_63447258_C_T",
+      "replication_status": "FAIL_DISTINCT_SIGNAL_FAVORED"
+    },
+    {
+      "cell_type": "CD4_TCM",
+      "gene_level_ACAT_p": 7.81938227389922e-07,
+      "source_CS_count": 1,
+      "source_CS_members": 61,
+      "source_CS_max_PIP": 0.134520560351034,
+      "exact_OneK_primary_CS_overlap": 0,
+      "minimum_distance_OneK_CS_to_TenK_CS_bp": 5512.0,
+      "author_precomputed_IgAN_PP_H3": 0.96869073032452,
+      "author_precomputed_IgAN_PP_H4": 0.0257732620535126,
+      "author_precomputed_IgAN_H4_ratio": 0.02591673730879059,
+      "author_precomputed_top_snp": "chr10_63476069_G_T",
+      "replication_status": "FAIL_DISTINCT_SIGNAL_FAVORED"
+    }
+  ],
+  "auxiliary_Treg": [
+    {
+      "cell_type": "Treg",
+      "gene_level_ACAT_p": 0.0048061769902694,
+      "source_CS_count": 0,
+      "source_CS_members": 0,
+      "source_CS_max_PIP": null,
+      "exact_OneK_primary_CS_overlap": 0,
+      "minimum_distance_OneK_CS_to_TenK_CS_bp": null,
+      "author_precomputed_IgAN_PP_H3": 0.210908702291274,
+      "author_precomputed_IgAN_PP_H4": 0.047019680615641,
+      "author_precomputed_IgAN_H4_ratio": 0.18229742723820416,
+      "author_precomputed_top_snp": "chr10_63603206_G_T",
+      "replication_status": "FAIL_DISTINCT_SIGNAL_FAVORED"
+    }
+  ],
+  "interpretation": "TenK10K confirms REEP3 is a T-cell cis-eQTL gene, but its source credible signal does not exactly reproduce the OneK1K primary credible signal and author-precomputed IgAN colocalization is H3-dominant in both frozen replication cells.",
+  "claim_ceiling": "ONEK_DISCOVERY_ONLY_NO_INDEPENDENT_MOLECULAR_COLOC_REPLICATION",
+  "project_decision": "DO_NOT_ADVANCE_TO_TWO_LOCUS_ANCESTRY_AWARE_MANUSCRIPT",
+  "next_stage": "R6A3_IGAN_DESIGN_REASSESSMENT_KIDNEY_PQTL_TISSUE",
+  "provenance": {
+    "liftover_chain": "1_data\\reference\\liftover\\hg19ToHg38.over.chain.gz",
+    "liftover_chain_sha256": "5c0598e500ceb5a78c73086929e8ef993aec309bcafb595139b53d440b125a1d",
+    "OneK_CS_sha256": "a83254b7c0484d65d198c6a6a8fd0e3426e3458b0ce3cc07cda8712b105dfd2e",
+    "TenK_source_CS_sha256": "aa605e0cd6e055429459896078ee68d5a095338f0b647a74f9f32d4c3eba78b2",
+    "TenK_precomputed_member_manifest_local_execution_sha256": "0543c8232cc8042cdee5e353bee1dc463d1c876dd896ca48f5d589c362f24f1b"
+  }
+}

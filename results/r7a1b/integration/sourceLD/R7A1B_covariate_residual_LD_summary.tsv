@@ -1,0 +1,8 @@
+gene	cell	n_samples	n_variants	gate_pass
+FCRL3	B_IN	975	2684	True
+FCRL3	B_MEM	970	2687	True
+FCRL3	CD4_NC	980	2684	True
+FCRL3	CD8_ET	980	2684	True
+FCRL3	NK	980	2684	True
+FCRL3	NK_R	750	2667	True
+IL12RB2	NK	980	2386	True

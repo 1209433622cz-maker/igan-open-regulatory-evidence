@@ -1,0 +1,14 @@
+gate	status	evidence_or_reason	next_action
+PBC primary project	GO	R7B4A scientific evidence frozen	Do not reopen biology
+Human Genomics Research route	LOCKED	Official scope and Research instructions remain compatible	Retain primary route
+R7B4A release identity	PASS	18289096 bytes; frozen SHA-256; CRC PASS; 55/55 checksums	Use as immutable upstream
+GitHub release identity	PASS	main and annotated tag peeled commit verified	Retain tag in data availability
+Reference first appearance	PASS	1 through 22 in order	No renumbering required
+Historical author-review QA	PASS_42_OF_42	R7B4A author-review conditions	Preserve as history
+Final author metadata	HOLD	Not supplied	Complete private v2 record
+Institutional Q2 qualification	HOLD	Institution-specific evidence absent	Obtain institutional confirmation
+Final candidate	HOLD	Not created	Build only after metadata validation
+Final WPS parity	HOLD	Final DOCX/PDF absent	WPS export and all-page visual QA
+All-author approval	HOLD	Version-bound approval absent	Approve exact hashes
+Submission authorization	NO	Author authorization absent	Author-operated submission only
+New biological analysis	NO	No evidence-triggered need	Remain frozen
