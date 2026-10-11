@@ -1,0 +1,114 @@
+{
+  "stage": "R7C3F",
+  "date": "2026-10-12",
+  "repository": "1209433622cz-maker/igan-open-regulatory-evidence",
+  "url": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence",
+  "old_repository_id": 1369613027,
+  "new_repository_id": 1414691109,
+  "old_repository_deleted": true,
+  "delete_http_status": 204,
+  "new_public_repository_created": true,
+  "default_branch": "main",
+  "old_head": "2fa8bb8481d26f37cc121d499bad4ce180b8b732",
+  "verified_payload_commit": "0bdcc231e4deca7de90db60d34f89b7147dc75be",
+  "remote_payload_head": "0bdcc231e4deca7de90db60d34f89b7147dc75be",
+  "archive_branch": "archive/pre-rebuild-20261012",
+  "historical_tags_restored": 8,
+  "new_tag": "r7c3f-full-audit-rebuilt-submission-2026-10-12",
+  "releases": 6,
+  "old_release_assets_restored": 10,
+  "new_submission_zip_bytes": 10057808,
+  "new_submission_zip_sha256": "a691af22b062d3432be4794b01bcfab9a985836cdb76e82b4f4b430403d3e4da",
+  "old_backup_bundle_sha256": "bbe388675f76ad66ee0b44321d43dec7c52eee0bfdceaabb6b60a3d06d312565",
+  "manifest_entries_at_payload": 2328,
+  "release_identity_note": "Tag/commit identities, release descriptions and asset bytes preserved; repository/release IDs and creation timestamps changed.",
+  "recovery": "Initial Git push did not finish; only its verified process tree was stopped. This resume uses repo-local GitHub CLI credentials and HTTP/1.1. It validates the new ID and never deletes/recreates again.",
+  "zenodo_doi_minted": false,
+  "journal_submitted": false,
+  "release_asset_remote_sha256_verified": [
+    {
+      "tag": "r7c3f-full-audit-rebuilt-submission-2026-10-12",
+      "asset": "CMM_R7C3F_npj_Submission_Candidate_20261012.zip",
+      "bytes": 10057808,
+      "sha256": "a691af22b062d3432be4794b01bcfab9a985836cdb76e82b4f4b430403d3e4da",
+      "remote_sha256": "PASS_SERVER_DIGEST"
+    },
+    {
+      "tag": "r7c3f-full-audit-rebuilt-submission-2026-10-12",
+      "asset": "CMM_R7C3F_npj_Submission_Candidate_20261012.zip.sha256",
+      "bytes": 115,
+      "sha256": "056928b69e22d92b3b0ee6e2c67617e062a2ffc2adc6948a8d9819cee3967f03",
+      "remote_sha256": "PASS_SERVER_DIGEST"
+    },
+    {
+      "tag": "r7c3-full-audit-submission-gate-2026-10-11",
+      "asset": "CMM_R7C3_PublicAudit_SubmissionRelease_2026-10-11.zip",
+      "bytes": 12328930,
+      "sha256": "bcd96a7b81007ff79003c4458f4b08ec72a18704e89d0d77de4e84a8bd98031e",
+      "remote_sha256": "PASS_SERVER_DIGEST"
+    },
+    {
+      "tag": "r7c3-full-audit-submission-gate-2026-10-11",
+      "asset": "CMM_R7C3_PublicAudit_SubmissionRelease_2026-10-11.zip.sha256",
+      "bytes": 121,
+      "sha256": "43cd6f20f50aefd3c41c948768d294c03aa86fd8ed9c6eb23c09c44c5d6760c8",
+      "remote_sha256": "PASS_SERVER_DIGEST"
+    },
+    {
+      "tag": "r7c2-q1-journal-audit-dual-track-2026-10-11",
+      "asset": "CMM_R7C2_Q1_JournalRealityCheck_DualTrackSubmission_2026-10-11.zip",
+      "bytes": 16003405,
+      "sha256": "f40cd8dc43c7f43afeb360003eefcb6035834f32a59f7b2dbc2fb2c7d5ff3000",
+      "remote_sha256": "PASS_SERVER_DIGEST"
+    },
+    {
+      "tag": "r7c2-q1-journal-audit-dual-track-2026-10-11",
+      "asset": "CMM_R7C2_Q1_JournalRealityCheck_DualTrackSubmission_2026-10-11.zip.sha256",
+      "bytes": 134,
+      "sha256": "1a607491c2b9519e24c20c8b32499eb410a91472ecac4b4a82a244ba4f1eafd1",
+      "remote_sha256": "PASS_SERVER_DIGEST"
+    },
+    {
+      "tag": "r7c1-il12rb2-external-validation-2026-10-11",
+      "asset": "CMM_R7C1_IL12RB2_ExternalValidation_ManuscriptFork_2026-10-11.zip",
+      "bytes": 15713339,
+      "sha256": "4303efdba91940f42ff35a121ca8a2ce3cbbbb764f365cf09cc4da3cc137462f",
+      "remote_sha256": "PASS_SERVER_DIGEST"
+    },
+    {
+      "tag": "r7c1-il12rb2-external-validation-2026-10-11",
+      "asset": "CMM_R7C1_IL12RB2_ExternalValidation_ManuscriptFork_2026-10-11.zip.sha256",
+      "bytes": 133,
+      "sha256": "4950228431038b102222c729baa3df9492026acacfc5456de6623a490b6f98d8",
+      "remote_sha256": "PASS_SERVER_DIGEST"
+    },
+    {
+      "tag": "r7c0-source-identity-external-evidence-2026-10-11",
+      "asset": "CMM_R7C0_SourceIdentity_ExternalEvidence_Upgrade_2026-10-11.zip",
+      "bytes": 552775,
+      "sha256": "9b916e03f65196060802714f90968f216828b0627f1bc0f1fec761477985b499",
+      "remote_sha256": "PASS_SERVER_DIGEST"
+    },
+    {
+      "tag": "r7c0-source-identity-external-evidence-2026-10-11",
+      "asset": "CMM_R7C0_SourceIdentity_ExternalEvidence_Upgrade_2026-10-11.zip.sha256",
+      "bytes": 131,
+      "sha256": "934ce126fcfbf097ae9adf2eed38dd5769d831b8b4dc036db6aeb6379c97cbeb",
+      "remote_sha256": "PASS_SERVER_DIGEST"
+    },
+    {
+      "tag": "r7b4b2-author-approved-open-research-release-2026-10-10",
+      "asset": "PBC_R7B4B2_OpenResearchCompendium_2026-10-10.zip",
+      "bytes": 16027860,
+      "sha256": "0bfe7e08e1fdea9d5cf7d5baa9dd6416804e3e28d29dc237c7d66386edaf87de",
+      "remote_sha256": "PASS_SERVER_DIGEST"
+    },
+    {
+      "tag": "r7b4b2-author-approved-open-research-release-2026-10-10",
+      "asset": "PBC_R7B4B2_OpenResearchCompendium_2026-10-10.zip.sha256",
+      "bytes": 115,
+      "sha256": "946d5e075f2cedc8000b8debb8a84b26536ee02a6d610c9f8de11328e2a99698",
+      "remote_sha256": "PASS_SERVER_DIGEST"
+    }
+  ]
+}

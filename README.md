@@ -66,3 +66,7 @@ Original code: [MIT](LICENSE). Original author text, figures, protocols, documen
 ## Current submission decision
 
 Target: **npj Genomic Medicine**, current article-type/portal instructions govern upload roles. Use one primary main DOCX. Exact-version author confirmation, actual official reporting forms, true-date cover letter, final-size figure check and publisher-generated merged PDF remain to be completed. No submission receipt or Zenodo DOI has been verified. Next: **R7C4 — final-version confirmation, reporting forms, portal proof and submission receipt**. New gene/cell/locus screening and global simulation reruns remain out of scope unless a concrete scientific defect emerges.
+
+## Verified repository rebuild — 12 October 2026
+
+The old repository was deleted (HTTP 204) and a new public repository was created at the same URL. New repository ID: 1414691109. All eight old tags and the old main at `archive/pre-rebuild-20261012` retain their Git identities; five historical Releases and ten asset files were restored. The new [R7C3F submission-candidate Release](https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/tag/r7c3f-full-audit-rebuilt-submission-2026-10-12) is published. Twelve Release assets pass remote SHA-256 verification. See [publication receipt](audit/r7c3f/GITHUB_REBUILD_RECEIPT.json) and [detailed action report](reports/r7c3f/99_R7C3F_全量核查_GitHub重建_投稿包_详细行动记录_20261012.md). Repository/Release IDs and creation timestamps changed; journal submission and project DOI did not occur.
