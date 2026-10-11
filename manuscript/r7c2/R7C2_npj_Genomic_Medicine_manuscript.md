@@ -235,7 +235,7 @@ PBC summary statistics are available through GWAS Catalog study GCST90061440. St
 
 ## Code availability
 
-Analysis code, frozen protocols, aggregate outputs, manifests and source-bound figures are versioned in the public project repository at `https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/tree/r7c2-npj-submission-package-2026-10-11` [21]. The release records software environments, checksums and the mapping from manuscript claims to machine-readable evidence.
+Analysis code, frozen protocols, aggregate outputs, manifests and source-bound figures are versioned in the public project repository at `https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/tree/r7c2-q1-journal-audit-dual-track-2026-10-11` [21]. The release records software environments, checksums and the mapping from manuscript claims to machine-readable evidence.
 
 ## Acknowledgements
 

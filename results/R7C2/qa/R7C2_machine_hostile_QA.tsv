@@ -48,9 +48,9 @@ cover_not discussed this manuscrip	TRUE	present
 wps_manuscript_pages	TRUE	pages=31
 wps_cover_pages	TRUE	pages=1
 wps_supplement_pages	TRUE	pages=2
-exists_R7C2_npj_Genomic_Medicine_manuscript.md	TRUE	bytes=63891
-exists_R7C2_npj_Genomic_Medicine_manuscript.docx	TRUE	bytes=3619961
-exists_R7C2_npj_Genomic_Medicine_manuscript_WPS.pdf	TRUE	bytes=2827278
+exists_R7C2_npj_Genomic_Medicine_manuscript.md	TRUE	bytes=63896
+exists_R7C2_npj_Genomic_Medicine_manuscript.docx	TRUE	bytes=3619965
+exists_R7C2_npj_Genomic_Medicine_manuscript_WPS.pdf	TRUE	bytes=2827281
 exists_R7C2_npj_Genomic_Medicine_cover_letter.md	TRUE	bytes=3649
 exists_R7C2_npj_Genomic_Medicine_cover_letter.docx	TRUE	bytes=39283
 exists_R7C2_npj_Genomic_Medicine_cover_letter_WPS.pdf	TRUE	bytes=116750
