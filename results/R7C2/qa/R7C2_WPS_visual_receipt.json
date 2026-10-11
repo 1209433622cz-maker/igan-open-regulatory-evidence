@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "method": "WPS background PDF export; 150 dpi page render; full manuscript contact-sheet review plus final first/last-page regression review; complete cover and supplement review",
+  "pages_reviewed": 34,
+  "clipping": 0,
+  "overlap": 0,
+  "missing_figures": 0,
+  "title_border": "removed"
+}

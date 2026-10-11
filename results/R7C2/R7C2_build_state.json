@@ -1,0 +1,14 @@
+{
+  "stage": "R7C2_Q1_REALITY_CHECK_DUAL_TRACK",
+  "decision": "NPJ_GENOMIC_MEDICINE_CONDITIONAL_GO_ONE_ATTEMPT",
+  "fallback": "HUMAN_GENOMICS_FROZEN_SUBMISSION_READY",
+  "title": "Input matched multisignal colocalization clarifies regulatory assignments at primary biliary cholangitis loci",
+  "title_words": 12,
+  "abstract_words": 137,
+  "manuscript_docx_sha256": "2bb87040176bdd195b057b5260f80455ca8b2f93117e13caf92fccd384997ab0",
+  "cover_letter_docx_sha256": "84156041614bd14ac982ceaf546c0b4b0822a0eb5a52575268efeab2853665a6",
+  "supplementary_info_docx_sha256": "ba0f85790a44e60b686cbfaee0cfcdd6eaec209133b996e7cad977adce67de22",
+  "human_genomics_baseline_docx_sha256": "8dec3207ec695aded22a50ad0646c0b016df27fb28eb333fbd70ca7c35039ff7",
+  "new_biological_analysis": false,
+  "next": "R7C3_AUTHOR_FINAL_REVIEW_AND_NPJ_SUBMISSION_GATE"
+}

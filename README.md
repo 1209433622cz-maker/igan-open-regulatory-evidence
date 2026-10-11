@@ -322,3 +322,29 @@ rerun. The next stage is a Q1 journal-fit reality check; if that fit fails, the
 R7B4B2 Human Genomics baseline remains the submission route.
 
 ![R7C1 external validation and chromatin triangle](figures/R7C1/Figure4_IL12RB2_external_evidence.png)\n
+
+## R7C2 Q1 journal reality check and dual-track package
+
+R7C2 completed a current official-guideline audit of npj Genomic Medicine,
+Communications Biology, Genome Medicine and Human Genomics without reopening any
+disease, locus, gene, cell or omics layer. The only supported Q1-target attempt is
+`npj Genomic Medicine / Article`, because its scope directly includes integrative
+disease genomics, immunogenomics and computational analysis of genomic variation.
+The decision remains conditional: current evidence does not establish a broadly
+superior algorithm, direct eQTL-caQTL sharing, chromatin mediation, functional
+mechanism or clinical utility.
+
+The npj candidate uses a 12-word punctuation-free title and a 137-word
+unstructured abstract. The separate Conclusions section was integrated into the
+Discussion, and Nature Portfolio data, code, authorship, funding and competing-
+interest statements were added. WPS Writer exported a 31-page manuscript, a
+one-page cover letter and a two-page supplementary guide; all 34 pages passed
+visual review. Machine and hostile QA passed 68/68 checks.
+
+The author-approved Human Genomics package remains frozen and submission-ready.
+If npj Genomic Medicine declines the paper editorially, the project will move
+directly to that baseline rather than add unbounded rescue analyses. The next
+stage is `R7C3_AUTHOR_FINAL_REVIEW_AND_NPJ_SUBMISSION_GATE`; journal submission
+must be completed by an author.
+
+![R7C2 external validation figure](figures/R7C2/Figure4_IL12RB2_external_evidence.png)\n

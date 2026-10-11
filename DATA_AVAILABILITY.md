@@ -35,3 +35,12 @@ source-CS, fixed CASCADE, chromatin-triangle and OMIX descriptive-QC tables unde
 `manuscript/r7c1/supplement/`. Raw FinnGen summary statistics, CASCADE response
 objects, OMIX source archives, OneK genotypes/pseudobulk and other third-party
 source bytes remain at their original providers and are not redistributed.\n
+
+## R7C2 journal package and source data
+
+R7C2 republishes no new third-party source bytes. The public package includes the
+npj-formatted manuscript, six figures, the editable S1-S10 workbook, compact
+machine-readable derived tables and the R7C1 external-validation derived-data
+archive. Individual-level genotypes, BAM files, pseudobulk matrices and provider-
+licensed archives remain excluded. Official journal-rule snapshots are recorded
+as URLs and dated audit statements rather than mirrored web content.\n

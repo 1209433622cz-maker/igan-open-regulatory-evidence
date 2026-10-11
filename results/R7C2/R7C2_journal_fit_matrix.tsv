@@ -1,0 +1,5 @@
+journal	article_type	scope_fit	evidence_fit	desk_reject_risk	decision	reason
+npj Genomic Medicine	Article	Strong	Conditional	Moderate-high	GO_ONE_ATTEMPT	Best alignment to integrative immunogenomics and genomic-medicine reliability; risk from limited clinical utility and no perturbational validation
+Communications Biology	Article	Moderate	Weak-moderate	High	HOLD_NOT_PREFERRED	Methodologically sound but biological-mechanism advance and concise main-text expectations increase desk-reject risk
+Genome Medicine	Research or Method	Partial	Weak	Very high	NO_GO	Current evidence does not reach broad clinical/basic impact or cross-disease method validation
+Human Genomics	Research	Strong	Strong	Low-moderate	FROZEN_FALLBACK_GO	Direct fit for statistical genetics, regulatory genomics and integrative multi-omics; existing package is submission ready

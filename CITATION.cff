@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this research compendium, please cite the Zenodo record and the associated preprint."
-title: "Input-matched multi-signal colocalization clarifies immune-cell regulatory assignments at primary biliary cholangitis risk loci"
+title: "Input matched multisignal colocalization clarifies regulatory assignments at primary biliary cholangitis loci"
 type: software
-version: 1.1.0
+version: 1.2.0
 date-released: 2026-10-11
 authors:
   - family-names: Chen
