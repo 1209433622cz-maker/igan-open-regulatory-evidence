@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop'
 
-$repo = 'H:\SCI2\YR1\github\igan-open-regulatory-evidence'
+$repo = 'H:\SCI2\YR1\0_admin\repositories\igan-open-regulatory-evidence'
 if (-not (Test-Path -LiteralPath (Join-Path $repo '.git'))) {
     throw "Git repository not found: $repo"
 }

@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(r"H:\SCI2\YR1")
 AUDIT = ROOT / "5_analysis" / "R7C3_FullWorkspaceAudit_2026-10-11"
 PUBLIC = AUDIT / "public"
-REPO = ROOT / "github" / "igan-open-regulatory-evidence"
+REPO = ROOT / "0_admin" / "repositories" / "igan-open-regulatory-evidence"
 CODE = ROOT / "2_code" / "11_manuscript" / "R7C3_full_audit"
 
 if PUBLIC.exists(): shutil.rmtree(PUBLIC)

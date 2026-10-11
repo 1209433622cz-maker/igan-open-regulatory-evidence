@@ -18,7 +18,7 @@ from pypdf import PdfReader
 ROOT = Path(r"H:\SCI2\YR1")
 UPSTREAM = ROOT / "5_manuscript" / "R7B4A_HumanGenomics_SubmissionInterface"
 OUT = ROOT / "5_manuscript" / "R7B4B_PreauthorFinalSubmissionGate"
-REPO = ROOT / "github" / "igan-open-regulatory-evidence"
+REPO = ROOT / "0_admin" / "repositories" / "igan-open-regulatory-evidence"
 ARCHIVE = ROOT / "6_release" / "CMM_R7B4A_HumanGenomics_SubmissionInterface_2026-10-10.zip"
 EXPECTED_ARCHIVE_SHA = "0b12b5f390b0492d31a1e93d588b07cd3ba8f70670240a1a46fd5898e754a91e"
 EXPECTED_ARCHIVE_BYTES = 18_289_096

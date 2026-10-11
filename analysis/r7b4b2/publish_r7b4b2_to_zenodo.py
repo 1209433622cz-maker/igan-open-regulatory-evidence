@@ -21,7 +21,7 @@ import requests
 
 
 ROOT = Path(r"H:\SCI2\YR1")
-REPO = ROOT / "github" / "igan-open-regulatory-evidence"
+REPO = ROOT / "0_admin" / "repositories" / "igan-open-regulatory-evidence"
 RELEASE = ROOT / "6_release" / "R7B4B2_2026-10-10"
 PUBLIC_ZIP = RELEASE / "PBC_R7B4B2_OpenResearchCompendium_2026-10-10.zip"
 PUBLIC_SHA = RELEASE / "PBC_R7B4B2_OpenResearchCompendium_2026-10-10.zip.sha256"

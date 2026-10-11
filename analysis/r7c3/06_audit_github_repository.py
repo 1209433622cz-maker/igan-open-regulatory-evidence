@@ -10,7 +10,7 @@ from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(r"H:\SCI2\YR1")
-REPO = ROOT / "github" / "igan-open-regulatory-evidence"
+REPO = ROOT / "0_admin" / "repositories" / "igan-open-regulatory-evidence"
 OUT = ROOT / "5_analysis" / "R7C3_FullWorkspaceAudit_2026-10-11" / "github"
 OUT.mkdir(parents=True, exist_ok=True)
 

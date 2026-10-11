@@ -6,7 +6,7 @@ import hashlib
 import subprocess
 from pathlib import Path
 
-REPO = Path(r"H:\SCI2\YR1\github\igan-open-regulatory-evidence")
+REPO = Path(r"H:\SCI2\YR1\0_admin\repositories\igan-open-regulatory-evidence")
 
 
 def sha256(p: Path) -> str:

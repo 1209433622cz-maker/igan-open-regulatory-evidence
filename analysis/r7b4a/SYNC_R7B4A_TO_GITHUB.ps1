@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop'
 
-$Repo = 'H:\SCI2\YR1\github\igan-open-regulatory-evidence'
+$Repo = 'H:\SCI2\YR1\0_admin\repositories\igan-open-regulatory-evidence'
 $Tag = 'r7b4a-human-genomics-interface-2026-10-10'
 $ExpectedAssetCommit = 'f1c7040c3db114967c7f8385d6ad9f126a4d2d3f'
 

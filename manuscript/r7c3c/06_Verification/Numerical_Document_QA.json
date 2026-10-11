@@ -1,0 +1,1042 @@
+{
+  "checks": [
+    {
+      "check": "screen_registry_rows",
+      "status": "PASS",
+      "evidence": 6923
+    },
+    {
+      "check": "screen_eligible_coverage",
+      "status": "PASS",
+      "evidence": {
+        "INSUFFICIENT_VARIANT_OVERLAP": 1463,
+        "NO_TRIGGER_OR_UNINFORMATIVE": 4821,
+        "ROBUST_H4_TRIGGER": 112,
+        "H3_H4_AMBIGUITY_TRIGGER": 72,
+        "H3_DISTINCT_SIGNAL": 455
+      }
+    },
+    {
+      "check": "multisignal_642_state_counts",
+      "status": "PASS",
+      "evidence": {
+        "H4_SUPPORTED_STABLE": 92,
+        "MODEL_SENSITIVE": 59,
+        "H3_SUPPORTED_STABLE": 428,
+        "UNINFORMATIVE": 63
+      }
+    },
+    {
+      "check": "matched_arm_changes_15_19_139",
+      "status": "PASS",
+      "evidence": {
+        "A0_to_A1_changed": 15,
+        "A1_to_A2_changed": 19,
+        "A2_to_M_changed": 139
+      }
+    },
+    {
+      "check": "matched_strict_reversals_8_10",
+      "status": "PASS",
+      "evidence": {
+        "H4_to_H3": 8,
+        "H3_to_H4": 10
+      }
+    },
+    {
+      "check": "matched_denominators_113_452",
+      "status": "PASS",
+      "evidence": {
+        "H4": 113,
+        "H3": 452,
+        "H4_BORDERLINE": 3,
+        "AMBIGUOUS": 62,
+        "UNINFORMATIVE": 12
+      }
+    },
+    {
+      "check": "variant_removal_19_114_median65",
+      "status": "PASS",
+      "evidence": [
+        19,
+        114,
+        65.0
+      ]
+    },
+    {
+      "check": "subset_47_loci_200_genes_14_cells",
+      "status": "PASS",
+      "evidence": [
+        47,
+        200,
+        14
+      ]
+    },
+    {
+      "check": "fixed_184_455_3_roles",
+      "status": "PASS",
+      "evidence": {
+        "PRIMARY_184_TRIGGER_VERIFICATION": 184,
+        "H3_RESCUE_FALSIFICATION": 455,
+        "BORDERLINE_HIGH_INFORMATION_CALIBRATION": 3
+      }
+    },
+    {
+      "check": "PF50_conditional_denominator",
+      "status": "PASS",
+      "evidence": {
+        "MATCH": 491,
+        "PF50_UNINFORMATIVE": 25,
+        "PF10_PF50_SENSITIVE": 4
+      }
+    },
+    {
+      "check": "pair_identity_520_and_mixed32",
+      "status": "PASS",
+      "evidence": {
+        "stable": 520,
+        "mixed_H4_H3": 32
+      }
+    },
+    {
+      "check": "simulation_486000_and160782",
+      "status": "PASS",
+      "evidence": {
+        "NO_CS_BOTH": 130994,
+        "NO_DISEASE_CS": 16819,
+        "NO_QTL_CS": 177405,
+        "PAIR_H3": 31459,
+        "PAIR_H4": 100243,
+        "PAIR_UNINFORMATIVE": 29080
+      }
+    },
+    {
+      "check": "simulation_tradeoff_rates",
+      "status": "PASS",
+      "evidence": [
+        12.410493827160495,
+        8.561111111111112,
+        32.99135802469136,
+        26.65864197530864
+      ]
+    },
+    {
+      "check": "liver_5_vs5_detectability",
+      "status": "PASS",
+      "evidence": [
+        {
+          "axis": "FCRL3_B",
+          "primary_descriptive_endpoint": "log1p(target_lineage_CPM)",
+          "PBC_n": "5",
+          "control_n": "5",
+          "PBC_median_target_lineage_CPM": "5.48227951703951",
+          "control_median_target_lineage_CPM": "12.45182477934477",
+          "mean_log1p_CPM_difference_PBC_minus_control": "-0.7863352116597311",
+          "exact_label_permutation_p": "0.1111111111111111",
+          "PBC_positive_donors": "5",
+          "control_positive_donors": "5",
+          "BH_q_two_prespecified_targets": "0.1111111111111111"
+        },
+        {
+          "axis": "IL12RB2_NK",
+          "primary_descriptive_endpoint": "log1p(target_lineage_CPM)",
+          "PBC_n": "5",
+          "control_n": "5",
+          "PBC_median_target_lineage_CPM": "6.656948156353453",
+          "control_median_target_lineage_CPM": "4.2370080621789405",
+          "mean_log1p_CPM_difference_PBC_minus_control": "0.3299675359429739",
+          "exact_label_permutation_p": "0.06349206349206349",
+          "PBC_positive_donors": "5",
+          "control_positive_donors": "5",
+          "BH_q_two_prespecified_targets": "0.1111111111111111"
+        }
+      ]
+    },
+    {
+      "check": "liver_exact_p_q",
+      "status": "PASS",
+      "evidence": {
+        "p": [
+          "0.1111111111111111",
+          "0.06349206349206349"
+        ],
+        "q": [
+          "0.1111111111111111",
+          "0.1111111111111111"
+        ]
+      }
+    },
+    {
+      "check": "FCRL3_CD8_model_counterexample",
+      "status": "PASS",
+      "evidence": [
+        {
+          "comparison_id": "R7B1_000414",
+          "locus_index": "4",
+          "gene": "FCRL3",
+          "cell_type": "CD8_ET",
+          "R7B1B_v2_role": "PRIMARY_184_TRIGGER_VERIFICATION",
+          "ABF_classification": "ROBUST_H4_TRIGGER",
+          "ABF_state": "ABF_H4_DOMINANT",
+          "PF10_multisignal_state": "H3_SUPPORTED_STABLE",
+          "reclassification": "H4_TO_H3",
+          "PF10_PF50_sensitivity": "PF10_PF50_SENSITIVE",
+          "QC_error": "",
+          "common_variants_min": "893",
+          "pf10_l5_h4_pass": "False",
+          "pf10_l5_h3_pass": "True",
+          "pf10_l5_high_information": "True",
+          "pf10_l5_best_h4": "0.0036361957364122",
+          "pf10_l5_best_h4_ratio": "0.0036508614050622",
+          "pf10_l5_signal_pairs": "2",
+          "pf10_l10_h4_pass": "False",
+          "pf10_l10_h3_pass": "True",
+          "pf10_l10_high_information": "True",
+          "pf10_l10_best_h4": "0.0036361957364122",
+          "pf10_l10_best_h4_ratio": "0.0036508614050622",
+          "pf10_l10_signal_pairs": "2",
+          "pf10_l20_h4_pass": "False",
+          "pf10_l20_h3_pass": "True",
+          "pf10_l20_high_information": "True",
+          "pf10_l20_best_h4": "0.0036361957364122",
+          "pf10_l20_best_h4_ratio": "0.0036508614050622",
+          "pf10_l20_signal_pairs": "2",
+          "pf50_l10_h4_pass": "True",
+          "pf50_l10_h3_pass": "True",
+          "pf50_l10_high_information": "True",
+          "pf50_l10_best_h4": "0.991894292309108",
+          "pf50_l10_best_h4_ratio": "0.99189463231168",
+          "pf50_l10_signal_pairs": "2"
+        }
+      ]
+    },
+    {
+      "check": "external_1175_prior_posteriors",
+      "status": "PASS",
+      "evidence": [
+        {
+          "p12": "1e-06",
+          "n_variants": "1175",
+          "PP_H0": "3.783612244435399e-09",
+          "PP_H1": "3.331918874074754e-07",
+          "PP_H2": "0.00036524737099533045",
+          "PP_H3": "0.022391933749022982",
+          "PP_H4": "0.9772424819044834",
+          "H4_over_H3H4": "0.9775998771166914"
+        },
+        {
+          "p12": "1e-05",
+          "n_variants": "1175",
+          "PP_H0": "3.862727731049066e-10",
+          "PP_H1": "3.401589433859884e-08",
+          "PP_H2": "3.72884708445318e-05",
+          "PP_H3": "0.002286014999855552",
+          "PP_H4": "0.9976766621271316",
+          "H4_over_H3H4": "0.9977138996763123"
+        },
+        {
+          "p12": "0.0001",
+          "n_variants": "1175",
+          "PP_H0": "3.870821634902189e-11",
+          "PP_H1": "3.408717075190686e-09",
+          "PP_H2": "3.7366604567346294e-06",
+          "PP_H3": "0.000229080508264262",
+          "PP_H4": "0.9997671793838545",
+          "H4_over_H3H4": "0.9997709186349467"
+        }
+      ]
+    },
+    {
+      "check": "scientific_member_48_byte_identity",
+      "status": "PASS",
+      "evidence": 48
+    },
+    {
+      "check": "workbook_byte_identity",
+      "status": "PASS",
+      "evidence": "7f53dfd60195b9903a52f638ba5ae6f8c7286adec9bcec0652bf1c27adf57382"
+    },
+    {
+      "check": "all_six_figure_delta_restricted_to_panel_letters",
+      "status": "PASS",
+      "evidence": [
+        {
+          "figure": 1,
+          "source_sha256": "b5d1e47bd5368c84dcfee51062ac886c1f73a5f71e7400edc6ac0749dfcc82e6",
+          "derivative_sha256": "2fc1c2b88c4f086e60e572915cc9cd9a96eca8273fc344df7357754d9c701d39",
+          "changed_object": "PANEL_LABELS_ONLY_LOWERCASE_WITH_CLOSING_PARENTHESIS",
+          "letters": 4,
+          "label_masks_pdf_points": [
+            [
+              7.199999809265137,
+              62.95637512207031,
+              18.756999969482422,
+              77.49037170410156
+            ],
+            [
+              456.6581726074219,
+              62.95637512207031,
+              468.93017578125,
+              77.49037170410156
+            ],
+            [
+              7.199999809265137,
+              323.864990234375,
+              18.756999969482422,
+              338.3990173339844
+            ],
+            [
+              456.6581726074219,
+              323.864990234375,
+              468.93017578125,
+              338.3990173339844
+            ]
+          ],
+          "outside_label_raster_delta": "ZERO",
+          "data_replotted": false
+        },
+        {
+          "figure": 2,
+          "source_sha256": "1a6f3b7231ce3c33cbcfcf31c634ed1f2eb880f7c177ca8a387a1c04401d3c3d",
+          "derivative_sha256": "5ad32db22e1467b5efd5b3ae7641d49f19951afc4da4f9b8e3a84b02f23e5455",
+          "changed_object": "PANEL_LABELS_ONLY_LOWERCASE_WITH_CLOSING_PARENTHESIS",
+          "letters": 6,
+          "label_masks_pdf_points": [
+            [
+              18.50185775756836,
+              62.29786682128906,
+              30.058856964111328,
+              76.83186340332031
+            ],
+            [
+              405.86767578125,
+              62.29786682128906,
+              418.1396789550781,
+              76.83186340332031
+            ],
+            [
+              793.2335205078125,
+              62.29786682128906,
+              804.79052734375,
+              76.83186340332031
+            ],
+            [
+              18.50185775756836,
+              385.32135009765625,
+              30.77385711669922,
+              399.8553771972656
+            ],
+            [
+              405.86767578125,
+              385.32135009765625,
+              417.4246826171875,
+              399.8553771972656
+            ],
+            [
+              793.2335205078125,
+              385.32135009765625,
+              801.8915405273438,
+              399.8553771972656
+            ]
+          ],
+          "outside_label_raster_delta": "ZERO",
+          "data_replotted": false
+        },
+        {
+          "figure": 3,
+          "source_sha256": "854c2807a648d86dc2e5394024a6366cc201d53cc22381142aabe3ef43669047",
+          "derivative_sha256": "293cd3885678814e17e0912b6fb767a09816ba030b985035b9629cf7890de591",
+          "changed_object": "PANEL_LABELS_ONLY_LOWERCASE_WITH_CLOSING_PARENTHESIS",
+          "letters": 4,
+          "label_masks_pdf_points": [
+            [
+              7.199999809265137,
+              62.13386535644531,
+              18.756999969482422,
+              76.66786193847656
+            ],
+            [
+              477.14874267578125,
+              62.13386535644531,
+              489.4207458496094,
+              76.66786193847656
+            ],
+            [
+              7.199999809265137,
+              375.65185546875,
+              18.756999969482422,
+              390.1858825683594
+            ],
+            [
+              477.14874267578125,
+              375.65185546875,
+              489.4207458496094,
+              390.1858825683594
+            ]
+          ],
+          "outside_label_raster_delta": "ZERO",
+          "data_replotted": false
+        },
+        {
+          "figure": 4,
+          "source_sha256": "aa6097f6abb37b1b2112fb4da2f358c2ebb118ee72a584f9f074ced640f743b3",
+          "derivative_sha256": "7f57251b808c1b20bc1647420b16e185ab07bffd28945818db49f074197dbd71",
+          "changed_object": "PANEL_LABELS_ONLY_LOWERCASE_WITH_CLOSING_PARENTHESIS",
+          "letters": 4,
+          "label_masks_pdf_points": [
+            [
+              162.59365844726562,
+              25.9658145904541,
+              172.37266540527344,
+              38.78081512451172
+            ],
+            [
+              571.0745849609375,
+              25.9658145904541,
+              581.4585571289062,
+              38.78081512451172
+            ],
+            [
+              128.60928344726562,
+              348.5929870605469,
+              138.38829040527344,
+              361.4079895019531
+            ],
+            [
+              583.9886474609375,
+              365.42999267578125,
+              594.3726196289062,
+              378.2449951171875
+            ]
+          ],
+          "outside_label_raster_delta": "ZERO",
+          "data_replotted": false
+        },
+        {
+          "figure": 5,
+          "source_sha256": "02be22c67cc1c9f58f5adcc80fb002c68fc10d06bb5da0e56a7b95fdb2a51984",
+          "derivative_sha256": "f83dde73550dc046388a5fd1bb42ab162e1591758e790e01581bbb47ed067452",
+          "changed_object": "PANEL_LABELS_ONLY_LOWERCASE_WITH_CLOSING_PARENTHESIS",
+          "letters": 4,
+          "label_masks_pdf_points": [
+            [
+              7.199999809265137,
+              58.60523986816406,
+              18.756999969482422,
+              73.13923645019531
+            ],
+            [
+              456.46124267578125,
+              58.60523986816406,
+              468.7332458496094,
+              73.13923645019531
+            ],
+            [
+              7.199999809265137,
+              338.67877197265625,
+              18.756999969482422,
+              353.2127685546875
+            ],
+            [
+              456.46124267578125,
+              338.67877197265625,
+              468.7332458496094,
+              353.2127685546875
+            ]
+          ],
+          "outside_label_raster_delta": "ZERO",
+          "data_replotted": false
+        },
+        {
+          "figure": 6,
+          "source_sha256": "ba7e5c5655ad36a2932954e96f8db4c0cbd2258f90be88a74e337a413b675a76",
+          "derivative_sha256": "d68b0ffc8b43b70ea13b91f64f3634b4c0e40471393165ed9c1c8067793cf3f4",
+          "changed_object": "PANEL_LABELS_ONLY_LOWERCASE_WITH_CLOSING_PARENTHESIS",
+          "letters": 3,
+          "label_masks_pdf_points": [
+            [
+              15.817299842834473,
+              44.86735534667969,
+              27.374300003051758,
+              59.4013557434082
+            ],
+            [
+              348.5773010253906,
+              44.86735534667969,
+              360.84930419921875,
+              59.4013557434082
+            ],
+            [
+              681.3372802734375,
+              44.86735534667969,
+              692.894287109375,
+              59.4013557434082
+            ]
+          ],
+          "outside_label_raster_delta": "ZERO",
+          "data_replotted": false
+        }
+      ]
+    },
+    {
+      "check": "clean_docx_R7C3B_npj_Manuscript",
+      "status": "PASS",
+      "evidence": {
+        "media_objects": 6,
+        "drawing_elements": 6,
+        "pict_elements": 0,
+        "table_elements": 0,
+        "comments_present": false,
+        "tracked_insertions": 0,
+        "tracked_deletions": 0
+      }
+    },
+    {
+      "check": "six_scientific_objects_R7C3B_npj_Manuscript",
+      "status": "PASS",
+      "evidence": 6
+    },
+    {
+      "check": "references_and_first_use_R7C3B_npj_Manuscript",
+      "status": "PASS",
+      "evidence": {
+        "reference_count": 19,
+        "unique_cited_count": 19,
+        "reference_continuity": true,
+        "missing_reference_numbers": [],
+        "orphan_reference_numbers": [],
+        "first_appearance_order_pass": true,
+        "first_appearance_sequence": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "check": "abstract_title_limit_R7C3B_npj_Manuscript",
+      "status": "PASS",
+      "evidence": {
+        "title": 12,
+        "abstract": 135
+      }
+    },
+    {
+      "check": "npj_section_order_R7C3B_npj_Manuscript",
+      "status": "PASS",
+      "evidence": [
+        "Abstract",
+        "Introduction",
+        "Results",
+        "Discussion",
+        "Methods",
+        "Data availability",
+        "Code availability",
+        "Acknowledgements",
+        "Author contributions",
+        "Competing interests",
+        "References",
+        "Figure legends",
+        "Supplementary information"
+      ]
+    },
+    {
+      "check": "no_inherited_fresh_approval_R7C3B_npj_Manuscript",
+      "status": "PASS",
+      "evidence": 0
+    },
+    {
+      "check": "essential_liver_reproduction_visible_R7C3B_npj_Manuscript",
+      "status": "PASS",
+      "evidence": true
+    },
+    {
+      "check": "six_legends_under_350_R7C3B_npj_Manuscript",
+      "status": "PASS",
+      "evidence": [
+        106,
+        154,
+        134,
+        139,
+        116,
+        131
+      ]
+    },
+    {
+      "check": "Figure6_boxplot_semantics_R7C3B_npj_Manuscript",
+      "status": "PASS",
+      "evidence": true
+    },
+    {
+      "check": "citation_source_conservation_R7C3B_npj_Manuscript",
+      "status": "PASS",
+      "evidence": {
+        "numbered": 19,
+        "resource_URLs": 6
+      }
+    },
+    {
+      "check": "volume_years_2020_2025_R7C3B_npj_Manuscript",
+      "status": "PASS",
+      "evidence": "Print/volume year; earlier online dates retained in metadata receipts"
+    },
+    {
+      "check": "no_duplicate_code_URL_R7C3B_npj_Manuscript",
+      "status": "PASS",
+      "evidence": 1
+    },
+    {
+      "check": "claim_token_R7C3B_npj_Manuscript_0.9977",
+      "status": "PASS",
+      "evidence": "0.9977"
+    },
+    {
+      "check": "claim_token_R7C3B_npj_Manuscript_32.99%",
+      "status": "PASS",
+      "evidence": "32.99%"
+    },
+    {
+      "check": "claim_token_R7C3B_npj_Manuscript_26.66%",
+      "status": "PASS",
+      "evidence": "26.66%"
+    },
+    {
+      "check": "claim_token_R7C3B_npj_Manuscript_12.41%",
+      "status": "PASS",
+      "evidence": "12.41%"
+    },
+    {
+      "check": "claim_token_R7C3B_npj_Manuscript_8.56%",
+      "status": "PASS",
+      "evidence": "8.56%"
+    },
+    {
+      "check": "claim_token_R7C3B_npj_Manuscript_0.111",
+      "status": "PASS",
+      "evidence": "0.111"
+    },
+    {
+      "check": "claim_token_R7C3B_npj_Manuscript_0.0635",
+      "status": "PASS",
+      "evidence": "0.0635"
+    },
+    {
+      "check": "claim_token_R7C3B_npj_Manuscript_92",
+      "status": "PASS",
+      "evidence": "92"
+    },
+    {
+      "check": "claim_token_R7C3B_npj_Manuscript_428",
+      "status": "PASS",
+      "evidence": "428"
+    },
+    {
+      "check": "claim_token_R7C3B_npj_Manuscript_59",
+      "status": "PASS",
+      "evidence": "59"
+    },
+    {
+      "check": "claim_token_R7C3B_npj_Manuscript_63",
+      "status": "PASS",
+      "evidence": "63"
+    },
+    {
+      "check": "claim_token_R7C3B_npj_Manuscript_PF50",
+      "status": "PASS",
+      "evidence": "PF50"
+    },
+    {
+      "check": "claim_token_R7C3B_npj_Manuscript_642",
+      "status": "PASS",
+      "evidence": "642"
+    },
+    {
+      "check": "clean_docx_R7C3B_AuthorReview_InlineFigures",
+      "status": "PASS",
+      "evidence": {
+        "media_objects": 6,
+        "drawing_elements": 6,
+        "pict_elements": 0,
+        "table_elements": 0,
+        "comments_present": false,
+        "tracked_insertions": 0,
+        "tracked_deletions": 0
+      }
+    },
+    {
+      "check": "six_scientific_objects_R7C3B_AuthorReview_InlineFigures",
+      "status": "PASS",
+      "evidence": 6
+    },
+    {
+      "check": "references_and_first_use_R7C3B_AuthorReview_InlineFigures",
+      "status": "PASS",
+      "evidence": {
+        "reference_count": 19,
+        "unique_cited_count": 19,
+        "reference_continuity": true,
+        "missing_reference_numbers": [],
+        "orphan_reference_numbers": [],
+        "first_appearance_order_pass": true,
+        "first_appearance_sequence": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "check": "abstract_title_limit_R7C3B_AuthorReview_InlineFigures",
+      "status": "PASS",
+      "evidence": {
+        "title": 12,
+        "abstract": 135
+      }
+    },
+    {
+      "check": "npj_section_order_R7C3B_AuthorReview_InlineFigures",
+      "status": "PASS",
+      "evidence": [
+        "Abstract",
+        "Introduction",
+        "Results",
+        "Discussion",
+        "Methods",
+        "Data availability",
+        "Code availability",
+        "Acknowledgements",
+        "Author contributions",
+        "Competing interests",
+        "References",
+        "Supplementary information"
+      ]
+    },
+    {
+      "check": "no_inherited_fresh_approval_R7C3B_AuthorReview_InlineFigures",
+      "status": "PASS",
+      "evidence": 0
+    },
+    {
+      "check": "essential_liver_reproduction_visible_R7C3B_AuthorReview_InlineFigures",
+      "status": "PASS",
+      "evidence": true
+    },
+    {
+      "check": "six_legends_under_350_R7C3B_AuthorReview_InlineFigures",
+      "status": "PASS",
+      "evidence": [
+        106,
+        154,
+        134,
+        139,
+        116,
+        131
+      ]
+    },
+    {
+      "check": "Figure6_boxplot_semantics_R7C3B_AuthorReview_InlineFigures",
+      "status": "PASS",
+      "evidence": true
+    },
+    {
+      "check": "citation_source_conservation_R7C3B_AuthorReview_InlineFigures",
+      "status": "PASS",
+      "evidence": {
+        "numbered": 19,
+        "resource_URLs": 6
+      }
+    },
+    {
+      "check": "volume_years_2020_2025_R7C3B_AuthorReview_InlineFigures",
+      "status": "PASS",
+      "evidence": "Print/volume year; earlier online dates retained in metadata receipts"
+    },
+    {
+      "check": "no_duplicate_code_URL_R7C3B_AuthorReview_InlineFigures",
+      "status": "PASS",
+      "evidence": 1
+    },
+    {
+      "check": "claim_token_R7C3B_AuthorReview_InlineFigures_0.9977",
+      "status": "PASS",
+      "evidence": "0.9977"
+    },
+    {
+      "check": "claim_token_R7C3B_AuthorReview_InlineFigures_32.99%",
+      "status": "PASS",
+      "evidence": "32.99%"
+    },
+    {
+      "check": "claim_token_R7C3B_AuthorReview_InlineFigures_26.66%",
+      "status": "PASS",
+      "evidence": "26.66%"
+    },
+    {
+      "check": "claim_token_R7C3B_AuthorReview_InlineFigures_12.41%",
+      "status": "PASS",
+      "evidence": "12.41%"
+    },
+    {
+      "check": "claim_token_R7C3B_AuthorReview_InlineFigures_8.56%",
+      "status": "PASS",
+      "evidence": "8.56%"
+    },
+    {
+      "check": "claim_token_R7C3B_AuthorReview_InlineFigures_0.111",
+      "status": "PASS",
+      "evidence": "0.111"
+    },
+    {
+      "check": "claim_token_R7C3B_AuthorReview_InlineFigures_0.0635",
+      "status": "PASS",
+      "evidence": "0.0635"
+    },
+    {
+      "check": "claim_token_R7C3B_AuthorReview_InlineFigures_92",
+      "status": "PASS",
+      "evidence": "92"
+    },
+    {
+      "check": "claim_token_R7C3B_AuthorReview_InlineFigures_428",
+      "status": "PASS",
+      "evidence": "428"
+    },
+    {
+      "check": "claim_token_R7C3B_AuthorReview_InlineFigures_59",
+      "status": "PASS",
+      "evidence": "59"
+    },
+    {
+      "check": "claim_token_R7C3B_AuthorReview_InlineFigures_63",
+      "status": "PASS",
+      "evidence": "63"
+    },
+    {
+      "check": "claim_token_R7C3B_AuthorReview_InlineFigures_PF50",
+      "status": "PASS",
+      "evidence": "PF50"
+    },
+    {
+      "check": "claim_token_R7C3B_AuthorReview_InlineFigures_642",
+      "status": "PASS",
+      "evidence": "642"
+    },
+    {
+      "check": "clean_docx_R7C3B_Supplementary_Information",
+      "status": "PASS",
+      "evidence": {
+        "media_objects": 0,
+        "drawing_elements": 0,
+        "pict_elements": 0,
+        "table_elements": 0,
+        "comments_present": false,
+        "tracked_insertions": 0,
+        "tracked_deletions": 0
+      }
+    },
+    {
+      "check": "clean_docx_R7C3B_Cover_Letter_Candidate",
+      "status": "PASS",
+      "evidence": {
+        "media_objects": 0,
+        "drawing_elements": 0,
+        "pict_elements": 0,
+        "table_elements": 0,
+        "comments_present": false,
+        "tracked_insertions": 0,
+        "tracked_deletions": 0
+      }
+    },
+    {
+      "check": "wps_renderer_R7C3B_AuthorReview_InlineFigures",
+      "status": "PASS",
+      "evidence": {
+        "format": "PDF 1.7",
+        "title": "Input matched multisignal colocalization clarifies regulatory assignments at primary biliary cholangitis loci",
+        "author": "Zhi Chen; Teng Qi",
+        "subject": "npj Genomic Medicine submission candidate",
+        "keywords": "PBC; colocalization; eQTL; caQTL; source-matched LD",
+        "creator": "WPS 文字",
+        "producer": "",
+        "creationDate": "D:20261011203341+08'00'",
+        "modDate": "D:20261011203341+08'00'",
+        "trapped": "",
+        "encryption": null
+      }
+    },
+    {
+      "check": "six_figures_same_page_legends_R7C3B_AuthorReview_InlineFigures",
+      "status": "PASS",
+      "evidence": {
+        "1": [
+          4
+        ],
+        "2": [
+          6
+        ],
+        "3": [
+          8
+        ],
+        "4": [
+          10
+        ],
+        "5": [
+          12
+        ],
+        "6": [
+          14
+        ]
+      }
+    },
+    {
+      "check": "complete_legend_abbreviations_single_image_R7C3B_AuthorReview_InlineFigures",
+      "status": "PASS",
+      "evidence": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "check": "pdf_critical_claim_parity_R7C3B_AuthorReview_InlineFigures",
+      "status": "PASS",
+      "evidence": true
+    },
+    {
+      "check": "wps_renderer_R7C3B_npj_Manuscript",
+      "status": "PASS",
+      "evidence": {
+        "format": "PDF 1.7",
+        "title": "Input matched multisignal colocalization clarifies regulatory assignments at primary biliary cholangitis loci",
+        "author": "Zhi Chen; Teng Qi",
+        "subject": "npj Genomic Medicine submission candidate",
+        "keywords": "PBC; colocalization; eQTL; caQTL; source-matched LD",
+        "creator": "WPS 文字",
+        "producer": "",
+        "creationDate": "D:20261011203338+08'00'",
+        "modDate": "D:20261011203338+08'00'",
+        "trapped": "",
+        "encryption": null
+      }
+    },
+    {
+      "check": "six_figures_same_page_legends_R7C3B_npj_Manuscript",
+      "status": "PASS",
+      "evidence": {
+        "1": [
+          24
+        ],
+        "2": [
+          25
+        ],
+        "3": [
+          26
+        ],
+        "4": [
+          27
+        ],
+        "5": [
+          28
+        ],
+        "6": [
+          29
+        ]
+      }
+    },
+    {
+      "check": "complete_legend_abbreviations_single_image_R7C3B_npj_Manuscript",
+      "status": "PASS",
+      "evidence": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "check": "pdf_critical_claim_parity_R7C3B_npj_Manuscript",
+      "status": "PASS",
+      "evidence": true
+    },
+    {
+      "check": "wps_renderer_R7C3B_Supplementary_Information",
+      "status": "PASS",
+      "evidence": {
+        "format": "PDF 1.7",
+        "title": "Supplementary Information and source data guide",
+        "author": "Zhi Chen; Teng Qi",
+        "subject": "npj Genomic Medicine supplementary information guide",
+        "keywords": "",
+        "creator": "WPS 文字",
+        "producer": "",
+        "creationDate": "D:20261011203344+08'00'",
+        "modDate": "D:20261011203344+08'00'",
+        "trapped": "",
+        "encryption": null
+      }
+    },
+    {
+      "check": "wps_renderer_R7C3B_Cover_Letter_Candidate",
+      "status": "PASS",
+      "evidence": {
+        "format": "PDF 1.7",
+        "title": "Cover letter for npj Genomic Medicine",
+        "author": "Zhi Chen; Teng Qi",
+        "subject": "npj Genomic Medicine cover letter",
+        "keywords": "",
+        "creator": "WPS 文字",
+        "producer": "",
+        "creationDate": "D:20261011203344+08'00'",
+        "modDate": "D:20261011203344+08'00'",
+        "trapped": "",
+        "encryption": null
+      }
+    },
+    {
+      "check": "all_pdf_blocks_within_pages",
+      "status": "PASS",
+      "evidence": 62
+    }
+  ],
+  "total": 83,
+  "passes": 83,
+  "failures": [],
+  "semantic_review": "separate documented review; not executable unit tests"
+}

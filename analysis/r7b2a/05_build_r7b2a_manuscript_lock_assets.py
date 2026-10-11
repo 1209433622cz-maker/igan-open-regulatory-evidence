@@ -15,7 +15,7 @@ import pandas as pd
 ROOT = Path(r"H:\SCI2\YR1")
 R7B1E = ROOT / "3_results/04_integration/R7B1E"
 if not R7B1E.exists():
-    R7B1E = ROOT / "github/igan-open-regulatory-evidence/results/r7b1e"
+    R7B1E = ROOT / "0_admin/repositories/igan-open-regulatory-evidence/results/r7b1e"
 ADJ = ROOT / "3_results/04_integration/R7B2A/adjudication"
 SIM = ROOT / "3_results/05_simulation/R7B2A_audit"
 OUT = ROOT / "3_results/04_integration/R7B2A/manuscript_lock"

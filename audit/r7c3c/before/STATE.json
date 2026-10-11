@@ -1,0 +1,21 @@
+{
+  "stage": "R7C3C",
+  "snapshot": "before",
+  "date": "2026-10-12",
+  "root": "H:\\SCI2\\YR1",
+  "file_count": 34769,
+  "directory_count": 4870,
+  "bytes": 45616997588,
+  "GiB": 42.48413963988423,
+  "fresh_full_sha256_count": 34769,
+  "read_errors": 0,
+  "content_parser_findings": 3,
+  "reparse_points": 14,
+  "duplicate_groups": 3754,
+  "duplicate_members": 12842,
+  "redundant_copy_bytes": 6366507361,
+  "work_record_count": 1172,
+  "elapsed_seconds": 292.26,
+  "audit_output_self_excluded": "H:\\SCI2\\YR1\\5_analysis\\R7C3C_WorkspaceAudit_Organization_20261012",
+  "scope_note": "Every discovered regular file hashed afresh, including Git objects. Semantic indexing varies by format and is explicitly labelled. No deletion. No assertion of full scientific validity from a hash."
+}

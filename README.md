@@ -1,5 +1,23 @@
 # Open regulatory evidence: completion-first immune-disease signal gates
 
+## Current release — 12 October 2026
+
+**PBC remains the primary project. The latest editorial candidate is the QiTeng/WPS R7C3B manuscript, packaged as R7C3C.** The scientific baseline is unchanged; this release adds a complete local byte audit, reversible root organization, a reusable asset/work-record catalogue, corrected runtime paths and a hash-frozen submission candidate.
+
+- [Unique main manuscript and upload roles](manuscript/r7c3c/README_SUBMISSION.md); [DOCX](manuscript/r7c3c/01_Main/Manuscript.docx); [WPS parity PDF](manuscript/r7c3c/01_Main/Manuscript_WPS_Review.pdf).
+- [Candidate identity manifest](manuscript/r7c3c/UPLOAD_ROLES_AND_IDENTITIES.tsv), six separate vector figures, SI, S1–S10 workbook, and the two Source Data archives are in `manuscript/r7c3c/`. Do not upload the separate reviewer copy as another main manuscript.
+- [Curated valuable assets](audit/r7c3c/catalogue/VALUABLE_ASSETS.tsv), [project timeline](audit/r7c3c/catalogue/PROJECT_TIMELINE.tsv), [historical record pointers](audit/r7c3c/PROJECT_RECORD_POINTERS.tsv), and [large-file identities](data/R7C3C_LARGE_ASSET_POINTERS.tsv).
+- [Local audit summary](audit/r7c3c/before/STATE.json): all 34,769 physical files rehashed, 42.48 GiB, zero read errors; directory junction targets recorded separately. Post-organization snapshot is separately labelled. Raw/individual-level inputs and the complete private path/content inventory are not mirrored.
+- [Action record](reports/r7c3c/99_CMM_R7C3C_详细行动记录_20261012.md) and [work directory roles](reports/r7c3c/01_全量文件核查与分类报告.md).
+
+**This is an openly shared submission candidate, not a journal submission, accepted article, independent disease-replication claim, or minted Zenodo DOI.** Names/declarations were previously confirmed; approval of the R7C3B edited asset identities, actual publisher reporting forms, final figure-width proof and the publisher merged PDF remain pending. The next task is author-operated npj Genomic Medicine submission preparation and receipt capture; no new biological discovery screen is requested.
+
+Original software: MIT. Original author text, figures, documentation and aggregate derived tables: CC BY 4.0. Third-party data and publications retain provider restrictions; see `NOTICE.md` and `DATA_AVAILABILITY.md`. New manuscript assets inherit the same scope and do not relicense their input sources. Scientific source tags remain unchanged; the new editorial/audit tag is separate.
+
+The sections below retain the chronological project history. Old entries labelled “next” describe their own historical stage, not the current project state.
+
+---
+
 This repository contains the reproducible, open-data workflow used to test whether immune-disease GWAS signals share cell-specific cis-eQTL signals in OneK1K and TenK10K. It retains the completed IgAN work and the current primary biliary cholangitis (PBC) manuscript evidence chain.
 
 The repository is evidence-first: frozen candidate universes, all tested comparisons, negative and ambiguous results, software cross-checks, and gate decisions are retained together. Raw third-party datasets and donor-level genotype/LD matrices are not mirrored here; exact URLs, sizes, hashes, and expected local locations are recorded in [`data/LARGE_DATA_MANIFEST.tsv`](data/LARGE_DATA_MANIFEST.tsv).

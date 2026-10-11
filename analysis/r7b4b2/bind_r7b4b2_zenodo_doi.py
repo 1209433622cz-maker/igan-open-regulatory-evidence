@@ -12,7 +12,7 @@ from pathlib import Path
 
 
 ROOT = Path(r"H:\SCI2\YR1")
-REPO = ROOT / "github" / "igan-open-regulatory-evidence"
+REPO = ROOT / "0_admin" / "repositories" / "igan-open-regulatory-evidence"
 DEFAULT_RECEIPT = ROOT / "6_release" / "R7B4B2_2026-10-10" / "R7B4B2_zenodo_receipt.json"
 TAG = "r7b4b2-author-approved-open-research-release-2026-10-10"
 

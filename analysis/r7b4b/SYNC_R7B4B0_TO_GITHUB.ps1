@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop'
 
-$Repo = 'H:\SCI2\YR1\github\igan-open-regulatory-evidence'
+$Repo = 'H:\SCI2\YR1\0_admin\repositories\igan-open-regulatory-evidence'
 $Tag = 'r7b4b0-preauthor-final-submission-gate-2026-10-10'
 $ReleaseCommit = 'cc8e7cdf177d574615fefa7d9fa12c73c5f3add7'
 

@@ -1,0 +1,11 @@
+{
+  "files": 4590,
+  "pass": 4590,
+  "fail": 0,
+  "mode_counts": {
+    "FRESH_ZIP_OFFICE_CRC": 127,
+    "REUSED_CRC_AFTER_FRESH_IDENTICAL_SHA256": 4341,
+    "FRESH_FULL_GZIP_CRC": 122
+  },
+  "crc_reuse_basis": "Only previous full-stream PASS receipts with exact SHA-256 equal to this round fresh full hash; not path, timestamp, or file-size equality."
+}

@@ -1,0 +1,3 @@
+# Preserve exact submission-candidate file identities through Git.
+manuscript/r7c3c/** -text whitespace=cr-at-eol
+manuscript/r7c3b_review/** -text

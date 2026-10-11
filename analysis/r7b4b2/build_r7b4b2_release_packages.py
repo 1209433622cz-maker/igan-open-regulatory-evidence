@@ -19,7 +19,7 @@ from pathlib import Path
 
 ROOT = Path(r"H:\SCI2\YR1")
 CANDIDATE = ROOT / "5_manuscript" / "R7B4B_FinalSubmissionCandidate"
-REPO = ROOT / "github" / "igan-open-regulatory-evidence"
+REPO = ROOT / "0_admin" / "repositories" / "igan-open-regulatory-evidence"
 RELEASE = ROOT / "6_release" / "R7B4B2_2026-10-10"
 
 

@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop'
 
 $Root = 'H:\SCI2\YR1'
-$Repo = Join-Path $Root 'github\igan-open-regulatory-evidence'
+$Repo = Join-Path $Root '0_admin\repositories\igan-open-regulatory-evidence'
 $Code = Join-Path $Root '2_code\11_manuscript\R7B4B1'
 $Receipt = Join-Path $Root '6_release\R7B4B2_2026-10-10\R7B4B2_zenodo_receipt.json'
 $Tag = 'r7b4b2-author-approved-open-research-release-2026-10-10'

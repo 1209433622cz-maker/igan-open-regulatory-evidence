@@ -1,0 +1,25 @@
+{
+  "root_folders": [
+    "0_admin",
+    "1_data",
+    "2_code",
+    "3_results",
+    "4_figures",
+    "4_output",
+    "5_analysis",
+    "5_manuscript",
+    "6_release",
+    "7.Report",
+    "8.Reference",
+    "9.Version",
+    "9_Vote"
+  ],
+  "move_operations": 16,
+  "moved_files": 17345,
+  "moved_bytes": 1342436131,
+  "byte_identity_pass": 17345,
+  "path_only_adapters": 56,
+  "original_adapters_archived": true,
+  "deleted_files": 0,
+  "unexpected_root_entries": []
+}

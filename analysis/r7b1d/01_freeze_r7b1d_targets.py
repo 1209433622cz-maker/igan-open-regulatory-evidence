@@ -12,7 +12,7 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[3]
 ADJ = ROOT / "3_results/04_integration/R7B1B_v2/adjudication/R7B1B_v2_642_bidirectional_reclassification.tsv"
-R7B0_MAP = ROOT / "github/igan-open-regulatory-evidence/environment/R7B0/R7B0_FinnGen_FCRL3_IL12RB2_feasibility.tsv"
+R7B0_MAP = ROOT / "0_admin/repositories/igan-open-regulatory-evidence/environment/R7B0/R7B0_FinnGen_FCRL3_IL12RB2_feasibility.tsv"
 OUT = ROOT / "3_results/04_integration/R7B1D"
 
 

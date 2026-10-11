@@ -16,7 +16,7 @@ RELEASE = ROOT / "6_release/R7B1E"
 STAGE = RELEASE / "stage"
 ZIP_PATH = RELEASE / "CMM_R7B1E_DiagnosticClosure_ClaimEvidenceFreeze_2026-10-09.zip"
 DOWNLOADS = Path(r"C:\Users\Administrator\Downloads")
-REPO = ROOT / "github/igan-open-regulatory-evidence"
+REPO = ROOT / "0_admin/repositories/igan-open-regulatory-evidence"
 
 
 def sha256(path: Path) -> str:

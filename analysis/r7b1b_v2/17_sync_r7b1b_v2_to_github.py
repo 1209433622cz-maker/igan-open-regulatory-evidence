@@ -12,7 +12,7 @@ from pathlib import Path
 
 
 ROOT = Path(os.environ.get("R7_PROJECT_ROOT", r"H:\SCI2\YR1"))
-REPO = ROOT / "github/igan-open-regulatory-evidence"
+REPO = ROOT / "0_admin/repositories/igan-open-regulatory-evidence"
 CODE = ROOT / "2_code/06_intake/r7b1"
 AUDIT = ROOT / "3_results/00_audit/R7B1B_v2"
 ADJ = ROOT / "3_results/04_integration/R7B1B_v2/adjudication"

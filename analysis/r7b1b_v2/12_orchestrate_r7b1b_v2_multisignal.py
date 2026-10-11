@@ -16,7 +16,7 @@ import pandas as pd
 ROOT = Path(os.environ.get("R7_PROJECT_ROOT", r"H:\SCI2\YR1"))
 WORK = ROOT / "3_results/00_audit/R7B1B_v2/R7B1B_v2_exact_642_high_information_comparisons.tsv"
 SCRIPT = ROOT / "2_code/06_intake/r7b1/11_run_r7b1b_v2_multisignal_locus.R"
-RSCRIPT = ROOT / "tools/R/R-4.6.1/bin/x64/Rscript.exe"
+RSCRIPT = ROOT / "0_admin/tooling/R/R-4.6.1/bin/x64/Rscript.exe"
 OUT = ROOT / "3_results/04_integration/R7B1B_v2/multisignal"
 LOGS = OUT / "logs"
 

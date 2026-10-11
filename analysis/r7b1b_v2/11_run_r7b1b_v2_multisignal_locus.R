@@ -3,7 +3,7 @@
 ## loci, while every comparison is checkpointed for deterministic resume.
 
 root <- Sys.getenv("R7_PROJECT_ROOT", unset="H:/SCI2/YR1")
-.libPaths(c(file.path(root,"tools","R-library"), .libPaths()))
+.libPaths(c(file.path(root,"0_admin","tooling","R-library"), .libPaths()))
 suppressPackageStartupMessages({
   library(susieR); library(coloc); library(data.table); library(jsonlite)
 })

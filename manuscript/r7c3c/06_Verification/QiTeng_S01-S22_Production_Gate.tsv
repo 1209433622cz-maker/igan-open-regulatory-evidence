@@ -1,0 +1,23 @@
+﻿gate	item	status	evidence
+S01	Journal and article type	PASS	npj Genomic Medicine / Article
+S02	Official instructions	PASS_WITH_ACCESS_LIMIT	Current official indexed text; archived typography guide dated explicitly
+S03	Clean manuscript	PASS	No tracked changes or comments; purpose-specific DOCX
+S04	Continuous figure inventory	PASS	Figures 1–6 and six separate PDFs
+S05	Separate figure files	PASS	Six vector derivatives; originals archived
+S06	Figure legends	PASS	Independent units, abbreviations and limits; each under 350 words
+S07	Supplementary inventory	PASS	One SI PDF, ten-sheet workbook, two source archives; S11 ownership explicit
+S08	Figure claim gate	PASS_SEMANTIC_REVIEW	H4 association, no clinical efficacy or inferred mediation
+S09	Final-size legibility	INITIAL_REVIEW_ONLY_FINAL_WIDTH_PENDING	A4 figures reviewed and vectors supplied; small fine annotations require final publisher-width proof
+S10	Resolution	PASS_INITIAL	300 dpi embedded images; separate PDF vectors
+S11	Vector/raster appropriateness	PASS_INITIAL	Vector PDF masters and 300 dpi embedded images; final production specification pending
+S12	Accessibility	PASS_INITIAL_GRAYSCALE_REVIEW	Redundant numeric/category labels, DOCX alt text, six grayscale figure previews reviewed; no full color-blind certification
+S13	Image integrity	PASS	No scientific plot changes; isolated panel-label edits with zero external-mask raster delta
+S14	Source-data traceability	PASS	48 scientific members exact identity; common prose/caption/source-family alignment
+S15	Panel alignment	PASS	Original panel positions retained; lowercase a)/b) labels agree with legends
+S16	Editable tables	PASS	Original ten-sheet XLSX copied exactly
+S17	Cover letter	CANDIDATE_READY	Originality/AI disclosure retained; no assertion of renewed version approval
+S18	Author declarations	IDENTITY_CONFIRMED_VERSION_APPROVAL_PENDING	Names, affiliation, no funding/conflicts preserved; edited-version sign-off pending
+S19	Reporting checklist	ANSWER_SHEET_READY_FORM_PENDING	Factual reporting-summary/policy answers prepared; official forms not fictitiously completed
+S20	License and permissions	DERIVED_SHAREABLE_SCOPE_RETAINED	No new source data redistribution or license change; source manifests govern third-party inputs
+S21	Initial vs final upload strategy	INITIAL_CANDIDATE_FROZEN	One main; separate figures only if portal requires; review copy excluded
+S22	Post-upload integrity	PENDING	Publisher-generated proof and submission receipt not obtained

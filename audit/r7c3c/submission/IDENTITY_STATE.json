@@ -1,0 +1,18 @@
+{
+  "unchanged_assets": 15,
+  "all_original_sha256_identical": true,
+  "source_scientific_members": 48,
+  "baseline_QA": "83/83 from R7C3B; inherited through exact file identity, not re-executed models",
+  "WPS_PDF": "Original byte-identical WPS exports; no new export necessary",
+  "fresh_author_approval": "PENDING",
+  "portal_proof": "PENDING",
+  "submitted": false,
+  "package": {
+    "file": "CMM_R7C3C_npj_Submission_Candidate_20261012.zip",
+    "bytes": 10053592,
+    "sha256": "befaf850f4fcfab9671b01fcab023a1571f228d87bd076f99ffad72053123f3c",
+    "ZIP_CRC": "PASS",
+    "internal_checksums_pass": 21,
+    "entries": 22
+  }
+}

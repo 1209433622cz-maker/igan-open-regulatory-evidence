@@ -2,7 +2,7 @@
 ## R7B1C truth-known simulation worker. Each grid row is checkpointed.
 
 root <- Sys.getenv("R7_PROJECT_ROOT", unset="H:/SCI2/YR1")
-.libPaths(c(file.path(root,"tools","R-library"),.libPaths()))
+.libPaths(c(file.path(root,"0_admin","tooling","R-library"),.libPaths()))
 suppressPackageStartupMessages({library(data.table);library(susieR);library(coloc);library(jsonlite)})
 
 grid_path <- file.path(root,"3_results","00_audit","R7B1C","R7B1C_implementation_grid_486.tsv")
