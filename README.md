@@ -341,7 +341,7 @@ interest statements were added. WPS Writer exported a 31-page manuscript, a
 one-page cover letter and a two-page supplementary guide; all 34 pages passed
 visual review. Machine and hostile QA passed 68/68 checks.
 
-The author-approved Human Genomics package remains frozen and submission-ready.
+Zenodo metadata are prepared, but no Zenodo record or DOI existed at the R7C2 freeze because authenticated deposit credentials were unavailable. The GitHub release and its SHA-256 digest are therefore the current citable public identity.`n`nThe author-approved Human Genomics package remains frozen and submission-ready.
 If npj Genomic Medicine declines the paper editorially, the project will move
 directly to that baseline rather than add unbounded rescue analyses. The next
 stage is `R7C3_AUTHOR_FINAL_REVIEW_AND_NPJ_SUBMISSION_GATE`; journal submission
