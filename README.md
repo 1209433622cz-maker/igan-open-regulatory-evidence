@@ -14,6 +14,8 @@
 
 Original software: MIT. Original author text, figures, documentation and aggregate derived tables: CC BY 4.0. Third-party data and publications retain provider restrictions; see `NOTICE.md` and `DATA_AVAILABILITY.md`. New manuscript assets inherit the same scope and do not relicense their input sources. Scientific source tags remain unchanged; the new editorial/audit tag is separate.
 
+Canonical Git-blob integrity is recorded in `MANIFEST.sha256`; use `git cat-file` or `analysis/r7c3c/08_stage_public_and_verify.py` for verification, because a Windows checkout can normalize historical text line endings. The current submission directory has explicit byte-preservation attributes. [Verified publication receipt](audit/r7c3c/GITHUB_PUBLICATION_RECEIPT.json).
+
 The sections below retain the chronological project history. Old entries labelled “next” describe their own historical stage, not the current project state.
 
 ---
