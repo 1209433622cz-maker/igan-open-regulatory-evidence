@@ -63,6 +63,14 @@ Figure 3 keeps the FCRL3/CD8_ET PF10/PF50 reversal visible. The manuscript uses 
     # The publication scripts are visible separately; historical script copies are untouched.
     for p in CODE.glob('*.py'):
         dest=REPO/'2_code/00_repository/R7C3G1'/p.name;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(p,dest)
+    put(REPO/'0_admin/audit/r7c3g1/README.md','''# Public tree audit scope
+
+`MANIFEST.sha256` at repository root covers every tracked file except itself. Run the canonical Git-blob verifier on current HEAD; this is the authoritative whole-tree identity check.
+
+`PUBLIC_FILE_CATALOG.tsv` provides roles, sizes and hashes for content files. To avoid self-reference it excludes itself, the whole-tree manifest and `DIRECTORY_SIZE_SUMMARY.tsv`; all three are covered by the whole-tree manifest. `DIRECTORY_SIZE_SUMMARY.tsv` includes its own converged size and all files except the root manifest, whose byte length can be read directly.
+
+The preservation table maps all 2,335 pre-existing tracked files to unchanged identities. Frozen historical navigation retains original paths; current links are tested separately. The remote receipt identifies an independently fetched content commit. Later main commits append audit metadata; the external local final receipt records the last HEAD, avoiding a commit hash referencing itself.
+''')
     checks=[];issues=[];stats=collections.defaultdict(lambda:[0,0]); extensions=collections.Counter()
     raw_suffixes={'.bed','.bim','.fam','.pgen','.pvar','.psam','.bam','.cram','.h5ad','.rds','.npy','.npz','.bcf'}
     # High-specificity patterns only. Diagnostic outputs never print token contents.
@@ -182,21 +190,32 @@ PBC保留GO：6923/5460/1463筛查分母，642高信息subset，92/428/59/63完�
     if not (REPO/'7.Report/rounds/r7c3g1').exists():
         (REPO/'7.Report/rounds/r7c3g1').mkdir(parents=True)
         shutil.copy2(local_report,REPO/'7.Report/rounds/r7c3g1'/local_report.name)
-    # Catalogue records every existing content file, excluding its own identity and
-    # the whole-tree manifest to prevent self-referential hashes.
+    # Catalogue excludes its own identity, manifest and generated size summary.
+    # The whole-tree manifest still covers both generated metadata files.
     catalog=REPO/'0_admin/audit/r7c3g1/PUBLIC_FILE_CATALOG.tsv'
+    size_summary=REPO/'0_admin/audit/r7c3g1/DIRECTORY_SIZE_SUMMARY.tsv'
     rows=[]
     for p in paths():
         rel=p.relative_to(REPO).as_posix()
-        if p==catalog or rel=='MANIFEST.sha256':continue
+        if p in {catalog,size_summary} or rel=='MANIFEST.sha256':continue
         rows.append({'repository_path':rel,'top_level':rel.split('/')[0] if '/' in rel else 'ROOT_METADATA','bytes':p.stat().st_size,'sha256':sha(p),'role':'CURRENT_CANDIDATE' if '/current/R7C3G/' in rel else 'CURRENT_FIGURE' if rel.startswith('4_figures/') and '/history/' not in rel else 'VERSIONED_RESEARCH_OR_ADMIN'})
     tsv(catalog,rows)
-    counts=collections.defaultdict(lambda:[0,0])
-    for p in paths():
-        if p.name=='MANIFEST.sha256' and p.parent==REPO:continue
-        rel=p.relative_to(REPO).as_posix();key=rel.split('/')[0] if '/' in rel else 'ROOT_METADATA'
-        counts[key][0]+=1;counts[key][1]+=p.stat().st_size
-    tsv(REPO/'0_admin/audit/r7c3g1/DIRECTORY_SIZE_SUMMARY.tsv',[{'directory':k,'files':v[0],'bytes':v[1]} for k,v in sorted(counts.items())])
+    # Resolve the summary's own byte count to a fixed point (usually two passes).
+    if not size_summary.exists():size_summary.touch()
+    for _ in range(5):
+        before=size_summary.read_bytes()
+        counts=collections.defaultdict(lambda:[0,0])
+        for p in paths():
+            if p.name=='MANIFEST.sha256' and p.parent==REPO:continue
+            rel=p.relative_to(REPO).as_posix();key=rel.split('/')[0] if '/' in rel else 'ROOT_METADATA'
+            counts[key][0]+=1;counts[key][1]+=p.stat().st_size
+        tsv(size_summary,[{'directory':k,'files':v[0],'bytes':v[1]} for k,v in sorted(counts.items())])
+        if size_summary.read_bytes()==before:break
+    else:raise AssertionError('Directory size summary did not converge')
+    with catalog.open(encoding='utf-8',newline='') as f:
+        for row in csv.DictReader(f,delimiter='\t'):
+            q=REPO/row['repository_path']
+            assert q.stat().st_size==int(row['bytes']) and sha(q)==row['sha256'],row['repository_path']
     manifest=[]
     for p in paths():
         if p==REPO/'MANIFEST.sha256':continue
