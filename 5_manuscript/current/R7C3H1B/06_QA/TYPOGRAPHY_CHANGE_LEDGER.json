@@ -1,0 +1,203 @@
+{
+  "scope": "Presentation only; values and scientific interpretation unchanged",
+  "changes": [
+    {
+      "before": "S_M",
+      "after_visible_text": "SM",
+      "format": "native_support_subscript"
+    },
+    {
+      "before": "S_A",
+      "after_visible_text": "SA",
+      "format": "native_support_subscript"
+    },
+    {
+      "before": "x10^-13",
+      "after_visible_text": "×10-13",
+      "format": "native_power_superscript"
+    },
+    {
+      "before": "S_A",
+      "after_visible_text": "SA",
+      "format": "native_support_subscript"
+    },
+    {
+      "before": "S_M",
+      "after_visible_text": "SM",
+      "format": "native_support_subscript"
+    },
+    {
+      "before": "x10^-4",
+      "after_visible_text": "×10-4",
+      "format": "native_power_superscript"
+    },
+    {
+      "before": "10^-6",
+      "after_visible_text": "10-6",
+      "format": "native_power_superscript"
+    },
+    {
+      "before": "10^-5",
+      "after_visible_text": "10-5",
+      "format": "native_power_superscript"
+    },
+    {
+      "before": "10^-4",
+      "after_visible_text": "10-4",
+      "format": "native_power_superscript"
+    },
+    {
+      "before": "S_A",
+      "after_visible_text": "SA",
+      "format": "native_support_subscript"
+    },
+    {
+      "before": "S_M",
+      "after_visible_text": "SM",
+      "format": "native_support_subscript"
+    },
+    {
+      "before": "S_M",
+      "after_visible_text": "SM",
+      "format": "native_support_subscript"
+    },
+    {
+      "before": "S_A",
+      "after_visible_text": "SA",
+      "format": "native_support_subscript"
+    },
+    {
+      "before": "x10^-4",
+      "after_visible_text": "×10-4",
+      "format": "native_power_superscript"
+    },
+    {
+      "before": "x10^-4",
+      "after_visible_text": "×10-4",
+      "format": "native_power_superscript"
+    },
+    {
+      "before": "x10^-5",
+      "after_visible_text": "×10-5",
+      "format": "native_power_superscript"
+    },
+    {
+      "before": "x10^-6",
+      "after_visible_text": "×10-6",
+      "format": "native_power_superscript"
+    },
+    {
+      "before": "x10^-4",
+      "after_visible_text": "×10-4",
+      "format": "native_power_superscript"
+    },
+    {
+      "before": "x10^-4",
+      "after_visible_text": "×10-4",
+      "format": "native_power_superscript"
+    },
+    {
+      "before": "x10^-6",
+      "after_visible_text": "×10-6",
+      "format": "native_power_superscript"
+    },
+    {
+      "before": "S_A",
+      "after_visible_text": "SA",
+      "format": "native_support_subscript"
+    },
+    {
+      "before": "S_M",
+      "after_visible_text": "SM",
+      "format": "native_support_subscript"
+    },
+    {
+      "before": "S_M",
+      "after_visible_text": "SM",
+      "format": "native_support_subscript"
+    },
+    {
+      "before": "x10^-13",
+      "after_visible_text": "×10-13",
+      "format": "native_power_superscript"
+    },
+    {
+      "before": "x10^-6",
+      "after_visible_text": "×10-6",
+      "format": "native_power_superscript"
+    },
+    {
+      "before": "x10^-5",
+      "after_visible_text": "×10-5",
+      "format": "native_power_superscript"
+    },
+    {
+      "before": "x10^-4",
+      "after_visible_text": "×10-4",
+      "format": "native_power_superscript"
+    },
+    {
+      "before": "10^-4",
+      "after_visible_text": "10-4",
+      "format": "native_power_superscript"
+    },
+    {
+      "before": "10^-6",
+      "after_visible_text": "10-6",
+      "format": "native_power_superscript"
+    },
+    {
+      "before": "10^-5",
+      "after_visible_text": "10-5",
+      "format": "native_power_superscript"
+    },
+    {
+      "before": "10^-4",
+      "after_visible_text": "10-4",
+      "format": "native_power_superscript"
+    },
+    {
+      "before": "10^6",
+      "after_visible_text": "106",
+      "format": "native_power_superscript"
+    },
+    {
+      "before": "S_A",
+      "after_visible_text": "SA",
+      "format": "native_support_subscript"
+    },
+    {
+      "before": "S_M",
+      "after_visible_text": "SM",
+      "format": "native_support_subscript"
+    },
+    {
+      "before": "S_M",
+      "after_visible_text": "SM",
+      "format": "native_support_subscript"
+    },
+    {
+      "before": "S_A",
+      "after_visible_text": "SA",
+      "format": "native_support_subscript"
+    },
+    {
+      "before": "S_M",
+      "after_visible_text": "SM",
+      "format": "native_support_subscript"
+    },
+    {
+      "before": "S_A",
+      "after_visible_text": "SA",
+      "format": "native_support_subscript"
+    },
+    {
+      "before": "S_M",
+      "after_visible_text": "SM",
+      "format": "native_support_subscript"
+    }
+  ],
+  "native_power_count": 21,
+  "native_support_count": 18,
+  "docx_sha256": "302a7d4eb54e18d9507bb21fe521e4774421a602de18a36b0acd12bc0ba6115e"
+}

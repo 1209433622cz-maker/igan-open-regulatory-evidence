@@ -1,0 +1,26 @@
+[
+  {
+    "change": "FCRL3_TenK_cross_reference",
+    "before": "low-prior H4/[H3+H4]=0.9217; Figure 5b)",
+    "after": "low-prior H4/[H3+H4]=0.9217; Figure 3d)",
+    "occurrences": 1
+  },
+  {
+    "change": "exact_scientific_code_release",
+    "before": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/tree/r7c3f-full-audit-rebuilt-submission-2026-10-12",
+    "after": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/tree/r7c3h0-statistical-reproducibility-closure-2026-10-13",
+    "occurrences": 2
+  },
+  {
+    "change": "data_release_and_three_source_archives",
+    "before": "PBC summary statistics are available through GWAS Catalog study GCST90061440. Study-derived PBC regional statistics and LD are available from the GJOKA archive. OneK1K and TenK10K resources are identified in their cited publications and Zenodo records. FinnGen R13 CHIRBIL_PRIM summary statistics and fine-mapping records are publicly distributed by FinnGen  (https://r13.finngen.fi/pheno/CHIRBIL_PRIM), and CASCADE records are accessible through the FinnGen immune multiome portal [17]. HRA008003 is available through GSA-Human and OMIX001122 through the National Genomics Data Center  (https://ngdc.cncb.ac.cn/omix/release/OMIX001122). Supplementary tables and compact derived outputs accompany this submission. Individual-level genotype, BAM, pseudobulk matrices and third-party source archives are not redistributed.",
+    "after": "PBC summary statistics are available through GWAS Catalog study GCST90061440. Study-derived PBC regional statistics and LD are available from the GJOKA archive. OneK1K and TenK10K resources are identified in their cited publications and Zenodo records. FinnGen R13 CHIRBIL_PRIM summary statistics and fine-mapping records are publicly distributed by FinnGen  (https://r13.finngen.fi/pheno/CHIRBIL_PRIM), and CASCADE records are accessible through the FinnGen immune multiome portal [17]. HRA008003 is available through GSA-Human and OMIX001122 through the National Genomics Data Center  (https://ngdc.cncb.ac.cn/omix/release/OMIX001122). Supplementary tables and compact derived outputs accompany this submission. Individual-level genotype, BAM, pseudobulk matrices and third-party source archives are not redistributed. The exact scientific release is https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/tag/r7c3h0-statistical-reproducibility-closure-2026-10-13. Source Data 1-3 provide the primary aggregate tables, bounded external evidence and disease sample-size robustness records, respectively.",
+    "occurrences": 1
+  },
+  {
+    "change": "Figure_3d_public_source_locator",
+    "before": "H:\\SCI2\\YR1\\3_results\\04_integration\\R7A1C\\R7A1C_FCRL3_TenK_Bintermediate_coloc.tsv",
+    "after": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/blob/4fb58180c23af48e337e9a14e4073d9071e44d16/3_results/r7a1c/R7A1C_FCRL3_TenK_Bintermediate_coloc.tsv",
+    "source_sha256": "150088385a300fa4fc596fd6db103cca13776c65e0ee770a747e58bd2652d479"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "scope": "Two existing LD equations; mathematical definitions unchanged",
+  "equations": [
+    {
+      "before": "G* = [I - C(C^T C)^-1 C^T]G,",
+      "semantic_equation": "G* = [I - C(C^T C)^-1 C^T]G,",
+      "omml_sha256": "6386731f04c97fa3ae355f1fdc524a3e9a53cb7a8ed43f93637fdba72b7d8ad7"
+    },
+    {
+      "before": "and R_QTL = cor(G*).",
+      "semantic_equation": "and R_QTL = cor(G*).",
+      "omml_sha256": "08d471e5d884bd5328f36e894cc4f493bb00bd1e9e7df6bd7b47092b3ce9df44"
+    }
+  ]
+}

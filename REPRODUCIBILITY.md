@@ -1,4 +1,4 @@
-# Current PBC reproducibility contract — RP v4 / R7C3H
+# Current PBC reproducibility contract — RP v5 / R7C3H1B
 
 The current primary project is **PBC**, not IgAN. The superseded root contract is archived in `0_admin/history/root_before_R7C3G1/REPRODUCIBILITY.md`.
 
@@ -26,3 +26,13 @@ python 2_code/00_repository/verify_repository.py
 ```
 
 This verifies canonical Git blobs against `MANIFEST.sha256`, independent of Windows working-tree line endings. The manifest excludes only itself. Old stage manifests retain original relative-path scope; use the path migration table when their repository paths refer to the old layout, or inspect the original historical tag. No original GWAS/LD/SuSiE/simulation fits were rerun by the repository restructuring.
+
+## Current exact-file candidate
+
+`R7C3H1B` retains the frozen scientific R7C3H0 tag. Run the standard-library byte/aggregate checker after the existing scientific replay:
+
+```powershell
+python 2_code/11_manuscript/R7C3H1B/07_verify_public_handoff.py
+```
+
+This checks the 13-file upload manifest, immutable source ZIPs and figure bytes, native equation presence, navigation and local proof identities. It does not reproduce human WPS review, generate a publisher proof or sign author declarations.

@@ -1,0 +1,74 @@
+{
+  "status": "PASS_LOCAL_VISUAL_REVIEW",
+  "reviewer": "Codex visual inspection",
+  "inspected_pages": {
+    "Main": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "Supplement": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "Cover": [
+      1
+    ]
+  },
+  "total_pages": 32,
+  "reviewed_items": [
+    "text clipping and overlap",
+    "headers and footers",
+    "figure legends on same page as their figure",
+    "native Word LD equations",
+    "links and scientific exponents",
+    "supplementary S1-S12 file map"
+  ],
+  "findings": "No visible clipping, overlapping text, missing figure or truncated legend. Dedicated figure pages and the final supplement notice intentionally retain whitespace.",
+  "pdfs": [
+    {
+      "role": "Main",
+      "relative": "01_Manuscript/Manuscript_SubmissionCandidate.pdf",
+      "sha256": "d0f39d2a91e5fa7580eddb2fe044fc5b32506240b54225841f7db591958f8aeb"
+    },
+    {
+      "role": "Supplement",
+      "relative": "03_Supplement/Supplementary_Information_ExpertRebuilt.pdf",
+      "sha256": "f7c0e95898d3e3b2a3126084b646fd2ae082563ad607199dfaa1e0d86bdbdf35"
+    },
+    {
+      "role": "Cover",
+      "relative": "04_Cover/Cover_Letter_SubmissionCandidate.pdf",
+      "sha256": "5e64032beda1dcdf06f256b75fe9cf90b88ae66fe6705a016757e7c5b47b461f"
+    }
+  ],
+  "renderer": "WPS background read-only export; PDF-to-PNG visual inspection",
+  "limitation": "This is the local WPS proof, not a publisher-generated portal proof.",
+  "date": "2026-10-13"
+}

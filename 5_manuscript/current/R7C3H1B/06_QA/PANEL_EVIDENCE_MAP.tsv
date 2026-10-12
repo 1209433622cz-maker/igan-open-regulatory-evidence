@@ -1,0 +1,35 @@
+﻿figure	panel	job	source_member	interpretation_ceiling	display_values
+1	a	Define eligible denominator	S2/S2_PBCwide_6923_screening_registry.tsv.gz	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+1	b	Expose A0 A1 A2 M contract	S3/S3_642_A0_A1_A2_M_trajectories.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+1	c	Overall frozen state distribution	S5/S5_642_PF10_PF50_classifications.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+1	d	Separate original184 from455 rescue	S3/S3_642_A0_A1_A2_M_trajectories.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+2	a	Exact support	S3/S3_642_A0_A1_A2_M_trajectories.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+2	b	Nonadditive input attribution	S3/S3_642_A0_A1_A2_M_trajectories.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+2	c	Exhaustive642 state transitions	S3/S3_642_A0_A1_A2_M_trajectories.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+2	d	Two distinct starting denominators	S3/S3_642_A0_A1_A2_M_trajectories.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+3	a	Replace global H4 mechanism label	S6/S6_signal_semantics_642.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+3	b	Conditional PF50 sensitivity	S5/S5_642_PF10_PF50_classifications.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+3	c	Concrete near-complete model reversal	S3/S3_642_A0_A1_A2_M_trajectories.tsv + S5	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+3	d	Separate cell context from gene identity	https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/blob/4fb58180c23af48e337e9a14e4073d9071e44d16/3_results/r7a1c/R7A1C_FCRL3_TenK_Bintermediate_coloc.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+4	a	Outcome partition not all-uninformative	S7/S7_channel_summary.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+4	b	Do not mix conditional/unconditional rates	S7/S7_discovery_vs_estimator.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+4	c	Balanced truth-known benefit and cost	S7/S7_scenario_summary.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+4	d	End-to-end discovery adequacy	S7/S7_channel_summary.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+5	a	Separate disease study single-causal support	data/R7C0_FinnGenR13_x_OneK_NK_IL12RB2_coloc.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+5	b	CS identity instead of regional gene label	data/R7C0_OneK_NK_IL12RB2_CS_in_FinnGenR13_disease_CS.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+5	c	Source availability denominator	data/R7C0_CASCADE_27gene_coverage.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+5	d	Association edges without causal arrowheads	data/R7C0_IL12RB2_chromatin_triangle_adjudication.json	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+6	a	Boundary-changing donor-level null	S9/S9_donor_target_panel.tsv + S9/S9_exact_5vs5_tissue.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+6	b	Different endpoint from a genotype eQTL	S9/S9_donor_target_panel.tsv + S9/S9_exact_5vs5_tissue.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+S1	a	Full support-matching transition	S3/S3_642_A0_A1_A2_M_trajectories.tsv; S5; frozen diagnostic audit	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+S1	b	Full statistic transition	S3/S3_642_A0_A1_A2_M_trajectories.tsv; S5; frozen diagnostic audit	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+S1	c	Full procedure transition	S3/S3_642_A0_A1_A2_M_trajectories.tsv; S5; frozen diagnostic audit	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+S1	d	Disambiguate equal diagnostic counts	S3/S3_642_A0_A1_A2_M_trajectories.tsv; S5; frozen diagnostic audit	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+S2	a	Grid-weighted LD dependence within frozen scenario	S7/S7_factor_stratified_summary.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+S2	b	Grid-weighted LD dependence within frozen scenario	S7/S7_factor_stratified_summary.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+S2	c	Grid-weighted LD dependence within frozen scenario	S7/S7_factor_stratified_summary.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+S2	d	Grid-weighted LD dependence within frozen scenario	S7/S7_factor_stratified_summary.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+S2	e	Grid-weighted LD dependence within frozen scenario	S7/S7_factor_stratified_summary.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+S2	f	Grid-weighted LD dependence within frozen scenario	S7/S7_factor_stratified_summary.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+S3	a	Release probability concordance among 17 shared members only	data/R7C0_FinnGen_R12_R13_IL12RB2_CS_members.tsv	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json
+S3	b	Full source CS sizes distinct from intersection table	data/R7C0_FinnGen_R12_R13_IL12RB2_signal_identity.json	Statistical association / sensitivity; no causal mechanism	FIGURE_VALUES.json

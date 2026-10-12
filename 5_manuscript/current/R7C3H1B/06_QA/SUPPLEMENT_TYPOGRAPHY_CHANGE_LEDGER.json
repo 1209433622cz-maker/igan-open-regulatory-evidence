@@ -1,0 +1,23 @@
+{
+  "scope": "Presentation only; values and scientific interpretation unchanged",
+  "changes": [
+    {
+      "before": "S_A",
+      "after_visible_text": "SA",
+      "format": "native_support_subscript"
+    },
+    {
+      "before": "S_M",
+      "after_visible_text": "SM",
+      "format": "native_support_subscript"
+    },
+    {
+      "before": "x10^-4",
+      "after_visible_text": "×10-4",
+      "format": "native_power_superscript"
+    }
+  ],
+  "native_power_count": 1,
+  "native_support_count": 2,
+  "docx_sha256": "7d993acd53e27291a6cfb3be93200e10e8078b9336f892709680e4c52116b200"
+}

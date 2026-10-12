@@ -1,0 +1,14 @@
+﻿order	portal_role	relative	bytes	sha256	scope
+1	Main Manuscript	01_Manuscript/Manuscript_SubmissionCandidate.docx	2527657	c67d3fec232989b779c2811e9261edb3f9a7b56587aa4cb005e197b80fc2d64f	Candidate role mapping; actual portal fields remain to be checked
+2	Figure 1	02_Figures/Figure_1.pdf	57835	d55eb50c87c6350d3f76d64a4e4ee16efc840907770e447ff5700984262b4936	Candidate role mapping; actual portal fields remain to be checked
+3	Figure 2	02_Figures/Figure_2.pdf	53655	cd79c7a04a6b99f4389908fcb510314f8a6ebd414d2d4d3992eec24c520c0552	Candidate role mapping; actual portal fields remain to be checked
+4	Figure 3	02_Figures/Figure_3.pdf	55289	a0cf8a07c229aea3a6a9dd615e9986d8a06d316e51717123186c668d1cbf6aca	Candidate role mapping; actual portal fields remain to be checked
+5	Figure 4	02_Figures/Figure_4.pdf	53253	b13e579d31e894e0e0fcf7c46e401209d98c43b5ba807bb906bb6bb3fa6bf397	Candidate role mapping; actual portal fields remain to be checked
+6	Figure 5	02_Figures/Figure_5.pdf	61613	3261bd5c711786549cf9cdc769211ae884d754c954cf03e401dd2e24ce8ed0e7	Candidate role mapping; actual portal fields remain to be checked
+7	Figure 6	02_Figures/Figure_6.pdf	47986	75612e13169531966993ee0dbe4028c9c75b1870383fab64cd82b7136c78d245	Candidate role mapping; actual portal fields remain to be checked
+8	Supplementary Information	03_Supplement/Supplementary_Information_ExpertRebuilt.pdf	707356	f7c0e95898d3e3b2a3126084b646fd2ae082563ad607199dfaa1e0d86bdbdf35	Candidate role mapping; actual portal fields remain to be checked
+9	Supplementary Data 1	03_Supplement/Supplementary_Data_1_Tables_S1-S10.xlsx	3282142	7f53dfd60195b9903a52f638ba5ae6f8c7286adec9bcec0652bf1c27adf57382	Candidate role mapping; actual portal fields remain to be checked
+10	Source Data 1	05_Source_Data/Source_Data_1_Primary_Machine_Readable_Data.zip	3246464	9dd7c32dc6284c98c27b5f5af2382b29a2023feffa79e2482ed582efdc5ba38e	Candidate role mapping; actual portal fields remain to be checked
+11	Source Data 2	05_Source_Data/Source_Data_2_External_Regulatory_Evidence.zip	31023	2eb3201a54be96049c810dc9680d6acf5bda6546cdfbd87393843afd2a984ac8	Candidate role mapping; actual portal fields remain to be checked
+12	Source Data 3	05_Source_Data/Source_Data_3_Disease_N_Robustness.zip	8950	2ae49d12b594f68295ff9a2b16796348744cd1366371a41a3846c374e5fba15c	Candidate role mapping; actual portal fields remain to be checked
+13	Cover Letter	04_Cover/Cover_Letter_SubmissionCandidate.docx	38506	7dcd21aef56ac4a6614d1a7f00588d6fa883bae7c80a1729ece54e08501936f9	Candidate role mapping; actual portal fields remain to be checked

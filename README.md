@@ -2,13 +2,15 @@
 
 **Input matched multisignal colocalization clarifies regulatory assignments at primary biliary cholangitis loci**
 
-Current project: **PBC, RP v4**. Latest exact-version candidate: **R7C3H**, prepared with QiTeng v0.3.24.2 after source-identity and reproducibility closure on **13 October 2026**. The primary GJOKA disease sample size remains the source-matched total `N=24,510`; a frozen 33-comparison effective-N stress test changed no final state or disease credible-set membership. The historical `igan-open-regulatory-evidence` URL is retained for manuscript links and scientific tags; IgAN is archived. This is open research and a submission-review candidate, not a submitted/accepted paper or a verified Zenodo DOI.
+Current project: **PBC, RP v5**. Latest exact-version candidate: **R7C3H1B**, prepared with QiTeng v0.3.24.2 after source-identity and reproducibility closure on **13 October 2026**. The primary GJOKA disease sample size remains the source-matched total `N=24,510`; a frozen 33-comparison effective-N stress test changed no final state or disease credible-set membership. The historical `igan-open-regulatory-evidence` URL is retained for manuscript links and scientific tags; IgAN is archived. This is open research and a submission-review candidate, not a submitted/accepted paper or a verified Zenodo DOI.
 
 ## Read the paper and its evidence
 
 | Need | Entry |
 |---|---|
-| Editable current main manuscript | [DOCX](5_manuscript/current/R7C3H/01_Manuscript/Manuscript_ExpertRebuilt.docx) / [25-page WPS PDF](5_manuscript/current/R7C3H/01_Manuscript/Manuscript_ExpertRebuilt.pdf) |
+| Editable current main manuscript | [DOCX](5_manuscript/current/R7C3H1B/01_Manuscript/Manuscript_SubmissionCandidate.docx) / [25-page WPS PDF](5_manuscript/current/R7C3H1B/01_Manuscript/Manuscript_SubmissionCandidate.pdf) |
+| Exact-file author handoff | [Start here](5_manuscript/current/R7C3H1B/START_HERE_精确版本审阅.md) / [13-file SHA-256 list](5_manuscript/current/R7C3H1B/06_QA/UPLOAD_CANDIDATE_MANIFEST.tsv) |
+| Detailed current research plan | [RP v5 DOCX](0_admin/research_plans/RP_v5_20261013/PBC_研究计划书_RP_v5_20261013.docx) / [58-page WPS PDF](0_admin/research_plans/RP_v5_20261013/PBC_研究计划书_RP_v5_20261013.pdf) |
 | Read figures beside their Results | [25-page WPS review PDF](5_manuscript/current/R7C3H/01_Manuscript/Manuscript_AuthorReview_InlineFigures.pdf) |
 | Current figure masters | [Fig1–6 and S1–S3](4_figures/README.md) / [figure gallery](5_manuscript/current/R7C3H/FIGURE_REVIEW_GALLERY.html) |
 | Supplement and full aggregate evidence | [Supplement](5_manuscript/current/R7C3H/03_Supplement/) / [Source Data 1–3](5_manuscript/current/R7C3H/05_Source_Data/) |
@@ -19,6 +21,12 @@ Current project: **PBC, RP v4**. Latest exact-version candidate: **R7C3H**, prep
 | Previous public baseline | [R7C3G1 GitHub Release](https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/tag/r7c3g1-eight-folder-expert-narrative-2026-10-12) |
 
 The HTML gallery can be downloaded with its package and opened locally; GitHub displays its source. Do not upload both manuscript reading variants as separate Main Manuscripts.
+
+## Exact-version handoff
+
+R7C3H1B fixes the FCRL3 TenK Figure 3d pointer, pins scientific code/data links to R7C3H0, and replaces raw exponent/support notation and the two LD definitions with native Word formatting. Figure masters, workbook and all three Source Data ZIPs are unchanged. The SI wording and values are unchanged, with native notation and a new WPS export. Local QA is **43/43**, visual review **32/32 pages**, and the single upload candidate list contains **13 files**. Author identity/declaration confirmation is retained; approval of this exact candidate and actual portal proof are pending. [Round report](7.Report/rounds/r7c3h1b/99_R7C3H1B_详细行动记录_20261013.md).
+
+RP v5 is a detailed evidence plan, not an authorization to submit. Its earlier abstract count is superseded by the explicit R7C3H1B counting receipt: 126 whitespace words, 129 compound-aware tokens, or 148 conservative alphanumeric pieces; the abstract itself was not edited.
 
 ## Scientific question and narrative
 
@@ -79,5 +87,5 @@ Original code: [MIT](LICENSE). Original author-owned text, figures, documentatio
 
 ## Current decision
 
-**PBC = GO. R7C3H is complete and awaits exact-version author reconfirmation and publisher-generated PDF proof**, followed by an author-operated npj Genomic Medicine submission and recorded receipt. New biological candidate screening and global simulation reruns remain out of scope without a concrete scientific defect. No submission, acceptance, new experiment or DOI is claimed by this release. [Current state](0_admin/CURRENT_PROJECT_STATE.json).
+**PBC = GO. R7C3H1B local handoff and QA are complete; exact-version author reconfirmation and publisher-generated PDF proof remain pending**, followed by an author-operated npj Genomic Medicine submission and recorded receipt. New biological candidate screening and global simulation reruns remain out of scope without a concrete scientific defect. No submission, acceptance, new experiment or DOI is claimed by this release. [Current state](0_admin/CURRENT_PROJECT_STATE.json).
 

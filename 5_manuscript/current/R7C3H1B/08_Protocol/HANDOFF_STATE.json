@@ -1,0 +1,21 @@
+{
+  "stage": "R7C3H1B_EXACT_VERSION_HANDOFF",
+  "scientific_source_tag": "r7c3h0-statistical-reproducibility-closure-2026-10-13",
+  "status": "COMPLETE_LOCAL_HANDOFF_AND_QA",
+  "scientific_results_changed": false,
+  "figures_changed": false,
+  "author_identity_previously_confirmed": true,
+  "fresh_exact_version_author_approval": "PENDING",
+  "publisher_portal_proof": "PENDING",
+  "journal_submission": "NOT_EXECUTED",
+  "zenodo_DOI": "NOT_ESTABLISHED",
+  "scope": "Bounded editorial navigation changes; no biological refit or new candidate selection.",
+  "research_plan": "RP_v5",
+  "document_QA": "PASS_43_OF_43",
+  "local_WPS_visual_QA": "PASS_32_OF_32",
+  "candidate_upload_files": 13,
+  "scientific_source_archives_changed": false,
+  "supplement_changes": "Native notation only; workbook, crosswalk and all figure bytes unchanged",
+  "next": "R7C3H1C_EXACT_AUTHOR_APPROVAL_AND_PUBLISHER_PORTAL_PROOF",
+  "github_candidate_publication": "PENDING_SYNC"
+}

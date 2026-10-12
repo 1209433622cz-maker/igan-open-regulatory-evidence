@@ -31,3 +31,6 @@ jobs:
         env:
           R7_RUNTIME_OUT: ${{ runner.temp }}\r7-portable-qa
         run: python 2_code/11_manuscript/R7C3G/02_evidence_audit.py
+
+      - name: Verify exact-file R7C3H1B handoff
+        run: python 2_code/11_manuscript/R7C3H1B/07_verify_public_handoff.py

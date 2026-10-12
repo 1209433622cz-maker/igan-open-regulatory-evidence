@@ -1,0 +1,37 @@
+{
+  "journal": "npj Genomic Medicine",
+  "article_type": "Article",
+  "title": "Input matched multisignal colocalization clarifies regulatory assignments at primary biliary cholangitis loci",
+  "authors": [
+    {
+      "given_name": "Zhi",
+      "family_name": "Chen",
+      "email": "zhichen1@link.cuhk.edu.cn",
+      "ORCID": "0009-0001-0072-5576",
+      "order": 1,
+      "corresponding": false
+    },
+    {
+      "given_name": "Teng",
+      "family_name": "Qi",
+      "email": "tengqi@link.cuhk.edu.cn",
+      "ORCID": "0009-0007-7648-4776",
+      "order": 2,
+      "corresponding": true
+    }
+  ],
+  "affiliation": "School of Medicine, The Chinese University of Hong Kong, Shenzhen, Shenzhen, Guangdong, China",
+  "declarations": {
+    "identity_and_affiliation": "Previously confirmed by user",
+    "funding": "No specific funding",
+    "competing_interests": "None declared",
+    "acknowledgements": "No acknowledgement recipients",
+    "ethics": "Secondary reanalysis of public de-identified data; no new recruitment or identifiable collection",
+    "originality_and_exclusive_submission": "Previously confirmed by user",
+    "generative_AI": "OpenAI Codex with QiTeng Academic Writing Skill, disclosed in Methods under author responsibility"
+  },
+  "fresh_exact_file_approval": "PENDING",
+  "portal_fields": "Prepared; not entered or verified in journal portal",
+  "publisher_proof": "NOT_GENERATED",
+  "journal_submission": "NOT_EXECUTED"
+}
