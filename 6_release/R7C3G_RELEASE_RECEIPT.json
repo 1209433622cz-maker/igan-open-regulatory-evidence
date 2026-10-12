@@ -1,0 +1,13 @@
+{
+  "zip": "CMM_R7C3G_ExpertEvidenceAudit_NarrativeRebuild_20261012.zip",
+  "bytes": 17314147,
+  "sha256": "12314510de0c1dc73cd9c3e4371cb4ffd079210bf58deb3df4c957810e094891",
+  "crc": "PASS",
+  "internal_sha256": "93/93 PASS",
+  "entries": 94,
+  "machine_checks": "160/160 PASS",
+  "science_replay": "37/37 PASS",
+  "visual_pages": "56/56 reviewed",
+  "baseline": "23/23 unchanged",
+  "new_version_submission": "NOT_EXECUTED"
+}

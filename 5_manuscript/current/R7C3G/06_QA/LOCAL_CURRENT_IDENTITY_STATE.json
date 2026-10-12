@@ -1,0 +1,27 @@
+{
+  "snapshot_at": "2026-10-12T16:44:26.068536+08:00",
+  "files": 38925,
+  "bytes": 46513829627,
+  "GiB": 43.31937956344336,
+  "fresh_files": 208,
+  "fresh_bytes": 52997841,
+  "hash_reuse_contract": "Prior same-day SHA256 only when exact size and mtime are unchanged; not a new independent rehash of unchanged raw bytes.",
+  "skipped_reparse_points": [
+    "2_code/11_manuscript/R7B3A/node_modules",
+    "2_code/09_release/r7a2a5/node_modules",
+    "2_code/06_intake/finngen_fg2_remote/node_modules/@gmod/tabix",
+    "2_code/06_intake/finngen_fg2_remote/node_modules/.pnpm/node_modules/generic-filehandle2",
+    "2_code/06_intake/finngen_fg2_remote/node_modules/.pnpm/node_modules/pako-esm2",
+    "2_code/06_intake/finngen_fg2_remote/node_modules/.pnpm/node_modules/@jbrowse/quick-lru",
+    "2_code/06_intake/finngen_fg2_remote/node_modules/.pnpm/node_modules/@gmod/bgzf-filehandle",
+    "2_code/06_intake/finngen_fg2_remote/node_modules/.pnpm/node_modules/@gmod/shared-read-cache",
+    "2_code/06_intake/finngen_fg2_remote/node_modules/.pnpm/@gmod+tabix@3.8.2/node_modules/generic-filehandle2",
+    "2_code/06_intake/finngen_fg2_remote/node_modules/.pnpm/@gmod+tabix@3.8.2/node_modules/@jbrowse/quick-lru",
+    "2_code/06_intake/finngen_fg2_remote/node_modules/.pnpm/@gmod+tabix@3.8.2/node_modules/@gmod/bgzf-filehandle",
+    "2_code/06_intake/finngen_fg2_remote/node_modules/.pnpm/@gmod+tabix@3.8.2/node_modules/@gmod/shared-read-cache",
+    "2_code/06_intake/finngen_fg2_remote/node_modules/.pnpm/@gmod+bgzf-filehandle@6.6.0/node_modules/generic-filehandle2",
+    "2_code/06_intake/finngen_fg2_remote/node_modules/.pnpm/@gmod+bgzf-filehandle@6.6.0/node_modules/pako-esm2"
+  ],
+  "errors": [],
+  "previous_identity_inventory": "H:\\SCI2\\YR1\\5_analysis\\R7C3F_GitHubRebuild_FullAudit_Submission_20261012\\ALL_CURRENT_FILES_CLOSING.tsv"
+}

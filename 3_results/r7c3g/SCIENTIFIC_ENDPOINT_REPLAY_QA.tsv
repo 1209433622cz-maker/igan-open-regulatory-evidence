@@ -1,0 +1,38 @@
+﻿check	status	detail
+ZIP CRC Source_Data_1_Primary_Machine_Readable_Data.zip	PASS	
+ZIP CRC Source_Data_2_External_Regulatory_Evidence.zip	PASS	
+Frozen 642 exact unique identities	PASS	
+Classification and semantics identity closure	PASS	
+Screen registry 6923	PASS	
+Eligible variants threshold >=200	PASS	
+47 loci 200 genes 14 cells	PASS	
+286 blocks	PASS	
+184 455 3 roles	PASS	{'H3_RESCUE_FALSIFICATION': 455, 'PRIMARY_184_TRIGGER_VERIFICATION': 184, 'BORDERLINE_HIGH_INFORMATION_CALIBRATION': 3}
+92 428 59 63 outcomes	PASS	{'H3': 428, 'H4': 92, 'UNINFORMATIVE': 63, 'MODEL_SENSITIVE': 59}
+Support differences 19-114 median65	PASS	
+15 support changes	PASS	
+19 statistic changes	PASS	
+139 full procedure changes	PASS	
+8 H4 to H3	PASS	
+10 H3 to H4	PASS	
+A2 denominators113 452	PASS	
+No sensitivity category changes	PASS	
+92 comparison 27gene 19locus	PASS	
+32 H4 with distinct pairs	PASS	
+520 same-pair confirmations	PASS	
+PF50 conditional491 4 25	PASS	{'MATCH': 491, 'PF50_UNINFORMATIVE': 25, 'PF10_PF50_SENSITIVE': 4}
+FCRL3 current PF10 .0036 PF50 .9919	PASS	
+486000 simulation rows	PASS	
+Channel conservation	PASS	[{'matched_channel': 'NO_CS_BOTH', 'n': 130994}, {'matched_channel': 'NO_DISEASE_CS', 'n': 16819}, {'matched_channel': 'NO_QTL_CS', 'n': 177405}, {'matched_channel': 'PAIR_H3', 'n': 31459}, {'matched_channel': 'PAIR_H4', 'n': 100243}, {'matched_channel': 'PAIR_UNINFORMATIVE', 'n': 29080}]
+486000 iteration channel replay	PASS	{'NO_QTL_CS': 177405, 'NO_CS_BOTH': 130994, 'PAIR_H4': 100243, 'PAIR_H3': 31459, 'PAIR_UNINFORMATIVE': 29080, 'NO_DISEASE_CS': 16819}
+Simulation six81000 designs	PASS	
+160782 pair-evaluable	PASS	
+False-sharing and recovery tradeoff	PASS	{'false_H4': {'abf_h4_rate': 0.1241049382716049, 'matched_h4_rate': 0.0856111111111111}, 'shared_recovery': {'abf_h4_rate': 0.3299135802469136, 'matched_h4_rate': 0.2665864197530864}}
+FCRL3_B exact252 replay	PASS	
+FCRL3_B detection ten donors	PASS	
+IL12RB2_NK exact252 replay	PASS	
+IL12RB2_NK detection ten donors	PASS	
+External threepriors 1175variants	PASS	
+External2 of2 QTL CS membership	PASS	
+Triangle direct mediation unavailable	PASS	
+Portable objects parse or explicit archival empty	PASS	{'total': 482, 'nonempty_parse_pass': 480, 'archival_empty': 2}

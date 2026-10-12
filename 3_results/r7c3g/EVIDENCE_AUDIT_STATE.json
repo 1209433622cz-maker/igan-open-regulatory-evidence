@@ -1,0 +1,44 @@
+{
+  "states": {
+    "H3": 428,
+    "H4": 92,
+    "UNINFORMATIVE": 63,
+    "MODEL_SENSITIVE": 59
+  },
+  "roles": {
+    "H3_RESCUE_FALSIFICATION": 455,
+    "PRIMARY_184_TRIGGER_VERIFICATION": 184,
+    "BORDERLINE_HIGH_INFORMATION_CALIBRATION": 3
+  },
+  "false_H4": {
+    "abf_h4_rate": 0.1241049382716049,
+    "matched_h4_rate": 0.0856111111111111
+  },
+  "shared_recovery": {
+    "abf_h4_rate": 0.3299135802469136,
+    "matched_h4_rate": 0.2665864197530864
+  },
+  "tissue": [
+    {
+      "axis": "FCRL3_B",
+      "effect": -0.7863352116597311,
+      "p": 0.1111111111111111,
+      "q": 0.1111111111111111
+    },
+    {
+      "axis": "IL12RB2_NK",
+      "effect": 0.32996753594297346,
+      "p": 0.06349206349206349,
+      "q": 0.1111111111111111
+    }
+  ],
+  "pf50": {
+    "MATCH": 491,
+    "PF50_UNINFORMATIVE": 25,
+    "PF10_PF50_SENSITIVE": 4
+  },
+  "source_members": 56,
+  "portable_result_objects": 482,
+  "checks_pass": 37,
+  "checks_fail": 0
+}

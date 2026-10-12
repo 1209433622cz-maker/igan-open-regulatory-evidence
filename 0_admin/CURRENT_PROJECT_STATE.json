@@ -1,0 +1,32 @@
+{
+  "stage": "R7C3G1_GITHUB_EIGHT_FOLDER_RESTRUCTURE",
+  "date": "2026-10-12",
+  "PBC_PRIMARY_PROJECT": "GO",
+  "RP": "v4",
+  "current_editorial_candidate": "R7C3G",
+  "baseline": "R7C3F preserved",
+  "scientific_endpoints_changed": false,
+  "original_scientific_fits_rerun": false,
+  "new_candidate_exact_version_author_review": "PENDING",
+  "journal_submission_completed": false,
+  "Zenodo_DOI_verified": false,
+  "NEXT": "R7C3H_EXACT_VERSION_AUTHOR_REVIEW_AND_PUBLISHER_PROOF",
+  "scientific_replay": "37/37 PASS (R7C3G)",
+  "document_QA": "160/160 PASS (R7C3G)",
+  "WPS": "4/4 exports;56 pages reviewed (R7C3G)",
+  "new_public_folder_roots": [
+    "0_admin",
+    "1_data",
+    "2_code",
+    "3_results",
+    "4_figures",
+    "5_manuscript",
+    "6_release",
+    "7.Report"
+  ],
+  "archived_projects": [
+    "SSc",
+    "MG",
+    "IgAN"
+  ]
+}

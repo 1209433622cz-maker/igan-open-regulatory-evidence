@@ -1,0 +1,38 @@
+[
+  {
+    "docx": "01_Manuscript\\Manuscript_ExpertRebuilt.docx",
+    "docx_sha256": "81947a20b5c8b7848d763e1bb1c7524d58268852186896b9573ea3842efd2cbc",
+    "pdf": "H:\\SCI2\\YR1\\5_manuscript\\R7C3G_ExpertNarrative_20261012\\01_Manuscript\\Manuscript_ExpertRebuilt.pdf",
+    "pdf_sha256": "a9982cd0fa2603630cf187c0929624424b15f48f885b33f2b03d2dd1d9103d2f",
+    "renderer": "WPS kwps.Application ExportAsFixedFormat 17",
+    "background": true,
+    "exported_at": "2026-10-12T17:23:05.2241606+08:00"
+  },
+  {
+    "docx": "01_Manuscript\\Manuscript_AuthorReview_InlineFigures.docx",
+    "docx_sha256": "bed0cd226aa802adda72b21430bfd30eb904729d6fb51dfa7a7b584b2113198b",
+    "pdf": "H:\\SCI2\\YR1\\5_manuscript\\R7C3G_ExpertNarrative_20261012\\01_Manuscript\\Manuscript_AuthorReview_InlineFigures.pdf",
+    "pdf_sha256": "33a6f11c8c4f3dadc40f38864d6e7c22515bc90c9e5016cbe48686f74312cf7f",
+    "renderer": "WPS kwps.Application ExportAsFixedFormat 17",
+    "background": true,
+    "exported_at": "2026-10-12T17:23:07.5921534+08:00"
+  },
+  {
+    "docx": "03_Supplement\\Supplementary_Information_ExpertRebuilt.docx",
+    "docx_sha256": "e29de880c4214bd1cf503461351a186d3cfafc5a7dfd49b9e915a05c4a6196de",
+    "pdf": "H:\\SCI2\\YR1\\5_manuscript\\R7C3G_ExpertNarrative_20261012\\03_Supplement\\Supplementary_Information_ExpertRebuilt.pdf",
+    "pdf_sha256": "a413972a4e82c4f9b4bdf9c67fc760a8da512ee119f08dc485869954ffe2d8d5",
+    "renderer": "WPS kwps.Application ExportAsFixedFormat 17",
+    "background": true,
+    "exported_at": "2026-10-12T17:23:08.4079688+08:00"
+  },
+  {
+    "docx": "04_Cover\\Cover_Letter_ExpertRebuilt_DRAFT.docx",
+    "docx_sha256": "7dcd21aef56ac4a6614d1a7f00588d6fa883bae7c80a1729ece54e08501936f9",
+    "pdf": "H:\\SCI2\\YR1\\5_manuscript\\R7C3G_ExpertNarrative_20261012\\04_Cover\\Cover_Letter_ExpertRebuilt_DRAFT.pdf",
+    "pdf_sha256": "d9d9ad7dfdb6e65d3c5b40cf7e8e20a75feed4e2916ef36983ed5d75c9db8f91",
+    "renderer": "WPS kwps.Application ExportAsFixedFormat 17",
+    "background": true,
+    "exported_at": "2026-10-12T17:23:08.5706623+08:00"
+  }
+]

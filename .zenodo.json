@@ -2,7 +2,7 @@
   "title": "Input matched multisignal colocalization clarifies regulatory assignments at primary biliary cholangitis loci",
   "upload_type": "publication",
   "publication_type": "preprint",
-  "description": "Open research compendium and npj Genomic Medicine submission candidate for PBC-wide screening followed by source-matched multi-signal reclassification of a prespecified high-information subset. The release separates variant-support and disease-statistic effects from residual reclassification, reports discovery and pair-conditional simulation channels, and adds bounded IL12RB2-NK evidence from a different FinnGen disease study system and a disease-eQTL/disease-caQTL/peak-gene chromatin triangle. It does not claim participant-level independence, direct eQTL-caQTL colocalization, causal mediation or general method superiority. R7C3C retains the unchanged R7C3B QiTeng/WPS editorial candidate and adds byte-audited asset catalogues; edited-version author approval and publisher proof are pending. This file is publication metadata, not proof that a Zenodo deposit exists.",
+  "description": "PBC regulatory attribution reliability research compendium. R7C3G rebuilds the manuscript narrative and 34 traceable panels with unchanged scientific endpoints and Source Data; R7C3G1 reorganizes the public repository into eight canonical directories. The prespecified 642 high-information comparisons, same-input bidirectional reclassification, model sensitivity, known-truth simulation trade-offs and bounded external/tissue evidence are reported. This is an editorial review candidate: exact-version author review, publisher proof and journal submission remain pending. Participant-level external independence, chromatin mediation and universal algorithm superiority are not established. This metadata file does not establish a Zenodo deposit or DOI.",
   "creators": [
     {
       "name": "Chen, Zhi",
@@ -18,7 +18,7 @@
   "access_right": "open",
   "license": "cc-by-4.0",
   "publication_date": "2026-10-12",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "keywords": [
     "primary biliary cholangitis",
     "colocalization",

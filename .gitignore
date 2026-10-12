@@ -1,6 +1,7 @@
-# Raw and large data
-1_data/
+# Do not commit third-party raw inputs, donor content or installed runtimes.
 raw_data/
+**/__pycache__/
+*.py[cod]
 *.bed
 *.bim
 *.fam
@@ -10,35 +11,26 @@ raw_data/
 *.vcf
 *.vcf.gz
 *.bcf
+*.bam
+*.cram
 *.h5ad
 *.rds
 *.RDS
-*.tar
-*.tar.gz
-*.zip
-*.br
-
-# Donor-level and large numeric matrices
-*active_donors.txt
-*standardized*A1*dosage*
-*correlation.npy
-*correlation.float32.bin
 *.npy
 *.npz
-
-# Secrets and local configuration
+*.tar
+*.tar.gz
+*active_donors.txt
+*standardized*A1*dosage*
+*correlation.float32.bin
 .env
 .env.*
 *.pem
 *.key
 credentials*
 secrets*
-
-# Runtime output
-__pycache__/
-*.py[cod]
 .Rhistory
 .RData
 .pytest_cache/
 logs/
-
+# 1_data source metadata and audited aggregate Source Data ZIPs are intended.

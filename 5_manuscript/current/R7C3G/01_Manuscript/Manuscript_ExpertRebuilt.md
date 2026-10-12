@@ -1,0 +1,321 @@
+# Input matched multisignal colocalization clarifies regulatory assignments at primary biliary cholangitis loci
+
+Article type: Article
+
+Authors: Zhi Chen¹ (ORCID: 0009-0001-0072-5576); Teng Qi¹* (ORCID: 0009-0007-7648-4776)
+
+Affiliations: ¹ School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, China
+
+Corresponding author: Teng Qi, School of Medicine, The Chinese University of Hong Kong, Shenzhen, 2001 Longxiang Boulevard, Longgang District, Shenzhen, Guangdong 518172, China; tengqi@link.cuhk.edu.cn
+
+## Abstract
+
+Regulatory assignments depend on association inputs and signal models. We screened 5,460 of 6,923 primary biliary cholangitis locus-gene-cell comparisons and evaluated a protocol-frozen 642-comparison subset. Matching variant support and disease statistics changed 15 and 19 classifications, respectively. Eight shared-signal (H4) calls became distinct-signal (H3), and ten changed conversely. Shared and distinct pairs coexisted in 32 of 92 H4-supported comparisons, while a FCRL3 T-cell assignment reversed between covariate models. Across 486,000 simulations, multi-signal inference reduced false sharing from 12.41% to 8.56% and shared-signal recovery from 32.99% to 26.66%; only 33.08% were pair-evaluable. IL12RB2 sharing in natural killer cells received external disease-study and chromatin support, whereas liver data showed detectability without corrected disease enrichment. These results support signal-specific, model-qualified regulatory attribution without establishing mediation or universal methodological superiority.
+
+Keywords: primary biliary cholangitis; colocalization; single-cell eQTL; fine-mapping; linkage disequilibrium; signal pair; regulatory genomics; statistical genetics
+
+## Introduction
+
+Primary biliary cholangitis (PBC) is an autoimmune cholestatic liver disease characterized by progressive injury to small intrahepatic bile ducts [1]. Genome-wide association studies have identified a substantial inherited component and many non-HLA susceptibility loci, creating a strong foundation for mechanistic prioritization [2]. The central interpretive problem is no longer whether associated regions exist. It is whether a regional disease association and a molecular quantitative-trait locus (QTL) implicate the same local signal, in which gene and cellular context, and with what degree of uncertainty. Functional follow-up depends on resolving that uncertainty: a strongly associated gene in the wrong cell context can direct experiments toward a regulatory assignment that the genetic data do not support.
+
+Single-cell QTL resources make this problem biologically more specific. OneK1K mapped cell-type-specific genetic effects on gene expression in peripheral blood immune populations [3], and TenK10K extends immune-cell molecular-QTL mapping to a larger donor cohort and a broader cellular taxonomy [4]. These resources allow the same disease locus to be compared across genes and cell contexts. That resolution also increases statistical dependence: a locus can contain several disease and expression signals, the same gene can appear in related immune populations, and a comparison-level label can conceal different signal pairs.
+
+Approximate Bayes factor (ABF) colocalization provides an efficient first-pass test of whether two association patterns are more compatible with one shared causal variant (H4) or with two distinct causal variants (H3) [5]. Its standard formulation assumes at most one causal variant per trait in the tested region. That assumption can be restrictive in autoimmune loci with allelic heterogeneity. Multi-signal fine-mapping and signal-pair colocalization can instead represent several local components [6,7], but a direct comparison is difficult when the procedures use different variant sets, disease summaries or linkage disequilibrium (LD) inputs. An apparent H4-to-H3 or H3-to-H4 change can then reflect input mismatch as well as inferential structure.
+
+This distinction matters for biological attribution. A stable shared signal pair supports a locus-gene-cell regulatory association, but it does not prove expression mediation or a molecular mechanism. A stable distinct pair does not imply that the entire locus contains no shared signal. Indeed, shared and distinct signal pairs can coexist within one locus-gene-cell comparison. Model sensitivity can also be informative: it identifies assignments that depend on the covariate adjustment used to construct QTL summaries and model-matched LD, rather than providing a reason to select the configuration that yields the most favorable posterior.
+
+We used PBC to test the reliability of immune-cell regulatory attribution through a linked sequence of questions. A PBC-wide screen defined a bounded high-information subset. Matched-input single-causal arms then distinguished changes caused by variant support and disease-statistic definitions from differences remaining between complete inferential procedures. Signal-pair identity and covariate sensitivity established what a comparison-level label could mean. Truth-known simulations tested the trade-off between false sharing, recovery and credible-set discovery. Finally, representative FCRL3 B-cell and IL12RB2-NK assignments were examined across molecular-QTL resources, a different disease study system, linked chromatin and donor-level liver expression. This design asked which assignments persisted, why others changed, and where statistical support stopped short of mechanism.
+
+## Results
+
+### PBC-wide screening defined a bounded high-information multi-signal analysis
+
+The frozen registry contained 6,923 locus-gene-cell comparisons. Of these, 5,460 met the overlap threshold for ABF screening and 1,463 were coverage-insufficient (Figure 1a). The latter were not interpreted as negative colocalization results. The multi-signal workload contained 642 comparisons: 184 primary trigger-verification comparisons, 455 H3 rescue/falsification comparisons and three borderline calibration cases (Figure 1d). It covered 47 PBC regions, 200 genes, 14 cell types and 286 cell-locus blocks. Complete records are provided in Source Data 1, S2/. The four-arm input contract is shown in Figure 1b; the complete adjacent transition matrices are provided in Supplementary Figure S1.
+
+The final PF10 multi-signal classification contained 92 H4-supported comparisons, 428 H3-supported comparisons, 59 model-sensitive comparisons and 63 uninformative comparisons (Figure 1c). These are comparison counts, not independent genes or loci. The 92 H4-supported comparisons involved 27 genes and 19 loci. Repeated support for a gene across related cells therefore increased cell-context resolution but did not create additional independent disease associations. The H4-supported fraction describes this selected workload and is not an estimated prevalence across all PBC regulatory comparisons.
+
+### Input matching explained part of the bidirectional reclassification
+
+The actual multi-signal support S_M was smaller than the historical ABF support S_A in all 642 comparisons, with 19-114 variants removed per comparison (median 65; median 7.67%; Figure 2a). A0 replay reproduced the historical ABF posteriors to within 3.55x10^-13, establishing numerical identity before attribution.
+
+Restricting the ABF calculation from S_A to S_M changed 15 categorical states (A0-to-A1) while retaining all 112 historical H4 states. Replacing the harmonized GCST disease definition with the matched GJOKA z-statistic definition changed 19 states (A1-to-A2; Figure 2b). Fixed-versus-native sdY and matched-z-versus-rounded GJOKA sensitivity definitions produced no categorical changes within the frozen 642. The two change counts can involve the same comparisons and are not additive.
+
+After exact support and disease-statistic matching, comparison with the frozen multi-signal result still showed bidirectional H4/H3 reclassification (Figure 2c). Among 113 A2 H4 comparisons, 79 retained H4, eight changed to H3, four were model-sensitive and 22 were uninformative. Among 452 A2 H3 comparisons, 413 retained H3, ten changed to H4, six were model-sensitive and 23 were uninformative (Figure 2d). Thus, strict matched-input transitions comprised eight H4-to-H3 and ten H3-to-H4 comparisons. The 139 total A2-to-M state changes also included ambiguity and information changes and cannot be interpreted as 139 corrections. Complete records are provided in Source Data 1, S3/.
+
+Ten of 12 historical directional transitions remained strict H4/H3 changes under matched inputs. Two historical cases entered the multi-signal analysis from matched-input ambiguous states and were no longer counted as strict A2-to-M reversals. Strict reversal counts therefore follow the matched-input starting state. Reclassification was therefore defined by the matched-input starting state; the concrete FCRL3 model contrast is developed below.
+
+### Signal sharing remained pair specific and model dependent
+
+Signal-pair semantics further limited comparison-level interpretation. All 92 stable-H4 comparisons and all 428 stable-H3 comparisons retained the same qualifying signal-pair identity between PF10 L=10 and at least one other PF10 L setting. However, 32 of the 92 H4-supported comparisons also contained an H3-qualifying pair (Figure 3a). H4 support therefore meant that at least one shared pair was stable, not that every signal in the region was shared. Conversely, H3 support identified a stable distinct pair and did not prove the global absence of another shared pair.
+
+Among the 520 comparisons with a definite PF10 H4 or H3 state, PF50 produced the same state in 491 (94.42%), changed four to the alternative supported state and was uninformative in 25 (Figure 3b). The remaining 122 PF10 model-sensitive or uninformative comparisons were not included in this denominator. The 94.42% agreement is conditional on a definite PF10 state.
+
+FCRL3-CD8_ET provided the clearest input-matched counterexample to a simple comparison-level interpretation. Its single-causal ABF state remained H4 across A0, A1 and A2 (PP.H4=0.9413347, 0.9413350 and 0.9492605, respectively), whereas the PF10 multi-signal result supported H3, with best PP.H4=0.0036 and PP.H3 approximately 0.992. The same comparison was H4-supported under PF50 (best PP.H4=0.9919; Figure 3c). The result therefore showed that exact input matching did not remove the procedure-dependent classification, while PF-number sensitivity prevented it from being described as a universal CD8-cell falsification. It was evidence about the tested cell-QTL model and adjustment strategy, not evidence that FCRL3 has no role in CD8 T cells.
+
+FCRL3 showed stable OneK1K B-cell sharing in intermediate and memory B cells. Under PF10 L=10, best signal-pair PP.H4 values were 0.9937 and 0.9910, respectively. TenK10K intermediate B cells reproduced the sharing pattern (343 overlapping variants; default PP.H4=0.9916; low-prior H4/[H3+H4]=0.9217; Figure 5b). Because the same PBC GWAS was reused, this was cross-QTL-resource support rather than independent disease replication.
+
+The PBC risk allele was associated with lower FCRL3 expression in the compatible OneK1K and TenK10K B-cell contexts. The frozen FinnGen public output returned no direct PBC-FCRL3 pair. That non-return was a coverage boundary, not evidence against sharing. Stability within a model did not establish correctness; truth-known simulations provided a complementary test.
+
+### Simulation separated shared-signal decisions from discovery adequacy
+
+The primary simulation branch completed all 486,000 iterations with no recorded technical errors. Multi-signal inference failed to produce an evaluable signal pair in many iterations because one or both traits lacked a credible set: 130,994 iterations had no credible set for either trait, 16,819 lacked a disease credible set and 177,405 lacked a QTL credible set. No iteration had credible sets for both traits but no eligible pair. A total of 160,782 iterations (33.08%) were pair-evaluable (Figure 4a,d).
+
+This discovery layer materially changed interpretation of unconditional performance. Pair-evaluable rates ranged from 13.29% in S5 to 59.79% in S2. In S1, one true shared signal, the unconditional matched H4 rate was 54.12%, whereas H4 was selected in 94.06% of pair-evaluable iterations. In S4, two signals per trait with one shared pair, the corresponding rates were 9.57% and 66.72%. Conditional performance showed that the estimator often recognized sharing once a signal pair existed, but the unconditional rates captured the combined burden of discovery and pair classification (Figure 4b).
+
+Across the two frozen distinct-signal scenarios, the average false-H4 rate decreased from 12.41% with ABF to 8.56% with matched multi-signal inference, a relative reduction of 31.02%. The gain was not uniform. In S2, which used correlated but distinct variants, the matched false-H4 rate remained 16.00% overall and 26.76% among pair-evaluable iterations. In S5, which contained two high-LD signals per trait without a shared pair, the false-H4 rate fell from 4.32% with ABF to 1.12% with matched multi-signal inference (Figure 4c).
+
+The decrease in false H4 was accompanied by lower recovery in the shared-signal scenarios: average H4 recovery decreased from 32.99% with ABF to 26.66% with matched multi-signal inference, a relative loss of 19.20%. This result precluded a claim of general superiority. The S6 mismatch sensitivity produced few decision flips in the implemented, closely related LD contrast, but the zero-pair branch lacked per-trait credible-set counts. We therefore did not generalize S6 to ancestry mismatch or severe reference-panel mismatch. Complete records are provided in Source Data 1, S7/. LD-dependent decision rates are shown in Supplementary Figure S2.
+
+### IL12RB2 gained bounded external disease-study and chromatin support
+
+IL12RB2-NK was a representative stable-H4 comparison in OneK1K. Best PF10 signal-pair PP.H4 values were 0.9980 across L=5, 10 and 20; PF50 L=10 yielded PP.H4=0.9965. The comparison also contained a distinct signal pair, illustrating why stable H4 did not impose a single global mechanism label on the region.
+
+TenK10K NK-cell eQTL data reproduced the PBC-IL12RB2 sharing pattern under the bounded single-causal replication model (396 overlapping variants; default PP.H4=0.9975; low-prior H4/[H3+H4]=0.9760). FinnGen immune multiome outputs returned three PBC-IL12RB2 molecular-QTL records, for l1.NK, l1.PBMC and l2.NK strata. PP.H4 ranged from 0.9698 to 0.9706, with credible-set overlap of five to nine variants. These strata came from one resource and were not counted as three independent cohorts.
+
+The FinnGen disease signal was stable between public releases. The R12 disease credible set contained 19 variants and the R13 set contained 17; all 17 R13 members occurred in R12 (Jaccard=0.895), the same variant led both sets, and member probabilities correlated at r=0.833 (Supplementary Figure S3). FinnGen R13 contained 795 PBC cases and 368,758 controls. At the exact bridged disease variant rs6679356, the aligned C-allele effect was positive in both the discovery PBC GWAS and FinnGen R13.
+
+FinnGen R13 × OneK1K NK/IL12RB2 colocalization used 1,175 harmonized variants. PP.H4 was 0.9772 at p12=10^-6, 0.9977 at p12=10^-5 and 0.9998 at p12=10^-4; H4/(H3+H4) was 0.9776, 0.9977 and 0.9998, respectively (Figure 5a). The shared top variant was rs6702599, with concordant effect direction, and both members of the OneK QTL credible set occurred in the FinnGen R13 disease credible set (Figure 5b). This supported the regulatory association in a different disease study system. Public metadata did not establish person-level zero overlap, and the external analysis remained single-causal rather than source-LD multi-signal. Complete records are provided in Source Data 2, data/.
+
+The prespecified CASCADE audit further constrained the chromatin interpretation. Of 27 fixed genes, 22 had relevant broad-cell eQTL coverage, but only IL12RB2 returned a PBC-eQTL colocalization record (Figure 5c). At the linked l1.NK peak, PBC-IL12RB2 eQTL sharing gave PP.H4=0.9703 and PBC-caQTL sharing gave PP.H4=0.9695. All nine eQTL credible-set members and all 11 caQTL credible-set members occurred within the 19-member disease credible set. The peak was 239 bp from the IL12RB2 transcription start site and linked to the gene with coefficient 0.141 (Figure 5d). These three observed edges supported triangular signal coherence. They did not supply the unavailable direct eQTL-caQTL posterior or establish chromatin-to-expression mediation. The peak-gene link was reported with PBMC as its best cell context and did not independently establish an NK-specific link.
+
+The aligned PBC risk allele was associated with higher IL12RB2 expression across compatible OneK1K, TenK10K and FinnGen records. Effect magnitudes were not compared because the expression transformations and models differed. In the OMIX001122 processed archive, IL12RB2 and FCRL3 were detectable in both the single PBC and single control spatial matrices. The absence of donor replication, tissue-image coordinates and spot annotations restricted this observation to descriptive detectability rather than disease enrichment or spatial validation. The updated regional disease-caQTL result in the S11 evidence family supersedes the earlier position-only chromatin interpretation retained in S8.
+
+### Liver expression supported lineage detectability but not corrected PBC-specific enrichment
+
+Both target-lineage pairs passed technical and detectability gates in all five PBC and all five control liver donors. For FCRL3 in B-lineage cells, median target-lineage CPM was 5.48 in PBC and 12.45 in controls; the mean PBC-minus-control difference in log1p CPM was -0.786. The exact two-sided permutation P value was 0.111 and the two-target BH q value was 0.111 (Figure 6a).
+
+For IL12RB2 in NK-lineage cells, median target-lineage CPM was 6.66 in PBC and 4.24 in controls; the mean log1p CPM difference was 0.330. The exact P value was 0.0635 and the BH q value was 0.111 (Figure 6b). The positive direction was descriptive and did not cross the prespecified corrected threshold. Complete records are provided in Supplementary Data 1, worksheet S9; Source Data 1, S9/.
+
+These results established that both genes could be detected in the relevant liver immune-lineage compartments in this dataset. They did not show corrected PBC-specific enrichment, tissue mediation or a disease-state mechanism (Figure 6). The small donor sample and surgical non-lesion controls further limited generalization. The tissue layer therefore constrained, rather than completed, the regulatory narrative.
+
+## Discussion
+
+This study identified three linked conditions for interpreting immune-cell regulatory assignments at PBC loci: association inputs must be coordinated, the supported signal pair must be specified, and stability must be separated from discovery adequacy and mechanism. Input coordination explained some classification changes but left strict H4-to-H3 and H3-to-H4 transitions. Signal-pair coexistence and the FCRL3 covariate-model reversal showed why a favorable gene-level label was insufficient. The simulations then placed those real-data changes within a truth-known trade-off, rather than treating every lower H4 count as evidence of better inference.
+
+The matched-input design changes the interpretation of earlier single-causal-to-multi-signal contrasts. An unmatched comparison could not distinguish the effect of a smaller variant intersection from the effect of a different disease-statistic source or the effect of representing several causal components [5,6,7,8]. A0/A1/A2 did not convert the final comparison into a controlled experiment in which only the number of causal variants changed; ABF and SuSiE-based colocalization still differ in priors, parameterization, signal discovery and decision rules. It did, however, remove two concrete alternative explanations and define the residual reclassification more precisely.
+
+Signal-pair reporting was as important as the comparison-level count. The stability audit showed that all 92 H4-supported and 428 H3-supported comparisons retained the relevant pair identity across PF10 L settings. At the same time, 32 H4-supported comparisons contained a qualifying distinct pair. This coexistence is biologically plausible in loci with several regulatory variants and statistically incompatible with a forced one-label mechanism. The appropriate interpretation of H4 is that at least one disease-QTL signal pair is supported as shared under the tested model. The appropriate interpretation of H3 is that a distinct pair is supported, not that the locus lacks every possible shared component.
+
+PF10/PF50 results provide a second boundary. Among comparisons with a definite PF10 H4/H3 state, 491 of 520 retained the same state under PF50. This high conditional agreement supports the overall stability of many assignments. Yet FCRL3-CD8_ET showed a near-complete change from H3 under PF10 to H4 under PF50. Expression-factor adjustment changes the phenotype model and the residualized LD used for fine-mapping. A more favorable posterior under one specification is not evidence that the specification is biologically true. The counterexample is therefore useful precisely because it remains unresolved: it identifies a cell context in which regulatory attribution depends on a defensible modeling choice. Because factor number changed both the QTL phenotype specification and its matched LD, this contrast did not isolate an LD-only effect.
+
+The simulations clarified both the benefit and the cost of the multi-signal workflow. In the frozen distinct-signal scenarios, matched multi-signal inference reduced false-H4 decisions on average. The improvement was largest in the high-LD two-by-two no-sharing scenario and incomplete in the correlated-distinct scenario. Shared-signal recovery also decreased. This trade-off argues against presenting a lower H4 count as self-validating evidence of better inference.
+
+The channel audit revealed why unconditional and conditional performance differed. Two thirds of the primary iterations never produced an evaluable signal pair, most often because at least one trait lacked a credible set. Conditional H4 rates can be high after a pair is found while overall recovery remains modest. These are different estimands: discovery adequacy asks whether the model generates the components needed for evaluation; pair-conditional inference asks how the estimator classifies an available pair. Reporting only the latter would overstate end-to-end performance, whereas labeling the former as technical failure would misdescribe normal weak-signal behavior.
+
+The external axes demonstrate how a reliability framework can strengthen biological interpretation without inflating mechanism. IL12RB2-NK was stable across OneK1K configurations, reproduced in TenK10K and supported by FinnGen molecular-QTL strata. FinnGen R13 then supported the same OneK NK/IL12RB2 association in a different disease study system across the complete prior series and at the source-CS level. Prior PBC studies have also prioritized IL12RB2 through integrative genetic analyses [9,10], so the contribution is not first nomination of the gene. It is a source-aware, cell-context-specific chain that joins multi-signal discovery evidence to bounded external disease-study validation. The added chromatin layer strengthens biological coherence because the disease signal shared with both the eQTL and a linked caQTL. The missing direct eQTL-caQTL posterior, correlated source observations and the absence of an intervention prevent this triangle from establishing causal mediation.
+
+FCRL3 B-cell sharing was supported in OneK1K and TenK10K, with a consistent lower-expression direction for the risk allele. Independent 2026 work has reported PBC-related FCRL3 evidence in liver B cells and plasma-protein colocalization [11,12]. Those findings increase biological plausibility but do not turn the present same-GWAS molecular-QTL analyses into independent disease replication. The FCRL3-CD8_ET result further shows that support for one gene can be cell-context specific: strong B-cell sharing can coexist with a T-cell assignment that changes under covariate specification.
+
+The liver analysis prevented an equally common inferential jump. Both targets were detectable in the expected lineages in every donor, supporting tissue relevance at the level of presence. Neither target showed corrected PBC-specific enrichment in this bounded 5-versus-5 analysis. A genotype-expression association within a cell context and an average expression contrast between case and control donors estimate different relationships. The latter also combines cell-state, disease-stage and surgical-control differences. The null corrected result is therefore not a contradiction of the genetic association, but it also cannot be used as affirmative tissue mediation.
+
+The study has several strengths. It used study-derived disease LD, cell-specific active donors and covariate-matched QTL LD rather than one generic reference matrix. It preserved a prespecified 642-comparison workload, including a large H3 layer that allowed rescue as well as falsification. The matched-input audit retained the same comparison identities and did not select examples after the A2-to-M results. Complete signal-pair, model-sensitivity and uninformative states were retained. Finally, external QTL resources, allele direction and donor-level tissue data were assigned separate evidentiary roles.
+
+Several limitations define the statistical claim ceiling. Only the high-information subset received multi-signal analysis, and repeated gene-cell comparisons were nested within 47 selected risk regions. Neither 92/642 nor the bidirectional transition counts estimate rates across all PBC comparisons. Real-data transitions have no known causal truth and therefore represent reclassification, not measured error correction. Matched support and disease statistics remove two alternative explanations, but ABF and SuSiE-based procedures still differ in discovery, priors, parameterization and decision rules. The simulation used two empirical 128-variant LD templates, fixed sample sizes and a finite grid; it evaluated single-configuration components rather than directly calibrating the complete cross-L and low-prior gate.
+
+The validation layers have distinct ceilings. OneK1K and TenK10K reused the same discovery PBC GWAS. FinnGen R13 supplied a different disease study system with 795 cases, but public metadata could not establish participant non-overlap, and the external analysis was single-causal rather than a second source-LD multi-signal fit. The chromatin triangle lacked a direct eQTL-caQTL posterior, and OMIX001122 provided one processed matrix per condition without spatial coordinates. The liver analysis had five donors per group, non-lesion surgical controls and a bounded target panel. Neither genetic sharing nor tissue detectability establishes that perturbing IL12RB2 or FCRL3 alters a PBC-relevant phenotype.
+
+Three tests would resolve distinct remaining uncertainties. First, source-matched multi-signal analysis in a larger external PBC GWAS with documented participant separation would test whether the same disease-QTL signal pairs persist under matched ancestry and variant support. Second, a direct eQTL-caQTL analysis with common variants and source-matched LD would test whether the chromatin and expression associations share a signal beyond their separate disease-sharing edges. Third, perturbing IL12RB2 in NK cells and FCRL3 in B-cell subsets, with non-targeting controls, would test whether altered expression changes immune activation and cholangiocyte injury in a defined coculture model. Reproduced signal identity would strengthen cross-study regulatory association; a perturbation response would address mechanism, and neither would alone establish clinical efficacy.
+
+At PBC risk loci, coordinated inputs and signal resolution changed which regulatory assignments were supported, while covariate sensitivity and limited credible-set discovery constrained their interpretation. External IL12RB2 evidence increased confidence in a regulatory association; FCRL3 exposed both reproducible B-cell sharing and a model-dependent T-cell assignment. Liver data established detectability without corrected disease enrichment. Reporting these layers separately makes functional prioritization more interpretable while preserving the distinction between statistical sharing and mechanism.
+
+## Methods
+
+### Study design and governance
+
+This was a secondary analysis of openly available genetic, molecular-QTL and single-cell transcriptomic data. The disease, resource and analysis scope was fixed before the matched-input comparison was run. Disease analysis used the European PBC meta-analysis and 56 non-HLA regional definitions. The molecular layer used 14 OneK1K immune-cell types. The initial registry contained 6,923 locus-gene-cell comparisons. Multi-signal analysis was restricted to a frozen 642-comparison high-information subset rather than extended to all screened comparisons.
+
+The 642 comparisons retained their prespecified roles: 184 formed the primary ABF trigger-verification cohort, 455 formed a symmetric H3 rescue/falsification layer, and three were borderline high-information calibration cases. These identities were not changed after observing multi-signal or matched-input results. The matched-input A0/A1/A2 analysis was a result-informed methodological audit developed to resolve a documented input-asymmetry problem; it was not described as an external preregistration. No locus, gene or cell type was added in response to its outputs.
+
+The analysis comprised source validation, harmonization, ABF screening, high-information follow-up, cell-specific LD construction, multi-signal inference, diagnostic review, matched-input comparison, simulations and bounded external and tissue evaluation. The liver analysis preceded the PBC-wide design; signal-semantics and matched-input comparisons were post-result audits. Negative, model-sensitive, coverage-limited and uninformative results were retained.
+
+### PBC association data and study-derived disease LD
+
+PBC summary statistics were obtained from GWAS Catalog study GCST90061440, representing the GRCh37 European five-panel meta-analysis reported by Cordell and colleagues [2] (https://www.ebi.ac.uk/gwas/studies/GCST90061440). The dataset comprised 8,021 cases and 16,489 controls (total N=24,510). After byte-level and schema validation, 5,054,572 rows contained valid numeric association data. Study-derived regional association summaries and LD matrices were obtained from the public GJOKA archive accompanying the PBC fine-mapping analysis [13] (https://www.staff.ncl.ac.uk/heather.cordell/GjokaPaper.html).
+
+The GJOKA resource defined 56 non-HLA regions. Disease-side multi-signal analysis used each region's aligned summary z statistics and study-derived LD after intersection with the comparison-specific QTL input. The regional files, row order, alleles and matrices were tied to stored checksums. We did not substitute a generic external LD reference for the primary disease analysis.
+
+### OneK1K expression-QTL data and PBC-wide comparison registry
+
+The cohort origin was the OneK1K single-cell peripheral-blood study [3]. The present reanalysis used the updated 980-donor genotype, covariate and expression resource associated with Xue et al. and Zenodo record 18910121 [14,15]. The cohort publication and the exact analysis release therefore have distinct provenance roles. We retained the 14 source cell labels used by the frozen workflow. Gene eligibility and locus assignment were inherited from the pre-result manifest: genes were assigned to a disease region when the gene transcription start site fell within the region extended by 1 Mb and the gene met the source-level eGene rule (q<0.05) in at least one cell type. Once a gene entered the registry, available source top-summary records across the retained cells were preserved rather than restricted to cells with the smallest q value.
+
+This procedure yielded 6,923 locus-gene-cell comparisons. Of these, 5,460 had at least 200 aligned variants and were eligible for the ABF screen; 1,463 had insufficient overlap and were retained as technical indeterminates rather than biological negatives. The eligible universe contained repeated cells and genes within loci, so comparisons were not treated as independent discoveries.
+
+### Variant identity, allele alignment and exact support sets
+
+Variants were represented by chromosome, GRCh37 position and alleles. For ABF calculations and cross-resource effect-direction comparisons, disease and QTL effects were aligned to the OneK1K PLINK BIM A1 allele. In the GJOKA multi-signal input, disease z statistics remained in the GJOKA effect-allele orientation paired with the corresponding disease LD; QTL z statistics remained paired with BIM-A1 QTL LD. Variant identities and ordering were matched across traits, whereas each trait retained internally consistent effect and LD signs. Strand complements were allowed only when allele identity remained unambiguous. Palindromic variants were excluded when source metadata and allele frequency did not resolve orientation. Duplicated or conflicting identities, nonnumeric effects or standard errors, and variants absent from the relevant LD matrix were removed before posterior calculation.
+
+Two comparison-specific support sets were distinguished. S_A was the variant support used by the historical ABF screen. S_M was the actual intersection used by the multi-signal analysis after disease, QTL and LD alignment. Across the frozen 642 comparisons, S_M contained 19-114 fewer variants than S_A (median 65; median reduction 7.67%). Exact member identities and row order, rather than variant counts alone, defined equality.
+
+### Historical single-causal ABF screen
+
+Single-causal colocalization followed the approximate Bayes factor framework of Giambartolomei et al. [5]. Case-control disease effects used a prior standard deviation of 0.20. Quantitative-trait QTL effects used 0.15 multiplied by the estimated phenotype standard deviation (sdY). Priors were p1=1x10^-4, p2=1x10^-4 and p12=1x10^-5, with p12=1x10^-6 and 1x10^-4 retained for sensitivity analysis. The primary posterior quantities were PP.H3, representing distinct associated variants, PP.H4, representing one shared associated variant, and H4/(H3+H4), conditioning on the distinct-versus-shared alternatives.
+
+A default-prior H4 screening trigger required PP.H4>=0.80 and H4/(H3+H4)>=0.80. The lower and higher p12 results were retained as sensitivity outputs, not as additional admission conditions. Among comparisons that did not meet the H4 rule, H3/H4 ambiguity required H3+H4>=0.80 and 0.20<=H4/(H3+H4)<=0.80; high-information H3 required H3+H4>=0.80 and H4/(H3+H4)<0.20. The expanded 642-comparison workload retained the high-information H3/H4 subset, including the three borderline cases. These screening rules did not establish final multi-signal support.
+
+### Source-matched QTL LD and current-release model identity
+
+For each OneK1K cell-locus block, genotype dosage was extracted only for donors active in that cell type. A global genotype cohort was not substituted for cell types with smaller active-donor sets. Genotypes were aligned to the expression-QTL effect allele. Raw genotype correlations were retained for diagnostics. Model-matched QTL LD was calculated after projecting the genotype dosage matrix G off the same covariate design C used in the corresponding QTL analysis:
+
+G* = [I - C(C^T C)^-1 C^T]G,
+
+and R_QTL = cor(G*).
+
+The covariate design included sex, age, six genotype principal components and expression factors. PF10, using ten expression factors, was the primary specification; PF50, using 50 factors, was a prespecified sensitivity model. Current-release PF10 and PF50 QTL summaries and LD were generated from matched phenotype, genotype, active-donor and covariate sources. The earlier targeted dual-model gate evaluated 14 comparison-model identity rows from seven frozen comparisons; this count must not be read as 14 independently validated cell types. The expanded study retained 14 cell labels and comparison-specific source manifests. Matrix dimension, variant order, symmetry, diagonal, finite values, rank behavior and positive-semidefinite tolerance were checked before fine-mapping.
+
+### Multi-signal fine-mapping and signal-pair colocalization
+
+Disease and QTL association summaries were fine-mapped with SuSiE-RSS [8], the summary-data extension of the SuSiE model [6]. The primary PF10 model was evaluated at L=5, 10 and 20; PF50 was evaluated at L=10. Fits used estimate_residual_variance=FALSE, estimate_prior_variance=TRUE, max_iter=2000, tol=1x10^-4, 95% credible sets and minimum absolute within-set correlation of 0.5. Disease sample size was 24,510; QTL sample sizes followed the cell-specific donor counts.
+
+Signal-pair colocalization used coloc.susie [7]. All eligible disease-QTL credible-set pairs were evaluated using the same p12 sensitivity series as the ABF screen. For a given configuration, an H4-qualifying pair required default PP.H4>=0.80, default H4/(H3+H4)>=0.80 and H4/(H3+H4)>=0.50 at p12=1x10^-6 for that same pair. An H3-qualifying pair required default PP.H3>=0.80 and H4/(H3+H4)<=0.20. A stable PF10 comparison required the relevant L=10 support and support in at least one of L=5 or L=20. H4 was assigned before H3 when both were available. Comparisons without stable H4/H3 support but with a high-information pair in any required PF10 configuration were model-sensitive; the remainder were uninformative. The subsequent signal-identity audit added cross-L correspondence without overwriting these historical labels.
+
+In the post-result signal-semantics audit, signal identity was matched across L settings using exact lead-pair identity or a credible-set Jaccard overlap of at least 0.50 for both traits. H4 and H3 pairs were recorded separately. A comparison could therefore support at least one shared pair and still contain a different H3-qualifying pair. Bayesian posterior thresholds were not interpreted as family-wise error or false-discovery-rate control across the correlated comparison universe.
+
+### Multi-signal diagnostic adjudication
+
+Corrected kriging diagnostics were evaluated for every comparison-model-trait unit: 642 comparisons x two QTL covariate models x two traits, for 2,568 units. Returned key structure, expected and observed row counts and finite values were checked. Both the historical logLR>2 count and the source-code plotting flag (logLR>2 and abs(z)>2) were retained. All 2,568 diagnostic units were evaluated and passed the recorded review gate; a reviewed flag was not recoded as no anomaly. One unique official-rule event, rs1800378, was reviewed; it did not enter a disease or QTL credible set and did not trigger a refit. This diagnostic repair occurred after the original multi-signal run and was disclosed as a post-result audit.
+
+### Matched-input A0/A1/A2/M attribution design
+
+We constructed four analysis arms for the frozen 642 comparisons. A0 replayed the historical ABF calculation using the original harmonized GCST disease statistics and S_A. A1 retained those disease statistics but restricted both traits to S_M, isolating the effect of support-set restriction at the categorical level. A2 retained S_M and used the GJOKA matched-z disease definition aligned to the disease LD source. M was the already frozen PF10 multi-signal outcome and was not refitted for this comparison.
+
+A0 replay reproduced the historical posteriors to a maximum absolute difference of 3.55x10^-13. Fixed sdY was used for the primary A1 and A2 contrasts so support-set differences did not also alter the QTL effect scale. Native-sdY sensitivity analyses were reported separately. GJOKA matched-z statistics were primary for A2; an analysis based on the rounded public beta and standard error was retained as a statistic-definition sensitivity analysis.
+
+We counted all adjacent categorical changes for A0-to-A1, A1-to-A2 and A2-to-M, but did not add those counts because the affected comparisons could overlap. Strict bidirectional reclassification was reserved for H4-to-H3 and H3-to-H4 changes between A2 and M. Other transitions to or from ambiguous, model-sensitive or uninformative states were retained as uncertainty changes. Because A2 and M are complete inferential procedures with different assumptions and parameterizations, A2-to-M was not described as a single-factor experiment or as a truth-known correction rate.
+
+### Simulation design and outcome channels
+
+The frozen simulation contained 486 parameter combinations with 1,000 iterations each, for 486,000 primary matched-LD iterations. Summary z statistics were generated with two empirical 128-variant LD templates. Six scenarios were evaluated: one shared signal (S1); correlated but distinct signals (S2); two disease signals and one QTL signal with partial sharing (S3); two signals per trait with one shared pair (S4); two signals per trait with no shared pair under high LD (S5); and a matched-versus-mismatched LD sensitivity scenario (S6). Disease N=24,510 and QTL N=750 were fixed, not varied. The 486 grid rows were six scenarios crossed with three MAF values (0.05, 0.20, 0.40), three target causal-pair r-squared values (0.20, 0.50, 0.80), three L values (5, 10, 20) and three p12 values (1x10^-6, 1x10^-5, 1x10^-4). Each row allocated 500 iterations to each empirical template.
+
+The two templates used disease/QTL LD from locus 2/NK and locus 4/B_IN. Simulated summaries followed z ~ Normal(sqrt(N) R b_std, R), with per-allele effects scaled by sqrt(2 MAF(1-MAF)); the first disease effect was log(1.12), the first QTL effect was 0.30, and second effects were -0.8 times the first. These were summary-z experiments rather than individual-level binary PBC simulations. S6 changed only the analysis QTL LD from the same-locus PF10 to PF50 matrix, preserving trait identities and variant order.
+
+Each simulated comparison was evaluated at one L and one p12. Thus, this component-level experiment did not directly calibrate the real-data composite gate that also required cross-L stability and same-pair low-prior support. Scenario-level rates averaged the frozen MAF, LD, L and prior grid; they were not error rates at a single default-prior operating point.
+
+ABF and matched multi-signal decisions were recorded for every iteration. The multi-signal branch additionally classified each iteration into both traits lacking a credible set, disease-only absence, QTL-only absence, both traits having credible sets but no evaluable pair, an H3 pair, an H4 pair, or a pair-evaluable uninformative result. Technical errors were counted separately. Unconditional decision rates used all iterations; pair-conditional rates used only iterations with an evaluable signal pair. The latter describe estimator behavior after the discovery stage and were not directly compared with the ABF unconditional denominator as if they were the same estimand.
+
+### External molecular-QTL evaluation
+
+External evaluation was bounded to the representative IL12RB2-NK and FCRL3 B-cell axes; it was not used to select new genes. TenK10K common-variant cis-eQTL statistics within +/-100 kb were intersected with the same PBC disease summaries [4,16]. ABF colocalization used the frozen prior series, and source TenK10K credible-set membership was reviewed where available. The PBC GWAS was shared across the OneK1K and TenK10K analyses, and donor-level TenK10K LD was not reconstructed. These results were therefore termed cross-resource molecular-QTL replication, not independent disease replication or a second source-matched multi-signal proof.
+
+FinnGen R12 PBC and molecular-QTL colocalization records were queried through the public outputs of the population-scale immune multiome resource [17] for the two representative genes. Returned IL12RB2 records were summarized by source cell stratum. Multiple strata from the same resource were not counted as independent cohorts. Absence of a returned PBC-FCRL3 pair was treated as a public-output coverage boundary rather than a powered negative result.
+
+For allele-direction analysis, the PBC risk allele was mapped to the QTL effect allele in each compatible resource. Directional agreement was reported without comparing effect magnitudes across different expression scales. A consistent expression direction was not interpreted as mediation or as a therapeutic direction.
+
+### Different-disease-study validation and source credible-set audit
+
+FinnGen R12 and R13 CHIRBIL_PRIM metadata, regional R13 summary statistics and official disease fine-mapping records were obtained from the public release interfaces  (https://r13.finngen.fi/pheno/CHIRBIL_PRIM). The release-stability audit compared R12 and R13 disease credible-set membership and probabilities in the IL12RB2 region. The R13 disease signal was bridged to the frozen OneK1K NK/IL12RB2 QTL by rsID and allele identity across GRCh38 and GRCh37 representations. After harmonization, 1,175 shared variants entered single-causal ABF colocalization with p1=p2=10^-4 and p12=10^-6, 10^-5 or 10^-4. OneK1K QTL credible-set members were then checked directly against the source FinnGen R13 disease credible set.
+
+FinnGen R13 and the discovery PBC GWAS constitute different study systems, but person-level non-overlap could not be demonstrated from public metadata. This module was therefore treated as external disease-study validation with a source-CS audit, not as proof of an entirely independent cohort and not as a second source-LD multi-signal fit.
+
+### Source-integrated chromatin evidence
+
+Before querying the full CASCADE outputs, we fixed the 92 stable-H4 comparisons, comprising 27 genes and their corresponding broad cell strata. For those genes, we recorded relevant-cell eQTL availability and returned PBC-eQTL colocalization. The IL12RB2-linked peak chr1-67307618-67308670 was prespecified from the earlier source record. We extracted the PBC-eQTL and PBC-caQTL colocalization records in l1.NK, source credible-set membership and the peak-IL12RB2 link [17]. The disease-eQTL and disease-caQTL edges were evaluated separately. A direct eQTL-caQTL posterior was unavailable and was not inferred from overlapping credible sets. The integrated result was classified as triangular signal coherence rather than chromatin mediation. The reported fasthurdle peak-gene coefficient was 0.140574, with PBMC designated as its best cell context; this link was not treated as separately verified NK-specific linkage.
+
+### Descriptive spatial-transcriptomic boundary
+
+The public OMIX001122 processed spatial archive was checked at byte level and related to its original PBC study [18] (https://ngdc.cncb.ac.cn/omix/release/OMIX001122). The released archive contained one control matrix and one PBC matrix without tissue images, spot coordinates or donor-replicated case-control structure. Matrix dimensions, total counts, positive spots and IL12RB2/FCRL3 detectability were recorded. No differential-expression or spatial-localization inference was attempted, and this layer was not counted as independent tissue replication.
+
+### Donor-level liver target-panel analysis
+
+HRA008003 is an open-access single-cell study of liver and blood in PBC [19] (https://ngdc.cncb.ac.cn/gsa-human/browse/HRA008003). We analyzed liver BAM files from five treatment-naive PBC donors (HRR1849459-HRR1849463) and five non-lesion liver controls obtained during hepatic hemangioma surgery (HRR1849454-HRR1849458). Source sizes and checksums were verified, and each BAM passed samtools quickcheck and tag-schema preflight.
+
+Molecule representatives were counted from records carrying the 10x xf bit 8 flag, a corrected cell barcode and a unique gene assignment; unmapped, secondary and supplementary alignments were excluded. Cell calling used the library-specific order-of-magnitude rule with an expected recovered-cell count of 6,000: the UMI threshold was the ceiling of one tenth of the 99th-percentile count among the 6,000 highest-count barcodes. Called-cell counts had to fall between 2,500 and 7,500, with median total UMI count at least 500. B markers were CD79A, CD79B, MS4A1, CD37, CD74, HLA-DRA, CD19 and CD22; NK markers were NKG7, GNLY, KLRD1, PRF1, GZMB, XCL1 and XCL2. T markers were CD3D, CD3E, TRBC1, TRBC2 and IL7R, and myeloid markers were LST1, TYROBP, FCER1G, CTSS, AIF1 and LYZ. Both lineage rules required at least two detected panel genes and three panel UMIs. B-panel UMIs had to exceed NK, T and myeloid panel counts; NK-panel UMIs had to exceed B and myeloid counts and be at least the T-panel count. Each donor-lineage unit required at least ten cells. Target detectability required at least three target UMIs and two target-positive lineage cells. Target CPM was target UMIs divided by total lineage UMIs multiplied by 10^6.
+
+The biological unit was the donor. The primary endpoint was log1p target CPM within the prespecified lineage. Group differences were compared with the exact distribution of all 252 assignments of five of ten donors to the PBC label. Two-sided exact P values were adjusted across the two target-lineage pairs using the Benjamini-Hochberg procedure. Cell-level observations were not used as independent case-control replicates. The controls were non-lesion surgical liver samples, not healthy volunteer livers.
+
+### Reproducibility and reporting
+
+External inputs were recorded with accession, URL, byte count and available MD5 or locally calculated SHA-256 values. Large third-party files and donor-level genotype data were not mirrored publicly. Code, aggregate results and source manifests are available in the project repository  (https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/tree/r7c3f-full-audit-rebuilt-submission-2026-10-12). Source tables provide the reported estimates and analysis identities, including uncertain and reviewed diagnostic outcomes.
+
+OpenAI Codex, using the locally installed QiTeng Academic Writing Skill under author supervision, assisted with argument structure, language editing, file generation and consistency checks. It was not treated as an author or as a source of scientific evidence. The authors remain responsible for data interpretation, declarations and the final submitted text.
+
+### Ethics statement
+
+Ethics approval was not required because this study exclusively reanalysed publicly available, de-identified data and involved no new participant recruitment or identifiable data collection. The original studies reported their applicable ethics approvals and participant consent.
+
+## Data availability
+
+PBC summary statistics are available through GWAS Catalog study GCST90061440. Study-derived PBC regional statistics and LD are available from the GJOKA archive. OneK1K and TenK10K resources are identified in their cited publications and Zenodo records. FinnGen R13 CHIRBIL_PRIM summary statistics and fine-mapping records are publicly distributed by FinnGen  (https://r13.finngen.fi/pheno/CHIRBIL_PRIM), and CASCADE records are accessible through the FinnGen immune multiome portal [17]. HRA008003 is available through GSA-Human and OMIX001122 through the National Genomics Data Center  (https://ngdc.cncb.ac.cn/omix/release/OMIX001122). Supplementary tables and compact derived outputs accompany this submission. Individual-level genotype, BAM, pseudobulk matrices and third-party source archives are not redistributed.
+
+## Code availability
+
+Analysis code, frozen protocols, aggregate outputs, manifests and source-bound figures are versioned in the public project repository at https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/tree/r7c3f-full-audit-rebuilt-submission-2026-10-12. The release records software environments, checksums and the mapping from manuscript claims to machine-readable evidence.
+
+## Acknowledgements
+
+This research received no specific grant from any funding agency in the public, commercial or not-for-profit sectors.
+
+## Author contributions
+
+Z.C.: Conceptualization, Methodology, Software, Formal analysis, Investigation, Data curation, Visualization and Writing - original draft. T.Q.: Conceptualization, Methodology, Validation, Supervision, Project administration and Writing - review and editing. Both authors interpreted the results.
+
+## Competing interests
+
+The authors declare no competing interests.
+
+## References
+
+1. Gulamhusein, A. F. & Hirschfield, G. M. Primary biliary cholangitis: pathogenesis and therapeutic opportunities. Nat. Rev. Gastroenterol. Hepatol. 17, 93-110 (2020). https://doi.org/10.1038/s41575-019-0226-7.
+
+2. Cordell, H. J. et al. An international genome-wide meta-analysis of primary biliary cholangitis: Novel risk loci and candidate drugs. J. Hepatol. 75, 572-581 (2021). https://doi.org/10.1016/j.jhep.2021.04.055.
+
+3. Yazar, S. et al. Single-cell eQTL mapping identifies cell type-specific genetic control of autoimmune disease. Science 376, eabf3041 (2022). https://doi.org/10.1126/science.abf3041.
+
+4. Cuomo, A. S. E. et al. Impact of rare and common genetic variation on cell type-specific gene expression in human blood. Preprint at https://doi.org/10.1101/2025.03.20.25324352 (2025).
+
+5. Giambartolomei, C. et al. Bayesian Test for Colocalisation between Pairs of Genetic Association Studies Using Summary Statistics. PLoS Genet. 10, e1004383 (2014). https://doi.org/10.1371/journal.pgen.1004383.
+
+6. Wang, G., Sarkar, A., Carbonetto, P. & Stephens, M. A Simple New Approach to Variable Selection in Regression, with Application to Genetic Fine Mapping. J. R. Stat. Soc. B 82, 1273-1300 (2020). https://doi.org/10.1111/rssb.12388.
+
+7. Wallace, C. A more accurate method for colocalisation analysis allowing for multiple causal variants. PLoS Genet. 17, e1009440 (2021). https://doi.org/10.1371/journal.pgen.1009440.
+
+8. Zou, Y., Carbonetto, P., Wang, G. & Stephens, M. Fine-mapping from summary data with the “Sum of Single Effects” model. PLoS Genet. 18, e1010299 (2022). https://doi.org/10.1371/journal.pgen.1010299.
+
+9. Wang, Q., Yan, H., Wang, N. & Yuan, J. Causal genetics prioritizes therapeutic targets and blood signatures in primary biliary cholangitis. npj Syst. Biol. Appl. (2026). https://doi.org/10.1038/s41540-026-00817-w.
+
+10. Lin, Y. et al. Genetic mechanisms of primary biliary cholangitis and its association with immune cells using mendelian randomization and biological annotation. Medicine 105, e49146 (2026). https://doi.org/10.1097/MD.0000000000049146.
+
+11. Han, Z. et al. FCRL3 as a potential link between Benzo[a]pyrene exposure and primary biliary cholangitis: insights from comparative toxicogenomics and multi-omics analysis. BMC Gastroenterol. 26, 101 (2026). https://doi.org/10.1186/s12876-026-04614-x.
+
+12. Xi, J. et al. Exploration and discovery of treatment targets for primary biliary cholangitis based on plasma and cerebrospinal fluid proteomics: A multicenter mendelian randomization study. PLoS One 21, e0340166 (2026). https://doi.org/10.1371/journal.pone.0340166.
+
+13. Gjoka, A. & Cordell, H. J. Fine‐Mapping the Results From Genome‐Wide Association Studies of Primary Biliary Cholangitis Using SuSiE and h2‐D2. Genet. Epidemiol. 49, e22592 (2025). https://doi.org/10.1002/gepi.22592.
+
+14. Xue, A. et al. Genetic variants associated with cell-type-specific intra-individual gene expression variability reveal mechanisms of genome regulation. Nat. Commun. (2026). https://doi.org/10.1038/s41467-026-77453-9.
+
+15. Xue, A. et al. OneK1K cell-specific cis-eQTL summary statistics, genotypes and covariates. Zenodo https://doi.org/10.5281/zenodo.18910121 (2026).
+
+16. Cuomo, A. S. E. et al. TenK10K phase 1 molecular-QTL and fine-mapping resources. Zenodo https://doi.org/10.5281/zenodo.18221260 (2026).
+
+17. Kanai, M. et al. Population-scale immune multiome atlas reveals regulatory disease mechanisms. Nature (2026). https://doi.org/10.1038/s41586-026-11078-2.
+
+18. Li, X. et al. Unique DUOX2+ACE2+ small cholangiocytes are pathogenic targets for primary biliary cholangitis. Nat. Commun. 14, 29 (2023). https://doi.org/10.1038/s41467-022-34606-w.
+
+19. Jin, C. et al. Single-cell RNA sequencing reveals the pro-inflammatory roles of liver-resident Th1-like cells in primary biliary cholangitis. Nat. Commun. 15, 8690 (2024). https://doi.org/10.1038/s41467-024-53104-9.
+
+Figure 1. A bounded PBC screen with an explicit input contract. (a) Screening scope: 6,923 frozen comparisons, 5,460 ABF-eligible and 642 selected high-information comparisons; 1,463 coverage-insufficient records were not negative results. (b) A0 used historical support S_A and GCST disease summaries; A1 used S_M with the same disease source; A2 used S_M and GJOKA z statistics; M is the frozen multi-signal procedure. A2 versus M is a complete-procedure contrast, not a single-factor experiment. (c) PF10 outcomes: H4 92, H3 428, model-sensitive 59 and uninformative 63. (d) The original 184-comparison primary cohort, 455-comparison H3 layer and three borderline cases remain separate; colors follow panel c. Comparisons, genes and loci are different counting units.
+
+Abbreviations: ABF, approximate Bayes factor; GCST, GWAS Catalog study; PF10, ten expression factors; H3/H4, distinct/shared-signal hypotheses; S_A/S_M, historical ABF/actual multi-signal support.
+
+Figure 2. Matched inputs retain bidirectional reclassification. (a) S_A-to-S_M restriction removed 19–114 variants per comparison (median 65; median fraction 7.67%). (b) Adjacent arms changed 15, 19 and 139 categorical states among 642 comparisons. Affected comparisons can overlap, and the counts are not additive. (c) Complete A2-to-M counts, including ambiguity and information changes. (d) Outcome fractions within the 113 A2 H4 and 452 A2 H3 comparisons; numbers show counts. Colors identify M H4 (teal), H3 (orange), model-sensitive (purple) and uninformative (grey). Strict transitions include eight H4-to-H3 and ten H3-to-H4 cases. The thin ten-comparison H4 segment in the second bar is retained even though its count label is omitted for legibility. Real-data state transitions are not known-truth error rates.
+
+Abbreviations: A0/A1/A2, historical/support-matched/support-and-statistic-matched ABF; M, frozen PF10 multi-signal procedure; H3/H4, distinct/shared hypotheses.
+
+Figure 3. Signal identity and model context limit regulatory labels. (a) Of 92 H4-supported comparisons, 32 also contained a qualifying distinct-signal pair and 60 had no qualifying H3 pair. Relevant pair identity was stable in all 92 H4 and 428 H3 comparisons; H3 support is not global absence of sharing. (b) Among 520 comparisons with definite PF10 H4/H3 status, PF50 retained 491 states, changed four and was uninformative in 25. The remaining 122 PF10-sensitive/uninformative comparisons are excluded. (c) FCRL3-CD8_ET retained ABF H4 across A0/A1/A2 but changed from primary PF10 H3 (best H4=0.003636) to PF50 H4 (best H4=0.991894). (d) FCRL3 B-cell sharing in OneK1K and TenK10K; OneK values are multi-signal and TenK is single-causal. The disease GWAS was reused, so this is cross-QTL-resource support. Dashed lines in c and d mark the default 0.80 H4 threshold, not the skeptical-prior floor.
+
+Abbreviations: B_IN/B_MEM, intermediate/memory B cells; CD8_ET, effector CD8 T cells; PF10/PF50, ten/50 expression factors; PP.H4, shared-signal posterior.
+
+Figure 4. Simulation separates discovery from shared-signal decisions. Across 486,000 iterations, each of six scenarios contributed 81,000 grid-weighted replicates from two 128-variant LD templates. (a) Outcome channels distinguish absent credible sets from evaluable H3/H4 pairs. (b) Pair-evaluable rates and unconditional versus pair-conditional H4 rates have different denominators. (c) Unconditional ABF and matched multi-signal decisions. S1 has one shared signal; S2 correlated distinct signals; S3 two disease and one QTL signal with sharing; S4 two signals per trait with one shared pair; S5 two signals per trait with no shared pair; S6 the shared architecture with bounded same-locus PF10/PF50 LD sensitivity. (d) Credible-set discovery channels: 160,782 iterations (33.08%) were pair-evaluable. No primary iteration had both credible sets but no eligible pair, or a recorded technical error. Lower false sharing coincided with lower shared-signal recovery. Rates average the finite MAF, LD, L and prior grid; they do not directly calibrate the full cross-L/low-prior real-data gate.
+
+Abbreviations: ABF, approximate Bayes factor; CS, credible set; QTL, quantitative-trait locus; LD, linkage disequilibrium; L, maximum SuSiE effects.
+
+Figure 5. IL12RB2 receives bounded external disease and chromatin support. (a) FinnGen R13 PBC disease statistics and OneK1K NK/IL12RB2 eQTL sharing over three p12 priors (1,175 harmonized variants; 795 cases, 368,758 controls). The dashed line marks default H4=0.80. Participant-level non-overlap was not verified, and the external analysis was single-causal. (b) Both OneK QTL credible-set members occur within the 17-member FinnGen R13 disease credible set; displayed PIPs are OneK QTL PIPs. This is membership compatibility, not unique-variant proof. (c) Fixed CASCADE coverage: 27 genes queried, 22 with relevant broad-cell eQTL coverage and only IL12RB2 with a returned PBC-eQTL colocalization record. Non-return is not a powered negative. (d) Separate NK disease-eQTL (H4=0.9703), NK disease-caQTL (H4=0.9695) and peak-gene link (coefficient 0.141; PBMC best cell context) evidence. The solid lines denote reported association/link records without causal direction. The dashed edge marks an unavailable direct eQTL-caQTL posterior; no mediation chain is established.
+
+Abbreviations: CS, credible set; PIP, posterior inclusion probability; eQTL/caQTL, expression/chromatin-accessibility quantitative-trait locus; NK, natural killer cells; p12, shared-association prior.
+
+Figure 6. Liver detectability does not establish disease enrichment. (a) FCRL3 B-lineage and (b) IL12RB2 NK-lineage log1p target counts per million in five PBC and five non-lesion liver donors from hepatic hemangioma surgery. Each point is a donor, and all observations are shown. Delta is the mean PBC-minus-control difference on the displayed scale. Exact two-sided permutation tests use all 252 assignments of five of ten donors; both targets have two-test Benjamini-Hochberg q=0.1111. Both genes were detectable in 5/5 donors per group, but neither showed corrected PBC-specific enrichment. Boxes show interquartile ranges, central lines medians and whiskers the most extreme observations within 1.5 interquartile ranges; points beyond whiskers remain displayed. Tissue detectability does not establish genetic mediation or clinical utility.
+
+Abbreviations: CPM, counts per million; PBC, primary biliary cholangitis; BH, Benjamini-Hochberg adjustment.
+
+## Supplementary information
+
+Supplementary Information provides the data dictionary and file map. Supplementary Data 1 contains ten worksheet views (S1-S10). Source Data 1 supplies the complete primary machine-readable tables, including the full screening, signal-pair and simulation records; Source Data 2 supplies the external disease-study and chromatin evidence family (S11). These files contain aggregate, shareable outputs and do not redistribute donor genotypes or source BAMs. Supplementary Figures S1-S3 provide complete adjacent-arm transitions, LD-dependent simulation rates and repeated-release disease credible-set stability.

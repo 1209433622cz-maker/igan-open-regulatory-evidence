@@ -1,0 +1,9 @@
+{
+  "files_scanned": 2512,
+  "bytes_scanned": 188130011,
+  "secret_pattern_hits": 0,
+  "raw_donor_format_hits": 0,
+  "git_blobs_gt_10MiB": 0,
+  "archives_crc_pass": 36,
+  "limitations": "Specific credential patterns and excluded raw formats were checked, not a guarantee of absence of every possible sensitive semantic content; original public baseline and reviewed aggregate package retained."
+}

@@ -1,0 +1,161 @@
+﻿check	pass	detail
+Manuscript_AuthorReview_InlineFigures p1 nonblank	True	text=3210, images=0
+Manuscript_AuthorReview_InlineFigures p1 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures p2 nonblank	True	text=3631, images=0
+Manuscript_AuthorReview_InlineFigures p2 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures p3 nonblank	True	text=1339, images=1
+Manuscript_AuthorReview_InlineFigures p3 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures p4 nonblank	True	text=2097, images=0
+Manuscript_AuthorReview_InlineFigures p4 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures p5 nonblank	True	text=1032, images=1
+Manuscript_AuthorReview_InlineFigures p5 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures p6 nonblank	True	text=2659, images=0
+Manuscript_AuthorReview_InlineFigures p6 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures p7 nonblank	True	text=1112, images=1
+Manuscript_AuthorReview_InlineFigures p7 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures p8 nonblank	True	text=2462, images=0
+Manuscript_AuthorReview_InlineFigures p8 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures p9 nonblank	True	text=1302, images=1
+Manuscript_AuthorReview_InlineFigures p9 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures p10 nonblank	True	text=3655, images=0
+Manuscript_AuthorReview_InlineFigures p10 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures p11 nonblank	True	text=1467, images=1
+Manuscript_AuthorReview_InlineFigures p11 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures p12 nonblank	True	text=2340, images=1
+Manuscript_AuthorReview_InlineFigures p12 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures p13 nonblank	True	text=3837, images=0
+Manuscript_AuthorReview_InlineFigures p13 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures p14 nonblank	True	text=3888, images=0
+Manuscript_AuthorReview_InlineFigures p14 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures p15 nonblank	True	text=3588, images=0
+Manuscript_AuthorReview_InlineFigures p15 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures p16 nonblank	True	text=3578, images=0
+Manuscript_AuthorReview_InlineFigures p16 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures p17 nonblank	True	text=3440, images=0
+Manuscript_AuthorReview_InlineFigures p17 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures p18 nonblank	True	text=3528, images=0
+Manuscript_AuthorReview_InlineFigures p18 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures p19 nonblank	True	text=3596, images=0
+Manuscript_AuthorReview_InlineFigures p19 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures p20 nonblank	True	text=3514, images=0
+Manuscript_AuthorReview_InlineFigures p20 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures p21 nonblank	True	text=3324, images=0
+Manuscript_AuthorReview_InlineFigures p21 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures p22 nonblank	True	text=2735, images=0
+Manuscript_AuthorReview_InlineFigures p22 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures p23 nonblank	True	text=3391, images=0
+Manuscript_AuthorReview_InlineFigures p23 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures p24 nonblank	True	text=1139, images=0
+Manuscript_AuthorReview_InlineFigures p24 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures p25 nonblank	True	text=671, images=0
+Manuscript_AuthorReview_InlineFigures p25 page bounds	True	[]
+Manuscript_AuthorReview_InlineFigures image/caption parity	True	Image-containing pages also contain Figure captions
+Manuscript_ExpertRebuilt p1 nonblank	True	text=3210, images=0
+Manuscript_ExpertRebuilt p1 page bounds	True	[]
+Manuscript_ExpertRebuilt p2 nonblank	True	text=3631, images=0
+Manuscript_ExpertRebuilt p2 page bounds	True	[]
+Manuscript_ExpertRebuilt p3 nonblank	True	text=3461, images=0
+Manuscript_ExpertRebuilt p3 page bounds	True	[]
+Manuscript_ExpertRebuilt p4 nonblank	True	text=3792, images=0
+Manuscript_ExpertRebuilt p4 page bounds	True	[]
+Manuscript_ExpertRebuilt p5 nonblank	True	text=3533, images=0
+Manuscript_ExpertRebuilt p5 page bounds	True	[]
+Manuscript_ExpertRebuilt p6 nonblank	True	text=3585, images=0
+Manuscript_ExpertRebuilt p6 page bounds	True	[]
+Manuscript_ExpertRebuilt p7 nonblank	True	text=3954, images=0
+Manuscript_ExpertRebuilt p7 page bounds	True	[]
+Manuscript_ExpertRebuilt p8 nonblank	True	text=3868, images=0
+Manuscript_ExpertRebuilt p8 page bounds	True	[]
+Manuscript_ExpertRebuilt p9 nonblank	True	text=3255, images=0
+Manuscript_ExpertRebuilt p9 page bounds	True	[]
+Manuscript_ExpertRebuilt p10 nonblank	True	text=3641, images=0
+Manuscript_ExpertRebuilt p10 page bounds	True	[]
+Manuscript_ExpertRebuilt p11 nonblank	True	text=3389, images=0
+Manuscript_ExpertRebuilt p11 page bounds	True	[]
+Manuscript_ExpertRebuilt p12 nonblank	True	text=3567, images=0
+Manuscript_ExpertRebuilt p12 page bounds	True	[]
+Manuscript_ExpertRebuilt p13 nonblank	True	text=3636, images=0
+Manuscript_ExpertRebuilt p13 page bounds	True	[]
+Manuscript_ExpertRebuilt p14 nonblank	True	text=3450, images=0
+Manuscript_ExpertRebuilt p14 page bounds	True	[]
+Manuscript_ExpertRebuilt p15 nonblank	True	text=3405, images=0
+Manuscript_ExpertRebuilt p15 page bounds	True	[]
+Manuscript_ExpertRebuilt p16 nonblank	True	text=2880, images=0
+Manuscript_ExpertRebuilt p16 page bounds	True	[]
+Manuscript_ExpertRebuilt p17 nonblank	True	text=2803, images=0
+Manuscript_ExpertRebuilt p17 page bounds	True	[]
+Manuscript_ExpertRebuilt p18 nonblank	True	text=1018, images=1
+Manuscript_ExpertRebuilt p18 page bounds	True	[]
+Manuscript_ExpertRebuilt p19 nonblank	True	text=1033, images=1
+Manuscript_ExpertRebuilt p19 page bounds	True	[]
+Manuscript_ExpertRebuilt p20 nonblank	True	text=1113, images=1
+Manuscript_ExpertRebuilt p20 page bounds	True	[]
+Manuscript_ExpertRebuilt p21 nonblank	True	text=1303, images=1
+Manuscript_ExpertRebuilt p21 page bounds	True	[]
+Manuscript_ExpertRebuilt p22 nonblank	True	text=1333, images=1
+Manuscript_ExpertRebuilt p22 page bounds	True	[]
+Manuscript_ExpertRebuilt p23 nonblank	True	text=1002, images=1
+Manuscript_ExpertRebuilt p23 page bounds	True	[]
+Manuscript_ExpertRebuilt p24 nonblank	True	text=671, images=0
+Manuscript_ExpertRebuilt p24 page bounds	True	[]
+Manuscript_ExpertRebuilt image/caption parity	True	Image-containing pages also contain Figure captions
+Supplementary_Information_ExpertRebuilt p1 nonblank	True	text=2745, images=0
+Supplementary_Information_ExpertRebuilt p1 page bounds	True	[]
+Supplementary_Information_ExpertRebuilt p2 nonblank	True	text=2899, images=0
+Supplementary_Information_ExpertRebuilt p2 page bounds	True	[]
+Supplementary_Information_ExpertRebuilt p3 nonblank	True	text=1206, images=0
+Supplementary_Information_ExpertRebuilt p3 page bounds	True	[]
+Supplementary_Information_ExpertRebuilt p4 nonblank	True	text=481, images=1
+Supplementary_Information_ExpertRebuilt p4 page bounds	True	[]
+Supplementary_Information_ExpertRebuilt p5 nonblank	True	text=509, images=1
+Supplementary_Information_ExpertRebuilt p5 page bounds	True	[]
+Supplementary_Information_ExpertRebuilt p6 nonblank	True	text=454, images=1
+Supplementary_Information_ExpertRebuilt p6 page bounds	True	[]
+Supplementary_Information_ExpertRebuilt image/caption parity	True	Image-containing pages also contain Figure captions
+Cover_Letter_ExpertRebuilt_DRAFT p1 nonblank	True	text=1879, images=0
+Cover_Letter_ExpertRebuilt_DRAFT p1 page bounds	True	[]
+Cover_Letter_ExpertRebuilt_DRAFT image/caption parity	True	Image-containing pages also contain Figure captions
+WPS receipt hashes current	True	4 DOCX/PDF pairs
+Six main caption headings	True	Separate figure captions
+No old Figure6c callout	True	Redundant evidence schematic removed
+Abstract <=150 words	True	126
+Title <=15 words	True	12 words
+Main embedded figures six	True	6
+Review embedded figures six	True	6
+SI embedded figures three	True	3
+Reference first-occurrence order	True	[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+Source_Data_1_Primary_Machine_Readable_Data.zip unchanged	True	9dd7c32dc6284c98c27b5f5af2382b29a2023feffa79e2482ed582efdc5ba38e
+Source_Data_2_External_Regulatory_Evidence.zip unchanged	True	2eb3201a54be96049c810dc9680d6acf5bda6546cdfbd87393843afd2a984ac8
+Original workbook unchanged	True	7f53dfd60195b9903a52f638ba5ae6f8c7286adec9bcec0652bf1c27adf57382
+Baseline source manuscript unchanged	True	d862dcc8e2e6830b28730f3c1dca5327b3dae5f4afe7a7a0e4147a5df49498aa
+Figure S3 uses full CS sizes	True	[19, 17]
+PBMC source-cell ceiling retained	True	Methods and legend
+S10 historical/current panel crosswalk complete	True	27 historical claims +10 MethodsResults rows
+S10 C17 supersession explicitly annotated	True	Source ZIP unchanged; current S11 route supplied
+Figure_1 vector master one page	True	1 page, 2 fonts, 179.07x158.75 mm
+Figure_1 editable SVG available	True	02_Figures\Figure_1.svg
+Figure_1 extracted text present	True	738
+Figure_2 vector master one page	True	1 page, 2 fonts, 179.07x158.75 mm
+Figure_2 editable SVG available	True	02_Figures\Figure_2.svg
+Figure_2 extracted text present	True	704
+Figure_3 vector master one page	True	1 page, 2 fonts, 179.07x158.75 mm
+Figure_3 editable SVG available	True	02_Figures\Figure_3.svg
+Figure_3 extracted text present	True	658
+Figure_4 vector master one page	True	1 page, 2 fonts, 179.07x158.75 mm
+Figure_4 editable SVG available	True	02_Figures\Figure_4.svg
+Figure_4 extracted text present	True	759
+Figure_5 vector master one page	True	1 page, 3 fonts, 179.07x158.75 mm
+Figure_5 editable SVG available	True	02_Figures\Figure_5.svg
+Figure_5 extracted text present	True	757
+Figure_6 vector master one page	True	1 page, 2 fonts, 179.07x87.63 mm
+Figure_6 editable SVG available	True	02_Figures\Figure_6.svg
+Figure_6 extracted text present	True	449
+Figure_S1 vector master one page	True	1 page, 2 fonts, 179.07x158.75 mm
+Figure_S1 editable SVG available	True	02_Figures\Figure_S1.svg
+Figure_S1 extracted text present	True	898
+Figure_S2 vector master one page	True	1 page, 2 fonts, 179.07x134.62 mm
+Figure_S2 editable SVG available	True	02_Figures\Figure_S2.svg
+Figure_S2 extracted text present	True	648
+Figure_S3 vector master one page	True	1 page, 2 fonts, 179.07x88.90 mm
+Figure_S3 editable SVG available	True	02_Figures\Figure_S3.svg
+Figure_S3 extracted text present	True	357
