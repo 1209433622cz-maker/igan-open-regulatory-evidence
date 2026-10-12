@@ -57,6 +57,7 @@ DATA_AVAILABILITY.md	NOTICE.md	PASS
 5_manuscript/README.md	current/R7C3G/06_QA/EDITORIAL_CHANGE_LEDGER.tsv	PASS
 5_manuscript/README.md	current/R7C3G/06_QA/	PASS
 6_release/README.md	R7C3G_RELEASE_RECEIPT.json	PASS
+6_release/README.md	PUBLICATION_RECEIPT.json	PASS
 7.Report/README.md	rounds/r7c3g/01_R7C3G_导师级全量证据审计与叙事重构.md	PASS
 7.Report/README.md	rounds/r7c3g/99_R7C3G_详细行动记录_20261012.md	PASS
 7.Report/README.md	../0_admin/CURRENT_PROJECT_STATE.json	PASS

@@ -1,0 +1,48 @@
+{
+  "stage": "R7C3G1_VERIFIED_GITHUB_PUBLICATION",
+  "verified_at": "2026-10-12T18:39:56.541347+08:00",
+  "repository": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence",
+  "content_commit_verified": "a1a3cf630d8c3bedb1a415a2da9bda1b50cf7a97",
+  "content_canonical_blob_checks": 2512,
+  "original_file_identities_preserved": 2335,
+  "required_eight_roots": "PASS",
+  "old_refs_unchanged": 10,
+  "prior_releases_preserved": 6,
+  "prior_release_assets_preserved": 12,
+  "release_id": 410493047,
+  "release_tag": "r7c3g1-eight-folder-expert-narrative-2026-10-12",
+  "release_url": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/tag/r7c3g1-eight-folder-expert-narrative-2026-10-12",
+  "public_review_prerelease": true,
+  "remote_download_asset_sha256_checks": 3,
+  "assets": [
+    {
+      "name": "CMM_R7C3G_ExpertEvidenceAudit_NarrativeRebuild_20261012.zip",
+      "id": 633470960,
+      "bytes": 17314147,
+      "sha256": "12314510de0c1dc73cd9c3e4371cb4ffd079210bf58deb3df4c957810e094891",
+      "identity": "REMOTE_DOWNLOAD_EQUALS_LOCAL_FROZEN_ASSET",
+      "download_url": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/download/r7c3g1-eight-folder-expert-narrative-2026-10-12/CMM_R7C3G_ExpertEvidenceAudit_NarrativeRebuild_20261012.zip"
+    },
+    {
+      "name": "CMM_R7C3G_ExpertEvidenceAudit_NarrativeRebuild_20261012.zip.sha256",
+      "id": 633470961,
+      "bytes": 127,
+      "sha256": "532f3e75081ec653641d3b9b1239bfcdefef38e6b02278afdb2f9c5622e50567",
+      "identity": "REMOTE_DOWNLOAD_EQUALS_LOCAL_FROZEN_ASSET",
+      "download_url": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/download/r7c3g1-eight-folder-expert-narrative-2026-10-12/CMM_R7C3G_ExpertEvidenceAudit_NarrativeRebuild_20261012.zip.sha256"
+    },
+    {
+      "name": "RELEASE_RECEIPT.json",
+      "id": 633470959,
+      "bytes": 439,
+      "sha256": "8803ed29d5e42f889f32abf383859d8719e06d4f8eee21f126d5f46a5fe18f8f",
+      "identity": "REMOTE_DOWNLOAD_EQUALS_LOCAL_FROZEN_ASSET",
+      "download_url": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/download/r7c3g1-eight-folder-expert-narrative-2026-10-12/RELEASE_RECEIPT.json"
+    }
+  ],
+  "publication_event": "Latest R7C3G editorial assets are now actually public; source-package creation-time state remains unchanged",
+  "note": "This receipt describes the independently verified scientific/editorial content commit. A later normal main commit records these verification files; its own hash is kept in the external local final receipt to avoid self-reference. Run the canonical manifest verifier on any current HEAD.",
+  "journal_submission_completed": false,
+  "DOI_generated_or_verified_in_this_round": false,
+  "next": "R7C3H_EXACT_VERSION_AUTHOR_REVIEW_AND_PUBLISHER_PROOF"
+}

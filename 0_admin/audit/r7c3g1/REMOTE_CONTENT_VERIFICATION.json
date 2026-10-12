@@ -1,0 +1,116 @@
+{
+  "stage": "R7C3G1_REMOTE_FULL_TREE_VERIFICATION",
+  "checked_at": "2026-10-12T18:36:44.128915+08:00",
+  "repository": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence",
+  "public": true,
+  "remote_main": "a1a3cf630d8c3bedb1a415a2da9bda1b50cf7a97",
+  "manifest_entries_verified": 2512,
+  "tracked_files": 2513,
+  "exact_manifest_coverage": true,
+  "canonical_blob_sha256": "PASS_ALL",
+  "required_eight_roots": [
+    "0_admin",
+    "1_data",
+    "2_code",
+    "3_results",
+    "4_figures",
+    "5_manuscript",
+    "6_release",
+    "7.Report"
+  ],
+  "whole_tree_bytes_excluding_manifest": 187791150,
+  "directory_summary": {
+    "ROOT_METADATA": [
+      10,
+      19701
+    ],
+    "0_admin": [
+      174,
+      10556101
+    ],
+    "1_data": [
+      20,
+      303608
+    ],
+    "2_code": [
+      630,
+      4594159
+    ],
+    "3_results": [
+      711,
+      40314354
+    ],
+    "4_figures": [
+      252,
+      39640527
+    ],
+    "5_manuscript": [
+      181,
+      90381157
+    ],
+    "6_release": [
+      2,
+      1247
+    ],
+    "7.Report": [
+      532,
+      1980296
+    ]
+  },
+  "old_files_preserved": 2335,
+  "old_refs_unchanged": [
+    {
+      "ref": "refs/heads/archive/pre-rebuild-20261012",
+      "oid": "2fa8bb8481d26f37cc121d499bad4ce180b8b732",
+      "status": "UNCHANGED"
+    },
+    {
+      "ref": "refs/tags/r7b4a-human-genomics-interface-2026-10-10",
+      "oid": "7b0c36bc03546d0f088b2cd9ac6b95dfb923fb82",
+      "status": "UNCHANGED"
+    },
+    {
+      "ref": "refs/tags/r7b4b0-preauthor-final-submission-gate-2026-10-10",
+      "oid": "7c9fb566598a43e67fc5f5056d2249f98d13200c",
+      "status": "UNCHANGED"
+    },
+    {
+      "ref": "refs/tags/r7b4b2-author-approved-open-research-release-2026-10-10",
+      "oid": "e650bda087f7345f4dea33b32856f49ec5474f57",
+      "status": "UNCHANGED"
+    },
+    {
+      "ref": "refs/tags/r7c0-source-identity-external-evidence-2026-10-11",
+      "oid": "84989cb48477624284d829cd38704ca45cdcebf4",
+      "status": "UNCHANGED"
+    },
+    {
+      "ref": "refs/tags/r7c1-il12rb2-external-validation-2026-10-11",
+      "oid": "dd25931352fab5238da7ea08d1ce4a9e0e3f2e55",
+      "status": "UNCHANGED"
+    },
+    {
+      "ref": "refs/tags/r7c2-q1-journal-audit-dual-track-2026-10-11",
+      "oid": "da89eb81b33ed912eba404e00ae8d3037b450920",
+      "status": "UNCHANGED"
+    },
+    {
+      "ref": "refs/tags/r7c3-full-audit-submission-gate-2026-10-11",
+      "oid": "18a4032836236008f54cb9cfaca8480c21a05f7a",
+      "status": "UNCHANGED"
+    },
+    {
+      "ref": "refs/tags/r7c3c-workspace-audit-submission-2026-10-12",
+      "oid": "c33b7eb7837e45f492db677ceb2e5b2dc11398a8",
+      "status": "UNCHANGED"
+    },
+    {
+      "ref": "refs/tags/r7c3f-full-audit-rebuilt-submission-2026-10-12",
+      "oid": "a08d66994053f77cb38448ccdace6aa61a5f669f",
+      "status": "UNCHANGED"
+    }
+  ],
+  "method": "Fresh independent GitHub fetch to separate bare repository, all remote canonical Git blob SHA-256; not local origin cache",
+  "journal_submission_completed": false,
+  "DOI_generated": false
+}

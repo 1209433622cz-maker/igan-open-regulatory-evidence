@@ -172,6 +172,10 @@ PBC保留GO：6923/5460/1463筛查分母，642高信息subset，92/428/59/63完�
 
 下一阶段仍为 **R7C3H — exact-version作者审阅与publisher PDF proof**；随后才进入作者操作npj Genomic Medicine投稿与真实回执。没有新证据要求扩位点或重跑全部模拟。
 '''
+    published_path=REPO/'6_release/PUBLICATION_RECEIPT.json'
+    published=json.loads(published_path.read_text(encoding='utf-8')) if published_path.exists() else None
+    if published:
+        report+=f'''\n## 8. 已完成的真实发布事件\n\n公开仓库内容已正常push，并从GitHub独立拉取到另一个bare repository逐blob验证。已核验内容提交：`{published['content_commit_verified']}`；{published['content_canonical_blob_checks']}/{published['content_canonical_blob_checks']} canonical SHA-256 PASS、2335/2335原文件身份PASS、8目录PASS、10旧refs不变。之后main追加本段和回执文件，最终HEAD在本机外部最终回执及最终重新拉取核验中记录，避免hash自引用。\n\n已发布公开审阅/prerelease：{published['release_url']}。3/3附件实际从GitHub下载，size与SHA-256全部匹配本地冻结文件。6个既有Release和12个既有asset的ID/size保留。作者/投稿边界与原Source Data均未改变；本轮未投稿、未生成或核实Zenodo DOI。当前editorial文件已经公开，原包创建时未push的state属于历史快照，另有当前publication receipt记录后续事件。\n'''
     local_report=REPORT/'99_R7C3G1_GitHub八目录重构与推送_详细行动记录_20261012.md'
     put(local_report,report)
     shutil.copy2(local_report,REPO/'7.Report/rounds/r7c3g1'/local_report.name) if (REPO/'7.Report/rounds/r7c3g1').exists() else None
@@ -198,7 +202,7 @@ PBC保留GO：6923/5460/1463筛查分母，642高信息subset，92/428/59/63完�
         if p==REPO/'MANIFEST.sha256':continue
         manifest.append(sha(p)+'  '+p.relative_to(REPO).as_posix())
     put(REPO/'MANIFEST.sha256','\n'.join(manifest))
-    save(AN/'PUBLIC_TREE_AUDIT_STATE.json',{'manifest_entries':len(manifest),'old_files_preserved':prep['preserved_original_files'],'source_package_checks':93,'navigation_checks':len(link_rows),'archives_crc_checks':len(archive_rows),'secret_pattern_hits':0,'raw_format_hits':0,'gt10MiB':0,'report':str(local_report),'push_executed':False})
-    print(json.dumps({'manifest_entries':len(manifest),'navigation_checks':len(link_rows),'archives_crc_checks':len(archive_rows),'status':'AUDITED_NOT_PUSHED'}))
+    save(AN/'PUBLIC_TREE_AUDIT_STATE.json',{'manifest_entries':len(manifest),'old_files_preserved':prep['preserved_original_files'],'source_package_checks':93,'navigation_checks':len(link_rows),'archives_crc_checks':len(archive_rows),'secret_pattern_hits':0,'raw_format_hits':0,'gt10MiB':0,'report':str(local_report),'previous_content_push_verified':bool(published),'current_audit_file_changes_not_yet_pushed':True})
+    print(json.dumps({'manifest_entries':len(manifest),'navigation_checks':len(link_rows),'archives_crc_checks':len(archive_rows),'status':'AUDIT_READY_FOR_COMMIT','previous_content_push_verified':bool(published)}))
 
 if __name__=='__main__':main()
