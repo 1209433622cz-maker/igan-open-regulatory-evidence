@@ -36,8 +36,19 @@
     "6_release",
     "7.Report"
   ],
-  "archived_projects": ["SSc", "MG", "IgAN"],
-  "current_editorial_assets_github_publish_pending": true,
-  "previous_publication_release_tag": "r7c3g1-eight-folder-expert-narrative-2026-10-12"
+  "archived_projects": [
+    "SSc",
+    "MG",
+    "IgAN"
+  ],
+  "current_editorial_assets_github_publish_pending": false,
+  "previous_publication_release_tag": "r7c3g1-eight-folder-expert-narrative-2026-10-12",
+  "current_editorial_assets_github_published": true,
+  "public_repository_head_at_release": "f40207890c225d3922d3bb60b282719682d570eb",
+  "public_repository_clean_clone_QA": "PASS_38_OF_38",
+  "public_repository_actions_QA": "PASS",
+  "current_public_release_tag": "r7c3h0-statistical-reproducibility-closure-2026-10-13",
+  "current_public_release_url": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/tag/r7c3h0-statistical-reproducibility-closure-2026-10-13",
+  "current_release_zip_sha256": "8f5b2afcb150a31e10159a21a5b0e9182e021f2daba0d726bc286c2f2785264d",
+  "current_release_zip_bytes": 17926069
 }
-

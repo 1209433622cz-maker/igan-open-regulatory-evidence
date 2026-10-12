@@ -15,6 +15,7 @@ Current project: **PBC, RP v4**. Latest exact-version candidate: **R7C3H**, prep
 | Statistical and reproducibility closure | [Executive report](7.Report/rounds/r7c3h0/00_R7C3H0_执行摘要与最终判定.md) / [action record](7.Report/rounds/r7c3h0/99_R7C3H0_详细行动记录_20261013.md) |
 | Source-to-panel-to-claim traceability | [34-panel map](5_manuscript/current/R7C3H/06_QA/PANEL_EVIDENCE_MAP.tsv) / [historical ledger crosswalk](5_manuscript/current/R7C3H/03_Supplement/Supplementary_Editorial_Panel_Crosswalk.tsv) |
 | Portable snapshot identity check | [Reproduction contract](REPRODUCIBILITY.md) / [SHA-256 manifest](MANIFEST.sha256) |
+| Current verified release | [R7C3H0 GitHub Release](https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/tag/r7c3h0-statistical-reproducibility-closure-2026-10-13) |
 | Previous public baseline | [R7C3G1 GitHub Release](https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/tag/r7c3g1-eight-folder-expert-narrative-2026-10-12) |
 
 The HTML gallery can be downloaded with its package and opened locally; GitHub displays its source. Do not upload both manuscript reading variants as separate Main Manuscripts.

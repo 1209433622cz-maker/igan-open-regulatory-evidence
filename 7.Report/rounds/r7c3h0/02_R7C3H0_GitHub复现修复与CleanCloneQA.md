@@ -38,13 +38,27 @@ scientific endpoint replay = 38/38 PASS
 ```text
 compileall = PASS
 01_inspect.py = PASS
-02_evidence_audit.py = PASS_37_OF_37
+02_evidence_audit.py = PASS_38_OF_38
 working tree after replay = CLEAN
 ```
 
 GitHub Actions 只声明“聚合端点与文档身份重放”。原始 GWAS、BAM、PLINK、donor matrices、完整 LD 和 486,000 次模拟不会在 CI 中重跑，避免夸大可复现层级。
 
-## 待最终写入字段
+## 远端终裁
 
-本文件随最终 Git 提交补写 commit、remote HEAD、tag 和 release URL。若远端 CI 未完成，不将本机 PASS 写成远端 CI PASS。
+```text
+remote main = f40207890c225d3922d3bb60b282719682d570eb
+tree = 97f072365c708439a0069ad65384c189e4a7f0d4
+manifest = 2652/2652 PASS
+portable replay = 38/38 PASS
+working tree after replay = CLEAN
+GitHub Actions = SUCCESS
+release tag = r7c3h0-statistical-reproducibility-closure-2026-10-13
+release ZIP SHA-256 = 8f5b2afcb150a31e10159a21a5b0e9182e021f2daba0d726bc286c2f2785264d
+```
+
+- Actions：<https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/actions/runs/38283799570>
+- Release：<https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/tag/r7c3h0-statistical-reproducibility-closure-2026-10-13>
+
+Git Smart HTTP 曾短暂无法连接 `github.com:443`；对象上传改用 GitHub Git Database API。远端 tree SHA 与本地 HEAD tree SHA 完全一致，随后从远端独立浅克隆并复跑，因此传输替代没有改变仓库内容。
 
