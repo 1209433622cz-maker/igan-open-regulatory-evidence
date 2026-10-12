@@ -22,10 +22,10 @@
   "portable_scientific_replay": "38/38 PASS local",
   "document_package_QA": "43/43 PASS",
   "WPS": "Main 25 + SI 6 + unchanged cover 1 = 32/32 visual pages",
-  "new_candidate_exact_version_author_review": "PENDING",
+  "new_candidate_exact_version_author_review": "APPROVED_EXACT_FILES",
   "journal_submission_completed": false,
   "Zenodo_DOI_verified": false,
-  "NEXT": "R7C3H1C_EXACT_AUTHOR_APPROVAL_AND_PUBLISHER_PORTAL_PROOF",
+  "NEXT": "R7C3H1C_PUBLISHER_PORTAL_PROOF_AND_AUTHOR_OPERATED_SUBMISSION",
   "repository_roots": [
     "0_admin",
     "1_data",
@@ -41,11 +41,11 @@
     "MG",
     "IgAN"
   ],
-  "current_editorial_assets_github_publish_pending": true,
+  "current_editorial_assets_github_publish_pending": false,
   "previous_publication_release_tag": "r7c3g1-eight-folder-expert-narrative-2026-10-12",
-  "current_editorial_assets_github_published": false,
+  "current_editorial_assets_github_published": true,
   "previous_scientific_stage": "R7C3H0_STATISTICAL_REPRODUCIBILITY_CLOSURE",
-  "next": "R7C3H1C_EXACT_AUTHOR_APPROVAL_AND_PUBLISHER_PORTAL_PROOF",
+  "next": "R7C3H1C_PUBLISHER_PORTAL_PROOF_AND_AUTHOR_OPERATED_SUBMISSION",
   "current_scientific_source_tag": "r7c3h0-statistical-reproducibility-closure-2026-10-13",
   "candidate_release_tag": "r7c3h1b-exact-version-handoff-2026-10-13",
   "candidate_publication_status": "CANDIDATE_CHECKOUT_PREPARED_PENDING_PUSH",
@@ -59,8 +59,13 @@
     "public_repository_clean_clone_QA": "PASS_38_OF_38",
     "public_repository_actions_QA": "PASS"
   },
-  "current_public_release_tag": null,
-  "current_candidate_release_status": "PENDING_CREATE",
-  "current_candidate_actions_status": "PENDING_PUSH",
-  "portable_candidate_QA": "95/95 PASS local"
+  "current_public_release_tag": "r7c3h1b-exact-version-handoff-2026-10-13",
+  "current_candidate_release_status": "PUBLISHED_ASSETS_BYTE_VERIFIED",
+  "current_candidate_actions_status": "PASS",
+  "portable_candidate_QA": "95/95 PASS local",
+  "current_public_release_url": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/tag/r7c3h1b-exact-version-handoff-2026-10-13",
+  "current_release_zip_sha256": "a67c893924e9eb4cb9e2432d8e475a9497c5590c3b817841baddfef4aefd0e25",
+  "current_release_zip_bytes": 14389068,
+  "public_candidate_commit": "f5787c0611b773e85382d418dfe229ae65efb098",
+  "publisher_portal_proof": "NOT_EXECUTED_BROWSER_CONTROL_TIMED_OUT"
 }

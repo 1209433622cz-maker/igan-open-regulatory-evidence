@@ -1,11 +1,11 @@
 {
   "stage": "R7C3H1B_EXACT_VERSION_HANDOFF",
   "scientific_source_tag": "r7c3h0-statistical-reproducibility-closure-2026-10-13",
-  "status": "COMPLETE_LOCAL_HANDOFF_AND_QA",
+  "status": "COMPLETE_LOCAL_HANDOFF_AUTHOR_APPROVED_PORTAL_PROOF_PENDING",
   "scientific_results_changed": false,
   "figures_changed": false,
   "author_identity_previously_confirmed": true,
-  "fresh_exact_version_author_approval": "PENDING",
+  "fresh_exact_version_author_approval": "APPROVED_EXACT_FILES",
   "publisher_portal_proof": "PENDING",
   "journal_submission": "NOT_EXECUTED",
   "zenodo_DOI": "NOT_ESTABLISHED",
@@ -16,6 +16,9 @@
   "candidate_upload_files": 13,
   "scientific_source_archives_changed": false,
   "supplement_changes": "Native notation only; workbook, crosswalk and all figure bytes unchanged",
-  "next": "R7C3H1C_EXACT_AUTHOR_APPROVAL_AND_PUBLISHER_PORTAL_PROOF",
-  "github_candidate_publication": "PENDING_SYNC"
+  "next": "R7C3H1C_PUBLISHER_PORTAL_PROOF_AND_AUTHOR_OPERATED_SUBMISSION",
+  "github_candidate_publication": "PUBLISHED_ASSETS_BYTE_VERIFIED",
+  "public_candidate_commit": "f5787c0611b773e85382d418dfe229ae65efb098",
+  "approved_zip_sha256": "a67c893924e9eb4cb9e2432d8e475a9497c5590c3b817841baddfef4aefd0e25",
+  "approval_receipt": "AUTHOR_APPROVAL_RECEIPT.json"
 }

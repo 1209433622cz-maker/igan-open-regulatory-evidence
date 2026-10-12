@@ -17,16 +17,18 @@ Current project: **PBC, RP v5**. Latest exact-version candidate: **R7C3H1B**, pr
 | Statistical and reproducibility closure | [Executive report](7.Report/rounds/r7c3h0/00_R7C3H0_执行摘要与最终判定.md) / [action record](7.Report/rounds/r7c3h0/99_R7C3H0_详细行动记录_20261013.md) |
 | Source-to-panel-to-claim traceability | [34-panel map](5_manuscript/current/R7C3H/06_QA/PANEL_EVIDENCE_MAP.tsv) / [historical ledger crosswalk](5_manuscript/current/R7C3H/03_Supplement/Supplementary_Editorial_Panel_Crosswalk.tsv) |
 | Portable snapshot identity check | [Reproduction contract](REPRODUCIBILITY.md) / [SHA-256 manifest](MANIFEST.sha256) |
-| Current verified release | [R7C3H0 GitHub Release](https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/tag/r7c3h0-statistical-reproducibility-closure-2026-10-13) |
+| Scientific source release | [R7C3H0 GitHub Release](https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/tag/r7c3h0-statistical-reproducibility-closure-2026-10-13) |
 | Previous public baseline | [R7C3G1 GitHub Release](https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/tag/r7c3g1-eight-folder-expert-narrative-2026-10-12) |
 
 The HTML gallery can be downloaded with its package and opened locally; GitHub displays its source. Do not upload both manuscript reading variants as separate Main Manuscripts.
 
 ## Exact-version handoff
 
-R7C3H1B fixes the FCRL3 TenK Figure 3d pointer, pins scientific code/data links to R7C3H0, and replaces raw exponent/support notation and the two LD definitions with native Word formatting. Figure masters, workbook and all three Source Data ZIPs are unchanged. The SI wording and values are unchanged, with native notation and a new WPS export. Local QA is **43/43**, visual review **32/32 pages**, and the single upload candidate list contains **13 files**. Author identity/declaration confirmation is retained; approval of this exact candidate and actual portal proof are pending. [Round report](7.Report/rounds/r7c3h1b/99_R7C3H1B_详细行动记录_20261013.md).
+R7C3H1B fixes the FCRL3 TenK Figure 3d pointer, pins scientific code/data links to R7C3H0, and replaces raw exponent/support notation and the two LD definitions with native Word formatting. Figure masters, workbook and all three Source Data ZIPs are unchanged. The SI wording and values are unchanged, with native notation and a new WPS export. Local QA is **43/43**, visual review **32/32 pages**, and the single upload candidate list contains **13 files**. Author identity/declaration confirmation is retained; approval of this exact candidate was received on 13 October 2026; actual portal proof is pending. [Round report](7.Report/rounds/r7c3h1b/99_R7C3H1B_详细行动记录_20261013.md).
 
 RP v5 is a detailed evidence plan, not an authorization to submit. Its earlier abstract count is superseded by the explicit R7C3H1B counting receipt: 126 whitespace words, 129 compound-aware tokens, or 148 conservative alphanumeric pieces; the abstract itself was not edited.
+
+Current candidate publication: [R7C3H1B Release](https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/tag/r7c3h1b-exact-version-handoff-2026-10-13). [Exact-file approval receipt](6_release/r7c3h1b/AUTHOR_APPROVAL_RECEIPT.json) and [publisher-proof next steps](6_release/r7c3h1b/00_R7C3H1C_已批准文件_门户校样下一步.md) preserve the approved ZIP bytes.
 
 ## Scientific question and narrative
 
@@ -87,5 +89,5 @@ Original code: [MIT](LICENSE). Original author-owned text, figures, documentatio
 
 ## Current decision
 
-**PBC = GO. R7C3H1B local handoff and QA are complete; exact-version author reconfirmation and publisher-generated PDF proof remain pending**, followed by an author-operated npj Genomic Medicine submission and recorded receipt. New biological candidate screening and global simulation reruns remain out of scope without a concrete scientific defect. No submission, acceptance, new experiment or DOI is claimed by this release. [Current state](0_admin/CURRENT_PROJECT_STATE.json).
+**PBC = GO. R7C3H1B local handoff and QA are complete; exact-version author approval is recorded; publisher-generated PDF proof remains pending**, followed by an author-operated npj Genomic Medicine submission and recorded receipt. New biological candidate screening and global simulation reruns remain out of scope without a concrete scientific defect. No submission, acceptance, new experiment or DOI is claimed by this release. [Current state](0_admin/CURRENT_PROJECT_STATE.json).
 

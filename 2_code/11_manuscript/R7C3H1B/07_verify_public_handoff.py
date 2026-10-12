@@ -40,6 +40,11 @@ test('32 actual local proof pages',visual['total_pages']==32 and visual['status'
 for p in visual['pdfs']:test('visual proof identity '+p['role'],sha(OUT/p['relative'])==p['sha256'])
 state=json.loads((OUT/'08_Protocol/HANDOFF_STATE.json').read_text(encoding='utf-8'))
 test('journal not falsely submitted',state['journal_submission']=='NOT_EXECUTED')
-test('pending exact-file author approval explicit',state['fresh_exact_version_author_approval']=='PENDING')
+approval_state=state['fresh_exact_version_author_approval']
+approval_ok=approval_state=='PENDING'
+if approval_state=='APPROVED_EXACT_FILES':
+    approval=json.loads((OUT/'08_Protocol/AUTHOR_APPROVAL_RECEIPT.json').read_text(encoding='utf-8'))
+    approval_ok=(approval['status']=='APPROVED_EXACT_FILES' and approval['zip_sha256']==state['approved_zip_sha256'] and approval['upload_manifest_sha256']==sha(OUT/'06_QA/UPLOAD_CANDIDATE_MANIFEST.tsv') and approval['approved_upload_files']==rows)
+test('exact-file author approval state supported by receipt',approval_ok)
 result=dict(status='PASS' if all(v for _,v in checks) else 'FAIL',passed=sum(v for _,v in checks),total=len(checks),failed=[n for n,v in checks if not v],scope='Candidate byte identities, aggregate archives, navigation and local proof receipts; not fresh WPS inspection or raw scientific refits')
 print(json.dumps(result));assert result['status']=='PASS',result['failed']

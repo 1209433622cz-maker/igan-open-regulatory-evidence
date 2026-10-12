@@ -1,0 +1,25 @@
+{
+  "status": "PUBLISHED_ASSETS_BYTE_VERIFIED",
+  "url": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/tag/r7c3h1b-exact-version-handoff-2026-10-13",
+  "tag": "r7c3h1b-exact-version-handoff-2026-10-13",
+  "source_commit": "f5787c0611b773e85382d418dfe229ae65efb098",
+  "actions_run": 38298688639,
+  "assets": [
+    {
+      "name": "CMM_R7C3H1B_ExactVersionHandoff_SubmissionCandidate_20261013.zip",
+      "bytes": 14389068,
+      "sha256": "a67c893924e9eb4cb9e2432d8e475a9497c5590c3b817841baddfef4aefd0e25",
+      "url": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/download/r7c3h1b-exact-version-handoff-2026-10-13/CMM_R7C3H1B_ExactVersionHandoff_SubmissionCandidate_20261013.zip"
+    },
+    {
+      "name": "CMM_PBC_RP_v5_EvidenceAndFigureSources_20261013.zip",
+      "bytes": 17920623,
+      "sha256": "ffb8ee360c4a63f229c3d0a9c47fef6518d9e98576d2e51165456bd6eb465417",
+      "url": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/download/r7c3h1b-exact-version-handoff-2026-10-13/CMM_PBC_RP_v5_EvidenceAndFigureSources_20261013.zip"
+    }
+  ],
+  "approval": "APPROVED_EXACT_FILES",
+  "publisher_proof": "NOT_EXECUTED",
+  "journal_submission": "NOT_EXECUTED",
+  "Zenodo_DOI": "NOT_ESTABLISHED"
+}

@@ -1,0 +1,122 @@
+{
+  "status": "APPROVED_EXACT_FILES",
+  "date": "2026-10-13",
+  "evidence": "Direct human answer in this Codex conversation to the exact-version approval question",
+  "human_answer_verbatim": "两位作者批准这套精确版本",
+  "approved_authors": [
+    "Zhi Chen",
+    "Teng Qi"
+  ],
+  "approved_use": "Submission to npj Genomic Medicine",
+  "zip_name": "CMM_R7C3H1B_ExactVersionHandoff_SubmissionCandidate_20261013.zip",
+  "zip_sha256": "a67c893924e9eb4cb9e2432d8e475a9497c5590c3b817841baddfef4aefd0e25",
+  "upload_manifest_sha256": "bb398646b2b73702cc3cc7ae49d2e7288217baa4720f1556620916b2f2abddf4",
+  "approved_upload_files": [
+    {
+      "order": "1",
+      "portal_role": "Main Manuscript",
+      "relative": "01_Manuscript/Manuscript_SubmissionCandidate.docx",
+      "bytes": "2527657",
+      "sha256": "c67d3fec232989b779c2811e9261edb3f9a7b56587aa4cb005e197b80fc2d64f",
+      "scope": "Candidate role mapping; actual portal fields remain to be checked"
+    },
+    {
+      "order": "2",
+      "portal_role": "Figure 1",
+      "relative": "02_Figures/Figure_1.pdf",
+      "bytes": "57835",
+      "sha256": "d55eb50c87c6350d3f76d64a4e4ee16efc840907770e447ff5700984262b4936",
+      "scope": "Candidate role mapping; actual portal fields remain to be checked"
+    },
+    {
+      "order": "3",
+      "portal_role": "Figure 2",
+      "relative": "02_Figures/Figure_2.pdf",
+      "bytes": "53655",
+      "sha256": "cd79c7a04a6b99f4389908fcb510314f8a6ebd414d2d4d3992eec24c520c0552",
+      "scope": "Candidate role mapping; actual portal fields remain to be checked"
+    },
+    {
+      "order": "4",
+      "portal_role": "Figure 3",
+      "relative": "02_Figures/Figure_3.pdf",
+      "bytes": "55289",
+      "sha256": "a0cf8a07c229aea3a6a9dd615e9986d8a06d316e51717123186c668d1cbf6aca",
+      "scope": "Candidate role mapping; actual portal fields remain to be checked"
+    },
+    {
+      "order": "5",
+      "portal_role": "Figure 4",
+      "relative": "02_Figures/Figure_4.pdf",
+      "bytes": "53253",
+      "sha256": "b13e579d31e894e0e0fcf7c46e401209d98c43b5ba807bb906bb6bb3fa6bf397",
+      "scope": "Candidate role mapping; actual portal fields remain to be checked"
+    },
+    {
+      "order": "6",
+      "portal_role": "Figure 5",
+      "relative": "02_Figures/Figure_5.pdf",
+      "bytes": "61613",
+      "sha256": "3261bd5c711786549cf9cdc769211ae884d754c954cf03e401dd2e24ce8ed0e7",
+      "scope": "Candidate role mapping; actual portal fields remain to be checked"
+    },
+    {
+      "order": "7",
+      "portal_role": "Figure 6",
+      "relative": "02_Figures/Figure_6.pdf",
+      "bytes": "47986",
+      "sha256": "75612e13169531966993ee0dbe4028c9c75b1870383fab64cd82b7136c78d245",
+      "scope": "Candidate role mapping; actual portal fields remain to be checked"
+    },
+    {
+      "order": "8",
+      "portal_role": "Supplementary Information",
+      "relative": "03_Supplement/Supplementary_Information_ExpertRebuilt.pdf",
+      "bytes": "707356",
+      "sha256": "f7c0e95898d3e3b2a3126084b646fd2ae082563ad607199dfaa1e0d86bdbdf35",
+      "scope": "Candidate role mapping; actual portal fields remain to be checked"
+    },
+    {
+      "order": "9",
+      "portal_role": "Supplementary Data 1",
+      "relative": "03_Supplement/Supplementary_Data_1_Tables_S1-S10.xlsx",
+      "bytes": "3282142",
+      "sha256": "7f53dfd60195b9903a52f638ba5ae6f8c7286adec9bcec0652bf1c27adf57382",
+      "scope": "Candidate role mapping; actual portal fields remain to be checked"
+    },
+    {
+      "order": "10",
+      "portal_role": "Source Data 1",
+      "relative": "05_Source_Data/Source_Data_1_Primary_Machine_Readable_Data.zip",
+      "bytes": "3246464",
+      "sha256": "9dd7c32dc6284c98c27b5f5af2382b29a2023feffa79e2482ed582efdc5ba38e",
+      "scope": "Candidate role mapping; actual portal fields remain to be checked"
+    },
+    {
+      "order": "11",
+      "portal_role": "Source Data 2",
+      "relative": "05_Source_Data/Source_Data_2_External_Regulatory_Evidence.zip",
+      "bytes": "31023",
+      "sha256": "2eb3201a54be96049c810dc9680d6acf5bda6546cdfbd87393843afd2a984ac8",
+      "scope": "Candidate role mapping; actual portal fields remain to be checked"
+    },
+    {
+      "order": "12",
+      "portal_role": "Source Data 3",
+      "relative": "05_Source_Data/Source_Data_3_Disease_N_Robustness.zip",
+      "bytes": "8950",
+      "sha256": "2ae49d12b594f68295ff9a2b16796348744cd1366371a41a3846c374e5fba15c",
+      "scope": "Candidate role mapping; actual portal fields remain to be checked"
+    },
+    {
+      "order": "13",
+      "portal_role": "Cover Letter",
+      "relative": "04_Cover/Cover_Letter_SubmissionCandidate.docx",
+      "bytes": "38506",
+      "sha256": "7dcd21aef56ac4a6614d1a7f00588d6fa883bae7c80a1729ece54e08501936f9",
+      "scope": "Candidate role mapping; actual portal fields remain to be checked"
+    }
+  ],
+  "unchanged_package_snapshot": "The ZIP was frozen before this answer and retains its historical PENDING approval state. This separate receipt records subsequent approval without changing ZIP bytes.",
+  "limit": "This human approval is not a journal submission receipt, signed publisher form or publisher-generated PDF proof."
+}
