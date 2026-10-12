@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-12",
+  "official_url": "https://www.nature.com/npjgenmed/content-types",
+  "type": "Article",
+  "title_words": 12,
+  "abstract_words": 126,
+  "main_text_words_excluding_methods": 3712,
+  "methods_and_declarations_words": 3212,
+  "strict_main_text_word_limit": "No strict word/page limit stated; concise writing recommended",
+  "methods_in_main": true,
+  "reference_count": 19,
+  "discussion_without_subheadings": true,
+  "supplement_combined_pdf": true,
+  "new_editorial_version_not_submitted": true
+}

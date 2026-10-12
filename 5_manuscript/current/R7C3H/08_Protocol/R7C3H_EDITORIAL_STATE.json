@@ -1,0 +1,10 @@
+{
+  "schema": "R7C3H_EXACT_VERSION_1.0",
+  "source_package": "H:\\SCI2\\YR1\\5_manuscript\\R7C3G_ExpertNarrative_20261012",
+  "destination": "H:\\SCI2\\YR1\\5_manuscript\\R7C3H_StatisticalReproducibilityClosure_20261013",
+  "source_matched_disease_N": 24510,
+  "secondary_effective_N": 21584.376825785395,
+  "state_changes": 0,
+  "figure_scientific_bytes_changed": false,
+  "author_reconfirmation_required": true
+}

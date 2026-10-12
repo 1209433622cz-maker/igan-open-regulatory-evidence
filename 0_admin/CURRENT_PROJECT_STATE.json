@@ -1,20 +1,32 @@
 {
-  "stage": "R7C3G1_GITHUB_EIGHT_FOLDER_RESTRUCTURE",
-  "date": "2026-10-12",
+  "stage": "R7C3H0_STATISTICAL_REPRODUCIBILITY_CLOSURE",
+  "date": "2026-10-13",
   "PBC_PRIMARY_PROJECT": "GO",
   "RP": "v4",
-  "current_editorial_candidate": "R7C3G",
-  "baseline": "R7C3F preserved",
-  "scientific_endpoints_changed": false,
-  "original_scientific_fits_rerun": false,
+  "current_editorial_candidate": "R7C3H",
+  "baseline": "R7C3G preserved",
+  "GJOKA_primary_disease_N": 24510,
+  "GJOKA_primary_N_status": "PASS_SOURCE_MATCHED",
+  "effective_N_stress_test": {
+    "N": 21584.376825785395,
+    "comparisons": 33,
+    "loci": 14,
+    "fits_passed": "132/132",
+    "state_changes": 0,
+    "manuscript_key_axis_changes": 0,
+    "disease_credible_set_exact_identity": "164/164",
+    "scientific_role": "SECONDARY_ROBUSTNESS_STRESS_TEST_NOT_PRIMARY_CORRECTION"
+  },
+  "scientific_figures_changed": false,
+  "original_full_642_fits_rerun": false,
+  "portable_scientific_replay": "38/38 PASS",
+  "document_package_QA": "26/26 PASS",
+  "WPS": "4/4 exports; 57/57 pages visually reviewed",
   "new_candidate_exact_version_author_review": "PENDING",
   "journal_submission_completed": false,
   "Zenodo_DOI_verified": false,
-  "NEXT": "R7C3H_EXACT_VERSION_AUTHOR_REVIEW_AND_PUBLISHER_PROOF",
-  "scientific_replay": "37/37 PASS (R7C3G)",
-  "document_QA": "160/160 PASS (R7C3G)",
-  "WPS": "4/4 exports;56 pages reviewed (R7C3G)",
-  "new_public_folder_roots": [
+  "NEXT": "R7C3H1_AUTHOR_RECONFIRMATION_AND_PUBLISHER_PROOF",
+  "repository_roots": [
     "0_admin",
     "1_data",
     "2_code",
@@ -24,12 +36,8 @@
     "6_release",
     "7.Report"
   ],
-  "archived_projects": [
-    "SSc",
-    "MG",
-    "IgAN"
-  ],
-  "current_editorial_assets_github_published": true,
-  "publication_release_tag": "r7c3g1-eight-folder-expert-narrative-2026-10-12",
-  "source_package_creation_state_retained": true
+  "archived_projects": ["SSc", "MG", "IgAN"],
+  "current_editorial_assets_github_publish_pending": true,
+  "previous_publication_release_tag": "r7c3g1-eight-folder-expert-narrative-2026-10-12"
 }
+

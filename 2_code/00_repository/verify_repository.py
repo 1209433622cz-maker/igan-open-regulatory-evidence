@@ -18,7 +18,9 @@ def main():
             assert hashlib.sha256(body).hexdigest()==digest, 'SHA-256 mismatch: '+path
     finally:
         proc.stdin.close();proc.wait()
-    required=['0_admin','1_data','2_code','3_results','4_figures','5_manuscript','6_release','7.Report']
-    assert {p.split('/')[0] for p in tracked if '/' in p}==set(required), 'Unexpected/missing directory roots'
-    print(f'PASS {len(rows)}/{len(rows)} canonical Git-blob SHA-256; eight directory roots; exact manifest coverage')
+    required={'0_admin','1_data','2_code','3_results','4_figures','5_manuscript','6_release','7.Report'}
+    roots={p.split('/')[0] for p in tracked if '/' in p}
+    assert required.issubset(roots), 'Missing required directory roots'
+    assert roots.issubset(required|{'.github'}), 'Unexpected directory roots'
+    print(f'PASS {len(rows)}/{len(rows)} canonical Git-blob SHA-256; eight required roots plus optional .github automation; exact manifest coverage')
 if __name__=='__main__':main()

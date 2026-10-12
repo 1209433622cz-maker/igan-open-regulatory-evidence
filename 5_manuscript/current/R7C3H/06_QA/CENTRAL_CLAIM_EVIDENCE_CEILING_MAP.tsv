@@ -1,0 +1,16 @@
+﻿claim_id	claim	evidence	panels	source_family	ceiling
+E01	Bounded screening universe	6923;5460;642;47 loci/200 genes/14 cell types	Figure1a;1c	S2/S3/S5	Conditional selected cohort, not PBC-wide prevalence
+E02	Prespecified symmetric workloads	184 primary;455 H3 layer;3 borderline	Figure1d	S3	No post-SuSiE candidate expansion
+E03	Input coordination changes labels	15 support-set and19 statistic-definition changes	Figure2a,b;S1	S3/S4	Nonadditive category changes; not known-truth error attribution
+E04	Reclassification persists with exact shared inputs	8 H4-to-H3;10 H3-to-H4;113/452 starting denominators	Figure2c,d	S3	Complete-procedure contrast; no causal-number-only isolation
+E05	A comparison can support shared and distinct pairs	32/92 coexisting;92/92 and428/428 same-pair stability	Figure3a	S6	H3 pair is not global absence of a shared pair
+E06	High model agreement is conditional	491 same;4 changed;25 uninformative of520 definite PF10	Figure3b	S5	Excludes122 PF10-sensitive/uninformative comparisons
+E07	FCRL3 T-cell assignment is model qualified	ABF .941/.941/.949;PF10 .003636;PF50 .991894	Figure3c	S3/S5	Factor number changes QTL phenotype and residualized LD, not an LD-only experiment
+E08	FCRL3 B-cell support crosses QTL resources	OneK B_IN/B_MEM .9937/.9910;TenK .9916	Figure3d	S8/current R7A1C source	Same disease GWAS reused; TenK single-causal; not new gene discovery
+E09	Simulation separates adequacy and pair decisions	486000;160782 pair-evaluable;33.08%	Figure4a,b,d	S7	Finite grid; no end-to-end composite-gate calibration
+E10	Lower false sharing trades off with recovery	12.41→8.56%;32.99→26.66%	Figure4c;S2	S7	No universal superiority; no observed-truth claims for real-data transitions
+E11	External disease-study support strengthens IL12RB2 association	795 cases;1175 variants;H4 .9772/.9977/.9998;CS2/2 in17	Figure5a,b	S11	Participant non-overlap unknown; single-causal external test
+E12	Fixed source coverage is reported without negative overreach	27 queried;22 covered;1 returned disease-eQTL gene	Figure5c	S11	Non-return is unavailable evidence, not failed mechanism
+E13	Chromatin increases coherence without establishing mediation	H4 eQTL .9703;caQTL .9695;link beta .140574	Figure5d	S11	Best peak-gene context PBMC; no direct eQTL-caQTL posterior or intervention
+E14	Tissue establishes detectability without corrected enrichment	10 donors;252 assignments;both q=.1111	Figure6	S9	5 surgical controls, small target panel; non-significance is not absence
+E15	Release stability is supporting identity evidence	R12 CS19;R13 CS17;intersection17;Jaccard17/19	FigureS3	S11 identity JSON and17-row intersection TSV	Sequential releases are correlated, not independent replications

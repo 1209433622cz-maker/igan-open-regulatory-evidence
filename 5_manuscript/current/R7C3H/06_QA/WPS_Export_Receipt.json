@@ -1,0 +1,38 @@
+[
+  {
+    "docx": "01_Manuscript\\Manuscript_ExpertRebuilt.docx",
+    "docx_sha256": "c36bf26d56515af265d9761e2233c2d862947ad85082b6145708988a6fd6f719",
+    "pdf": "H:\\SCI2\\YR1\\5_manuscript\\R7C3H_StatisticalReproducibilityClosure_20261013\\01_Manuscript\\Manuscript_ExpertRebuilt.pdf",
+    "pdf_sha256": "5268fc416a1f2253bc0dd522e2284880ea016ba7949fbf8d1f67f199f42e414d",
+    "renderer": "WPS kwps.Application ExportAsFixedFormat 17",
+    "background": true,
+    "exported_at": "2026-10-13T00:36:56.3464191+08:00"
+  },
+  {
+    "docx": "01_Manuscript\\Manuscript_AuthorReview_InlineFigures.docx",
+    "docx_sha256": "067fd8f92a17203ab142706b7144dfe980b7fe948f1eb18146d6598c11c8c2b7",
+    "pdf": "H:\\SCI2\\YR1\\5_manuscript\\R7C3H_StatisticalReproducibilityClosure_20261013\\01_Manuscript\\Manuscript_AuthorReview_InlineFigures.pdf",
+    "pdf_sha256": "d14a6ba36d86d7a19db519207e55a51512a70c4210ec87e1333d71a122d63c27",
+    "renderer": "WPS kwps.Application ExportAsFixedFormat 17",
+    "background": true,
+    "exported_at": "2026-10-13T00:37:01.6923407+08:00"
+  },
+  {
+    "docx": "03_Supplement\\Supplementary_Information_ExpertRebuilt.docx",
+    "docx_sha256": "ae7bc2b99d7d524878abc669643ae56b4ee259163624dc536ea972c9f6f92709",
+    "pdf": "H:\\SCI2\\YR1\\5_manuscript\\R7C3H_StatisticalReproducibilityClosure_20261013\\03_Supplement\\Supplementary_Information_ExpertRebuilt.pdf",
+    "pdf_sha256": "89e24a03f9882807222f5e77e710c13434186416d53a520e19c2243548b70d7c",
+    "renderer": "WPS kwps.Application ExportAsFixedFormat 17",
+    "background": true,
+    "exported_at": "2026-10-13T00:37:03.2668999+08:00"
+  },
+  {
+    "docx": "04_Cover\\Cover_Letter_ExpertRebuilt_DRAFT.docx",
+    "docx_sha256": "7dcd21aef56ac4a6614d1a7f00588d6fa883bae7c80a1729ece54e08501936f9",
+    "pdf": "H:\\SCI2\\YR1\\5_manuscript\\R7C3H_StatisticalReproducibilityClosure_20261013\\04_Cover\\Cover_Letter_ExpertRebuilt_DRAFT.pdf",
+    "pdf_sha256": "5e64032beda1dcdf06f256b75fe9cf90b88ae66fe6705a016757e7c5b47b461f",
+    "renderer": "WPS kwps.Application ExportAsFixedFormat 17",
+    "background": true,
+    "exported_at": "2026-10-13T00:37:03.5968938+08:00"
+  }
+]

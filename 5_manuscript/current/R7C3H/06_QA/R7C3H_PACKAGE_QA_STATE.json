@@ -1,0 +1,11 @@
+{
+  "schema": "R7C3H_PACKAGE_QA_1.0",
+  "status": "PASS",
+  "checks": 26,
+  "passes": 26,
+  "failures": 0,
+  "wps_pages_visually_reviewed": 57,
+  "figure_bytes_changed": false,
+  "new_scientific_asset": "Source_Data_3_Disease_N_Robustness.zip",
+  "author_reconfirmation_required": true
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "role": "manuscript",
+    "path": "H:\\SCI2\\YR1\\5_manuscript\\R7C3F_SubmissionCandidate_20261012\\01_Main\\Manuscript.docx",
+    "sha256": "d862dcc8e2e6830b28730f3c1dca5327b3dae5f4afe7a7a0e4147a5df49498aa",
+    "paragraphs": 174,
+    "tables": 0
+  },
+  {
+    "role": "plan",
+    "path": "H:\\SCI2\\YR1\\9.Version\\PBC_研究计划书_RP_v4_20261011.docx",
+    "sha256": "6d9de404fdcdadde28a8e4562a7f9c96ca7bfecbb75600ef79ecd887e29bcbdc",
+    "paragraphs": 184,
+    "tables": 24
+  },
+  {
+    "role": "supplement",
+    "path": "H:\\SCI2\\YR1\\5_manuscript\\R7C3F_SubmissionCandidate_20261012\\03_Supplement\\Supplementary_Information_Editable.docx",
+    "sha256": "d7a7b4ca3c70dd3c5cbfe50617cedd17901bea2d6ffb085a978082f73e255db1",
+    "paragraphs": 33,
+    "tables": 0
+  },
+  {
+    "role": "QiTeng_user_zip",
+    "sha256": "d52d3804bf067f9ef469c9bc732ddc1acb4c123a49d086db5cec0b728e8ff17b",
+    "bytes": 23447977,
+    "crc": "PASS",
+    "active_registry": "v0.3.24.2"
+  }
+]

@@ -1,0 +1,372 @@
+{
+  "1": {
+    "scope": [
+      6923,
+      5460,
+      642
+    ],
+    "states": {
+      "H3": 428,
+      "H4": 92,
+      "UNINFORMATIVE": 63,
+      "MODEL_SENSITIVE": 59
+    },
+    "cohorts": {
+      "H3": {
+        "BORDERLINE_HIGH_INFORMATION_CALIBRATION": 0,
+        "H3_RESCUE_FALSIFICATION": 409,
+        "PRIMARY_184_TRIGGER_VERIFICATION": 19
+      },
+      "H4": {
+        "BORDERLINE_HIGH_INFORMATION_CALIBRATION": 1,
+        "H3_RESCUE_FALSIFICATION": 8,
+        "PRIMARY_184_TRIGGER_VERIFICATION": 83
+      },
+      "MODEL_SENSITIVE": {
+        "BORDERLINE_HIGH_INFORMATION_CALIBRATION": 0,
+        "H3_RESCUE_FALSIFICATION": 7,
+        "PRIMARY_184_TRIGGER_VERIFICATION": 52
+      },
+      "UNINFORMATIVE": {
+        "BORDERLINE_HIGH_INFORMATION_CALIBRATION": 2,
+        "H3_RESCUE_FALSIFICATION": 31,
+        "PRIMARY_184_TRIGGER_VERIFICATION": 30
+      }
+    },
+    "title": "A bounded PBC screen with an explicit input contract"
+  },
+  "2": {
+    "removed_min": 19,
+    "removed_max": 114,
+    "median": 65.0,
+    "state_changes": [
+      15,
+      19,
+      139
+    ],
+    "matrix": {
+      "H4": {
+        "H4": 79,
+        "H3": 10,
+        "AMBIGUOUS": 2,
+        "H4_BORDERLINE": 1,
+        "UNINFORMATIVE": 0
+      },
+      "H3": {
+        "H4": 8,
+        "H3": 413,
+        "AMBIGUOUS": 7,
+        "H4_BORDERLINE": 0,
+        "UNINFORMATIVE": 0
+      },
+      "MODEL_SENSITIVE": {
+        "H4": 4,
+        "H3": 6,
+        "AMBIGUOUS": 47,
+        "H4_BORDERLINE": 1,
+        "UNINFORMATIVE": 1
+      },
+      "UNINFORMATIVE": {
+        "H4": 22,
+        "H3": 23,
+        "AMBIGUOUS": 6,
+        "H4_BORDERLINE": 1,
+        "UNINFORMATIVE": 11
+      }
+    },
+    "title": "Matched inputs retain bidirectional reclassification"
+  },
+  "3": {
+    "H4_with_H3_pair": 32,
+    "H4_without_qualifying_H3_pair": 60,
+    "pf50": [
+      491,
+      4,
+      25
+    ],
+    "CD8_ET": [
+      0.941334682686132,
+      0.9413349988264992,
+      0.949260546232612,
+      0.0036361957364122,
+      0.991894292309108
+    ],
+    "B_context": [
+      0.993700322548949,
+      0.990963258519391,
+      0.9915620110494514
+    ],
+    "TenK_source": "H:\\SCI2\\YR1\\3_results\\04_integration\\R7A1C\\R7A1C_FCRL3_TenK_Bintermediate_coloc.tsv",
+    "title": "Signal identity and model context limit regulatory labels"
+  },
+  "4": {
+    "channels": {
+      "NO_CS_BOTH": 130994,
+      "NO_DISEASE_CS": 16819,
+      "NO_QTL_CS": 177405,
+      "PAIR_H3": 31459,
+      "PAIR_H4": 100243,
+      "PAIR_UNINFORMATIVE": 29080
+    },
+    "pair_evaluable": 160782,
+    "scenario_abf_h4": [
+      0.6593827160493827,
+      0.2050246913580247,
+      0.3686543209876543,
+      0.1458518518518518,
+      0.0431851851851851,
+      0.1457654320987654
+    ],
+    "scenario_multisignal_h4": [
+      0.5412345679012346,
+      0.16,
+      0.3344444444444444,
+      0.0957283950617284,
+      0.0112222222222222,
+      0.0949382716049382
+    ],
+    "title": "Simulation separates discovery from shared-signal decisions"
+  },
+  "5": {
+    "fg_h4": [
+      0.9772424819044834,
+      0.9976766621271316,
+      0.9997671793838544
+    ],
+    "source_cs": [
+      {
+        "SNP": "rs6679356",
+        "PIP": 0.324404139012416,
+        "in_finngen_r13_disease_cs": true
+      },
+      {
+        "SNP": "rs6702599",
+        "PIP": 0.67455586200605,
+        "in_finngen_r13_disease_cs": true
+      }
+    ],
+    "coverage": [
+      27,
+      22,
+      1
+    ],
+    "triangle": {
+      "stage": "R7C0_G3_CHROMATIN",
+      "generated_utc": "2026-10-10T19:30:27.922646+00:00",
+      "prespecified_gene": "IL12RB2",
+      "prespecified_cell": "l1.NK",
+      "prespecified_peak": "chr1-67307618-67308670",
+      "disease_eQTL": {
+        "PP_H4_abf": 0.970306779415918,
+        "disease_cs_size": 19,
+        "eqtl_cs_size": 9,
+        "cs_overlap": 9,
+        "all_eqtl_cs_members_inside_disease_cs": true
+      },
+      "disease_caQTL": {
+        "PP_H4_abf": 0.969529511604649,
+        "disease_cs_size": 19,
+        "caqtl_cs_size": 11,
+        "cs_overlap": 11,
+        "all_caqtl_cs_members_inside_disease_cs": true
+      },
+      "peak_gene_link": {
+        "gene": "IL12RB2",
+        "distance_to_tss": 239,
+        "link_beta": 0.140574115960542,
+        "method": "fasthurdle",
+        "best_cell": "PBMC",
+        "joint_p": 0
+      },
+      "minimum_eQTL_caQTL_cs_intersection_implied_by_shared_19_variant_disease_cs": 1,
+      "previous_statement_superseded": "R7B1D stated that PBC-caQTL colocalization was not established for this linked peak. The prespecified full-region query now returns a direct CHIRBIL_PRIM-to-peak caQTL record in l1.NK.",
+      "adjudication": "PASS_TRIANGULAR_SIGNAL_COHERENCE_WITHOUT_DIRECT_MEDIATION_PROOF",
+      "allowed_claim": "The independent disease-supported IL12RB2 locus also shows source-integrated PBC-eQTL and PBC-caQTL sharing in NK cells at a linked promoter-proximal peak.",
+      "forbidden_claim": "A unique causal variant or a directional disease-to-chromatin-to-expression mediation chain is proven.",
+      "remaining_gap": "The public endpoint does not provide a direct eQTL-versus-caQTL coloc posterior; the historical positional top eQTL variant is not itself in the peak caQTL credible set.",
+      "source": {
+        "region_url": "https://cascade.finngen.fi/api/cascade/coloc/by_region/chr1:66307873-68398724",
+        "region_json_sha256": "8aae24be6d25a21010b14383aeb67450294d2c615ccbd3e6a4f5b330df16046c",
+        "peak_url": "https://cascade.finngen.fi/api/cascade/peak/chr1-67307618-67308670",
+        "peak_json_sha256": "fbe4887b0d9639047d027e0dc82c0bbad28c3a508c5e7659c21eb0aaac7bc86a"
+      }
+    },
+    "title": "IL12RB2 receives bounded external disease and chromatin support"
+  },
+  "6": {
+    "donors": 20,
+    "summary": [
+      {
+        "axis": "FCRL3_B",
+        "primary_descriptive_endpoint": "log1p(target_lineage_CPM)",
+        "PBC_n": 5,
+        "control_n": 5,
+        "PBC_median_target_lineage_CPM": 5.48227951703951,
+        "control_median_target_lineage_CPM": 12.45182477934477,
+        "mean_log1p_CPM_difference_PBC_minus_control": -0.7863352116597311,
+        "exact_label_permutation_p": 0.1111111111111111,
+        "PBC_positive_donors": 5,
+        "control_positive_donors": 5,
+        "BH_q_two_prespecified_targets": 0.1111111111111111
+      },
+      {
+        "axis": "IL12RB2_NK",
+        "primary_descriptive_endpoint": "log1p(target_lineage_CPM)",
+        "PBC_n": 5,
+        "control_n": 5,
+        "PBC_median_target_lineage_CPM": 6.656948156353453,
+        "control_median_target_lineage_CPM": 4.2370080621789405,
+        "mean_log1p_CPM_difference_PBC_minus_control": 0.3299675359429739,
+        "exact_label_permutation_p": 0.0634920634920634,
+        "PBC_positive_donors": 5,
+        "control_positive_donors": 5,
+        "BH_q_two_prespecified_targets": 0.1111111111111111
+      }
+    ],
+    "title": "Liver detectability does not establish disease enrichment"
+  },
+  "S1": {
+    "n": 642,
+    "fit_rows": 2568,
+    "title": "Complete adjacent-arm transitions in the frozen 642"
+  },
+  "S2": {
+    "rates": [
+      {
+        "abf_h4_rate": 0.6677777777777778,
+        "matched_h4_rate": 0.5536666666666666,
+        "scenario": "S1_one_shared",
+        "causal_r2": 0.2
+      },
+      {
+        "abf_h4_rate": 0.6636666666666666,
+        "matched_h4_rate": 0.49377777777777776,
+        "scenario": "S1_one_shared",
+        "causal_r2": 0.5
+      },
+      {
+        "abf_h4_rate": 0.6467037037037037,
+        "matched_h4_rate": 0.5762592592592592,
+        "scenario": "S1_one_shared",
+        "causal_r2": 0.8
+      },
+      {
+        "abf_h4_rate": 0.03537037037037037,
+        "matched_h4_rate": 0.00962962962962963,
+        "scenario": "S2_distinct_correlated",
+        "causal_r2": 0.2
+      },
+      {
+        "abf_h4_rate": 0.15414814814814815,
+        "matched_h4_rate": 0.09562962962962963,
+        "scenario": "S2_distinct_correlated",
+        "causal_r2": 0.5
+      },
+      {
+        "abf_h4_rate": 0.4255555555555556,
+        "matched_h4_rate": 0.37474074074074076,
+        "scenario": "S2_distinct_correlated",
+        "causal_r2": 0.8
+      },
+      {
+        "abf_h4_rate": 0.5942222222222222,
+        "matched_h4_rate": 0.5425925925925926,
+        "scenario": "S3_disease2_qtl1_partial",
+        "causal_r2": 0.2
+      },
+      {
+        "abf_h4_rate": 0.3552222222222222,
+        "matched_h4_rate": 0.3422222222222222,
+        "scenario": "S3_disease2_qtl1_partial",
+        "causal_r2": 0.5
+      },
+      {
+        "abf_h4_rate": 0.15651851851851853,
+        "matched_h4_rate": 0.11851851851851852,
+        "scenario": "S3_disease2_qtl1_partial",
+        "causal_r2": 0.8
+      },
+      {
+        "abf_h4_rate": 0.3012962962962963,
+        "matched_h4_rate": 0.25755555555555554,
+        "scenario": "S4_two_by_two_one_shared",
+        "causal_r2": 0.2
+      },
+      {
+        "abf_h4_rate": 0.13111111111111112,
+        "matched_h4_rate": 0.028962962962962965,
+        "scenario": "S4_two_by_two_one_shared",
+        "causal_r2": 0.5
+      },
+      {
+        "abf_h4_rate": 0.005148148148148148,
+        "matched_h4_rate": 0.0006666666666666666,
+        "scenario": "S4_two_by_two_one_shared",
+        "causal_r2": 0.8
+      },
+      {
+        "abf_h4_rate": 0.019925925925925927,
+        "matched_h4_rate": 0.005592592592592593,
+        "scenario": "S5_two_by_two_none_highLD",
+        "causal_r2": 0.2
+      },
+      {
+        "abf_h4_rate": 0.10666666666666667,
+        "matched_h4_rate": 0.02751851851851852,
+        "scenario": "S5_two_by_two_none_highLD",
+        "causal_r2": 0.5
+      },
+      {
+        "abf_h4_rate": 0.002962962962962963,
+        "matched_h4_rate": 0.0005555555555555556,
+        "scenario": "S5_two_by_two_none_highLD",
+        "causal_r2": 0.8
+      },
+      {
+        "abf_h4_rate": 0.3032592592592593,
+        "matched_h4_rate": 0.2544814814814815,
+        "scenario": "S6_matched_vs_mismatched_LD",
+        "causal_r2": 0.2
+      },
+      {
+        "abf_h4_rate": 0.12862962962962962,
+        "matched_h4_rate": 0.029518518518518517,
+        "scenario": "S6_matched_vs_mismatched_LD",
+        "causal_r2": 0.5
+      },
+      {
+        "abf_h4_rate": 0.005407407407407408,
+        "matched_h4_rate": 0.0008148148148148148,
+        "scenario": "S6_matched_vs_mismatched_LD",
+        "causal_r2": 0.8
+      }
+    ],
+    "title": "Decision rates depend on LD architecture"
+  },
+  "S3": {
+    "sizes": [
+      19,
+      17
+    ],
+    "members": [
+      "1:67322008:A:T",
+      "1:67324915:T:C",
+      "1:67326053:A:C",
+      "1:67327118:G:C",
+      "1:67327248:G:A",
+      "1:67327488:C:G",
+      "1:67329235:A:C",
+      "1:67330273:TAAAA:T",
+      "1:67330958:ATTAAC:A",
+      "1:67331838:CATAA:C",
+      "1:67332644:T:G",
+      "1:67332762:T:C",
+      "1:67333212:C:T",
+      "1:67333487:T:C",
+      "1:67336688:A:C",
+      "1:67354511:C:T",
+      "1:67359716:A:C"
+    ],
+    "title": "FinnGen release stability is not a new independent cohort"
+  }
+}

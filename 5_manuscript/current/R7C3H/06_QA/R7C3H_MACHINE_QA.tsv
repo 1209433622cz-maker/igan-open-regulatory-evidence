@@ -1,0 +1,27 @@
+check	status	detail
+Manuscript_ExpertRebuilt.docx: disease-N result inserted once	PASS	
+Manuscript_ExpertRebuilt.docx: disease-N method inserted once	PASS	
+Manuscript_ExpertRebuilt.docx: bounded limitation inserted once	PASS	
+Manuscript_ExpertRebuilt.docx: Source Data 3 declared	PASS	
+Manuscript_AuthorReview_InlineFigures.docx: disease-N result inserted once	PASS	
+Manuscript_AuthorReview_InlineFigures.docx: disease-N method inserted once	PASS	
+Manuscript_AuthorReview_InlineFigures.docx: bounded limitation inserted once	PASS	
+Manuscript_AuthorReview_InlineFigures.docx: Source Data 3 declared	PASS	
+Supplement S12 declared	PASS	
+Supplement Source Data 3 upload role	PASS	
+Supplement three archives	PASS	
+WPS PDF pages 01_Manuscript/Manuscript_ExpertRebuilt.pdf	PASS	"{""expected"": 25, ""actual"": 25}"
+WPS PDF nonblank 01_Manuscript/Manuscript_ExpertRebuilt.pdf	PASS	"{""minimum_text_characters"": 813}"
+WPS PDF pages 01_Manuscript/Manuscript_AuthorReview_InlineFigures.pdf	PASS	"{""expected"": 25, ""actual"": 25}"
+WPS PDF nonblank 01_Manuscript/Manuscript_AuthorReview_InlineFigures.pdf	PASS	"{""minimum_text_characters"": 813}"
+WPS PDF pages 03_Supplement/Supplementary_Information_ExpertRebuilt.pdf	PASS	"{""expected"": 6, ""actual"": 6}"
+WPS PDF nonblank 03_Supplement/Supplementary_Information_ExpertRebuilt.pdf	PASS	"{""minimum_text_characters"": 454}"
+WPS PDF pages 04_Cover/Cover_Letter_ExpertRebuilt_DRAFT.pdf	PASS	"{""expected"": 1, ""actual"": 1}"
+WPS PDF nonblank 04_Cover/Cover_Letter_ExpertRebuilt_DRAFT.pdf	PASS	"{""minimum_text_characters"": 1879}"
+WPS export receipt 4 files	PASS	
+WPS renderer identity	PASS	
+All scientific figure files byte-identical	PASS	"{""files"": 27}"
+Frozen prior data assets byte-identical	PASS	
+Source Data 3 ZIP CRC	PASS	
+Source Data 3 internal hashes	PASS	"{""members"": 7, ""manifest_entries"": 6}"
+WPS visual contact sheets present	PASS	

@@ -1,0 +1,19 @@
+{
+  "schema": "R7C3H0_NEFF_PROBE_SELECTION_1.0",
+  "status": "PASS",
+  "scientific_role": "SECONDARY_ROBUSTNESS_STRESS_TEST_NOT_PRIMARY_CORRECTION",
+  "source_matched_primary_N": 24510,
+  "probe_effective_N": 21584.376825785395,
+  "comparisons": 33,
+  "loci": 14,
+  "reason_counts_nonexclusive": {
+    "ALL_18_STRICT_A2_TO_M_REVERSALS": 18,
+    "H4_THRESHOLD_MARGIN_6": 6,
+    "MANUSCRIPT_KEY_AXES": 4,
+    "UNCERTAIN_HIGH_INFORMATION_6": 6
+  },
+  "workload_sha256": "8564f5a8ce96ab36143415151d6eb47d0e33cbd4a40cc2e1f004147380bd0895",
+  "original_runner_sha256": "7fc3b99b1d95b270a83606a62ff4ef145886cb929edc690970b82cb9c77910b5",
+  "generated_runner_sha256": "615b6a776979411204b2b458858c0727d1ef1ae54822a035e34685e856cba3ce",
+  "primary_source_evidence": "Gjoka & Cordell explicitly applied SuSiE-RSS with total N=24,510 (8,021 cases; 16,489 controls)."
+}

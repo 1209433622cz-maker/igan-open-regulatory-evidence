@@ -1,0 +1,69 @@
+{
+  "reviewer": "Codex primary assistant; no invented external reviewer",
+  "method": "All current WPS pages inspected in contact sheets; high-risk full-size pages and all nine final figure masters reviewed; four historical SVG masters independently rendered and viewed.",
+  "pages": 56,
+  "pdf_page_counts": {
+    "01_Manuscript\\Manuscript_AuthorReview_InlineFigures.pdf": 25,
+    "01_Manuscript\\Manuscript_ExpertRebuilt.pdf": 24,
+    "03_Supplement\\Supplementary_Information_ExpertRebuilt.pdf": 6,
+    "04_Cover\\Cover_Letter_ExpertRebuilt_DRAFT.pdf": 1
+  },
+  "main_figure_pages": [
+    {
+      "figure": 1,
+      "candidate_page": 18
+    },
+    {
+      "figure": 2,
+      "candidate_page": 19
+    },
+    {
+      "figure": 3,
+      "candidate_page": 20
+    },
+    {
+      "figure": 4,
+      "candidate_page": 21
+    },
+    {
+      "figure": 5,
+      "candidate_page": 22
+    },
+    {
+      "figure": 6,
+      "candidate_page": 23
+    }
+  ],
+  "main_figures": 6,
+  "main_panels": 22,
+  "supplement_figures": 3,
+  "supplement_panels": 12,
+  "all_original_figure_objects": 46,
+  "status": "PASS_AFTER_SOURCE_AND_LAYOUT_REPAIR",
+  "resolved": [
+    "Figure5b PIP/include text collision",
+    "Supplementary FigureS3 full19/17 source-set sizes versus17-member intersection table",
+    "Figure1d three-case annotation added",
+    "Inline review lets image/legend flow together without sparse orphan pages",
+    "Obsolete intermediate page previews separated from current56 pages"
+  ],
+  "scope_limit": "Visual approval is an editorial judgement, not validation of every raw-read or genotype-derived scientific fit.",
+  "reviewed_pdf_sha256": {
+    "01_Manuscript\\Manuscript_AuthorReview_InlineFigures.pdf": "33a6f11c8c4f3dadc40f38864d6e7c22515bc90c9e5016cbe48686f74312cf7f",
+    "01_Manuscript\\Manuscript_ExpertRebuilt.pdf": "a9982cd0fa2603630cf187c0929624424b15f48f885b33f2b03d2dd1d9103d2f",
+    "03_Supplement\\Supplementary_Information_ExpertRebuilt.pdf": "a413972a4e82c4f9b4bdf9c67fc760a8da512ee119f08dc485869954ffe2d8d5",
+    "04_Cover\\Cover_Letter_ExpertRebuilt_DRAFT.pdf": "d9d9ad7dfdb6e65d3c5b40cf7e8e20a75feed4e2916ef36983ed5d75c9db8f91"
+  },
+  "reviewed_figure_pdf_sha256": {
+    "Figure_1.pdf": "d55eb50c87c6350d3f76d64a4e4ee16efc840907770e447ff5700984262b4936",
+    "Figure_2.pdf": "cd79c7a04a6b99f4389908fcb510314f8a6ebd414d2d4d3992eec24c520c0552",
+    "Figure_3.pdf": "a0cf8a07c229aea3a6a9dd615e9986d8a06d316e51717123186c668d1cbf6aca",
+    "Figure_4.pdf": "b13e579d31e894e0e0fcf7c46e401209d98c43b5ba807bb906bb6bb3fa6bf397",
+    "Figure_5.pdf": "3261bd5c711786549cf9cdc769211ae884d754c954cf03e401dd2e24ce8ed0e7",
+    "Figure_6.pdf": "75612e13169531966993ee0dbe4028c9c75b1870383fab64cd82b7136c78d245",
+    "Figure_S1.pdf": "63c4b3a89b011336fac2c347eeb25f77712832b9d95e1a49ab0356580e09143b",
+    "Figure_S2.pdf": "c481bfca7ac9e27e31284c6275c55a8b7550608047301bf591627dda221a14b9",
+    "Figure_S3.pdf": "a33d49ffb1691e19c8ed7f2f2f4911adab67a7e8bc7572c7aecc70e3106b67e5"
+  },
+  "S10_crosswalk_review": "37/37 historical rows routed; C17 ceiling superseded by S11; E-series IDs separate"
+}

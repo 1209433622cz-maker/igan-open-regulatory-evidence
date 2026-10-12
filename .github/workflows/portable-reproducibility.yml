@@ -1,0 +1,33 @@
+name: portable-reproducibility
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  r7c3g-portable-qa:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install portable QA dependencies
+        run: python -m pip install -r 0_admin/environment/requirements-portable-qa.txt
+      - name: Compile portable scripts
+        run: python -m compileall -q 2_code/11_manuscript/R7C3G
+      - name: Inspect current manuscript package
+        env:
+          R7_RUNTIME_OUT: ${{ runner.temp }}\r7-portable-qa
+        run: python 2_code/11_manuscript/R7C3G/01_inspect.py
+      - name: Replay frozen aggregate endpoints
+        env:
+          R7_RUNTIME_OUT: ${{ runner.temp }}\r7-portable-qa
+        run: python 2_code/11_manuscript/R7C3G/02_evidence_audit.py

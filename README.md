@@ -2,20 +2,20 @@
 
 **Input matched multisignal colocalization clarifies regulatory assignments at primary biliary cholangitis loci**
 
-Current project: **PBC, RP v4**. Latest editorial candidate: **R7C3G**, prepared with QiTeng v0.3.24.2, with unchanged scientific endpoints and original Source Data. Repository structure: **R7C3G1, 12 October 2026**. The historical `igan-open-regulatory-evidence` URL is retained for manuscript links and scientific tags; IgAN is archived. This is open research and a submission-review candidate, not a submitted/accepted paper or a verified Zenodo DOI.
+Current project: **PBC, RP v4**. Latest exact-version candidate: **R7C3H**, prepared with QiTeng v0.3.24.2 after source-identity and reproducibility closure on **13 October 2026**. The primary GJOKA disease sample size remains the source-matched total `N=24,510`; a frozen 33-comparison effective-N stress test changed no final state or disease credible-set membership. The historical `igan-open-regulatory-evidence` URL is retained for manuscript links and scientific tags; IgAN is archived. This is open research and a submission-review candidate, not a submitted/accepted paper or a verified Zenodo DOI.
 
 ## Read the paper and its evidence
 
 | Need | Entry |
 |---|---|
-| Editable current main manuscript | [DOCX](5_manuscript/current/R7C3G/01_Manuscript/Manuscript_ExpertRebuilt.docx) / [24-page WPS PDF](5_manuscript/current/R7C3G/01_Manuscript/Manuscript_ExpertRebuilt.pdf) |
-| Read figures beside their Results | [25-page WPS review PDF](5_manuscript/current/R7C3G/01_Manuscript/Manuscript_AuthorReview_InlineFigures.pdf) |
-| Current figure masters | [Fig1–6 and S1–S3](4_figures/README.md) / [figure gallery](5_manuscript/current/R7C3G/FIGURE_REVIEW_GALLERY.html) |
-| Supplement and full aggregate evidence | [Supplement](5_manuscript/current/R7C3G/03_Supplement/) / [Source Data 1–2](5_manuscript/current/R7C3G/05_Source_Data/) |
-| Expert audit and narrative decisions | [Expert report](7.Report/rounds/r7c3g/01_R7C3G_导师级全量证据审计与叙事重构.md) / [action record](7.Report/rounds/r7c3g/99_R7C3G_详细行动记录_20261012.md) |
-| Source-to-panel-to-claim traceability | [34-panel map](5_manuscript/current/R7C3G/06_QA/PANEL_EVIDENCE_MAP.tsv) / [historical ledger crosswalk](5_manuscript/current/R7C3G/03_Supplement/Supplementary_Editorial_Panel_Crosswalk.tsv) |
+| Editable current main manuscript | [DOCX](5_manuscript/current/R7C3H/01_Manuscript/Manuscript_ExpertRebuilt.docx) / [25-page WPS PDF](5_manuscript/current/R7C3H/01_Manuscript/Manuscript_ExpertRebuilt.pdf) |
+| Read figures beside their Results | [25-page WPS review PDF](5_manuscript/current/R7C3H/01_Manuscript/Manuscript_AuthorReview_InlineFigures.pdf) |
+| Current figure masters | [Fig1–6 and S1–S3](4_figures/README.md) / [figure gallery](5_manuscript/current/R7C3H/FIGURE_REVIEW_GALLERY.html) |
+| Supplement and full aggregate evidence | [Supplement](5_manuscript/current/R7C3H/03_Supplement/) / [Source Data 1–3](5_manuscript/current/R7C3H/05_Source_Data/) |
+| Statistical and reproducibility closure | [Executive report](7.Report/rounds/r7c3h0/00_R7C3H0_执行摘要与最终判定.md) / [action record](7.Report/rounds/r7c3h0/99_R7C3H0_详细行动记录_20261013.md) |
+| Source-to-panel-to-claim traceability | [34-panel map](5_manuscript/current/R7C3H/06_QA/PANEL_EVIDENCE_MAP.tsv) / [historical ledger crosswalk](5_manuscript/current/R7C3H/03_Supplement/Supplementary_Editorial_Panel_Crosswalk.tsv) |
 | Portable snapshot identity check | [Reproduction contract](REPRODUCIBILITY.md) / [SHA-256 manifest](MANIFEST.sha256) |
-| Full review-package download | [Versioned GitHub Release](https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/tag/r7c3g1-eight-folder-expert-narrative-2026-10-12) |
+| Previous public baseline | [R7C3G1 GitHub Release](https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/tag/r7c3g1-eight-folder-expert-narrative-2026-10-12) |
 
 The HTML gallery can be downloaded with its package and opened locally; GitHub displays its source. Do not upload both manuscript reading variants as separate Main Manuscripts.
 
@@ -68,7 +68,7 @@ Read [REPRODUCIBILITY.md](REPRODUCIBILITY.md) before running a scientific stage.
 python 2_code/00_repository/verify_repository.py
 ```
 
-The verifier checks canonical Git blobs. Scientific stage environments and fixed input contracts are preserved; scripts use explicit local workspace paths and are not advertised as a one-command end-to-end pipeline. R7C3G has 37/37 deterministic endpoint replay checks, 160/160 machine document checks, 4/4 WPS exports and 56/56 pages visually reviewed. Its 6 main + 3 supplementary figures comprise 34 traceable panels. Scientific data/previous baseline assets are unchanged. GitHub synchronization does not itself rerun or validate raw scientific fits.
+The verifier checks canonical Git blobs. Scientific stage environments and fixed input contracts are preserved. Current portable checks resolve paths from the repository root and write outside the checkout; raw-data scientific stages still require the documented local inputs. R7C3H has 38/38 deterministic endpoint replay checks, 26/26 exact-version package checks, 4/4 WPS exports and 57/57 pages visually reviewed. Its 6 main + 3 supplementary figures comprise 34 traceable panels and remain byte-identical to R7C3G. Source Data 3 adds the bounded disease-N stress test. GitHub synchronization does not itself rerun or validate raw scientific fits.
 
 ## Authors, licences and disclosure
 
@@ -78,4 +78,5 @@ Original code: [MIT](LICENSE). Original author-owned text, figures, documentatio
 
 ## Current decision
 
-**PBC = GO. Next: R7C3H exact-version author review and publisher-generated PDF proof**, followed by an author-operated npj Genomic Medicine submission and recorded receipt. New biological candidate screening and global simulation reruns remain out of scope without a concrete scientific defect. No submission, acceptance, new experiment or DOI is claimed by this release. [Current state](0_admin/CURRENT_PROJECT_STATE.json).
+**PBC = GO. R7C3H is complete and awaits exact-version author reconfirmation and publisher-generated PDF proof**, followed by an author-operated npj Genomic Medicine submission and recorded receipt. New biological candidate screening and global simulation reruns remain out of scope without a concrete scientific defect. No submission, acceptance, new experiment or DOI is claimed by this release. [Current state](0_admin/CURRENT_PROJECT_STATE.json).
+

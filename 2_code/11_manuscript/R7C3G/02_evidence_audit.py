@@ -1,7 +1,8 @@
 from pathlib import Path
 import json,hashlib,zipfile,io,gzip,csv,itertools
 import pandas as pd,numpy as np
-R=Path(r'H:\SCI2\YR1');O=R/'5_analysis/R7C3G_ExpertNarrative_20261012';B=R/'5_manuscript/R7C3F_SubmissionCandidate_20261012';M=R/'0_admin/repositories/igan-open-regulatory-evidence_REBUILD_20261012'
+from repo_layout import CURRENT_PACKAGE, REPO_ROOT, RESULTS_ROOT, runtime_output
+R=REPO_ROOT;O=runtime_output('R7C3G_evidence_audit');B=CURRENT_PACKAGE;M=REPO_ROOT
 checks=[];sources=[];frames={};objects={}
 def check(n,v,d=''):
  checks.append({'check':n,'status':'PASS' if bool(v) else 'FAIL','detail':str(d)})
@@ -58,13 +59,11 @@ for axis in ['FCRL3_B','IL12RB2_NK']:
 fg=frames['data/R7C0_FinnGenR13_x_OneK_NK_IL12RB2_coloc.tsv'];cs=frames['data/R7C0_OneK_NK_IL12RB2_CS_in_FinnGenR13_disease_CS.tsv'];check('External threepriors 1175variants',len(fg)==3 and objects['data/R7C0_FinnGenR13_x_OneK_IL12RB2_external_coloc_state.json']['n_variants']==1175)
 check('External2 of2 QTL CS membership',len(cs)==2 and cs.in_finngen_r13_disease_cs.all())
 tri=objects['data/R7C0_IL12RB2_chromatin_triangle_adjudication.json'];check('Triangle direct mediation unavailable','unavailable' in tri['remaining_gap'] or 'does not provide' in tri['remaining_gap'])
-# Full local-file audit is inherited only as byte/integrity evidence, not a semantic audit of each raw donor record.
-prior=json.loads((R/'5_analysis/R7C3F_GitHubRebuild_FullAudit_Submission_20261012/FINAL_GITHUB_CLOSEOUT.json').read_text(encoding='utf-8-sig'))
-local_meta=R/'5_analysis/R7C3F_GitHubRebuild_FullAudit_Submission_20261012/ALL_CURRENT_FILES_CLOSING.tsv'
-allfiles=pd.read_csv(local_meta,sep='\t',low_memory=False);(O/'LOCAL_AUDIT_INHERITANCE.json').write_text(json.dumps({'inventory_rows':len(allfiles),'inventory_sha256':sha(local_meta.read_bytes()),'semantic_scope':'All current source-archive tables and figure objects; primary endpoints replayed, not all raw science records or heavy model fits rerun','prior_remote_receipt':prior},ensure_ascii=False,indent=2),encoding='utf-8')
+# This portable audit deliberately avoids unpublished local-workspace receipts.
+(O/'PORTABLE_AUDIT_SCOPE.json').write_text(json.dumps({'repository_root':str(R),'semantic_scope':'Current public Source Data and compact aggregate results; raw scientific fits and large upstream inputs are outside this portable replay.','source_package':str(B.relative_to(R))},ensure_ascii=False,indent=2),encoding='utf-8')
 # Read and identify every portable result object; no binary/raw inference is fabricated.
 result_inventory=[]
-for p in sorted((M/'results').rglob('*')):
+for p in sorted(RESULTS_ROOT.rglob('*')):
  if p.is_file() and p.suffix in ['.json','.tsv','.csv']:
   b=p.read_bytes();v={'path':str(p.relative_to(M)),'bytes':len(b),'sha256':sha(b)}
   try:

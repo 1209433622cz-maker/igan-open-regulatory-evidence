@@ -1,0 +1,20 @@
+{
+  "schema": "R7C3H0_NEFF_STRESS_ADJUDICATION_1.0",
+  "status": "PASS_STABLE",
+  "scientific_role": "SECONDARY_ROBUSTNESS_STRESS_TEST_NOT_PRIMARY_CORRECTION",
+  "source_matched_primary_disease_N": 24510,
+  "probe_case_control_effective_N": 21584.376825785395,
+  "comparisons": 33,
+  "fit_QC_rows": 132,
+  "comparison_state_changes": 0,
+  "manuscript_key_axis_state_changes": 0,
+  "maximum_absolute_PF10_L10_best_H4_change": 0.00016325690539309434,
+  "disease_credible_set_rows": 164,
+  "disease_credible_set_exact_identity_rows": 164,
+  "disease_credible_set_minimum_jaccard": 1.0,
+  "primary_interpretation": "N=24,510 is source-matched to the GJOKA SuSiE-RSS analysis; Neff is a bounded secondary robustness probe.",
+  "outputs": {
+    "state_comparison_sha256": "51303ec62efe60ace2e06093a00592b89c07a92ca124c83481c191e98c4c3c25",
+    "credible_set_identity_sha256": "2e4c1311a024ca17fed5289a94e4121cc54c6c390d4cc5eff962ed0297b68d84"
+  }
+}
