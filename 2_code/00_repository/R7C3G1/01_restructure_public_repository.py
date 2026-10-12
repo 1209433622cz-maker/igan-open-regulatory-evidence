@@ -48,6 +48,7 @@ def tsv(p, rows, fields=None):
         w.writeheader(); w.writerows(rows)
 
 def map_old(rel):
+    if rel=='data/README.md':return '1_data/history/README_before_R7C3G1.md'
     top,sep,tail=rel.partition('/')
     if top in MOVE:return MOVE[top]+('/'+tail if sep else '')
     return '0_admin/history/root_before_R7C3G1/'+rel
@@ -74,6 +75,8 @@ def main():
         assert src.is_dir() and not dest.exists(), (old,new)
         assert src.resolve().is_relative_to(REPO.resolve()) and dest.resolve().is_relative_to(REPO.resolve())
         dest.parent.mkdir(parents=True,exist_ok=True); shutil.move(str(src),str(dest))
+    (REPO/'1_data/history').mkdir(parents=True,exist_ok=True)
+    shutil.copy2(REPO/'1_data/README.md',REPO/'1_data/history/README_before_R7C3G1.md')
     for row in original:
         q=REPO/row['new_path']
         assert q.is_file() and sha(q)==row['sha256'], row['old_path']
@@ -410,7 +413,7 @@ secrets*
 .Rhistory
 .RData
 .pytest_cache/
-logs/
+/logs/
 # 1_data source metadata and audited aggregate Source Data ZIPs are intended.
 ''')
     save(AN/'PREPARATION_STATE.json',{'old_head':head,'original_files':len(original),'preserved_original_files':len(original),'current_package_checks':package_checks,'large_input_pointers':len(pointers),'folder_roots':FOLDERS,'tag':TAG,'repository':URL,'scientific_changes':False,'push_executed':False})

@@ -111,6 +111,10 @@ Figure 3 keeps the FCRL3/CD8_ET PF10/PF50 reversal visible. The manuscript uses 
     assert not failures,json.dumps(failures,ensure_ascii=False)
     tsv(REPO/'0_admin/audit/r7c3g1/CURRENT_NAVIGATION_LINK_QA.tsv',link_rows)
     prep=json.loads((AN/'PREPARATION_STATE.json').read_text(encoding='utf-8'))
+    preservation=REPO/'0_admin/audit/r7c3g1/PATH_MIGRATION_AND_PRESERVATION.tsv'
+    with preservation.open(encoding='utf-8-sig',newline='') as f:
+        for row in csv.DictReader(f,delimiter='\t'):
+            assert sha(REPO/row['new_path'])==row['sha256'], 'Changed historical identity: '+row['old_path']
     report=f'''# R7C3G1：GitHub八目录重构与最新版论文公开同步 — 2026-10-12
 
 ## 1. 授权与目的
@@ -151,6 +155,8 @@ Figure 3 keeps the FCRL3/CD8_ET PF10/PF50 reversal visible. The manuscript uses 
 当前树扫描{sum(v[0] for v in stats.values())}个文件、{sum(v[1] for v in stats.values()):,}bytes（最终报告/manifest文件增量另由最终snapshot清单覆盖）。高特异凭据模式0命中；排除的个体级/大矩阵原始格式0命中；>10MiB Git blob为0。{len(archive_rows)}个ZIP/DOCX/XLSX通过CRC，并逐成员检查排除的原始格式与凭据模式。该模式扫描不是对所有语义隐私的普适保证；公开基线和聚合审阅资产的内容边界已在NOTICE/DataAvailability明确。
 
 当前导航{len(link_rows)}/{len(link_rows)}本地链接PASS；冻结历史文件中的相对链接不重写，迁移表记录原→新路径。许可证延续原代码MIT、作者文字/图件/可分享聚合结果CC BY4.0，provider原始数据不重授权。作者公开ORCID/单位/邮箱为已确认信息。
+
+推送前canonical Git manifest检查真实捕获并修复两处迁移问题：历史logs目录的6份已公开MD被旧全局ignore规则漏掉，故把ignore限制为根运行logs；旧data/README在生成当前导航前额外精确归档到1_data/history，并更新逐文件迁移目标。修改后重新检查全部原文件identity，且manifest必须与Git tracked集合严格一一对应；未将失败提交单独推送为完成版本。
 
 ## 6. 有价值的成果与未来使用
 

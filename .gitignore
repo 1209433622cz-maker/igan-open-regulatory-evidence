@@ -32,5 +32,5 @@ secrets*
 .Rhistory
 .RData
 .pytest_cache/
-logs/
+/logs/
 # 1_data source metadata and audited aggregate Source Data ZIPs are intended.
