@@ -4,31 +4,31 @@
   "release": {
     "assets": [
       {
-        "apiUrl": "https://api.github.com/repos/1209433622cz-maker/igan-open-regulatory-evidence/releases/assets/634464269",
+        "apiUrl": "https://api.github.com/repos/1209433622cz-maker/igan-open-regulatory-evidence/releases/assets/634474152",
         "contentType": "application/zip",
-        "createdAt": "2026-10-12T17:26:20Z",
-        "digest": "sha256:8f5b2afcb150a31e10159a21a5b0e9182e021f2daba0d726bc286c2f2785264d",
+        "createdAt": "2026-10-12T17:29:53Z",
+        "digest": "sha256:578fb1bfd1a57d2ce61eee0d148b2a29668aa12b994f6ad7fb089e2b37336c36",
         "downloadCount": 0,
-        "id": "RA_kwDOVFJ5Jc4l0SgN",
+        "id": "RA_kwDOVFJ5Jc4l0U6o",
         "label": "",
         "name": "CMM_R7C3H0_StatisticalReproducibilityClosure_20261013.zip",
-        "size": 17926069,
+        "size": 17927432,
         "state": "uploaded",
-        "updatedAt": "2026-10-12T17:26:26Z",
+        "updatedAt": "2026-10-12T17:30:00Z",
         "url": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/download/r7c3h0-statistical-reproducibility-closure-2026-10-13/CMM_R7C3H0_StatisticalReproducibilityClosure_20261013.zip"
       },
       {
-        "apiUrl": "https://api.github.com/repos/1209433622cz-maker/igan-open-regulatory-evidence/releases/assets/634464281",
+        "apiUrl": "https://api.github.com/repos/1209433622cz-maker/igan-open-regulatory-evidence/releases/assets/634474164",
         "contentType": "application/octet-stream",
-        "createdAt": "2026-10-12T17:26:20Z",
-        "digest": "sha256:8a0f01f0d8fd1d1938ae57638a47135b83544af2b5268bdf3c7eaab3d632e3be",
+        "createdAt": "2026-10-12T17:29:54Z",
+        "digest": "sha256:b969dd7420662522459eade8d4923946267a744339ce31455f429f8ec9ab1409",
         "downloadCount": 0,
-        "id": "RA_kwDOVFJ5Jc4l0SgZ",
+        "id": "RA_kwDOVFJ5Jc4l0U60",
         "label": "",
         "name": "CMM_R7C3H0_StatisticalReproducibilityClosure_20261013.zip.sha256",
         "size": 125,
         "state": "uploaded",
-        "updatedAt": "2026-10-12T17:26:20Z",
+        "updatedAt": "2026-10-12T17:29:54Z",
         "url": "https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/download/r7c3h0-statistical-reproducibility-closure-2026-10-13/CMM_R7C3H0_StatisticalReproducibilityClosure_20261013.zip.sha256"
       }
     ],
@@ -43,9 +43,9 @@
   "verification": {
     "target_commit_matches_published_closure": true,
     "zip_asset_state": "uploaded",
-    "zip_asset_bytes": 17926069,
-    "zip_asset_digest": "sha256:8f5b2afcb150a31e10159a21a5b0e9182e021f2daba0d726bc286c2f2785264d",
-    "local_release_sha256": "8f5b2afcb150a31e10159a21a5b0e9182e021f2daba0d726bc286c2f2785264d",
+    "zip_asset_bytes": 17927432,
+    "zip_asset_digest": "sha256:578fb1bfd1a57d2ce61eee0d148b2a29668aa12b994f6ad7fb089e2b37336c36",
+    "local_release_sha256": "578fb1bfd1a57d2ce61eee0d148b2a29668aa12b994f6ad7fb089e2b37336c36",
     "digest_matches": true,
     "draft": false,
     "prerelease": false

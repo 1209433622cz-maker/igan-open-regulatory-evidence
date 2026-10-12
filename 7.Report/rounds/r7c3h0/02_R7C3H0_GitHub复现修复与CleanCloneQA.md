@@ -47,17 +47,20 @@ GitHub Actions 只声明“聚合端点与文档身份重放”。原始 GWAS、
 ## 远端终裁
 
 ```text
-remote main = f40207890c225d3922d3bb60b282719682d570eb
+scientific content commit = f40207890c225d3922d3bb60b282719682d570eb
 tree = 97f072365c708439a0069ad65384c189e4a7f0d4
 manifest = 2652/2652 PASS
 portable replay = 38/38 PASS
 working tree after replay = CLEAN
-GitHub Actions = SUCCESS
+release-receipt commit = a64b4fb8b8a82eff023e4a242e0244d8715bc927
+GitHub Actions content commit = SUCCESS
+GitHub Actions receipt commit = SUCCESS
 release tag = r7c3h0-statistical-reproducibility-closure-2026-10-13
-release ZIP SHA-256 = 8f5b2afcb150a31e10159a21a5b0e9182e021f2daba0d726bc286c2f2785264d
+release ZIP identity = EXTERNAL_SHA256_AND_GITHUB_RECEIPT
 ```
 
-- Actions：<https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/actions/runs/38283799570>
+- Content Actions：<https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/actions/runs/38283799570>
+- Receipt Actions：<https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/actions/runs/38284424100>
 - Release：<https://github.com/1209433622cz-maker/igan-open-regulatory-evidence/releases/tag/r7c3h0-statistical-reproducibility-closure-2026-10-13>
 
 Git Smart HTTP 曾短暂无法连接 `github.com:443`；对象上传改用 GitHub Git Database API。远端 tree SHA 与本地 HEAD tree SHA 完全一致，随后从远端独立浅克隆并复跑，因此传输替代没有改变仓库内容。
